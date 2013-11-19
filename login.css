@@ -1,0 +1,131 @@
+.dl_bg {
+  background: url("images/bg.gif") repeat-x scroll 0 0 transparent;
+  height: 600px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+TD {
+  color: #090909;
+  font-size: 12px;
+}
+.dlall {
+  position: relative;
+  top: 178px;
+}
+.dl_table {
+  left: 250px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+}
+.logo_tu {
+  background: url("images/an") no-repeat scroll 0 0 transparent;
+  height: 140px;
+  left: 0;
+  margin-right: 25px;
+  margin-top: 10px;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  width: 380px;
+}
+.dl_l {
+  background: url("images/dl_l.gif") no-repeat scroll 0 0 transparent;
+  height: 237px;
+  margin: 0;
+  padding: 0;
+  width: 12px;
+}
+.dl_m {
+  background: url("images/dl_m.gif") repeat-x scroll 0 0 transparent;
+  margin: 0;
+  padding: 0;
+  width: 319px;
+}
+.current_sidebar1 {
+  border-bottom: 1px solid #1FA3D2;
+  border-left: 1px solid #1FA3D2;
+  color: #636363;
+  font-size: 14px;
+  height: 46px;
+  line-height: 44px;
+  margin-top: 0;
+  width: 98px;
+}
+ul li {
+  color: #003366;
+  cursor: pointer;
+  height: 20px;
+  line-height: 15px;
+  list-style-type: none;
+  margin-right: 0;
+  text-align: center;
+  width: 80px;
+}
+LI {
+  color: #000000;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.current_sidebar {
+  background: url("images/lbj.png") no-repeat scroll 0 0 transparent;
+  border-bottom: 1px solid #1FA3D2;
+  color: #008BBC;
+  font-size: 14px;
+  font-weight: bold;
+  height: 46px;
+  line-height: 44px;
+  margin-bottom: 1px;
+  margin-top: 0;
+  vertical-align: middle;
+  width: 98px;
+}
+.current_sidebar2 {
+  border-left: 1px solid #1FA3D2;
+  color: #636363;
+  font-size: 14px;
+  height: 46px;
+  line-height: 44px;
+  margin-top: 0;
+  width: 98px;
+}
+.font_denglu {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px;
+}
+INPUT {
+  color: #000000;
+  font-size: 12px;
+}
+.ButtonBL {
+  background-image: url("images/bt.gif");
+  border-color: #C5C5C5 #5C5D61 #5C5D61 #C5C5C5;
+  border-right: 1px outset #5C5D61;
+  border-style: outset;
+  border-width: 0 1px 1px 0;
+  color: #FFFFFF;
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  height: 19px;
+  margin: 1px 0 0;
+  padding: 1px 4px 2px 6px;
+}
+A:link {
+  color: #000000;
+  font-size: 9pt;
+  line-height: 170%;
+  text-decoration: none;
+}
+.dl_r {
+  background: url("images/dl_r.gif") no-repeat scroll 0 0 transparent;
+  height: 237px;
+  margin: 0;
+  padding: 0;
+  width: 12px;
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../themes.googleusercontent.com/static/fonts/playball/v3/Eox4ljz6wLERSap1M9ZkV_esZW2xOQ-xsNqO47m55DA.eot")/*tpa=http://themes.googleusercontent.com/static/fonts/playball/v3/Eox4ljz6wLERSap1M9ZkV_esZW2xOQ-xsNqO47m55DA.eot*/;
+  src: local('Playball'), local('Playball-Regular'), url("../themes.googleusercontent.com/static/fonts/playball/v3/Eox4ljz6wLERSap1M9ZkV_esZW2xOQ-xsNqO47m55DA.eot")/*tpa=http://themes.googleusercontent.com/static/fonts/playball/v3/Eox4ljz6wLERSap1M9ZkV_esZW2xOQ-xsNqO47m55DA.eot*/ format('embedded-opentype'), url("../themes.googleusercontent.com/static/fonts/playball/v3/QS5qjU-Gc2sqWEq5kDfWQfesZW2xOQ-xsNqO47m55DA.woff")/*tpa=http://themes.googleusercontent.com/static/fonts/playball/v3/QS5qjU-Gc2sqWEq5kDfWQfesZW2xOQ-xsNqO47m55DA.woff*/ format('woff');
+}
