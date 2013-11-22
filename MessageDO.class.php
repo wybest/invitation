@@ -18,6 +18,7 @@ class  MessageDO {
 	public $image;
 	public $bigimage;
 	public $bigtitle;
+	public $advert;
 }
 
 ?>

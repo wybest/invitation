@@ -168,6 +168,7 @@ class  MyDB {
 					$messageDO->image=$row['image'];
 					$messageDO->bigimage=$row['bigimage'];
 					$messageDO->bigtitle=$row['bigtitle'];
+					$messageDO->advert=$row['advert'];
 				}
 				return $messageDO;
 			}
@@ -179,6 +180,17 @@ class  MyDB {
 	public static function updateInfoDB($mould,$music,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
 		$sql="update message set mould='".$mould."',music='".$music."',lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id='".$name."'";
+		$ret = mysql_query($sql, $link);
+		if ($ret === false) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	public static function updateAdvert($advert,$name,$link){
+
+		$sql="update message set advert='".$advert."' where user_id in ( select id from user where name = '".$name."')";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;

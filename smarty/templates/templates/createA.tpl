@@ -50,7 +50,7 @@
                                             </td>
                                             <td align="left">
                                                 <input type="text" style="width:130px;" id="Crm_Control_loginname" maxlength="100" value="" name="name">
-                                                <span style="color:Red;display:none;" id="Crm_Control_RequiredFieldValidator1"></span>
+                                                <input type="text" style="width:130px;" id="advert" maxlength="100" value="" name="advert">
                                             </td>
                                         </tr>
                                         
