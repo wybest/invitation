@@ -1,0 +1,11 @@
+.col1,.col2{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+}
+.col1{
+width: 940px;
+}
+.col2{
+width: 623px;
+}

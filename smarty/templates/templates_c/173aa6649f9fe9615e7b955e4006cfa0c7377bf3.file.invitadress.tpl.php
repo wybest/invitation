@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-09 14:19:09
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:25:22
          compiled from "smarty\templates\templates\invitadress.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5887525cab2b035136-59108787%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '173aa6649f9fe9615e7b955e4006cfa0c7377bf3' => 
     array (
       0 => 'smarty\\templates\\templates\\invitadress.tpl',
-      1 => 1384006042,
+      1 => 1385475918,
       2 => 'file',
     ),
   ),
@@ -34,10 +34,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <td width="400" valign="top" align="center" style="padding-top:100;">
            <p><span style="color:#FF0000"><strong><?php echo $_smarty_tpl->tpl_vars['name']->value;?>
 </strong></span><strong>，您的手机请柬二维码是：</strong> </p>
-           <span style="color:#FF0000">（中文用户名无法扫描）</span>
-      <p><img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
+           <span style="color:#FF0000">（点击二维码，打开电脑版请柬）</span>
+      <p><a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
 phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
-@"></p>
+@"><img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
+phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
+@"></a></p>
 	  </td>
       <td valign="top" align="left" style="padding-top:93px;">
         <p style="color:#FF0000"><strong>如何发送请柬：</strong></p>

@@ -1,0 +1,90 @@
+body, html {height:100%}
+body {overflow:hidden; background-color:#000; border:0; min-width:1020px; min-height:850px;}
+.extra {overflow:hidden; height:100%; min-height:850px; margin-bottom:-47px;}
+.main {position:relative; margin:0 auto; width:940px; height:730px;}
+.page_spinner {position:absolute; background:url(../images/main_spinner.gif) 50% 50% no-repeat #fff; z-index:99; width:100%; height:100%; top:0; left:0}
+.gall_spinner {position:absolute; width:25px; height:25px; top:421px; right:15px; background:url(../images/gallLoader.gif) 0 0 no-repeat; z-index:90;}
+a {text-decoration:underline; outline:none}
+p {font:12px 'Georgia', sans-serif; color:#606060; line-height:20px;}
+h1 {padding:0 0 0 0; float:left;}
+h2 {font:41px 'Vidaloka', sans-serif; color:#313131; text-transform:uppercase; text-shadow:1px 1px 0px #fff;}
+h3 {font:13px 'Droid Sans', sans-serif; color:#5e5e5e; text-transform:uppercase; padding-bottom:25px; text-shadow:1px 1px 0px #fff;}
+h4 {font:22px 'Vidaloka', sans-serif; color:#1f1f1f; text-transform:uppercase;}
+.fleft {float:left;}
+.wrapper {width:100%; overflow:hidden; position:relative}
+.clear {clear:both;}
+header {position:absolute; height:141px; z-index:11;}
+#logo {display:block; position:relative; top:306px; background:url(../images/logo.png) no-repeat; width:383px; height:27px; padding-top:65px; padding-right:155px; z-index:10;  white-space:nowrap; overflow:hidden; text-align:right; color:#858585; text-decoration:none; font-size:14px;}
+/*****menu*****/
+.menu {position:relative; float:left; z-index:-1; top:306px; height:49px; margin-top:27px; z-index:10; display:inline-block;}
+#menu {float:left; padding:7px 0 0 0;}
+#menu > li {position:relative; float:left; text-align:center; display:inline-block;}
+#menu > li > a {position:relative; font:13px 'Vidaloka', sans-serif; line-height:25px; color:#302f2f; text-transform:uppercase; text-decoration:none; padding:7px 13px 0 12px; z-index:3; text-shadow:0px 1px 1px #fff;}
+#menu > li > a:hover {text-decoration:none;  text-shadow:0px 1px 1px #354a01;}
+#menu > li.active > a {text-decoration:none; text-shadow:0px 1px 1px #354a01;}
+.mText {position:relative;}
+/*****content*****/
+#content {position:absolute;}
+#content > ul {width:950px; margin-top:218px;}
+#content > ul > li {position:absolute; width:926px; height:452px;}
+#content #page_gallery {background:none;}
+.contentPad {background:url(../images/content-pad.png) repeat; padding:7px; -webkit-border-radius:18px; -moz-border-radius:18px; border-radius:18px; -webkit-box-shadow: #737373 0px 0px 3px; -moz-box-shadow: #737373 0px 0px 3px; box-shadow: #737373 0px 0px 3px;}
+.patternPad {margin:2px 2px 13px 2px; padding:38px 70px 35px 70px; overflow:hidden; background:url(../images/bg_part_cont2.jpg) repeat; width:782px; height:364px; -webkit-border-radius:18px 18px 0px 0px; -moz-border-radius:18px 18px 0px 0px; border-radius:18px 18px 0px 0px; -webkit-box-shadow: #737373 0px 0px 3px; -moz-box-shadow: #737373 0px 0px 3px; box-shadow: #737373 0px 0px 3px;}
+.zigzagPad {position:absolute; bottom:0px; left:0px; width:926px; height:13px; background:url(../images/zigzag_down.png) no-repeat;}
+.zigzag {position:absolute; width:2500px; height:127px; background:url(../images/pattern_zigzag.png) repeat-x; top:294px; margin-left:-716px; z-index:10;}
+.splashPad {position:absolute; width:2500px; height:161px; background-color:#fff; top:290px; margin-left:-716px; -webkit-box-shadow: #404040 0px 0px 3px; -moz-box-shadow: #404040 0px 0px 3px; box-shadow: #404040 0px 0px 3px;}
+.read-more-butt {font:17px 'Vidaloka', sans-serif; color:#313131; text-transform:uppercase; text-shadow:1px 1px 0px #fff; text-decoration:none;}
+.plus1 {position:absolute; font:15px 'Arial', sans-serif; color:#6b6b6b; text-decoration:none; margin-top:-80px; margin-left:216px;}
+.plus3 {position:absolute; font:15px 'Arial', sans-serif; color:#6b6b6b; text-decoration:none; margin-top:-80px; margin-left:189px;}
+.plus2 {position:absolute; font:15px 'Arial', sans-serif; color:#6b6b6b; text-decoration:none; margin-top:-80px; margin-left:145px;}
+.plus4 {position:absolute; font:15px 'Arial', sans-serif; color:#6b6b6b; text-decoration:none; margin-top:-80px; margin-left:198px;}
+.imgIndent {margin-right:19px; margin-bottom:32px;}
+.imgIndent2 {margin-right:8px;}
+.imgIndent3 {margin-top:9px;}
+.icons {padding-bottom:8px; margin-bottom:13px;}
+.text-icons1 {font:12px Vidaloka , sans-serif; color:#606060; padding-bottom:3px; text-transform:uppercase;}
+.bord {background:url(../images/dotted_border.jpg) bottom repeat-x;}
+.menu-pic1 {background:url(../images/page4_pic1.jpg) no-repeat; width:365px; height:63px; padding:22px 0px 0px 15px;}
+.menu-pic2 {background:url(../images/page4_pic2.jpg) no-repeat; width:365px; height:63px; padding:22px 0px 0px 15px;}
+.menu-pic3 {background:url(../images/page4_pic3.jpg) no-repeat; width:365px; height:63px; padding:22px 0px 0px 15px;}
+.menu-pic4 {background:url(../images/page4_pic4.jpg) no-repeat; width:365px; height:63px; padding:22px 0px 0px 15px;}
+.txt-shadow {text-shadow:none}
+.menu-line {background:url(../images/menu_line.jpg) no-repeat; width:3px; height:45px; float:left; margin-right:9px;}
+.col-icons {width:295px;}
+.figcaption {width:220px; float:left;}
+.color {color:#37a101;}
+/*-----Cols-----*/
+.col1 p a {color:#606060;}
+.col2 p a {color:#606060;}
+.col5 a {color:#606060;}
+/*-----Contact form-----*/
+#ContactForm {padding:0 0 0 0;}
+#ContactForm .bg {padding:0 0;}
+#ContactForm .wrapper {overflow:inherit; min-height:40px;}
+#ContactForm .success {padding-bottom:4px; position:relative; color:#484c51; width:260px; font:12px Georgia, sans-serif;}
+#ContactForm label {position:relative; display:inline-block; padding-bottom:5px;}
+#ContactForm span {display:block}
+#ContactForm .error,#ContactForm .empty {font-size:9px; color:#484c51; line-height:9px; display:none; width:100%; top:0px; position:relative;}
+#ContactForm a {position:relative; z-index:1;}
+#ContactForm a:hover {text-decoration:none;}
+#ContactForm .input {width:195px; background:#fff; border:1px solid #b3b3b3; padding:10px 8px 10px 15px; color:#484c51; outline:none; margin:0 0 0 0; font-size:12px; font-family:'Georgia';}
+#ContactForm textarea {overflow:auto; margin:0; width:315px; height:52px; background:#fff; border:1px solid #b3b3b3; padding:5px 8px 5px 15px; color:#484c51; resize:none; outline:none; font-size:12px; font-family:'Georgia';}
+#ContactForm .block {display:inline-block; position:relative;}
+.more1 {float:left; font-size:14px; font-family:Vidaloka, sans-serif; color:#313131; text-decoration:none; text-transform: uppercase; text-shadow:1px 1px 0px #fff; font-weight:bold;}
+.formBtn{display:inline-block; padding:0px 0px 0px 16px; margin-top:5px; margin-right:64px; position:relative; float:right}
+/*-----Sprites-----*/
+.ex-1 {background:url(../images/nav-sprite.png);}
+/*-----Footer-----*/
+footer {position:relative; overflow:hidden; width:100%; height:26px; bottom:0; background:url(../images/pattern_footer.png); padding-top:21px;}
+.privacy {font:13px 'Droid Sans', sans-serif; margin-left:361px; color:#707070; float:left;}
+.privacy a {color:#707070; text-decoration:none;}
+/*-----bgStretch-----*/
+.bgSelector {position:absolute; z-index:9; top:414px; right:69px;}
+#bgStretch {overflow:hidden;}
+.bgNav {cursor:default;padding:12px 29px 0 14px;}
+.bgNav li {display:inline-block; height:17px;}
+.bgNav li span {margin-left:5px;}
+.bgNav a {display:block; height:17px; width:17px; padding-top:2px; background: url(../images/bg_selector.png) no-repeat scroll right 0 transparent; font:13px Droid Sans, sans-serif; color:#5e5e5e; text-decoration:none; text-shadow:1px 1px 1px #fff}
+.bgNav a:hover, .bgNav .active a {background-position: left center; color:#fff; text-shadow:1px 1px 1px #6b664c}
+/*-----Map-----*/
+.google_map{margin:0; width:376px; height:210px; background:url(../images/content-pad.png) repeat; padding:4px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; -webkit-box-shadow: #c1c1c1 0px 0px 3px; -moz-box-shadow: #c1c1c1 0px 0px 3px; box-shadow: #c1c1c1 0px 0px 3px;}

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-04 09:05:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:24:59
          compiled from "smarty\templates\templates\invitvipadress.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:69885268f1672bf184-83766722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e427ceb0d6825d6193fc6ebd2dbd10cb112fcc54' => 
     array (
       0 => 'smarty\\templates\\templates\\invitvipadress.tpl',
-      1 => 1383555896,
+      1 => 1385475895,
       2 => 'file',
     ),
   ),
@@ -28,16 +28,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5268f16730f0a7_42616529')) {function content_5268f16730f0a7_42616529($_smarty_tpl) {?>
-<div id="showtext" style="margin: auto; width: 100%;margin-top: 50px;">
+<div id="showtext" style="margin: auto; width: 99%;margin-top: 50px;">
 
           	<form class="form-inline" role="form" ACTION="save_vip.php" METHOD="POST" id="form1" name="form1">
   <div class="form-group">
     <label class="sr-only" for="exampleInputEmail2">首页图片</label>
     <input  class="form-control" id="name" name="vip_name" type="text"  placeholder="亲爱的XX" />
   </div>
- <input type="hidden" name="fileup" value="true">
-			<input type="hidden" name="type" value="big">
-  <button type="submit" class="btn btn-primary">提 交</button>
+  <button type="submit" class="btn btn-primary">提 交</button>（点击二维码，打开电脑版请柬）
 </form>
 
 <?php if ($_smarty_tpl->tpl_vars['message']->value!=''){?>
@@ -73,10 +71,13 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
-<img src='http://chart.apis.google.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
+<a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
 phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 @<?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->id;?>
-' width='120' height='120'  />
+"><img src='http://chart.apis.google.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
+phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
+@<?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->id;?>
+' width='120' height='120'  /></a>
 </div>	
 <div style="text-align: center;">
 <span><?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->vip_name;?>

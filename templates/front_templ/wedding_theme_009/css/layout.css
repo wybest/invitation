@@ -1,0 +1,30 @@
+.containerContent {
+	background: url("../images/divider1.png") no-repeat 50% 100%; margin: 0px auto; width: 940px; height: 460px; overflow: hidden; padding-top: 56px; position: relative; z-index: 1;
+}
+.col1 {
+	width: 100%; float: left; position: relative;
+}
+.col2 {
+	width: 460px; float: left; position: relative;
+}
+.col3 {
+	width: 585px; float: left; position: relative;
+}
+.col4 {
+	width: 300px; float: left; position: relative;
+}
+.col5 {
+	width: 318px; float: left; position: relative;
+}
+.col6 {
+	width: 280px; float: left; position: relative;
+}
+.col7 {
+	width: 62px; float: left; position: relative;
+}
+.col8 {
+	width: 155px; float: left; position: relative;
+}
+.col9 {
+	width: 412px; float: left; position: relative;
+}

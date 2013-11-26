@@ -5,6 +5,7 @@ require 'basicDB.php';
 require 'MyDB.class.php';
 require 'MessageDO.class.php';
 require 'VipDO.class.php';
+require 'UserDO.class.php';
 Globle::initSmarty();
 $message = $_REQUEST['name'];
 
@@ -30,7 +31,6 @@ if($messageDO!=null){
 	Globle::$smarty->assign("message",$messageDO->message);
 	Globle::$smarty->assign("nongli",$messageDO->nongli);
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
-	Globle::$smarty->assign("advert",$messageDO->advert);
 	if($vip_id != ""){
 		$vip = MyDB::selectVipByIdDB($vip_id, $link);
 		if($vip!=null){
@@ -54,14 +54,37 @@ if($messageDO!=null){
 		Globle::$smarty->assign("bigimage",$messageDO->bigimage);
 	}
 	
-}
-
-$info=isMobile();
+	$user = MyDB::selectUserByIdDB($user,$link);
+	Globle::$smarty->assign("font_family",$user->font_family);
+	Globle::$smarty->assign("advert",$user->advert);
+	$info=isMobile();
     if($info){
-    	Globle::$smarty->display('phone.tpl');
+    	if($user->is_phone==1||$user->is_pay==0){
+    	if($messageDO->mould == ""){
+    			header('Content-Type:text/html; charset=UTF-8');
+    			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
+    		}else{
+    			Globle::$smarty->display('phone.tpl');
+    		}
+    	}else{
+    		header('Content-Type:text/html; charset=UTF-8');
+    		echo "对不起，您访问的请柬没有设置手机版的";
+    	}
     }else{
-        Globle::$smarty->display('pc.tpl');
+    	if($user->is_pc==1||$user->is_pay==0){
+    		if($messageDO->pc_mould == ""){
+    			header('Content-Type:text/html; charset=UTF-8');
+    			echo "对不起，请在\"电脑请柬风格设置\"选择您的电脑模板";
+    		}else{
+    			Globle::$smarty->display('pc/'.$messageDO->pc_mould.'.tpl');
+    		}
+    	}else{
+    		header('Content-Type:text/html; charset=UTF-8');
+    		echo "对不起，您访问的请柬没有设置电脑版的";
+    	}
     }
+	
+}
 
 
 function isMobile() {

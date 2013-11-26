@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-04 09:25:59
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:15:08
          compiled from "smarty\templates\templates\invit_info.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2680525cebb0e0eb70-83849667%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6300a9d9206d4d2f591f1acc448905dcb4fc02c' => 
     array (
       0 => 'smarty\\templates\\templates\\invit_info.tpl',
-      1 => 1383557153,
+      1 => 1385474754,
       2 => 'file',
     ),
   ),
@@ -86,6 +86,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " placeholder="例如：帅哥和美女结婚了"/>
     </div>
   </div>
+  <!--  
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">请柬风格</label>
     <div class="col-sm-10">
@@ -99,7 +100,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <option <?php if ($_smarty_tpl->tpl_vars['mould']->value=="蓝色梦幻"){?>selected="selected"<?php }?> value="蓝色梦幻">蓝色梦幻</option>
 		</select>
     </div>
-  </div>
+  </div>-->
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">背景音乐</label>
     <div class="col-sm-10">

@@ -26,6 +26,7 @@
 <!--[if IE]>
 <script src="js/html5.js" type="text/javascript"></script>
 <![endif]-->
+
 </head>
 <link rel="stylesheet" href="css/template.css" type="text/css" /> 
 <body>
@@ -56,7 +57,7 @@
 							  </li>
 							  
 							  <li class="line"></li>
-							  <li data-step="8" data-intro="这里查看好友收到请柬后的回函情况，人数，等等信息" style='width:134px;'>
+							  <li data-step="9" data-intro="这里查看好友收到请柬后的回函情况，人数，等等信息" style='width:134px;'>
 							       <a href="receipt.php" title="会员区"  class="hover-none nav" id="nav_114" ><span>请柬回函</span></a>
 							  </li>
 
@@ -81,31 +82,35 @@
 <h3 class="title"><a class="btn btn-mini btn-warning intro-start" onclick="javascript:introJs().start();">开启使用教程</a></h3>	
 <div data-jsok="1" data-class3="0" data-csnow="114" id="sidebar"
 	class="active">
-<dl data-step="1" data-intro="这里查看请柬所有风格" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
-	<dt id="part2_115"><a class="zm" title="请柬风格预览"
-		href="mould_preview.php"><span>请柬风格预览</span></a></dt>
-</dl>
-<dl data-step="2" data-intro="这里设置电子请柬里展现的内容" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="1" data-intro="这里设置电子请柬里展现的内容" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_116"><a class="zm" title="请柬信息设置"
 		href="invit_info.php"><span>请柬信息设置</span></a></dt>
+</dl>	
+<dl data-step="2" data-intro="这里查看请柬所有风格" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+	<dt id="part2_115"><a class="zm" title="请柬风格设置"
+		href="mould_phone.php"><span>手机请柬风格设置</span></a></dt>
 </dl>
-<dl data-step="3" data-intro="这里设置您邀请宾客的地图位置" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="3" data-intro="这里查看请柬所有风格" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+	<dt id="part2_115"><a class="zm" title="请柬风格设置"
+		href="mould_pc.php"><span>电脑请柬风格设置</span></a></dt>
+</dl>
+<dl data-step="4" data-intro="这里设置您邀请宾客的地图位置" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_116"><a class="zm" title="请柬坐标设置"
 		href="coordinate.php"><span>请柬坐标设置</span></a></dt>
 </dl>
-<dl data-step="4" data-intro="这里设置电子请柬里封面的图片" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="5" data-intro="这里设置电子请柬里封面的图片" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_117"><a class="zm" title="请柬大图设置"
 		href="big_photo.php"><span>请柬大图设置</span></a></dt>
 </dl>
-<dl data-step="5" data-intro="这里设置电子请柬里相册的图片" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="6" data-intro="这里设置电子请柬里相册的图片" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_118"><a class="zm" title="请柬相册设置"
 		href="image.php"><span>请柬相册设置</span></a></dt>
 </dl>
-<dl data-step="6" data-intro="这里生成电子请柬的通用地址，二维码扫描可以转发好友" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="7" data-intro="这里生成电子请柬的通用地址，二维码扫描可以转发好友" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_118"><a class="zm" title="请柬地址"
 		href="invitadress.php"><span>请柬地址</span></a></dt>
 </dl>
-<dl data-step="7" data-intro="这里生成电子请柬的贵宾地址，二维码扫描可以转发贵宾" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
+<dl data-step="8" data-intro="这里生成电子请柬的贵宾地址，二维码扫描可以转发贵宾" class="list-none navnow" onmouseover="this.style.background='url(images/page_2.jpg) no-repeat';" onMouseout="this.style.background='url(images/bai.jpg) no-repeat';">
 	<dt id="part2_118"><a class="zm" title="请柬贵宾地址"
 		href="invitvipadress.php"><span>请柬贵宾地址</span></a></dt>
 </dl>

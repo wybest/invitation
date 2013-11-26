@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-04 09:05:49
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-23 13:36:22
          compiled from "smarty\templates\templates\image.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:18291525e98e8464b90-28939708%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '663e671a735bc45dc6bb34999314407c967eacc9' => 
     array (
       0 => 'smarty\\templates\\templates\\image.tpl',
-      1 => 1383555946,
+      1 => 1383978280,
       2 => 'file',
     ),
   ),
@@ -35,6 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_smarty_tpl->tpl_vars['target']->value=="false"){?>  
       <div class="alert alert-danger">操作失败，重新提交</div>  
 <?php }?> 
+<div class="alert alert-success">（建议6张相片最合适,相片要求为竖版）相片大小限制在150kb内，手机屏幕小，打开是很清晰的，同时手机打开速度会很快</div>
 <div style="">
 <form class="form-inline" role="form" action="save_photo.php" method="post" enctype="multipart/form-data">
   <div class="form-group">

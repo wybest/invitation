@@ -1,0 +1,456 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.wrapper {
+	width: 100%; overflow: hidden;
+}
+.glob {
+	width: 100%; height: 100%; overflow: hidden; position: absolute;
+}
+body {
+	background: url("../images/grad.jpg") no-repeat 50% 10%; width: 100%; height: 100%; color: rgb(0, 0, 0); overflow: hidden; font-family: Arial, sans-serif; position: absolute; min-height: 100%; min-width: 1020px;
+}
+.main {
+	margin: 0px auto; width: 940px; height: 100%; position: relative; z-index: 2;
+}
+.page_spinner {
+	background: url("../images/loader.gif") no-repeat 50% 50% rgb(245, 243, 242); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 99;
+}
+a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	padding: 0px; float: left; display: inline-block; position: relative;
+}
+h2 {
+	width: 100%; color: rgb(41, 41, 41); text-transform: lowercase; line-height: 40px; letter-spacing: 0px; padding-bottom: 30px; font-family: Arial, sans-serif; font-size: 40px; font-weight: normal; font-family:"微软雅黑"
+}
+h3 {
+	width: 100%; color: rgb(41, 41, 41); text-transform: uppercase; line-height: 20px; font-family: "Asap", sans-serif; font-size: 13px;
+}
+p {
+	color: rgb(132, 132, 132); text-transform: uppercase; line-height: 17px; overflow: hidden; padding-bottom: 18px; font-family: "Asap", sans-serif; font-size: 12px; position: relative;
+}
+.undLineOff {
+	text-decoration: none;
+}
+.textLowerCase {
+	text-transform: lowercase;
+}
+.center {
+	padding: 0px; width: 100%; display: inline-block; position: relative;
+}
+.alignLeft {
+	text-align: left;
+}
+.alignCenter {
+	text-align: center;
+}
+.alignRight {
+	text-align: right;
+}
+header {
+	margin: 0px auto; width: 940px; height: 65px; position: relative; z-index: 1;
+}
+#logo {
+	background: url("../images/logo.png") no-repeat 0px 0px; width: 545px; height: 32px; vertical-align:bottom; padding-top:28px; color:#777; text-indent: 210px; display: inline-block; position: absolute; font:"微软雅黑";
+}
+#logoHolder {
+	margin: 0px 140px; width: 674px; height: 172px; position: relative;
+}
+.centerHolder {
+	margin: 0px auto; top: 0px; width: 100%; height: 65px; position: relative; z-index: 3;
+}
+.logoHolder {
+	left: 0px; top: -850px; width: 702px; height: 226px; position: absolute;
+}
+.menu {
+	float: left; display: inline-block; position: relative; z-index: 0;
+}
+#menu {
+	width: 940px; white-space: nowrap; position: relative; z-index: 3;
+}
+#menu > li {
+	left: -1700px; width: 184px; height: 590px; padding-right: 5px; float: left; display: inline-block; position: relative;
+}
+#menu > li > a {
+	color: rgb(255, 255, 255); text-transform: uppercase; display: block; position: relative;
+}
+#menu > li > a:hover {
+	text-decoration: none;
+}
+#menu > li.active > a {
+	text-decoration: none;
+}
+#menu .last {
+	padding: 0px;
+}
+.mText {
+	bottom: 0px; margin-bottom: 18px; margin-left: 152px; display: inline-block; position: absolute; z-index: 2;
+}
+.imgHolder {
+	background: rgb(254, 254, 254); width: 184px; height: 386px; text-align: center; overflow: hidden; position: relative; z-index: 1;
+}
+.extraHolder {
+	top: 386px; width: 100%; height: 200px; overflow: hidden; display: inline-block; position: absolute; z-index: 2;
+}
+.menuHolder2 {
+	background: rgb(255, 255, 255); left: 1700px; width: 100%; height: 112px; position: absolute; z-index: 2;
+}
+.menu2 {
+	height: 112px; display: inline-block; position: relative; z-index: 0;
+}
+#menu2 {
+	width: 940px; height: 112px; position: relative; z-index: 3;
+}
+#menu2 > li {
+	width: 184px; margin-right: 5px; float: left; display: inline-block; position: relative;
+}
+#menu2 > li > a {
+	width: 100%; color: rgb(255, 255, 255); text-transform: uppercase; display: block; position: relative; z-index: 2;
+}
+#menu2 > li > a:hover {
+	text-decoration: none;
+}
+#menu2 > li.active > a {
+	text-decoration: none;
+}
+#menu2 .last {
+	margin: 0px;
+}
+.submenu_1 {
+	top: 12px; width: 100%; overflow: hidden; display: block; position: absolute; z-index: 3;
+}
+.submenu_1 li {
+	display: block;
+}
+.submenu_1 a {
+	color: rgba(255, 255, 255, 0.6); text-transform: uppercase; line-height: 20px; text-indent: 20px; font-family: "Asap", sans-serif; font-size: 12px; display: inline-block;
+}
+.submenu_1 li:hover > a {
+	color: rgba(0, 0, 0, 1); text-decoration: none;
+}
+.submenu_1 li.sfHover > a {
+	color: rgba(0, 0, 0, 1); text-decoration: none;
+}
+.menuText {
+	width: 100%; color: rgba(255, 255, 255, 0.6); line-height: 50px; text-indent: 20px; padding-top: 62px; font-family: "Asap", sans-serif; font-size: 17px; display: inline-block; position: relative; z-index: 2;
+}
+#content {
+	width: 100%; height: 590px; float: left; position: relative; z-index: 1;
+}
+#content > ul {
+	width: 100%; height: 590px; position: relative; z-index: 1;
+}
+#content > ul > li {
+	width: 100%; height: 590px; display: block; position: absolute;
+}
+.box {
+	margin: 112px auto 0px; width: 940px; height: 475px;
+}
+.menuPlane {
+	background: url("../images/partLine.png") repeat-x; top: 0px; width: 100%; height: 42px; position: absolute; z-index: 1;
+}
+.menuHolder {
+	margin: 0px auto; width: 940px; height: 42px;
+}
+.underline {
+	text-decoration: underline;
+}
+.space1 {
+	width: 74px; display: inline-block;
+}
+.padRight1 {
+	padding-right: 20px;
+}
+.padRight2 {
+	padding-right: 55px;
+}
+.padRight3 {
+	padding-right: 10px;
+}
+.padRight4 {
+	padding-right: 18px;
+}
+.padRight5 {
+	padding-right: 16px;
+}
+.padRight6 {
+	padding-right: 16px;
+}
+.padBot1 {
+	padding-bottom: 22px;
+}
+.padBot2 {
+	padding-bottom: 25px;
+}
+.padBot3 {
+	padding-bottom: 25px;
+}
+.padBot4 {
+	padding-bottom: 16px;
+}
+.padBot5 {
+	padding-bottom: 25px;
+}
+.padBot6 {
+	padding-bottom: 25px;
+}
+.marTop1 {
+	margin-top: 26px;
+}
+._link1 {
+	color: rgb(41, 41, 41); font-family: "Asap", sans-serif; font-size: 12px; font-weight: bold;
+}
+._link1:hover {
+	text-decoration: underline;
+}
+._link2 {
+	color: rgb(116, 7, 11);
+}
+._list2 {
+	width: 100%;
+}
+._list2 > li {
+	width: 100%; padding-bottom: 12px; margin-bottom: 6px; border-bottom-color: rgb(217, 212, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+._list2 > li > ._title {
+	width: 100%; color: rgb(132, 132, 132); text-transform: uppercase; line-height: 18px; overflow: hidden; padding-bottom: 0px; font-family: "Asap", sans-serif; font-size: 12px; position: relative;
+}
+._list2 > li > p {
+	line-height: 18px; padding-bottom: 5px; margin-top: -18px;
+}
+._list2 > li > .btn {
+	width: 15px; height: 9px; right: 0px; display: inline-block; position: absolute; cursor: pointer;
+}
+._list2 .last {
+	border: 0px currentColor;
+}
+.btnBg1 {
+	background: url("../images/marker1.png") no-repeat 50% 50%;
+}
+.btnBg2 {
+	background: url("../images/marker2.png") no-repeat 50% 50%;
+}
+.more {
+	color: rgb(41, 41, 41); text-transform: uppercase; line-height: 14px; font-family: "Asap", sans-serif; font-size: 12px; font-weight: bold; display: inline-block; position: relative;
+}
+.more:hover {
+	color: rgb(116, 7, 11);
+}
+#jcarousel_1 > ul {
+	
+}
+#jcarousel_1 > ul > li {
+	width: 220px; height: 304px; margin-right: 20px; float: left; position: relative;
+}
+.btnHolder {
+	top: 8px; width: 50px; right: 0px; position: absolute; z-index: 2;
+}
+.scrButn {
+	margin-right: 0px; position: relative;
+}
+.zoomSp {
+	background: url("../images/magnify.png") no-repeat 50% 38% black; left: 0px; top: 0px; width: 220px; height: 304px; display: block; position: absolute; z-index: 3;
+}
+.descr {
+	background: url("../images/bg4.png"); margin: 5px; width: 210px; height: 58px; text-align: center; bottom: 0px; display: inline-block; position: absolute; z-index: 3;
+}
+.circ {
+	background: url("../images/extra5.png") no-repeat 50% 50%; left: 80px; top: -30px; width: 45px; height: 46px; text-align: center; color: rgb(224, 219, 211); text-transform: uppercase; line-height: 46px; font-family: "Asap", sans-serif; font-size: 13px; display: block; position: absolute;
+}
+.bg1 {
+	background: url("../images/bg1.png");
+}
+.bg2 {
+	background: url("../images/bg2.png");
+}
+.bg3 {
+	background: url("../images/bg3.png");
+}
+.bg4 {
+	background: url("../images/bg4.png");
+}
+.bg5 {
+	background: url("../images/bg5.png");
+}
+.scroll1 {
+	width: 380px; height: 315px; margin-bottom: 0px;
+}
+.track {
+	background: url("../images/track.png") no-repeat 0px 0px; left: 410px; top: 60px; width: 14px; height: 321px; position: absolute;
+}
+.shuttle {
+	background: url("../images/shuttle.png") no-repeat 0% 1px; width: 14px; height: 178px; display: inline-block; position: relative; z-index: 1;
+}
+._fig1 {
+	width: 100%; display: inline-block; position: relative;
+}
+._fig1 img {
+	margin-right: 10px; float: left; position: relative;
+}
+._fig1 figcaption {
+	width: 224px; margin-top: 22px; float: left; position: relative;
+}
+._fig1 p {
+	padding-bottom: 0px;
+}
+._fig2 {
+	float: left; display: inline-block; position: relative;
+}
+._fig3 {
+	float: left; display: inline-block; position: relative;
+}
+.bordBot {
+	border-bottom-color: rgb(217, 212, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.textStyle1 {
+	color: rgb(41, 41, 41); font-size: 13px; font-weight: bold;
+}
+.textStyle2 {
+	letter-spacing: -2px;
+}
+.textStyle3 {
+	width: 100%; color: rgb(41, 41, 41); text-transform: uppercase; padding-bottom: 2px; font-family: "Asap", sans-serif; font-size: 13px; font-weight: bold; display: block; position: relative;
+}
+.textStyle4 > a {
+	color: rgb(41, 41, 41); text-transform: uppercase; font-family: "Asap", sans-serif; font-size: 12px; font-weight: bold; display: block; position: relative;
+}
+.textStyle5 {
+	width: 100%; text-align: center; color: rgb(224, 219, 211); text-transform: uppercase; font-family: "Asap", sans-serif; font-size: 13px; margin-top: 24px; display: block; position: relative;
+}
+.calPic {
+	width: 16px; height: 15px; right: 0px; display: inline-block; position: absolute;
+}
+.splashHolder {
+	width: 940px; height: 590px; float: left; position: absolute; z-index: 2;
+}
+.navHolder {
+	height: 14px; margin-top: 14px; position: relative;
+}
+#ui-datepicker-div {
+	background: rgb(255, 255, 255); border: 1px solid rgb(219, 213, 199); font-family: "Asap", sans-serif;
+}
+#ui-datepicker-div .ui-datepicker-prev {
+	color: rgb(140, 139, 139); text-transform: uppercase; line-height: 20px; font-size: 13px; margin-left: 5px; cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-next {
+	color: rgb(140, 139, 139); text-transform: uppercase; line-height: 20px; font-size: 13px; margin-right: 6px; float: right; cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-title {
+	color: rgb(116, 7, 11); font-size: 13px; font-weight: bold; margin-left: 5px;
+}
+#ui-datepicker-div .ui-datepicker-calendar {
+	color: rgb(0, 0, 0); font-size: 13px; font-weight: bold; position: relative;
+}
+#ui-datepicker-div .ui-datepicker-calendar thead {
+	text-transform: uppercase; font-size: 12px; font-weight: bold; position: relative;
+}
+#ui-datepicker-div .ui-datepicker-calendar thead > tr > th {
+	position: relative;
+}
+#ui-datepicker-div .ui-datepicker-calendar tbody {
+	position: relative;
+}
+#ui-datepicker-div .ui-datepicker-calendar tbody > tr {
+	
+}
+#ui-datepicker-div .ui-datepicker-calendar tbody > tr > td {
+	padding: 4px; text-align: center;
+}
+#ui-datepicker-div .ui-datepicker-calendar tbody > tr > td > a {
+	padding: 2px; text-align: center; color: rgb(140, 139, 139);
+}
+#ui-datepicker-div .ui-datepicker-calendar tbody > tr > td > a:hover {
+	color: rgb(116, 7, 11); text-decoration: none;
+}
+#ui-datepicker-div .ui-datepicker-header {
+	padding-bottom: 6px; position: relative;
+}
+footer {
+	width: 100%; height: 65px; float: left; position: relative; z-index: 2;
+}
+.topBtn {
+	display: inline-block; position: relative; cursor: pointer;
+}
+.mainFooter {
+	margin: 20px auto; width: 940px; height: 65px; z-index: 2;
+}
+.textPrivacy {
+	bottom: 0px; color: rgb(154, 154, 154); line-height: 20px; font-family: Arial; font-size: 12px; display: inline-block; position: relative;
+}
+.privHold {
+	color: rgb(237, 237, 237); text-transform: uppercase; font-size: 12px; margin-top: 35px; position: absolute;
+}
+.followHolder {
+	width: 300px; margin-top: 35px; float: right; display: inline-block; position: relative;
+}
+.followHolder span {
+	padding: 0px 4px; color: rgb(154, 154, 154);
+}
+.followHolder > ul {
+	float: right; display: inline-block;
+}
+.followHolder > ul > li {
+	float: left; display: inline-block;
+}
+.followHolder > ul > li > a {
+	color: rgb(154, 154, 154); text-transform: uppercase; line-height: 20px; font-family: "Asap", sans-serif; font-size: 12px;
+}
+.followHolder > ul > li > a:hover {
+	color: rgb(41, 41, 41); font-weight: bold; text-decoration: none;
+}
+.google_map {
+	background: rgb(255, 255, 255); margin: 0px; border: 5px solid rgb(207, 202, 206); width: 800px; height: 295px;
+}
+#ContactForm {
+	padding: 0px;
+}
+#ContactForm .bg {
+	padding: 0px;
+}
+#ContactForm .wrapper {
+	overflow: inherit; min-height: 40px;
+}
+#ContactForm .success {
+	width: 100%; color: rgb(125, 125, 125); text-transform: uppercase; padding-bottom: 1px; font-size: 11px; float: left; position: relative;
+}
+#ContactForm label {
+	padding-bottom: 17px; display: inline-block; position: relative;
+}
+#ContactForm .message {
+	padding-bottom: 0px;
+}
+#ContactForm span {
+	display: block;
+}
+#ContactForm .error {
+	top: 0px; width: 100%; color: rgb(125, 125, 125); text-transform: uppercase; line-height: 9px; padding-top: 2px; font-size: 9px; display: none; position: relative;
+}
+#ContactForm .empty {
+	top: 0px; width: 100%; color: rgb(125, 125, 125); text-transform: uppercase; line-height: 9px; padding-top: 2px; font-size: 9px; display: none; position: relative;
+}
+#ContactForm a {
+	position: relative; z-index: 1;
+}
+#ContactForm a:hover {
+	text-decoration: none;
+}
+#ContactForm .input {
+	margin: 0px; padding: 7px 16px; border: 1px solid rgb(221, 216, 201); width: 266px; color: rgb(125, 125, 125); font-family: Arial; font-size: 12px; box-shadow: none;
+}
+#ContactForm textarea {
+	margin: 0px; padding: 9px 16px; border: 1px solid rgb(221, 216, 201); width: 266px; height: 108px; color: rgb(125, 125, 125); overflow: auto; font-family: Arial; font-size: 12px; resize: none;
+}
+#ContactForm .block {
+	display: inline-block; position: relative;
+}
+.formBtn {
+	padding-left: 20px; margin-top: 16px; display: inline-block; position: relative;
+}

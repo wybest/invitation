@@ -4,6 +4,7 @@ class  MessageDO {
 
 	public $mould;
 	public $music;
+	public $pc_mould;
 	public $man;
 	public $women;
 	public $lasttime;
@@ -18,7 +19,6 @@ class  MessageDO {
 	public $image;
 	public $bigimage;
 	public $bigtitle;
-	public $advert;
 }
 
 ?>

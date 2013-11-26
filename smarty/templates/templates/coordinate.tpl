@@ -79,7 +79,7 @@
 var map = new BMap.Map("container");//在指定的容器内创建地图实例
 map.setDefaultCursor("crosshair");//设置地图默认的鼠标指针样式
 map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
-map.centerAndZoom(new BMap.Point(116.404, 39.915), 15);
+map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
 map.addControl(new BMap.NavigationControl()); 
 map.addEventListener("click", function(e){//地图单击事件
 	map.clearOverlays(); 
@@ -93,7 +93,7 @@ map.panBy(450,170)
 var myCity = new BMap.LocalCity();
 myCity.get(iploac);*/
 
-	var pt = new BMap.Point(116.404, 39.915);
+	var pt = new BMap.Point({#$coordinate#});
 	var myIcon = new BMap.Icon("markers.gif", new BMap.Size(25,21));
 	var marker2 = new BMap.Marker(pt,{
 		icon:myIcon

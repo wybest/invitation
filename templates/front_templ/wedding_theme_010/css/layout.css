@@ -1,0 +1,16 @@
+.col1, .col2, .col3, .col4, .col5, .col6, .imgcol1 {float:left; overflow:hidden;}
+.col1 {width:400px;}
+.col2 {width:312px;}
+.col3 {width:440px;}
+.col4 {width:295px;}
+.col5 {width:660px;}
+.col6 {width:340px;}
+
+.imgcol1 {width:380px;}
+.margLeft {}
+.margRight {margin-right:70px;}
+.margRight2 {margin-right:44px;}
+.margRight3 {margin-right:20px;}
+.margBot1 {margin-bottom:21px;}
+.margBot2 {margin-bottom:38px;}
+.margBot3 {margin-bottom:10px;}

@@ -1,0 +1,11 @@
+
+.col1, .col2, .col3, .cols { float:left;}
+
+.col1{ width:175px;}
+.col2{ width:130px;}
+.col3{ width:90px;}
+
+#page_Events .col1{ width:370px;}
+
+#page_Contacts .col1{ width:170px;}
+#page_Contacts .col2{ width:67px;}

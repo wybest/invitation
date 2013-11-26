@@ -1,0 +1,308 @@
+/* =================== Getting the new tags to behave START ====================== */
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time { display: inline }
+
+/* ==================== Getting the new tags to behave END ======================= */
+
+
+
+
+
+/* ========================= Global properties START ============================= */
+html, body {
+	height:100%;
+}
+html {
+	min-width:990px;
+}
+body {
+	background:#fff url(../images/body-bg.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:1em;
+	color:#837a6a;
+}
+
+div {
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+}
+
+a {
+	outline: none;
+	color: #e26b01;
+	text-decoration:none;
+}
+
+	a:hover {
+		text-decoration:underline;
+	}
+
+h2{font-size:3em; line-height:1.2em; text-transform:none; margin-bottom:16px ; font-family:"微软雅黑"}
+    h2.extra{margin-bottom:7px}
+	h2.extra1{margin-bottom:14px}
+
+h4{font-size:2em; line-height:24px; font-weight:normal; text-transform:none; margin-bottom:16px}
+
+h6{font-size:1.1em; line-height:15px}
+
+p{line-height:15px; margin-bottom:15px}
+    p.extra{margin-bottom:20px}
+	p.extra1{margin-bottom:8px}
+	
+/* ========================= Global properties END =============================== */
+
+
+
+
+
+
+/* ========================= Global Structure START ============================== */
+#main {
+	width:990px;
+	margin:0 auto;
+	font-size:100%;
+	position:relative;
+	height:100%;
+}
+.top_brd{border-top:10px solid #37332c; min-width:990px; position:relative; position:absolute; left:0; top:0; width:100%}
+/* ========================= Global Structure END ================================ */
+
+
+
+
+
+
+/* ====================== Left & Right alignment START =========================== */
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.align_right{
+    text-align: right;	
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+	font-size: 0%;
+	line-height: 0%;
+	height: 0;
+}
+
+/* ====================== Left & Right alignment END ============================= */
+
+
+
+
+
+/* ============================== header START =================================== */
+header h1{
+	position:absolute;
+	left:300px;
+	top:50px;
+	top:6%;
+}
+
+header h1 a{
+	background:url(../images/logo.png) no-repeat;
+	width:368px;
+	height:57px;
+	color:#443f36;
+	text-decoration:none;
+	display:block;
+	text-indent:-999em;
+}
+
+header h1 a:hover{text-decoration:none}
+
+header h1 .desc{
+	font:28px/1.2em "微软雅黑", Helvetica, sans-serif;
+	color:#a2957e;
+	text-transform:uppercase;
+	position:absolute;
+	left:30px;
+	top:70px;
+	display:none
+}
+
+header h1 .desc .sndln{
+	color:#60594b;
+	font-size:22px;
+	letter-spacing:0.01em;
+}
+/* =============================== header END ==================================== */
+
+
+
+
+
+/* ============================= content START =================================== */
+#content{
+	position:absolute;
+	left:316px;
+	top:277px;
+	top:12%;
+	margin-top:164px;
+	overflow:hidden;
+	height:459px;
+	padding-left:4px;
+}
+
+#content>dd,#content>dt{
+	float:left;
+	margin:0 1px 0 0;
+	height:459px;
+	position:relative;
+}
+
+#content>dt{
+	z-index:5;
+	width:59px;
+	background:url(../images/nav-sprite.png) no-repeat;
+}
+
+#content>dd{
+	width:680px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+
+#content>dt a{
+	width:59px;
+	height:459px;
+	background:url(../images/nav-sprite.png) no-repeat;
+	display:block;
+}
+
+#content>.dt1{background-position:0 0;}
+#content>.dt1 a{background-position:0 -459px;}
+#content>.dt2{background-position:-60px 0;}
+#content>.dt2 a{background-position:-60px -459px;}
+#content>.dt3{background-position:-120px 0;}
+#content>.dt3 a{background-position:-120px -459px;}
+#content>.dt4{background-position:-180px 0;}
+#content>.dt4 a{background-position:-180px -459px;}
+#content>.dt5{background-position:-240px 0;}
+#content>.dt5 a{background-position:-240px -459px;}
+
+#content .inner{
+	background:url(../images/content_bg.jpg) left top repeat-x;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	height:459px;
+	position:relative;
+}
+
+.slider{position:relative; width:680px; height:459px; background:url(../images/slide1.png);}
+.slider article{ padding-top:140px; padding-left:150px;}
+.slider article p{ line-height:1.5em; font-size:14px;}
+
+article{font-size:0.833em; text-transform:uppercase; padding:22px 45px; width:590px; max-width:590px;}
+
+#gallery { height: 377px; overflow:hidden; padding-top:22px}
+#gallery .viewport { float: left; width: 590px; height: 279px; overflow: hidden; position: relative; }
+#gallery .galerry_nav{padding-top:23px; background: url(../images/gal_nav_separator.gif) center 20px no-repeat; height:45px; float:left}
+#gallery .buttons { display: block; width:45px; height:45px; margin: 0 21px 0 0; float: left; background-position:left bottom; background-repeat:no-repeat; text-indent:-9999px}
+#gallery .prev { background-image:url(../images/l_arrow.jpg)}
+#gallery .next { background-image:url(../images/r_arrow.jpg); margin-right:0}
+#gallery .buttons:hover{background-position:left top}
+#gallery .disable { }
+#gallery .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#gallery .overview li{ float: left; margin: 0 14px 0 0; height: 309px; width: 288px;}
+
+.list1{}
+    .list1 li{ margin-bottom:17px; overflow:hidden}
+	.list1 h4{margin-bottom:0; padding-top:8px}
+	.list1 h4 a{color:#807465}
+	.list1 h4 img{margin:-7px 10px 0 0}
+	.list1 p{margin:-1px 0 0}
+
+.contacts{padding-right:87px}
+/* ============================== content END ==================================== */
+
+
+
+/* =================== txt, links, lines, titles START =========================== */
+.more{line-height:46px; background:url(../images/more_l.jpg) left top no-repeat; display:inline-block; font-size:2em; color:#837966; text-shadow:1px 1px 1px #fff; text-transform:none; text-decoration:none}
+    .more span{display:block; background:url(../images/more_r.jpg) right top no-repeat; cursor:pointer; padding:0 23px}
+	.more:hover{background-position:left bottom; text-decoration:none}
+	.more:hover span{background-position:right bottom}
+.link{font-size:1.1em; font-weight:bold}	
+/* ==================== txt, links, lines, titles END ============================ */
+
+
+
+
+
+/* ============================= forms START ===================================== */
+
+#contact_form {width: 302px; float:left; padding-top:4px; margin-right:41px; overflow:hidden}
+
+    #contact_form .clearfix{width:100%; margin-bottom:9px; position:relative}
+    #contact_form input, #contact_form textarea{float:left; margin:0; background:#c9bea7; border:none; padding:14px 18px; color:#837a6a; font:12px Arial, Helvetica, sans-serif; text-transform:uppercase; -webkit-border-radius: 19px; -moz-border-radius: 19px; border-radius: 19px; position:relative; width:266px; outline:none;}
+	#contact_form textarea{height:88px; overflow:auto; resize:none; text-transform:uppercase}
+	#contact_form .buttons{padding-top:15px; text-align:right}
+	#contact_form .buttons a span{padding:0 26px}
+
+/* ============================== forms END ====================================== */
+
+
+
+
+
+/* ============================= other START ===================================== */
+
+.pic_indent {margin: 0 0 0 0;}
+
+.orange{color:#ff8400}
+
+.right_indent{padding-right:35px}
+
+/* ============================== other END ====================================== */
+
+
+
+
+
+/* ============================ footer START ===================================== */
+footer{
+	height:40px;
+	width:100%;
+	position:absolute;
+	top:840px;
+	top:12%;
+	margin-top:700px;
+	text-align:center;
+}
+
+footer a{color:#554e43}
+
+footer .privacy{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#554e43;
+	text-transform:uppercase;
+	margin-left:-1px;
+}
+/* ============================= footer END ====================================== */

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-04 09:09:54
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-24 05:10:54
          compiled from "smarty\templates\templates\coordinate.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:29654525e2eb7ab4715-06844977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bbf6c7157d0b5c60588b9dbeb6930e5914006f7b' => 
     array (
       0 => 'smarty\\templates\\templates\\coordinate.tpl',
-      1 => 1383556188,
+      1 => 1385269850,
       2 => 'file',
     ),
   ),
@@ -107,7 +107,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 var map = new BMap.Map("container");//在指定的容器内创建地图实例
 map.setDefaultCursor("crosshair");//设置地图默认的鼠标指针样式
 map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
-map.centerAndZoom(new BMap.Point(116.404, 39.915), 15);
+map.centerAndZoom(new BMap.Point(<?php echo $_smarty_tpl->tpl_vars['coordinate']->value;?>
+), 15);
 map.addControl(new BMap.NavigationControl()); 
 map.addEventListener("click", function(e){//地图单击事件
 	map.clearOverlays(); 
@@ -121,7 +122,8 @@ map.panBy(450,170)
 var myCity = new BMap.LocalCity();
 myCity.get(iploac);*/
 
-	var pt = new BMap.Point(116.404, 39.915);
+	var pt = new BMap.Point(<?php echo $_smarty_tpl->tpl_vars['coordinate']->value;?>
+);
 	var myIcon = new BMap.Icon("markers.gif", new BMap.Size(25,21));
 	var marker2 = new BMap.Marker(pt,{
 		icon:myIcon

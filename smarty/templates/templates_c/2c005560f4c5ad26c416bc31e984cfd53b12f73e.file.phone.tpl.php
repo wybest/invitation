@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-09 16:02:25
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-25 02:32:32
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44335263c3416ecc93-02459452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1383231395,
+      1 => 1385346749,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'bigtitle' => 0,
     'mould' => 0,
+    'font_family' => 0,
     'music' => 0,
     'bigimage' => 0,
     'show_time' => 0,
@@ -36,6 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'title' => 0,
     'message' => 0,
     'lasttime' => 0,
+    'advert' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -259,6 +261,16 @@ font-family: "微软雅黑";
   #mainbox{margin:0;}
 </style>
 
+
+
+<?php if ($_smarty_tpl->tpl_vars['font_family']->value!==''){?>  
+    <style type="text/css">
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time {
+		font-family: "<?php echo $_smarty_tpl->tpl_vars['font_family']->value;?>
+",Helvetica,Arial,sans-serif;
+	}
+	</style>
+<?php }?>
 
 </head>
 
@@ -766,7 +778,11 @@ setInterval(_fresh,1000);
     
 </div>
 
-<div id="footer"><div id="copyright"><div id="copyright-text">本服务由QQ:2378822906提供</div></div>
+<div id="footer"><div id="copyright">
+<div id="copyright-text">本服务由QQ:2378822906提供 </div>
+<div id="copyright-text"><?php echo $_smarty_tpl->tpl_vars['advert']->value;?>
+</div>
+</div>
 </div>
 
  <script type="text/javascript" src="" templates="" mobi_templ="" vip="" video.js"=""></script>

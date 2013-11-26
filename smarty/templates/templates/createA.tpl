@@ -33,7 +33,6 @@
                         <table width="405px" cellspacing="0" cellpadding="0" border="0" align="center" class="table_line4">
                             <tbody><tr>
                                 <td valign="top">
-                                <form action="createA.php" id="form1" method="post">
                                     <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
                                         <tbody><tr>
                                             <td height="10" colspan="2" align="center">
@@ -49,30 +48,19 @@
                                                 账户名
                                             </td>
                                             <td align="left">
-                                                <input type="text" style="width:130px;" id="Crm_Control_loginname" maxlength="100" value="" name="name">
-                                                <input type="text" style="width:130px;" id="advert" maxlength="100" value="" name="advert">
+                                                <form action="createA.php" id="form1" method="post">
+                                                <input type="text" style="width:130px;" id="Crm_Control_loginname" maxlength="100" value="{#$name#}" name="name">
+                                                <input type="submit" class="ButtonBL" id="Crm_Control_btSubmit"  value="查询账户" name="Crm_Control$btSubmit">
+                                                 <input type="hidden" name="query" value="query">
+                                                </form>
                                             </td>
                                         </tr>
-                                        
-                                        <tr>
-                                            <td colspan="2">
-                                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                                    <tbody><tr>
-                                                        <td width="50%">
-                                                            &nbsp;
-                                                        </td>
-                                                        <td width="50%" align="left">
-                                                            <input type="submit" class="ButtonBL" id="Crm_Control_btSubmit"  value="创建账户" name="Crm_Control$btSubmit">
-                                                        </td>
-                                                    </tr>
-                                                </tbody></table>
-                                            </td>
-                                        </tr>
+                                    
                                     </tbody></table>
                                 </td>
                             </tr>
                         </tbody></table>
-                        </form>
+                        
                     </td>
                     <td class="dl_r">
                     </td>

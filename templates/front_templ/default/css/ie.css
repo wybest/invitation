@@ -1,0 +1,3 @@
+/* -----------------for pie------------------- */
+.bg,#form1 input,#form1 textarea{position: relative; behavior: url(templates/front_templ/default/js/PIE.htc); }
+.decor>span>strong{position: absolute; behavior: url(templates/front_templ/default/js/PIE.htc); }

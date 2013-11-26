@@ -45,6 +45,7 @@
       <input class="form-control" name="bigtitle" type="text" id="title" value="{#$bigtitle #}" placeholder="例如：帅哥和美女结婚了"/>
     </div>
   </div>
+  <!--  
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">请柬风格</label>
     <div class="col-sm-10">
@@ -58,7 +59,7 @@
               <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
 		</select>
     </div>
-  </div>
+  </div>-->
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">背景音乐</label>
     <div class="col-sm-10">

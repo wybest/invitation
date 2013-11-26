@@ -36,10 +36,11 @@ class  MyDB {
 		echo   "删除失败";
 	}
 
-	public static function updateUserPasswordDB($name,$link){
+	public static function updateUserPasswordDB($name,$link,$isphone,$ispc,$font_family,$advert){
 
-		$sql = "update user set is_pay=1  where name='".$name."'";
+		$sql = "update user set advert='".$advert."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where name='".$name."'";
 		$ret = mysql_query($sql, $link);
+		
 		if ($ret === false) {
 			return false;
 		} else {
@@ -91,6 +92,10 @@ class  MyDB {
 				$user->password = $row["password"];
 				$user->vip_num = $row["vip_num"];
 				$user->is_pay = $row["is_pay"];
+				$user->is_phone = $row["is_phone"];
+				$user->is_pc = $row["is_pc"];
+				$user->font_family = $row["font_family"];
+				$user->advert = $row["advert"];
 				return $user;
 			}
 		}
@@ -113,6 +118,10 @@ class  MyDB {
 				$user->password = $row["password"];
 				$user->vip_num = $row["vip_num"];
 				$user->is_pay = $row["is_pay"];
+				$user->is_phone = $row["is_phone"];
+				$user->is_pc = $row["is_pc"];
+				$user->font_family = $row["font_family"];
+				$user->advert = $row["advert"];
 				return $user;
 			}
 		}
@@ -154,6 +163,7 @@ class  MyDB {
 				while ($row = mysql_fetch_assoc($ret)) {
 					$messageDO->mould=$row['mould'];
 					$messageDO->music=$row['music'];
+					$messageDO->pc_mould=$row['pc_mould'];
 					$messageDO->man=$row['man'];
 					$messageDO->women=$row['women'];
 					$messageDO->lasttime=$row['lasttime'];
@@ -168,7 +178,6 @@ class  MyDB {
 					$messageDO->image=$row['image'];
 					$messageDO->bigimage=$row['bigimage'];
 					$messageDO->bigtitle=$row['bigtitle'];
-					$messageDO->advert=$row['advert'];
 				}
 				return $messageDO;
 			}
@@ -187,10 +196,10 @@ class  MyDB {
 			return true;
 		}
 	}
-	
-	public static function updateAdvert($advert,$name,$link){
 
-		$sql="update message set advert='".$advert."' where user_id in ( select id from user where name = '".$name."')";
+	public static function updateInfoCoordinateDB($coordinate,$user_id,$link){
+
+		$sql="update message set coordinate='".$coordinate."' where user_id=".$user_id."";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;
@@ -198,10 +207,21 @@ class  MyDB {
 			return true;
 		}
 	}
+	
+	public static function updateInfoPhoneMouldDB($mould,$user_id,$link){
 
-	public static function updateInfoCoordinateDB($coordinate,$user_id,$link){
+		$sql="update message set mould='".$mould."' where user_id=".$user_id."";
+		$ret = mysql_query($sql, $link);
+		if ($ret === false) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 
-		$sql="update message set coordinate='".$coordinate."' where user_id=".$user_id."";
+		$sql="update message set pc_mould='".$pcmould."' where user_id=".$user_id."";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;
