@@ -7,7 +7,7 @@
 <td width="400" valign="top" align="center" style="padding-top:100;">
            <p><span style="color:#FF0000"><strong>{#$name#}</strong></span><strong>，您的手机请柬二维码是：</strong> </p>
            <span style="color:#FF0000">（点击二维码，打开电脑版请柬）</span>
-      <p><a target="_blank" href="http://{#$host#}phone.php?name={#$user_id#}@"><img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=http://{#$host#}phone.php?name={#$user_id#}@"></a></p>
+      <p><a target="_blank" href="http://{#$host#}pc.php?name={#$user_id#}@"><img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=http://{#$host#}phone.php?name={#$user_id#}@"></a></p>
 	  </td>
       <td valign="top" align="left" style="padding-top:93px;">
         <p style="color:#FF0000"><strong>如何发送请柬：</strong></p>

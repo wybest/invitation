@@ -71,8 +71,17 @@ if($messageDO!=null){
     		echo "对不起，您访问的请柬没有设置手机版的";
     	}
     }else{
+    	if($user->is_pc==1||$user->is_pay==0){
+    		if($messageDO->pc_mould == ""){
+    			header('Content-Type:text/html; charset=UTF-8');
+    			echo "对不起，请在\"电脑请柬风格设置\"选择您的电脑模板";
+    		}else{
+    			Globle::$smarty->display('pc/'.$messageDO->pc_mould.'.tpl');
+    		}
+    	}else{
     		header('Content-Type:text/html; charset=UTF-8');
-    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"<br>因为微信升级安全机制，强制转码网页";
+    		echo "对不起，您访问的请柬没有设置电脑版的";
+    	}
     }
 	
 }
