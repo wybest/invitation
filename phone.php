@@ -72,7 +72,7 @@ if($messageDO!=null){
     	}
     }else{
     		header('Content-Type:text/html; charset=UTF-8');
-    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"<br>因为微信升级安全机制，强制转码网页";
+    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"</a><br>因为微信升级安全机制，强制转码网页";
     }
 	
 }
