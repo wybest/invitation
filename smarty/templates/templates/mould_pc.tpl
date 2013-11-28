@@ -7,6 +7,7 @@
 {#if $message#}  
      <div class="alert alert-success">{#$message#}</div>
 {#/if#}
+<div class="alert alert-success">点击图片查看模板</div>
 <form class="form-horizontal"  ACTION="save_pc_mould.php"
 		METHOD="POST" id="form1" name="form1">
 <input type="hidden" name="insert" value="insert" />		
