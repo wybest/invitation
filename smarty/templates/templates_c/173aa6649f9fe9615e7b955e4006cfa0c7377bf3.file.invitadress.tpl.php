@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:25:22
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-28 10:36:10
          compiled from "smarty\templates\templates\invitadress.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5887525cab2b035136-59108787%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '173aa6649f9fe9615e7b955e4006cfa0c7377bf3' => 
     array (
       0 => 'smarty\\templates\\templates\\invitadress.tpl',
-      1 => 1385475918,
+      1 => 1385484320,
       2 => 'file',
     ),
   ),
@@ -36,7 +36,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </strong></span><strong>，您的手机请柬二维码是：</strong> </p>
            <span style="color:#FF0000">（点击二维码，打开电脑版请柬）</span>
       <p><a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
-phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
+pc.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 @"><img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
 phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 @"></a></p>

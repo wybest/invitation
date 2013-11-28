@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 12:39:41
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-28 10:42:29
          compiled from "smarty\templates\templates\pc\p3.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15797529194573d63c6-38030598%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1d3dded260b3d1bd8542d65242533a3c1ab8111e' => 
     array (
       0 => 'smarty\\templates\\templates\\pc\\p3.tpl',
-      1 => 1385469578,
+      1 => 1385473183,
       2 => 'file',
     ),
   ),
@@ -230,7 +230,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
 								</label>
 								<label class="name">
 								<span class="textStyle3" style="line-height:50px;">是否到场参加婚礼：
-								<select id="pnum" name="pnum">
+								<select id="pnum" name="pnum" style="border-radius: 12px;">
 													                <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
 													                <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
 													                <option value="非常乐意，有3人参加">非常乐意，有3人参加</option>

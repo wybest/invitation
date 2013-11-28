@@ -1,4 +1,4 @@
-#Wed Nov 27 00:37:09 CST 2013
+#Thu Nov 28 18:22:28 CST 2013
 eclipse.preferences.version=1
 encoding//js/fun.inc.js=UTF-8
 encoding//js/html5.js=UTF-8
@@ -53,6 +53,7 @@ encoding/mould_pc.php=GBK
 encoding/mould_phone.php=GBK
 encoding/mp3.php=GBK
 encoding/pc.php=UTF-8
+encoding/pctpl.php=UTF-8
 encoding/phone.php=UTF-8
 encoding/receipt.php=GBK
 encoding/receiptDetail.php=GBK

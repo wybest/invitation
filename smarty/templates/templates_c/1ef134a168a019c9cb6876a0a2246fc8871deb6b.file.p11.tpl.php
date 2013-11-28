@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-25 14:57:42
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-28 10:42:54
          compiled from "smarty\templates\templates\pc\p11.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:30846529364d18eb033-23263036%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1ef134a168a019c9cb6876a0a2246fc8871deb6b' => 
     array (
       0 => 'smarty\\templates\\templates\\pc\\p11.tpl',
-      1 => 1385391459,
+      1 => 1385473243,
       2 => 'file',
     ),
   ),
@@ -195,7 +195,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
               <span
 		class="clear"></span></div>
             <div class="clearfix333" style="margin:55px 0 15px 0;">
-            <select id="pnum" name="pnum">
+            <select id="pnum" name="pnum" style="border-radius: 12px;">
 													                <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
 													                <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
 													                <option value="非常乐意，有3人参加">非常乐意，有3人参加</option>

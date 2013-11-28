@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 12:54:17
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-28 10:42:50
          compiled from "smarty\templates\templates\pc\p13.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:20801529499f9653ef2-85797581%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b233dbc854d3c4bab8d5dfb929a9742d2ade6f60' => 
     array (
       0 => 'smarty\\templates\\templates\\pc\\p13.tpl',
-      1 => 1385436278,
+      1 => 1385473256,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_529499f976c8c4_64699659',
   'variables' => 
   array (
     'bigtitle' => 0,
@@ -33,8 +35,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'coordinate' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_529499f976c8c4_64699659',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_529499f976c8c4_64699659')) {function content_529499f976c8c4_64699659($_smarty_tpl) {?>﻿<!DOCTYPE html>
 <html lang="en">
@@ -220,7 +220,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
                         <input type="text"  placeholder="姓名:" id="guest" class="input marNone">
                         </span> </label>
                       <label class="email" style="width:400px; height:50px; line-height:50px; font-size:12px;"> 
-                      <select id="pnum" name="pnum">
+                      <select id="pnum" name="pnum" style="border-radius: 12px;">
 													                <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
 													                <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
 													                <option value="非常乐意，有3人参加">非常乐意，有3人参加</option>
