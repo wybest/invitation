@@ -22,9 +22,8 @@
 		METHOD="POST" id="form1" name="form1" style="width: 80%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label tooltip">超时提醒</label>
+    <label for="inputEmail3" class="col-sm-2 control-label tooltip"></label>
     <div class="col-sm-10">
-      半小时后提交的信息将无法保存，需要重新登录。
     </div>
   </div>
   <div class="form-group">
