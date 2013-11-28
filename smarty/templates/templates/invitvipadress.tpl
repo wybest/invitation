@@ -4,7 +4,7 @@
           	<form class="form-inline" role="form" ACTION="save_vip.php" METHOD="POST" id="form1" name="form1">
   <div class="form-group">
     <label class="sr-only" for="exampleInputEmail2">首页图片</label>
-    <input  class="form-control" id="name" name="vip_name" type="text"  placeholder="亲爱的XX" />
+    <input  class="form-control" id="name" name="vip_name" type="text"  placeholder="输入 亲爱的XX" />
   </div>
   <button type="submit" class="btn btn-primary">提 交</button>（点击二维码，打开电脑版请柬）
 </form>
