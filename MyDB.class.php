@@ -179,6 +179,7 @@ class  MyDB {
 					$messageDO->bigimage=$row['bigimage'];
 					$messageDO->bigtitle=$row['bigtitle'];
 					$messageDO->extends=$row['extends'];
+					$messageDO->special_name=$row['special_name'];
 				}
 				return $messageDO;
 			}

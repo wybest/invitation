@@ -361,7 +361,7 @@ window.onload = function() {
               <p class="ip4">{#$vip#}</p>
               {#/if#}
               <p class="ip3">谨定于公历<span>{#$show_time#}</span></p>
-              <p class="ip3">新郎：<span class="">{#$man#}</span> 新娘：<span>{#$women#}</span></p>
+              <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span class="">{#$man#}</span> 新娘：<span>{#$women#}</span> {#/if#}</p>
               <p class="ip4">{#if $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
               <p class="ip6">时间：<span>{#$mini_time#}</span></p>
               <p class="ip6">酒店：<span>{#$house#}</span></p>
