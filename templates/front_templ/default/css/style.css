@@ -13,29 +13,25 @@ html{
 height: 100%;
 }
 body {
-	position:relative;
-	color:#FFF;
-	min-width: 1080px;
-	min-height:825px;
-	text-transform: uppercase;
-	width:100%;
-	height:100%;
-	overflow:hidden;
-	z-index:1;
-	background: url(../images/bg_piece.jpg);
-	font-family: 'Trebuchet MS', sans-serif;
-	font-size: 12px;
-	line-height: 18px;
+position:relative;
+font:12px/18px 'Trebuchet MS', sans-serif;
+color:#FFD2D7;
+min-width: 1080px;
+min-height:825px;
+text-transform: uppercase;
+width:100%;
+height:100%;
+overflow:hidden;
+z-index:1;
+background: url(../images/bg_piece.jpg);
 }
 #glob {
-	position:absolute;
-	width:100%;
-	height:100%;
-	overflow:hidden;
-	z-index:2;
-	background-image: url(../images/bg_glow.png);
-	background-repeat: no-repeat;
-	background-position: center;
+position:absolute;
+width:100%;
+height:100%;
+overflow:hidden;
+z-index:2;
+background: url(../images/bg_glow.png) center no-repeat;
 }
 .spinner {
 position:fixed;
@@ -44,7 +40,7 @@ top:0px;
 width:100%;
 height:100%;
 z-index:9999;
-background:url( "../images/ajax-loader.gif") 50% 50% no-repeat #a60c07;
+background:url( "../images/ajax-loader.gif") 50% 50% no-repeat #ea505e;
 }
 .logo {
 position:relative;
@@ -184,7 +180,7 @@ border-radius: 71px;
 font-size:40px;
 font-family:"微软雅黑";
 line-height:141px;
-color: #ad0a1a;
+color: #ec5766;
 background: url(../images/menu_bg.png) center bottom no-repeat;
 text-transform: uppercase;
 letter-spacing: -1px;
@@ -230,7 +226,7 @@ margin-bottom: 2px;
 position:relative;
 display: block;
 font: 15px/18px 'Trebuchet MS', sans-serif;
-color: #ad0a1a;
+color: #ec5766;
 text-transform: uppercase;
 font-weight: bold;
 }
@@ -295,7 +291,7 @@ position: relative;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
-background: #ef4401;
+background: #e35666;
 overflow: hidden;
 height: 348px;
 }
@@ -612,7 +608,7 @@ margin:0 auto;
 width: 877px;
 height: 190px;
 box-shadow: none;
-background-color: #a60c07;
+background-color: #ea505e;
 background-image: url(../images/ajax-loader.gif);
 background-repeat: no-repeat;  
 position:  relative;
@@ -633,20 +629,20 @@ height: 230px;
 }
 #form1 input,
 #form1 textarea {
-	position: relative;
-	background: #eea562;
-	border: none;
-	color:#F00;
-	padding: 5px 11px;
-	text-transform: uppercase;
-	width: 266px;
-	height: 26px;
-	outline:none;
-	box-shadow:none;
-	line-height: 26px;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+position: relative;
+background: #d64f5e;
+border: none;
+color:#f98795;
+padding: 5px 11px;
+text-transform: uppercase;
+width: 266px;
+height: 26px;
+outline:none;
+box-shadow:none;
+line-height: 26px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
 }
 #form1 textarea {
 width: 559px;
