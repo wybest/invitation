@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-30 05:19:23
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-30 06:31:27
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44335263c3416ecc93-02459452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1385788315,
+      1 => 1385793083,
       2 => 'file',
     ),
   ),
@@ -28,6 +28,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'vip' => 0,
     'man' => 0,
     'women' => 0,
+    'extends' => 0,
     'mini_time' => 0,
     'house' => 0,
     'adress' => 0,
@@ -419,7 +420,8 @@ window.onload = function() {
               <p class="ip3">新郎：<span class=""><?php echo $_smarty_tpl->tpl_vars['man']->value;?>
 </span> 新娘：<span><?php echo $_smarty_tpl->tpl_vars['women']->value;?>
 </span></p>
-              <p class="ip4">举行结婚典礼 敬备喜宴</p>
+              <p class="ip4"><?php if ($_smarty_tpl->tpl_vars['extends']->value){?><?php echo $_smarty_tpl->tpl_vars['extends']->value;?>
+<?php }else{ ?>举行结婚典礼 敬备喜宴 <?php }?></p>
               <p class="ip6">时间：<span><?php echo $_smarty_tpl->tpl_vars['mini_time']->value;?>
 </span></p>
               <p class="ip6">酒店：<span><?php echo $_smarty_tpl->tpl_vars['house']->value;?>

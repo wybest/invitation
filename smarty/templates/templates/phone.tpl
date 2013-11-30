@@ -362,7 +362,7 @@ window.onload = function() {
               {#/if#}
               <p class="ip3">谨定于公历<span>{#$show_time#}</span></p>
               <p class="ip3">新郎：<span class="">{#$man#}</span> 新娘：<span>{#$women#}</span></p>
-              <p class="ip4">举行结婚典礼 敬备喜宴</p>
+              <p class="ip4">{#if $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
               <p class="ip6">时间：<span>{#$mini_time#}</span></p>
               <p class="ip6">酒店：<span>{#$house#}</span></p>
 		<p class="ip6">酒店地址：<span>{#$adress#}</span></p><br />

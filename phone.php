@@ -31,6 +31,7 @@ if($messageDO!=null){
 	Globle::$smarty->assign("message",$messageDO->message);
 	Globle::$smarty->assign("nongli",$messageDO->nongli);
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
+	Globle::$smarty->assign("extends",$messageDO->extends);
 	if($vip_id != ""){
 		$vip = MyDB::selectVipByIdDB($vip_id, $link);
 		if($vip!=null){
