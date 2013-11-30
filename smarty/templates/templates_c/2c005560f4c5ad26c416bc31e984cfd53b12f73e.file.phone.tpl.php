@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-25 02:32:32
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-30 05:19:23
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44335263c3416ecc93-02459452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1385346749,
+      1 => 1385788315,
       2 => 'file',
     ),
   ),
@@ -69,15 +69,15 @@ if(!browser.versions.ios&&!browser.versions.mobie&&!browser.versions.android&&!b
 }
 </script><title><?php echo $_smarty_tpl->tpl_vars['bigtitle']->value;?>
 </title>
-<link href="http://1.qingjian1232.duapp.com/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
+<link href="style/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
 /image_files/custom.css" type="text/css" rel="stylesheet">
-<link href="http://1.qingjian1232.duapp.com/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
+<link href="style/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
 /image_files/style.css" type="text/css" rel="stylesheet">
-<link href="http://1.qingjian1232.duapp.com/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
+<link href="style/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
 /image_files/styles.css" type="text/css" rel="stylesheet">
-<link href="http://1.qingjian1232.duapp.com/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
+<link href="style/<?php echo $_smarty_tpl->tpl_vars['mould']->value;?>
 /image_files/photoswipe.css" type="text/css" rel="stylesheet">
-<link class="fontcss" href="http://1.qingjian1232.duapp.com/桃色经典/image_files/getcss" type="text/css" rel="stylesheet">
+<link class="fontcss" href="style/桃色经典/image_files/getcss" type="text/css" rel="stylesheet">
 
 <style> 
 #mydiv{ 
@@ -94,12 +94,12 @@ font-family:微软雅黑;
    } 
 </style>
 
-<script src="http://1.qingjian1232.duapp.com/桃色经典/image_files/jquery-latest.js"></script>
-<script type="text/javascript" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/getscript"></script>
-<script type="text/javascript" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/jquery-ui-1.8.18.full.min.js"></script>
-<script type="text/javascript" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/klass.min.js"></script>
-<script type="text/javascript" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
+<script src="style/桃色经典/image_files/jquery-latest.js"></script>
+<script type="text/javascript" src="style/桃色经典/image_files/getscript"></script>
+<script type="text/javascript" src="style/桃色经典/image_files/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="style/桃色经典/image_files/jquery-ui-1.8.18.full.min.js"></script>
+<script type="text/javascript" src="style/桃色经典/image_files/klass.min.js"></script>
+<script type="text/javascript" src="style/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=16268926682265790cca9062b1be7a79"></script>
 <script type="text/javascript">
 		(function(window, $, PhotoSwipe){
@@ -394,7 +394,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">爱的邀约</span></a>
+    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style/桃色经典/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">爱的邀约</span></a>
             </div>
             </div>
             </div>
@@ -409,7 +409,7 @@ window.onload = function() {
         <div class="detail-mm">
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
  <div class="invitext">
-              <p class="ip2"><img src="http://1.qingjian1232.duapp.com/桃色经典/image_files/16052978.png" width="80%" height="30" alt=""> </p>
+              <p class="ip2"><img src="style/桃色经典/image_files/16052978.png" width="80%" height="30" alt=""> </p>
               <?php if ($_smarty_tpl->tpl_vars['vip']->value!="none"){?>
               <p class="ip4"><?php echo $_smarty_tpl->tpl_vars['vip']->value;?>
 </p>
@@ -444,7 +444,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/2.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚纱相册</span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚纱相册</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -510,7 +510,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/3.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚宴回函</span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚宴回函</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -613,7 +613,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/4.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">婚宴地图</span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">婚宴地图</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -660,7 +660,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
 	
     var pt = new BMap.Point(<?php echo $_smarty_tpl->tpl_vars['coordinate']->value;?>
 );
-    var myIcon = new BMap.Icon("http://1.qingjian1232.duapp.com/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
+    var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
     var marker2 = new BMap.Marker(pt,{
         icon:myIcon
     });// 创建标注
@@ -686,7 +686,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/5.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/5.png" src="style/桃色经典/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </span></a>            </div>
             </div>
             </div>
@@ -720,7 +720,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/6.png" src="http://1.qingjian1232.duapp.com/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚礼提醒</span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚礼提醒</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -797,7 +797,7 @@ var share_title = "<?php echo $_smarty_tpl->tpl_vars['man']->value;?>
 var share_desc = "<?php echo $_smarty_tpl->tpl_vars['man']->value;?>
 &<?php echo $_smarty_tpl->tpl_vars['women']->value;?>
 结婚啦";
-var share_link = "www.tcfate.com";
+var share_link = "";
 
 //内容模型
 var contentModel = {
@@ -815,7 +815,7 @@ var muinObj = {"allUser":1};
 
 </script>
 
-<script language="JavaScript" src="http://1.qingjian1232.duapp.com/weichat.js" type="text/javascript" charset="utf-8"></script>
+<script language="JavaScript" src="style/weichat.js" type="text/javascript" charset="utf-8"></script>
 
 
 </body></html>

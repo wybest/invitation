@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-28 10:40:30
+<?php /* Smarty version Smarty-3.1.13, created on 2013-11-30 05:18:45
          compiled from "smarty\templates\templates\mould_pc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1122052915a07d65f82-95661430%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd10931abeba34ac29afd57a5082887903c9fdb21' => 
     array (
       0 => 'smarty\\templates\\templates\\mould_pc.tpl',
-      1 => 1385635227,
+      1 => 1385635682,
       2 => 'file',
     ),
   ),
@@ -35,6 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
      <div class="alert alert-success"><?php echo $_smarty_tpl->tpl_vars['message']->value;?>
 </div>
 <?php }?>
+<div class="alert alert-success">点击图片查看模板</div>
 <form class="form-horizontal"  ACTION="save_pc_mould.php"
 		METHOD="POST" id="form1" name="form1">
 <input type="hidden" name="insert" value="insert" />		
