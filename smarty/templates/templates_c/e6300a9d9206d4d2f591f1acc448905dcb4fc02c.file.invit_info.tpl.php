@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:15:08
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-01 13:56:27
          compiled from "smarty\templates\templates\invit_info.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2680525cebb0e0eb70-83849667%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6300a9d9206d4d2f591f1acc448905dcb4fc02c' => 
     array (
       0 => 'smarty\\templates\\templates\\invit_info.tpl',
-      1 => 1385474754,
+      1 => 1385871163,
       2 => 'file',
     ),
   ),
@@ -60,9 +60,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		METHOD="POST" id="form1" name="form1" style="width: 80%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label tooltip">超时提醒</label>
+    <label for="inputEmail3" class="col-sm-2 control-label tooltip"></label>
     <div class="col-sm-10">
-      半小时后提交的信息将无法保存，需要重新登录。
     </div>
   </div>
   <div class="form-group">
@@ -164,7 +163,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴酒店</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">席设</label>
     <div class="col-sm-10">
       <input class="form-control" name="house" type="text" id="house" value="<?php echo $_smarty_tpl->tpl_vars['house']->value;?>
 "/>

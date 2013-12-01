@@ -84,6 +84,9 @@ if($messageDO!=null){
     	}
     }
 	
+}else{
+	header('Content-Type:text/html; charset=UTF-8');
+    echo "对不起，您还没有编辑请柬信息，去“请柬信息设置”编辑请柬信息";
 }
 
 

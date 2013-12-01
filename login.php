@@ -19,7 +19,7 @@ if($name!=""){
 		MyDB::updateUserLastTimeDB($name,$link);
 		$_SESSION['name'] = $name;
 		$_SESSION['user_id'] = $user->id;
-		echo '<script>location.href="invitadress.php"</script>';
+		echo '<script>location.href="invit_info.php"</script>';
 	}else{
 		Globle::$smarty->assign("message","用户名或密码错误");
 		Globle::$smarty->display('login.tpl');

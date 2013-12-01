@@ -128,7 +128,7 @@ class  MyDB {
 	}
 
 	public static function insertInfoDB($mould,$music,$man,$women,$lasttime,$house,$adress,$user_id,$show_time,$mini_time,$title,$message,$image,$bigimage,$bigtitle,$link){
-		$sql="INSERT INTO message (mould,music,man,women,lasttime,house,adress,user_id,show_time,mini_time,title,message,image,bigimage,bigtitle) VALUES ('".$mould."','".$music."','".$man."','".$women."','".$lasttime."','".$house."','".$adress."',".$user_id.",'".$show_time."','".$mini_time."','".$title."','".$message."','".$image."','".$bigimage."','".$bigtitle."')";
+		$sql="INSERT INTO message (mould,pc_mould,music,man,women,lasttime,house,adress,user_id,show_time,mini_time,title,message,image,bigimage,bigtitle) VALUES ('粉红浪漫','p1','".$music."','".$man."','".$women."','".$lasttime."','".$house."','".$adress."',".$user_id.",'".$show_time."','".$mini_time."','".$title."','".$message."','".$image."','".$bigimage."','".$bigtitle."')";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			//			echo "Select Failed: " . mysql_error($link);
