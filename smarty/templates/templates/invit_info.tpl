@@ -93,7 +93,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴酒店</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">席设</label>
     <div class="col-sm-10">
       <input class="form-control" name="house" type="text" id="house" value="{#$house #}"/>
     </div>
