@@ -696,8 +696,8 @@ setInterval(_fresh,1000);
 
 <script type="text/javascript">
     var share_img_url = "http://bcs.duapp.com/marryimg/{#$bigimage#}";
-var share_title = "{#$man#}&{#$women#}结婚啦";
-var share_desc = "{#$man#}&{#$women#}结婚啦";
+var share_title = "{#$bigtitle#}";
+var share_desc = "{#$bigtitle#}";
 var share_link = "";
 
 //内容模型
