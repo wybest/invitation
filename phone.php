@@ -33,6 +33,11 @@ if($messageDO!=null){
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
 	Globle::$smarty->assign("extends",$messageDO->extends);
 	Globle::$smarty->assign("special_name",$messageDO->special_name);
+	Globle::$smarty->assign("title1",$messageDO->title1);
+	Globle::$smarty->assign("title2",$messageDO->title2);
+	Globle::$smarty->assign("title3",$messageDO->title3);
+	Globle::$smarty->assign("title4",$messageDO->title4);
+	Globle::$smarty->assign("title5",$messageDO->title5);
 	if($vip_id != ""){
 		$vip = MyDB::selectVipByIdDB($vip_id, $link);
 		if($vip!=null){

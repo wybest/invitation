@@ -180,6 +180,11 @@ class  MyDB {
 					$messageDO->bigtitle=$row['bigtitle'];
 					$messageDO->extends=$row['extends'];
 					$messageDO->special_name=$row['special_name'];
+					$messageDO->title1=$row['title1'];
+					$messageDO->title2=$row['title2'];
+					$messageDO->title3=$row['title3'];
+					$messageDO->title4=$row['title4'];
+					$messageDO->title5=$row['title5'];
 				}
 				return $messageDO;
 			}

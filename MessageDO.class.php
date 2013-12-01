@@ -21,6 +21,11 @@ class  MessageDO {
 	public $bigtitle;
 	public $extends;
 	public $special_name;
+	public $title1;
+	public $title2;
+	public $title3;
+	public $title4;
+	public $title5;
 }
 
 ?>
