@@ -68,7 +68,7 @@ if($messageDO!=null){
     		}
     	}else{
     		header('Content-Type:text/html; charset=UTF-8');
-    		echo "对不起，您访问的请柬没有设置手机版的";
+    		echo "对不起，您访问的请柬没有购买手机版的";
     	}
     }else{
     	if($user->is_pc==1||$user->is_pay==0){
@@ -80,7 +80,7 @@ if($messageDO!=null){
     		}
     	}else{
     		header('Content-Type:text/html; charset=UTF-8');
-    		echo "对不起，您访问的请柬没有设置电脑版的";
+    		echo "对不起，您访问的请柬没有购买电脑版的";
     	}
     }
 	

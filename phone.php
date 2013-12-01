@@ -75,7 +75,7 @@ if($messageDO!=null){
     		}
     	}else{
     		header('Content-Type:text/html; charset=UTF-8');
-    		echo "对不起，您访问的请柬没有设置手机版的";
+    		echo "对不起，您访问的请柬没有购买手机版的";
     	}
     }else{
     		header('Content-Type:text/html; charset=UTF-8');
