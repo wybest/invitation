@@ -279,6 +279,13 @@ var _hmt = _hmt || [];
           <input type="password" name="password" class="input_kuang item errortip" id="password" placeholder="密码" isRequired="true" autocomplete="off"/>
 
         </div>
+        
+        <div class="input-field clearfix" id="loginPass">
+
+          <input style="width: 140px;" type="text" name="code" class="input_kuang item errortip" id="code" placeholder="验证码" isRequired="true" autocomplete="off"/>
+          <img style="height: 37px;" src="code.php"/>
+
+        </div>
 
         
 

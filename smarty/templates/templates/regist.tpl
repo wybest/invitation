@@ -146,6 +146,13 @@ if (document.getElementById('email').value=="")
             <input id="email" type="text" class="input_kuang val_m item errortip" name="email" isRequired="true" repeat="#pwd" autocomplete="off" />
 
 	  </dd>
+	  
+	  <dt class="dt_l">验证码：</dt>
+
+	  <dd class="dd_r clearfix">
+			<input style="width: 140px;" type="text" name="code" class="input_kuang item errortip" id="code" placeholder="验证码" isRequired="true" autocomplete="off"/>
+          <img style="height: 37px;" src="code.php"/>
+	  </dd>
 
 	      <i class="code_error">
 

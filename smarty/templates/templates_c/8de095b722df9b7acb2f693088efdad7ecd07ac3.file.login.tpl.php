@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-10-30 11:52:22
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-02 06:41:39
          compiled from "smarty\templates\templates\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24789525bf4f23aa7c1-39274370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8de095b722df9b7acb2f693088efdad7ecd07ac3' => 
     array (
       0 => 'smarty\\templates\\templates\\login.tpl',
-      1 => 1383133937,
+      1 => 1385966347,
       2 => 'file',
     ),
   ),
@@ -302,6 +302,13 @@ var _hmt = _hmt || [];
         <div class="input-field clearfix" id="loginPass">
 
           <input type="password" name="password" class="input_kuang item errortip" id="password" placeholder="密码" isRequired="true" autocomplete="off"/>
+
+        </div>
+        
+        <div class="input-field clearfix" id="loginPass">
+
+          <input style="width: 140px;" type="text" name="code" class="input_kuang item errortip" id="code" placeholder="验证码" isRequired="true" autocomplete="off"/>
+          <img style="height: 37px;" src="code.php"/>
 
         </div>
 

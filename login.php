@@ -8,22 +8,27 @@ Globle::initSmarty();
 session_start();
 $name = $_REQUEST['name'];
 $password = $_REQUEST['password'];
-
+$code = $_REQUEST['code'];
 if($name!=""){
 	
-	//sql注入检查
-	$name = mysql_escape_string($name);
-//	safesql($name);
-	$user = MyDB::selectUserDB($name,$password,$link);
-	if($user!=null){
-		MyDB::updateUserLastTimeDB($name,$link);
-		$_SESSION['name'] = $name;
-		$_SESSION['user_id'] = $user->id;
-		echo '<script>location.href="invit_info.php"</script>';
+	if($code == $_SESSION['sn']){
+		//sql注入检查
+		$name = mysql_escape_string($name);
+	//	safesql($name);
+		$user = MyDB::selectUserDB($name,$password,$link);
+		if($user!=null){
+			MyDB::updateUserLastTimeDB($name,$link);
+			$_SESSION['name'] = $name;
+			$_SESSION['user_id'] = $user->id;
+			echo '<script>location.href="invit_info.php"</script>';
+		}else{
+			Globle::$smarty->assign("message","用户名或密码错误");
+			
+		}
 	}else{
-		Globle::$smarty->assign("message","用户名或密码错误");
-		Globle::$smarty->display('login.tpl');
+		Globle::$smarty->assign("message","验证码填写错误，请重新填写");
 	}
+	Globle::$smarty->display('login.tpl');
 }else{
 	Globle::$smarty->display('login.tpl');
 }

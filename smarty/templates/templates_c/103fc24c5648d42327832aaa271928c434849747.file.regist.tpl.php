@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-09 13:57:28
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-02 06:40:06
          compiled from "smarty\templates\templates\regist.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:28945526a55285b81f7-15186190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '103fc24c5648d42327832aaa271928c434849747' => 
     array (
       0 => 'smarty\\templates\\templates\\regist.tpl',
-      1 => 1384005443,
+      1 => 1385966338,
       2 => 'file',
     ),
   ),
@@ -171,6 +171,13 @@ if (document.getElementById('email').value=="")
 
             <input id="email" type="text" class="input_kuang val_m item errortip" name="email" isRequired="true" repeat="#pwd" autocomplete="off" />
 
+	  </dd>
+	  
+	  <dt class="dt_l">验证码：</dt>
+
+	  <dd class="dd_r clearfix">
+			<input style="width: 140px;" type="text" name="code" class="input_kuang item errortip" id="code" placeholder="验证码" isRequired="true" autocomplete="off"/>
+          <img style="height: 37px;" src="code.php"/>
 	  </dd>
 
 	      <i class="code_error">
