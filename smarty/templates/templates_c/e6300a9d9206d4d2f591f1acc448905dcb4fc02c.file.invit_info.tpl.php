@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-01 13:56:27
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-04 06:58:27
          compiled from "smarty\templates\templates\invit_info.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2680525cebb0e0eb70-83849667%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6300a9d9206d4d2f591f1acc448905dcb4fc02c' => 
     array (
       0 => 'smarty\\templates\\templates\\invit_info.tpl',
-      1 => 1385871163,
+      1 => 1386140092,
       2 => 'file',
     ),
   ),
@@ -155,7 +155,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒时间</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒时间（结婚时间）</label>
     <div class="col-sm-10">
       <input class="form-control" name="lasttime" type="text" id="lasttime"
 			value="<?php echo $_smarty_tpl->tpl_vars['lasttime']->value;?>

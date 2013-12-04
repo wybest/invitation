@@ -86,7 +86,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒时间</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒时间（结婚时间）</label>
     <div class="col-sm-10">
       <input class="form-control" name="lasttime" type="text" id="lasttime"
 			value="{#$lasttime #}" placeholder="格式：2013/9/9 12:30" data-toggle="tooltip" title="格式：2013/9/9 12:30"/>
