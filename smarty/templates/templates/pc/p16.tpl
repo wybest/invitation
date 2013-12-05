@@ -31,7 +31,7 @@
 <div id="gspinner" class="spinner"></div>
 <div id="glob">
   <header>
-    <h1><a href="#!/home"><img src="templates/front_templ/wedding_theme_023/images/logo.png" alt=""/></a><span class="slogan"><strong>梁山伯</strong> 与 <strong>祝英台</strong> 的婚宴邀约！</span></h1>
+    <h1><a href="#!/home"><img src="templates/front_templ/wedding_theme_023/images/logo.png" alt=""/></a><span class="slogan"><strong>{#$bigtitle#}</strong> </h1>
   </header>
   <nav class="splash">
     <ul>
