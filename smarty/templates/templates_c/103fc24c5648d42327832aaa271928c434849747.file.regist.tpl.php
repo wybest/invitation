@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-02 06:40:06
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-06 09:55:47
          compiled from "smarty\templates\templates\regist.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:28945526a55285b81f7-15186190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '103fc24c5648d42327832aaa271928c434849747' => 
     array (
       0 => 'smarty\\templates\\templates\\regist.tpl',
-      1 => 1385966338,
+      1 => 1386323745,
       2 => 'file',
     ),
   ),
@@ -115,7 +115,7 @@ if (document.getElementById('email').value=="")
 
 
 
-<div class="suc_content reg-account nojsp">
+<div class="suc_content nojsp" style="margin-left: auto;margin-right: auto;">
 
   <div class="suc_kuang">
 

@@ -90,7 +90,7 @@ if (document.getElementById('email').value=="")
 
 
 
-<div class="suc_content reg-account nojsp">
+<div class="suc_content nojsp" style="margin-left: auto;margin-right: auto;">
 
   <div class="suc_kuang">
 
