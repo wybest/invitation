@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-02 06:41:39
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-06 15:01:24
          compiled from "smarty\templates\templates\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24789525bf4f23aa7c1-39274370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8de095b722df9b7acb2f693088efdad7ecd07ac3' => 
     array (
       0 => 'smarty\\templates\\templates\\login.tpl',
-      1 => 1385966347,
+      1 => 1386342062,
       2 => 'file',
     ),
   ),
@@ -316,7 +316,7 @@ var _hmt = _hmt || [];
 
         <div class="cooke">
 
-			<span><?php echo $_smarty_tpl->tpl_vars['message']->value;?>
+			<span style="color: red;"><?php echo $_smarty_tpl->tpl_vars['message']->value;?>
 </span>
 
         </div>

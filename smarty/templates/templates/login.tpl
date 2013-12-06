@@ -291,7 +291,7 @@ var _hmt = _hmt || [];
 
         <div class="cooke">
 
-			<span>{#$message#}</span>
+			<span style="color: red;">{#$message#}</span>
 
         </div>
 

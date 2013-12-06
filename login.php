@@ -30,6 +30,11 @@ if($name!=""){
 	}
 	Globle::$smarty->display('login.tpl');
 }else{
+	
+	$target = $_REQUEST['target'];
+	if($target!=""){
+		Globle::$smarty->assign("message","注册成功");
+	}
 	Globle::$smarty->display('login.tpl');
 }
 function safesql($name)
