@@ -10,6 +10,7 @@ class  UserDO {
 	public $is_pc;
 	public $font_family;
 	public $advert;
+	public $is_advert;
 }
 
 ?>

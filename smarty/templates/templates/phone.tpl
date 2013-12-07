@@ -686,8 +686,10 @@ setInterval(_fresh,1000);
 </div>
 
 <div id="footer"><div id="copyright">
+{#if $is_advert eq "1"#}
 <div id="copyright-text">本服务由QQ:2378822906提供 </div>
 <div id="copyright-text">{#$advert#}</div>
+{#/if#}
 </div>
 </div>
 

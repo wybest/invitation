@@ -64,6 +64,7 @@ if($messageDO!=null){
 	$user = MyDB::selectUserByIdDB($user,$link);
 	Globle::$smarty->assign("font_family",$user->font_family);
 	Globle::$smarty->assign("advert",$user->advert);
+	Globle::$smarty->assign("is_advert",$user->is_advert);
 	$info=isMobile();
     if($info){
     	if($user->is_phone==1||$user->is_pay==0){

@@ -122,6 +122,7 @@ class  MyDB {
 				$user->is_pc = $row["is_pc"];
 				$user->font_family = $row["font_family"];
 				$user->advert = $row["advert"];
+				$user->is_advert = $row["is_advert"];
 				return $user;
 			}
 		}

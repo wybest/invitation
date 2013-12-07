@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-01 04:27:20
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-07 07:08:48
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44335263c3416ecc93-02459452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1385871937,
+      1 => 1386400054,
       2 => 'file',
     ),
   ),
@@ -44,6 +44,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'message' => 0,
     'title5' => 0,
     'lasttime' => 0,
+    'is_advert' => 0,
     'advert' => 0,
   ),
   'has_nocache_code' => false,
@@ -401,11 +402,8 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style/桃色经典/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">
-    			<?php if ($_smarty_tpl->tpl_vars['title1']->value){?>
-              <?php echo $_smarty_tpl->tpl_vars['title1']->value;?>
-
-              <?php }else{ ?>爱的邀约<?php }?></span></a>
+    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style/桃色经典/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167"><?php if ($_smarty_tpl->tpl_vars['title1']->value){?><?php echo $_smarty_tpl->tpl_vars['title1']->value;?>
+<?php }else{ ?>爱的邀约<?php }?></span></a>
             </div>
             </div>
             </div>
@@ -457,11 +455,8 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">
-    			<?php if ($_smarty_tpl->tpl_vars['title2']->value){?>
-              <?php echo $_smarty_tpl->tpl_vars['title2']->value;?>
-
-              <?php }else{ ?>婚纱相册<?php }?></span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167"><?php if ($_smarty_tpl->tpl_vars['title2']->value){?><?php echo $_smarty_tpl->tpl_vars['title2']->value;?>
+<?php }else{ ?>婚纱相册<?php }?></span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -527,11 +522,8 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">
-    			<?php if ($_smarty_tpl->tpl_vars['title3']->value){?>
-              <?php echo $_smarty_tpl->tpl_vars['title3']->value;?>
-
-              <?php }else{ ?>婚宴回函<?php }?></span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167"><?php if ($_smarty_tpl->tpl_vars['title3']->value){?><?php echo $_smarty_tpl->tpl_vars['title3']->value;?>
+<?php }else{ ?>婚宴回函<?php }?></span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -589,7 +581,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
                                         <input id="guest" type="text" name="guest" placeholder="姓名" class="textbox">
                                         <br>
                                         <br>
-                                        你是否参加我们的婚礼:
+                                        你是否参加:
                                             <select id="pnum" name="pnum">
 													                <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
 													                <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
@@ -634,11 +626,8 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">
-    			<?php if ($_smarty_tpl->tpl_vars['title4']->value){?>
-              <?php echo $_smarty_tpl->tpl_vars['title4']->value;?>
-
-              <?php }else{ ?>婚宴地图<?php }?></span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095"><?php if ($_smarty_tpl->tpl_vars['title4']->value){?><?php echo $_smarty_tpl->tpl_vars['title4']->value;?>
+<?php }else{ ?>婚宴地图<?php }?></span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -745,11 +734,8 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">
-    			<?php if ($_smarty_tpl->tpl_vars['title5']->value){?>
-              <?php echo $_smarty_tpl->tpl_vars['title5']->value;?>
-
-              <?php }else{ ?>婚礼提醒<?php }?></span></a>            </div>
+    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167"><?php if ($_smarty_tpl->tpl_vars['title5']->value){?><?php echo $_smarty_tpl->tpl_vars['title5']->value;?>
+<?php }else{ ?>婚礼提醒<?php }?></span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -808,9 +794,11 @@ setInterval(_fresh,1000);
 </div>
 
 <div id="footer"><div id="copyright">
+<?php if ($_smarty_tpl->tpl_vars['is_advert']->value=="1"){?>
 <div id="copyright-text">本服务由QQ:2378822906提供 </div>
 <div id="copyright-text"><?php echo $_smarty_tpl->tpl_vars['advert']->value;?>
 </div>
+<?php }?>
 </div>
 </div>
 
@@ -820,12 +808,10 @@ setInterval(_fresh,1000);
 <script type="text/javascript">
     var share_img_url = "http://bcs.duapp.com/marryimg/<?php echo $_smarty_tpl->tpl_vars['bigimage']->value;?>
 ";
-var share_title = "<?php echo $_smarty_tpl->tpl_vars['man']->value;?>
-&<?php echo $_smarty_tpl->tpl_vars['women']->value;?>
-结婚啦";
-var share_desc = "<?php echo $_smarty_tpl->tpl_vars['man']->value;?>
-&<?php echo $_smarty_tpl->tpl_vars['women']->value;?>
-结婚啦";
+var share_title = "<?php echo $_smarty_tpl->tpl_vars['bigtitle']->value;?>
+";
+var share_desc = "<?php echo $_smarty_tpl->tpl_vars['bigtitle']->value;?>
+";
 var share_link = "";
 
 //内容模型
@@ -837,7 +823,7 @@ var contentModel = {
     "desc": share_desc, 
     "title": share_title, 
     "src": "<?php if ($_smarty_tpl->tpl_vars['vip']->value!="none"){?><?php echo $_smarty_tpl->tpl_vars['vip']->value;?>
-,<?php }?>诚挚邀请您来参加我们的婚礼，点击查看详情。" 
+,<?php }?>诚挚邀请您来参加，点击查看详情。" 
 };
 //实验muin
 var muinObj = {"allUser":1};
