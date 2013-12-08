@@ -1,4 +1,4 @@
-#Sun Dec 08 15:59:01 CST 2013
+#Sun Dec 08 16:55:02 CST 2013
 eclipse.preferences.version=1
 encoding//js/fun.inc.js=UTF-8
 encoding//js/html5.js=UTF-8
@@ -14,16 +14,13 @@ encoding//smarty/templates/templates/image.tpl=UTF-8
 encoding//smarty/templates/templates/invit_info.tpl=UTF-8
 encoding//smarty/templates/templates/invitadress.tpl=UTF-8
 encoding//smarty/templates/templates/invitvipadress.tpl=UTF-8
-encoding//smarty/templates/templates/login-back.tpl=UTF-8
 encoding//smarty/templates/templates/login.tpl=UTF-8
 encoding//smarty/templates/templates/mould_pc.tpl=UTF-8
 encoding//smarty/templates/templates/mp3.tpl=UTF-8
 encoding//smarty/templates/templates/pc.tpl=UTF-8
-encoding//smarty/templates/templates/phone-back.tpl=UTF-8
 encoding//smarty/templates/templates/phone.tpl=UTF-8
 encoding//smarty/templates/templates/receipt.tpl=UTF-8
 encoding//smarty/templates/templates/receiptDetail.tpl=UTF-8
-encoding//smarty/templates/templates/regist-back.tpl=UTF-8
 encoding//smarty/templates/templates/regist.tpl=UTF-8
 encoding//style/weichat.js=UTF-8
 encoding//templates/front_templ/wedding_theme_021/css/style.css=UTF-8

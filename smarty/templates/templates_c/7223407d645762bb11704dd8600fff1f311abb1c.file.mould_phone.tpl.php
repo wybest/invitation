@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:18:28
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 10:02:13
          compiled from "smarty\templates\templates\mould_phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:160845290bf15560fb3-86390195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7223407d645762bb11704dd8600fff1f311abb1c' => 
     array (
       0 => 'smarty\\templates\\templates\\mould_phone.tpl',
-      1 => 1385475504,
+      1 => 1386496931,
       2 => 'file',
     ),
   ),
@@ -38,7 +38,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <form class="form-horizontal"  ACTION="save_phone_mould.php"
 		METHOD="POST" id="form1" name="form1">
 <input type="hidden" name="insert" value="insert" />		
-<div style="margin-top: 20px;width: 800px;">
+<div style="margin-top: -30px;width: 100%;">
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -76,8 +76,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 </div>
 
-	&nbsp;
-&nbsp; &nbsp;
+</div>
+
+
+
+<div style="margin-top: 200px;width: 100%;">
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -89,9 +92,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 </div>
 
-</div>
-
-<div style="margin-top: 200px;width: 800px;">
+	&nbsp;
+&nbsp; &nbsp;
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -116,8 +118,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 </div>
 
-	&nbsp;
-&nbsp; &nbsp;
+</div>
+
+<div style="margin-top: 200px;width: 100%;">
+
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -139,7 +143,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 
 </div>
-
-
 </div>
+
+
 </form><?php }} ?>

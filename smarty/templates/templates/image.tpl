@@ -19,13 +19,13 @@
   <button type="submit" class="btn btn-primary">提 交</button>
 </form>
 </div>
-<div style="margin-top: 20px;width: 800px;">
+<div style="margin-top: 20px;width: 100%;">
 {#if $images != "none"#}
 {#section name=customer loop=$images #}
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
-<img style="width: 210px; height: 200px;" class="img-thumbnail"
+<img style="width: 190px; height: 180px;" class="img-thumbnail"
 	src="http://bcs.duapp.com/marryimg/{#$images[customer]#}">
 </div>	
 <div style="text-align: center;">
@@ -39,7 +39,7 @@
     {#if $smarty.section.customer.iteration mod 3 == 0 #}
     	</div>
 		<p>&nbsp;</p>
-		<div style="margin-top: 200px;width: 800px;">
+		<div style="margin-top: 200px;width: 100%;">
     {#/if#} 
 {#/section#}
 {#/if#}

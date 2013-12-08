@@ -10,7 +10,7 @@
 <form class="form-horizontal"  ACTION="save_phone_mould.php"
 		METHOD="POST" id="form1" name="form1">
 <input type="hidden" name="insert" value="insert" />		
-<div style="margin-top: 20px;width: 800px;">
+<div style="margin-top: -30px;width: 100%;">
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -48,8 +48,11 @@
 </div>
 </div>
 
-	&nbsp;
-&nbsp; &nbsp;
+</div>
+
+
+
+<div style="margin-top: 200px;width: 100%;">
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -61,9 +64,8 @@
 </div>
 </div>
 
-</div>
-
-<div style="margin-top: 200px;width: 800px;">
+	&nbsp;
+&nbsp; &nbsp;
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -88,8 +90,10 @@
 </div>
 </div>
 
-	&nbsp;
-&nbsp; &nbsp;
+</div>
+
+<div style="margin-top: 200px;width: 100%;">
+
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
@@ -111,7 +115,7 @@
 </div>
 
 </div>
-
-
 </div>
+
+
 </form>

@@ -18,7 +18,7 @@
 
 <div style="float: left;">
 <div style="margin-left: 10px;">
-<a target="_blank" href="http://{#$host#}pc.php?name={#$user_id#}@{#$vip_array[customer]->id#}"><img src='http://chart.apis.google.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl=http://{#$host#}phone.php?name={#$user_id#}@{#$vip_array[customer]->id#}' width='120' height='120'  /></a>
+<a target="_blank" href="http://{#$host#}pc.php?name={#$user_id#}@{#$vip_array[customer]->id#}"><img src='http://chart.apis.google.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl=http://{#$host#}phone.php?name={#$user_id#}@{#$vip_array[customer]->id#}' width='130' height='130'  /></a>
 </div>	
 <div style="text-align: center;">
 <a target="_blank" href="http://{#$host#}pc.php?name={#$user_id#}@{#$vip_array[customer]->id#}" class="btn btn-primary">打开电脑请柬</a>

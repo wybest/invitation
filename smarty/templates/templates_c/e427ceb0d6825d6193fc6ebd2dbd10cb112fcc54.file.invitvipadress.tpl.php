@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 08:07:26
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 09:39:52
          compiled from "smarty\templates\templates\invitvipadress.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:69885268f1672bf184-83766722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e427ceb0d6825d6193fc6ebd2dbd10cb112fcc54' => 
     array (
       0 => 'smarty\\templates\\templates\\invitvipadress.tpl',
-      1 => 1386490043,
+      1 => 1386495589,
       2 => 'file',
     ),
   ),
@@ -77,7 +77,7 @@ pc.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 "><img src='http://chart.apis.google.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl=http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
 phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 @<?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->id;?>
-' width='120' height='120'  /></a>
+' width='130' height='130'  /></a>
 </div>	
 <div style="text-align: center;">
 <a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>

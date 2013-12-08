@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-09 16:02:48
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 10:04:40
          compiled from "smarty\templates\templates\receipt.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:51905260d8c6b8e578-90187008%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '58bdaa2967ccc20c2f417b2efc8db13b4b82dbe3' => 
     array (
       0 => 'smarty\\templates\\templates\\receipt.tpl',
-      1 => 1384006066,
+      1 => 1386496997,
       2 => 'file',
     ),
   ),
@@ -83,7 +83,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
 ">最后一页</a></td> 
       <td>第<?php echo $_smarty_tpl->tpl_vars['page']->value;?>
 页    (总共 <?php echo $_smarty_tpl->tpl_vars['count']->value;?>
-条,共<?php echo $_smarty_tpl->tpl_vars['end']->value;?>
+人,共<?php echo $_smarty_tpl->tpl_vars['end']->value;?>
 页)</td>
     </tr>
   </table>

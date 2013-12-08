@@ -79,16 +79,6 @@ if (document.getElementById('email').value=="")
 
 <body>
 
-<div class="top">
-
-	<div class="logo">
-
-爱尚微信喜帖
-	</div>
-
-</div>
-
-
 
 <div class="suc_content nojsp" style="margin-left: auto;margin-right: auto;">
 
@@ -185,7 +175,6 @@ if (document.getElementById('email').value=="")
 
 <div class="footer">
 
-  <div class="faq_link"><a href="" tppabs="" target="_blank"><em></em>常见问题</a></div>
   <ul class="links">
 
     <li class="copyright"><span>爱尚网络版权所有</span></li>

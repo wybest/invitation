@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-06 09:55:47
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 08:25:22
          compiled from "smarty\templates\templates\regist.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:28945526a55285b81f7-15186190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '103fc24c5648d42327832aaa271928c434849747' => 
     array (
       0 => 'smarty\\templates\\templates\\regist.tpl',
-      1 => 1386323745,
+      1 => 1386491118,
       2 => 'file',
     ),
   ),
@@ -103,16 +103,6 @@ if (document.getElementById('email').value=="")
 </head>
 
 <body>
-
-<div class="top">
-
-	<div class="logo">
-
-爱尚微信喜帖
-	</div>
-
-</div>
-
 
 
 <div class="suc_content nojsp" style="margin-left: auto;margin-right: auto;">
@@ -211,7 +201,6 @@ if (document.getElementById('email').value=="")
 
 <div class="footer">
 
-  <div class="faq_link"><a href="" tppabs="" target="_blank"><em></em>常见问题</a></div>
   <ul class="links">
 
     <li class="copyright"><span>爱尚网络版权所有</span></li>

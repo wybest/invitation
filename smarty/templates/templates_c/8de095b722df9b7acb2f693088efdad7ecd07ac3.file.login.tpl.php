@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-06 15:01:24
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 08:22:42
          compiled from "smarty\templates\templates\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24789525bf4f23aa7c1-39274370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8de095b722df9b7acb2f693088efdad7ecd07ac3' => 
     array (
       0 => 'smarty\\templates\\templates\\login.tpl',
-      1 => 1386342062,
+      1 => 1386490959,
       2 => 'file',
     ),
   ),
@@ -89,11 +89,11 @@ input:-moz-placeholder {color: #ccc; }
 
 body{background:#f2f2f2;}
 
-.top{padding-top:25px; height:75px; background:#ececec; border-bottom:1px solid #d9d9d9;}
+.top{height:20px; background:#ececec; border-bottom:1px solid #d9d9d9;}
 
 .logo, .content, .footer{width:900px; margin:0 auto; padding:0 30px;}
 
-.content{padding-top:80px; height:500px; position:relative;}
+.content{height:500px; position:relative;}
 
 .loadimg{background:url("../../../style/images/img/welcome3.jpg") 0 80px no-repeat;}
 
@@ -197,7 +197,7 @@ text-align:center; color:#DD621F; font-weight:bold; background-position:0 -40px;
 
 .links li.copyright{border-right:none;}
 
-.footer{text-align:center; margin-top:95px; }
+.footer{text-align:center; margin-top:40px; }
 
 .footer a{color:#ff6600; padding:0 10px; }
 
@@ -351,7 +351,6 @@ var _hmt = _hmt || [];
 
 <div class="footer">
 
-  <div class="faq_link"><a href="" tppabs="" target="_blank"><em></em>常见问题</a></div>
   <ul class="links">
 
     <li class="copyright"><span>爱尚网络版权所有</span></li>

@@ -21,6 +21,6 @@
       <td><a href="receipt.php?page_nm={#$up#}">前一页</a></td>
       <td><a href="receipt.php?page_nm={#$next#}">下一个</a></td>
       <td><a href="receipt.php?page_nm={#$end#}">最后一页</a></td> 
-      <td>第{#$page#}页    (总共 {#$count#}条,共{#$end#}页)</td>
+      <td>第{#$page#}页    (总共 {#$count#}人,共{#$end#}页)</td>
     </tr>
   </table>
