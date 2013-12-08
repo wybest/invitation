@@ -19,7 +19,7 @@
 
 
 <form class="form-horizontal" role="form" ACTION="save_info.php"
-		METHOD="POST" id="form1" name="form1" style="width: 80%; margin: auto;">
+		METHOD="POST" id="form1" name="form1" style="width: 90%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label tooltip"></label>
