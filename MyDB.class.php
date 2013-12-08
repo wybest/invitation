@@ -206,6 +206,17 @@ class  MyDB {
 		}
 	}
 	
+    public static function updateInfoMusicDB($music,$user_id,$link){
+
+		$sql="update message set music='".$music."' where user_id=".$user_id."";
+		$ret = mysql_query($sql, $link);
+		if ($ret === false) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
 	public static function updateInfoWxDB($weixin,$user_id,$link){
 
 		$sql="update message set weixin='".$weixin."' where user_id=".$user_id."";

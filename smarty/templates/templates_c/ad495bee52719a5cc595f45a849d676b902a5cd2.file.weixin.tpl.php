@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 14:48:20
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 15:10:21
          compiled from "smarty\templates\templates\weixin.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3118052a481bd23cad2-92837325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ad495bee52719a5cc595f45a849d676b902a5cd2' => 
     array (
       0 => 'smarty\\templates\\templates\\weixin.tpl',
-      1 => 1386514001,
+      1 => 1386515418,
       2 => 'file',
     ),
   ),
@@ -41,8 +41,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <label >自定义微信名片文字（不填写默认使用"诚挚邀请您来参加，点击查看详情."）</label>
   </div>		
   <div class="form-group">
-    <div class="col-sm-10">
-      <textarea style="float: left;"  name="weixin" cols="30" rows="5"
+    <div>
+      <textarea style="float: left;width: 340px; height: 125px;"  name="weixin" cols="30" rows="5"
 			id="weixin"><?php echo $_smarty_tpl->tpl_vars['weixin']->value;?>
 </textarea>
 	  <img style="float: left;width: 270px; height: 125px;" src="images/f.jpg">		

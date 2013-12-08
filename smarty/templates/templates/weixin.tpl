@@ -15,8 +15,8 @@
     <label >自定义微信名片文字（不填写默认使用"诚挚邀请您来参加，点击查看详情."）</label>
   </div>		
   <div class="form-group">
-    <div class="col-sm-10">
-      <textarea style="float: left;"  name="weixin" cols="30" rows="5"
+    <div>
+      <textarea style="float: left;width: 340px; height: 125px;"  name="weixin" cols="30" rows="5"
 			id="weixin">{#$weixin #}</textarea>
 	  <img style="float: left;width: 270px; height: 125px;" src="images/f.jpg">		
     </div>

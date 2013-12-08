@@ -61,6 +61,7 @@ function clearText(field)
                 
                 <ul class="categories_list">
                     <li><a href="invit_info.php">请柬内容设置</a></li>
+                    <li><a href="music.php">背景音乐设置</a></li>
                     <li><a href="mould_phone.php">手机请柬风格设置</a></li>
                     <li><a href="mould_pc.php">电脑请柬风格设置</a></li>
                     <li><a href="coordinate.php">请柬坐标设置</a></li>

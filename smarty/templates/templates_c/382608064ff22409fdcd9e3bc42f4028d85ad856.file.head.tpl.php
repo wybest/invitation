@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 14:26:59
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 15:00:57
          compiled from "smarty\templates\templates\head.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19998525cab2ae70af0-54031275%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '382608064ff22409fdcd9e3bc42f4028d85ad856' => 
     array (
       0 => 'smarty\\templates\\templates\\head.tpl',
-      1 => 1386512205,
+      1 => 1386514754,
       2 => 'file',
     ),
   ),
@@ -87,6 +87,7 @@ function clearText(field)
                 
                 <ul class="categories_list">
                     <li><a href="invit_info.php">请柬内容设置</a></li>
+                    <li><a href="music.php">背景音乐设置</a></li>
                     <li><a href="mould_phone.php">手机请柬风格设置</a></li>
                     <li><a href="mould_pc.php">电脑请柬风格设置</a></li>
                     <li><a href="coordinate.php">请柬坐标设置</a></li>
