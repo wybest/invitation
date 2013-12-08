@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-04 07:01:55
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 08:07:26
          compiled from "smarty\templates\templates\invitvipadress.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:69885268f1672bf184-83766722%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e427ceb0d6825d6193fc6ebd2dbd10cb112fcc54' => 
     array (
       0 => 'smarty\\templates\\templates\\invitvipadress.tpl',
-      1 => 1386140479,
+      1 => 1386490043,
       2 => 'file',
     ),
   ),
@@ -84,6 +84,11 @@ phone.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 pc.php?name=<?php echo $_smarty_tpl->tpl_vars['user_id']->value;?>
 @<?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->id;?>
 " class="btn btn-primary">打开电脑请柬</a>
+</div>
+<div style="text-align: center;">
+<a onclick="return confirm('确认要删除?');" href="http://<?php echo $_smarty_tpl->tpl_vars['host']->value;?>
+delete_vip.php?vip_id=<?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->id;?>
+"><img style="" src="img/delete.png" alt="删除"></a>
 </div>
 <div style="text-align: center;">
 <span><?php echo $_smarty_tpl->tpl_vars['vip_array']->value[$_smarty_tpl->getVariable('smarty')->value['section']['customer']['index']]->vip_name;?>

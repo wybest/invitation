@@ -1,4 +1,4 @@
-#Sat Nov 30 13:16:29 CST 2013
+#Sun Dec 08 15:59:01 CST 2013
 eclipse.preferences.version=1
 encoding//js/fun.inc.js=UTF-8
 encoding//js/html5.js=UTF-8
@@ -35,6 +35,7 @@ encoding/conf.inc.php=UTF-8
 encoding/coordinate.php=GBK
 encoding/createA.php=UTF-8
 encoding/delete_photo.php=UTF-8
+encoding/delete_vip.php=UTF-8
 encoding/image.php=UTF-8
 encoding/index-back.php=UTF-8
 encoding/init_mp3list.php=UTF-8

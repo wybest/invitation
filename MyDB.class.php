@@ -417,6 +417,17 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 			return true;
 		}
 	}
+	
+	public static function deleteVipDB($user_id, $vip_id,$link){
+
+		$sql="delete from vip where  user_id = ".$user_id." and id = ".$vip_id;
+		$ret = mysql_query($sql, $link);
+		if ($ret === false) {
+			return false;
+		} else {
+			return true;
+		}
+	}
 }
 
 ?>

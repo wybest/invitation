@@ -24,6 +24,9 @@
 <a target="_blank" href="http://{#$host#}pc.php?name={#$user_id#}@{#$vip_array[customer]->id#}" class="btn btn-primary">打开电脑请柬</a>
 </div>
 <div style="text-align: center;">
+<a onclick="return confirm('确认要删除?');" href="http://{#$host#}delete_vip.php?vip_id={#$vip_array[customer]->id#}"><img style="" src="img/delete.png" alt="删除"></a>
+</div>
+<div style="text-align: center;">
 <span>{#$vip_array[customer]->vip_name#}</span>
 </div>
 </div>

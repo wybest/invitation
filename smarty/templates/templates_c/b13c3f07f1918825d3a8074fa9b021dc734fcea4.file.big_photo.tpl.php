@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-04 09:01:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 08:06:24
          compiled from "smarty\templates\templates\big_photo.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:24784525e8812651af3-23757435%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b13c3f07f1918825d3a8074fa9b021dc734fcea4' => 
     array (
       0 => 'smarty\\templates\\templates\\big_photo.tpl',
-      1 => 1383555658,
+      1 => 1386145062,
       2 => 'file',
     ),
   ),
@@ -35,6 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_smarty_tpl->tpl_vars['target']->value=="false"){?>  
       <div class="alert alert-danger">操作失败，重新提交</div>   
 <?php }?> 
+<div class="alert alert-success">（相片要求为横版）相片大小限制在150kb内，手机屏幕小，打开是很清晰的，同时手机打开速度会很快，压缩图片去<a href="http://xiuxiu.web.meitu.com/">美图秀秀网页版</a> </div>
 <div id="showtext" class="editor active" style="margin: auto;width: 710px;">
 <div style="float: left;padding-top: 90px;">
 <form class="form-inline" role="form" action="save_photo.php" method="post" enctype="multipart/form-data">
