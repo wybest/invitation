@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="intro/introjs.min.css"/>
   <script type="text/javascript" src="intro/intro.min.js"></script>
 
+  <script type="text/javascript" src="js/jQuery1.7.2.js"></script>
+
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 <script language="javascript" type="text/javascript">
 function clearText(field)
