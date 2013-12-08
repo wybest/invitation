@@ -10,7 +10,7 @@
 <div class="alert alert-success">点击图片查看模板</div>
 <form class="form-horizontal"  ACTION="save_pc_mould.php"
 		METHOD="POST" id="form1" name="form1">
-<input type="hidden" name="insert" value="insert" />		
+<input type="hidden" name="insert" value="insert" onclick="checkStyle()" />		
 <div style="margin-top: 20px;width: 100%;">
 
 <div style="float: left;">
@@ -19,7 +19,7 @@
 	src="uploadimg/p1.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p1" {#if $pcmould  eq  "p1"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p1" {#if $pcmould  eq  "p1"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -30,7 +30,7 @@
 	src="uploadimg/p2.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p2" {#if $pcmould  eq  "p2"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p2" {#if $pcmould  eq  "p2"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -41,7 +41,7 @@
 	src="uploadimg/p3.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p3" {#if $pcmould  eq  "p3"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p3" {#if $pcmould  eq  "p3"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -52,7 +52,7 @@
 	src="uploadimg/p4.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p4" {#if $pcmould  eq  "p4"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p4" {#if $pcmould  eq  "p4"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -62,7 +62,7 @@
 	src="uploadimg/p5.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p5" {#if $pcmould  eq  "p5"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p5" {#if $pcmould  eq  "p5"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -72,7 +72,7 @@
 	src="uploadimg/p6.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p6" {#if $pcmould  eq  "p6"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p6" {#if $pcmould  eq  "p6"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -82,7 +82,7 @@
 	src="uploadimg/p7.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p7" {#if $pcmould  eq  "p7"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p7" {#if $pcmould  eq  "p7"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -92,7 +92,7 @@
 	src="uploadimg/p8.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p8" {#if $pcmould  eq  "p8"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p8" {#if $pcmould  eq  "p8"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -102,7 +102,7 @@
 	src="uploadimg/p9.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p9" {#if $pcmould  eq  "p9"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p9" {#if $pcmould  eq  "p9"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -112,7 +112,7 @@
 	src="uploadimg/p10.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p10" {#if $pcmould  eq  "p10"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p10" {#if $pcmould  eq  "p10"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -122,7 +122,7 @@
 	src="uploadimg/p11.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p11" {#if $pcmould  eq  "p11"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p11" {#if $pcmould  eq  "p11"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -132,7 +132,7 @@
 	src="uploadimg/p12.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p12" {#if $pcmould  eq  "p12"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p12" {#if $pcmould  eq  "p12"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -142,7 +142,7 @@
 	src="uploadimg/p13.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p13" {#if $pcmould  eq  "p13"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p13" {#if $pcmould  eq  "p13"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -152,7 +152,7 @@
 	src="uploadimg/p14.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p14" {#if $pcmould  eq  "p14"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p14" {#if $pcmould  eq  "p14"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -162,7 +162,7 @@
 	src="uploadimg/p15.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p15" {#if $pcmould  eq  "p15"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p15" {#if $pcmould  eq  "p15"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
@@ -172,19 +172,17 @@
 	src="uploadimg/p16.jpg"></a>
 </div>	
 <div style="text-align: center;">
-<input type="radio" name="pcmould" value="p16" {#if $pcmould  eq  "p16"#} checked="checked" {#/if#}/>
+<input type="radio" name="pcmould" value="p16" {#if $pcmould  eq  "p16"#} checked="checked" {#/if#}onclick="checkStyle()" />
 </div>
 </div>
 
-<div style="float: left;">
-
-<div style="text-align: center;width: 170px; height: 265px;margin-top:80px;">
-<button type="submit" class="btn btn-primary">提交电脑模板</button>
-</div>
 
 </div>
-
-</div>
-
+<script language="javascript" type="text/javascript">
+function checkStyle()
+{
+	form1.submit();
+}
+</script>
 
 </form>
