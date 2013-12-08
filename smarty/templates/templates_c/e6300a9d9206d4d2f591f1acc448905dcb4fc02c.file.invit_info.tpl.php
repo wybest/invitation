@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-04 06:58:27
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 14:27:00
          compiled from "smarty\templates\templates\invit_info.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2680525cebb0e0eb70-83849667%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6300a9d9206d4d2f591f1acc448905dcb4fc02c' => 
     array (
       0 => 'smarty\\templates\\templates\\invit_info.tpl',
-      1 => 1386140092,
+      1 => 1386497939,
       2 => 'file',
     ),
   ),
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 <form class="form-horizontal" role="form" ACTION="save_info.php"
-		METHOD="POST" id="form1" name="form1" style="width: 80%; margin: auto;">
+		METHOD="POST" id="form1" name="form1" style="width: 90%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label tooltip"></label>

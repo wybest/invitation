@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-07 07:08:48
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-08 14:48:01
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:44335263c3416ecc93-02459452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1386400054,
+      1 => 1386512783,
       2 => 'file',
     ),
   ),
@@ -46,6 +46,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'lasttime' => 0,
     'is_advert' => 0,
     'advert' => 0,
+    'weixin' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -823,7 +824,8 @@ var contentModel = {
     "desc": share_desc, 
     "title": share_title, 
     "src": "<?php if ($_smarty_tpl->tpl_vars['vip']->value!="none"){?><?php echo $_smarty_tpl->tpl_vars['vip']->value;?>
-,<?php }?>诚挚邀请您来参加，点击查看详情。" 
+,<?php }?> <?php if ($_smarty_tpl->tpl_vars['weixin']->value){?><?php echo $_smarty_tpl->tpl_vars['weixin']->value;?>
+ <?php }else{ ?> 诚挚邀请您来参加，点击查看详情。 <?php }?> " 
 };
 //实验muin
 var muinObj = {"allUser":1};

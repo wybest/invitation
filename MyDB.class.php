@@ -186,6 +186,7 @@ class  MyDB {
 					$messageDO->title3=$row['title3'];
 					$messageDO->title4=$row['title4'];
 					$messageDO->title5=$row['title5'];
+					$messageDO->weixin=$row['weixin'];
 				}
 				return $messageDO;
 			}
@@ -197,6 +198,17 @@ class  MyDB {
 	public static function updateInfoDB($mould,$music,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
 		$sql="update message set mould='".$mould."',music='".$music."',lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id='".$name."'";
+		$ret = mysql_query($sql, $link);
+		if ($ret === false) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	public static function updateInfoWxDB($weixin,$user_id,$link){
+
+		$sql="update message set weixin='".$weixin."' where user_id=".$user_id."";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;

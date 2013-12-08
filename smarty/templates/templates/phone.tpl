@@ -710,7 +710,7 @@ var contentModel = {
     "link": share_link, 
     "desc": share_desc, 
     "title": share_title, 
-    "src": "{#if $vip != "none"#}{#$vip#},{#/if#}诚挚邀请您来参加，点击查看详情。" 
+    "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} " 
 };
 //实验muin
 var muinObj = {"allUser":1};

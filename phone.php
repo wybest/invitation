@@ -38,6 +38,7 @@ if($messageDO!=null){
 	Globle::$smarty->assign("title3",$messageDO->title3);
 	Globle::$smarty->assign("title4",$messageDO->title4);
 	Globle::$smarty->assign("title5",$messageDO->title5);
+	Globle::$smarty->assign("weixin",$messageDO->weixin);
 	if($vip_id != ""){
 		$vip = MyDB::selectVipByIdDB($vip_id, $link);
 		if($vip!=null){

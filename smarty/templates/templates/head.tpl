@@ -57,7 +57,7 @@ function clearText(field)
             <div id="templatemo_sidebar_top"></div>
             <div id="templatemo_sidebar">
             
-                <h2>请柬信息设置</h2>
+                <h2>请柬DIY</h2>
                 
                 <ul class="categories_list">
                     <li><a href="invit_info.php">请柬内容设置</a></li>
@@ -66,6 +66,7 @@ function clearText(field)
                     <li><a href="coordinate.php">请柬坐标设置</a></li>
                     <li><a href="big_photo.php">请柬封面设置</a></li>
                     <li><a href="image.php">请柬相册设置</a></li>
+                    <li><a href="weixin.php">微信名片设置</a></li>
                 </ul>
                 
                 <div class="cleaner_h30"></div>
