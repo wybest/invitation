@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-11-26 14:00:36
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-09 07:08:29
          compiled from "smarty\templates\templates\pc\p16.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:267385294a7188f5bd4-21120270%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'faed5209ee7d212353af77f37c9e03dfca85281d' => 
     array (
       0 => 'smarty\\templates\\templates\\pc\\p16.tpl',
-      1 => 1385474433,
+      1 => 1386571728,
       2 => 'file',
     ),
   ),
@@ -26,6 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'vip' => 0,
     'man' => 0,
     'women' => 0,
+    'extends' => 0,
     'house' => 0,
     'adress' => 0,
     'images' => 0,
@@ -70,7 +71,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="gspinner" class="spinner"></div>
 <div id="glob">
   <header>
-    <h1><a href="#!/home"><img src="templates/front_templ/wedding_theme_023/images/logo.png" alt=""/></a><span class="slogan"><strong>梁山伯</strong> 与 <strong>祝英台</strong> 的婚宴邀约！</span></h1>
+    <h1><a href="#!/home"><img src="templates/front_templ/wedding_theme_023/images/logo.png" alt=""/></a><span class="slogan"><strong><?php echo $_smarty_tpl->tpl_vars['bigtitle']->value;?>
+</strong> </h1>
   </header>
   <nav class="splash">
     <ul>
@@ -102,9 +104,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <br />
 新娘：<?php echo $_smarty_tpl->tpl_vars['women']->value;?>
 <br />
-在这温馨浪漫，喜悦甜蜜的日子里 我俩决定于<?php echo $_smarty_tpl->tpl_vars['show_time']->value;?>
+<?php if ($_smarty_tpl->tpl_vars['extends']->value){?><?php echo $_smarty_tpl->tpl_vars['extends']->value;?>
+<?php }else{ ?>在这温馨浪漫，喜悦甜蜜的日子里 我俩决定于<?php echo $_smarty_tpl->tpl_vars['show_time']->value;?>
  <?php echo $_smarty_tpl->tpl_vars['mini_time']->value;?>
-举行结婚典礼，届时敬备酒宴，欢迎您到来分享这份喜悦，您的光临将使我们的婚宴增添万分光彩!<br />
+举行结婚典礼，届时敬备酒宴，欢迎您到来分享这份喜悦，您的光临将使我们的婚宴增添万分光彩!<?php }?><br />
 <span>地点： <?php echo $_smarty_tpl->tpl_vars['house']->value;?>
 </span><br />
 <span>酒店地址： <?php echo $_smarty_tpl->tpl_vars['adress']->value;?>
