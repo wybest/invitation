@@ -18,7 +18,7 @@ if($vip_name!=""){
 		//现有多少vip
 		$count = MyDB::countVipDB($user->id, $link);
 		if($user->vip_num <= $count){
-			Globle::$smarty->assign("message","您的贵宾数量已经超过".$user->vip_num."个了，如果需要增加数量请联系客服");
+			Globle::$smarty->assign("message","您的贵宾数量已经超过".$user->vip_num."个了，如果需要增加数量请联系客服（我们需要租用空间存储贵宾，请您谅解）");
 		}else{ 
 			MyDB::insertVipDB($user->id, $vip_name, $link);
 		}
