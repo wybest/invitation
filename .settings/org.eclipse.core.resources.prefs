@@ -1,4 +1,4 @@
-#Sun Dec 08 23:02:29 CST 2013
+#Tue Dec 10 12:21:35 CST 2013
 eclipse.preferences.version=1
 encoding//js/fun.inc.js=UTF-8
 encoding//js/html5.js=UTF-8
@@ -8,6 +8,7 @@ encoding//smarty/templates/templates/big_photo.tpl=UTF-8
 encoding//smarty/templates/templates/coordinate.tpl=UTF-8
 encoding//smarty/templates/templates/createA.tpl=UTF-8
 encoding//smarty/templates/templates/createB.tpl=UTF-8
+encoding//smarty/templates/templates/edit_info.tpl=UTF-8
 encoding//smarty/templates/templates/foot.tpl=UTF-8
 encoding//smarty/templates/templates/head.tpl=UTF-8
 encoding//smarty/templates/templates/image.tpl=UTF-8
@@ -35,6 +36,7 @@ encoding/coordinate.php=GBK
 encoding/createA.php=UTF-8
 encoding/delete_photo.php=UTF-8
 encoding/delete_vip.php=UTF-8
+encoding/edit_info.php=UTF-8
 encoding/image.php=UTF-8
 encoding/index-back.php=UTF-8
 encoding/init_mp3list.php=UTF-8

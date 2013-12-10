@@ -7,18 +7,8 @@
 {#/if#}  
 
 
- <link rel="stylesheet" href="editor/jquery.wysiwyg.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="editor/jquery.wysiwyg.js"></script>
-  <script type="text/javascript">
-  $(function()
-  {
-      $('#message').wysiwyg();
-  });
-  $('#lasttime').tooltip('show')
-  </script>
 
-
-<form class="form-horizontal" role="form" ACTION="save_info.php"
+<form class="form-horizontal" role="form" ACTION="edit_info.php"
 		METHOD="POST" id="form1" name="form1" style="width: 90%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
@@ -27,95 +17,98 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">新郎</label>
+    <label >{#$message#}</label>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">付款状态</label>
     <div class="col-sm-10">
-      <input class="form-control" name="man" type="text" id="man" value="{#$man#}"/>
+      {#if $is_pay == 0 #}未付款{#else#}已付款{#/if#}
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">新娘</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">账户名</label>
     <div class="col-sm-10">
-      <input class="form-control" name="women" type="text" id="women" value="{#$women #}"/>
+      <input class="form-control" name="uname" type="text" id="uname" value="{#$name#}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴标题</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">开通手机版</label>
     <div class="col-sm-10">
-      <input class="form-control" name="bigtitle" type="text" id="title" value="{#$bigtitle #}" placeholder="例如：帅哥和美女结婚了"/>
-    </div>
-  </div>
-  <!--  
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">请柬风格</label>
-    <div class="col-sm-10">
-      <select class="form-control" name="mould">
-              <option {#if $mould eq "入场券"#}selected="selected"{#/if#} value ="入场券">入场券</option>
-              <option {#if $mould eq "典雅古风"#}selected="selected"{#/if#} value ="典雅古风">典雅古风</option>
-              <option {#if $mould eq "粉红浪漫"#}selected="selected"{#/if#} value="粉红浪漫">粉红浪漫</option>
-              <option {#if $mould eq "金色永恒"#}selected="selected"{#/if#} value="金色永恒">金色永恒</option>
-              <option {#if $mould eq "桃色经典"#}selected="selected"{#/if#} value="桃色经典">桃色经典</option>
-              <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
-              <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
-		</select>
-    </div>
-  </div>-->
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">背景音乐</label>
-    <div class="col-sm-10">
-      <select class="form-control" name="music">
-		{#$mp3list#}
-		{#section name=customer loop=$mp3list #}
-			<option {#if $music eq $mp3list[customer]#}selected="selected"{#/if#} value ="{#$mp3list[customer]#}">{#$mp3list[customer]#}</option>
-		{#/section#}
-		
-		</select>
+      <select name="isphone">
+                                                	<option {#if $is_phone == 0 #}selected="selected"{#/if#} value="0">关闭</option>
+                                                	<option {#if $is_phone == 1 #}selected="selected"{#/if#} value="1">开通</option>
+                                                </select>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴日期</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">开通电脑版</label>
     <div class="col-sm-10">
-      <input class="form-control" name="show_time" type="text" id="show_time"
-			value="{#$show_time #}" placeholder="例如：2013年1月1日  星期四"/> 
+     <select name="ispc">{#$is_pc#}
+                                                	<option {#if $is_pc == 0 #}selected="selected"{#/if#} value="0">关闭</option>
+                                                	<option {#if $is_pc == 1 #}selected="selected"{#/if#} value="1">开通</option>
+                                                </select>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴时分</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">贵宾数量</label>
     <div class="col-sm-10">
-      <input class="form-control" name="mini_time" type="text" id="Text2"
-			value="{#$mini_time #}" placeholder="例如：下午5:30入席"/> 
+      <input class="form-control" name="vip_num" type="text" id="vip_num" value="{#$vip_num#}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒时间（结婚时间）</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">广告</label>
     <div class="col-sm-10">
-      <input class="form-control" name="lasttime" type="text" id="lasttime"
-			value="{#$lasttime #}" placeholder="格式：2013/9/9 12:30" data-toggle="tooltip" title="格式：2013/9/9 12:30"/>
+      <input class="form-control" name="advert" type="text" id="advert" value="{#$advert#}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">席设</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">字体</label>
     <div class="col-sm-10">
-      <input class="form-control" name="house" type="text" id="house" value="{#$house #}"/>
+      <input class="form-control" name="font_family" type="text" id="font_family" value="{#$font_family#}"/>
+    </div>
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">祝福信息</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="extends" type="text" id="extends" value="{#$extends#}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">婚宴地址</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">特别称呼</label>
     <div class="col-sm-10">
-      <input class="form-control" name="adress" type="text" id="adress"
-			value="{#$adress #}" />
+      <input class="form-control" name="special_name" type="text" id="special_name" value="{#$special_name #}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">自定义标题</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">爱的邀约</label>
     <div class="col-sm-10">
-      <input class="form-control" name="title" type="text" id="title" value="{#$title #}" placeholder="例如：爱情故事"/>
+      <input class="form-control" name="title1" type="text" id="title1" value="{#$title1 #}"/>
+    </div>
+  </div>
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">婚纱相册</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="title2" type="text" id="title2" value="{#$title2 #}"/>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">自定义文本</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">婚宴回函</label>
     <div class="col-sm-10">
-      <textarea class="form-control" name="message" cols="30" rows="5"
-			id="message">{#$message #}</textarea>
+      <input class="form-control" name="title3" type="text" id="title3" value="{#$title3 #}"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">婚宴地图</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="title4" type="text" id="title4" value="{#$title4 #}"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">婚礼提醒</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="title5" type="text" id="title5" value="{#$title5 #}"/>
     </div>
   </div>
 

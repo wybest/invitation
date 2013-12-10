@@ -11,6 +11,13 @@ class  UserDO {
 	public $font_family;
 	public $advert;
 	public $is_advert;
+	public $extends;
+	public $special_name;
+	public $title1;
+	public $title2;
+	public $title3;
+	public $title4;
+	public $title5;
 }
 
 ?>

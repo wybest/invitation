@@ -1,4 +1,29 @@
-
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-10 12:24:34
+         compiled from "smarty\templates\templates\createA.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:679252a7077765a9b8-76327613%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '9f7a984918614f64ff198c326dfd16b0937b9036' => 
+    array (
+      0 => 'smarty\\templates\\templates\\createA.tpl',
+      1 => 1386678169,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '679252a7077765a9b8-76327613',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_52a707776abb66_59741553',
+  'variables' => 
+  array (
+    'message' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_52a707776abb66_59741553')) {function content_52a707776abb66_59741553($_smarty_tpl) {?>
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 	<HEAD>
 		<title></title>
@@ -36,7 +61,8 @@
                                     <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
                                         <tbody><tr>
                                             <td height="10" colspan="2" align="center">
-                                            <span>{#$message#}</span>
+                                            <span><?php echo $_smarty_tpl->tpl_vars['message']->value;?>
+</span>
                                             </td>
                                         </tr>
                                         <tr>
@@ -70,3 +96,4 @@
 </tbody></table>
 </body>
 </HTML>
+<?php }} ?>

@@ -36,12 +36,13 @@ class  MyDB {
 		echo   "删除失败";
 	}
 
-	public static function updateUserPasswordDB($name,$link,$isphone,$ispc,$font_family,$advert){
+	public static function updateUserPasswordDB($vip_num,$extends,$special_name,$title1,$title2,$title3,$title4,$title5,$user_id,$link,$isphone,$ispc,$font_family,$advert){
 
-		$sql = "update user set advert='".$advert."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where name='".$name."'";
+		$sql = "update user set vip_num=".$vip_num." , extends='".$extends."',special_name='".$special_name."',title1='".$title1."',title2='".$title2."',title3='".$title3."',title4='".$title4."',title5='".$title5."' , advert='".$advert."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
 		$ret = mysql_query($sql, $link);
 		
 		if ($ret === false) {
+			die("Select Database Failed: " . mysql_error($link));
 			return false;
 		} else {
 			$row =  mysql_affected_rows($link);
@@ -96,6 +97,13 @@ class  MyDB {
 				$user->is_pc = $row["is_pc"];
 				$user->font_family = $row["font_family"];
 				$user->advert = $row["advert"];
+				$user->extends=$row['extends'];
+				$user->special_name=$row['special_name'];
+				$user->title1=$row['title1'];
+				$user->title2=$row['title2'];
+				$user->title3=$row['title3'];
+				$user->title4=$row['title4'];
+				$user->title5=$row['title5'];
 				return $user;
 			}
 		}
@@ -123,6 +131,13 @@ class  MyDB {
 				$user->font_family = $row["font_family"];
 				$user->advert = $row["advert"];
 				$user->is_advert = $row["is_advert"];
+				$user->extends=$row['extends'];
+				$user->special_name=$row['special_name'];
+				$user->title1=$row['title1'];
+				$user->title2=$row['title2'];
+				$user->title3=$row['title3'];
+				$user->title4=$row['title4'];
+				$user->title5=$row['title5'];
 				return $user;
 			}
 		}
@@ -179,13 +194,6 @@ class  MyDB {
 					$messageDO->image=$row['image'];
 					$messageDO->bigimage=$row['bigimage'];
 					$messageDO->bigtitle=$row['bigtitle'];
-					$messageDO->extends=$row['extends'];
-					$messageDO->special_name=$row['special_name'];
-					$messageDO->title1=$row['title1'];
-					$messageDO->title2=$row['title2'];
-					$messageDO->title3=$row['title3'];
-					$messageDO->title4=$row['title4'];
-					$messageDO->title5=$row['title5'];
 					$messageDO->weixin=$row['weixin'];
 				}
 				return $messageDO;

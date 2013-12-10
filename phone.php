@@ -31,13 +31,6 @@ if($messageDO!=null){
 	Globle::$smarty->assign("message",$messageDO->message);
 	Globle::$smarty->assign("nongli",$messageDO->nongli);
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
-	Globle::$smarty->assign("extends",$messageDO->extends);
-	Globle::$smarty->assign("special_name",$messageDO->special_name);
-	Globle::$smarty->assign("title1",$messageDO->title1);
-	Globle::$smarty->assign("title2",$messageDO->title2);
-	Globle::$smarty->assign("title3",$messageDO->title3);
-	Globle::$smarty->assign("title4",$messageDO->title4);
-	Globle::$smarty->assign("title5",$messageDO->title5);
 	Globle::$smarty->assign("weixin",$messageDO->weixin);
 	if($vip_id != ""){
 		$vip = MyDB::selectVipByIdDB($vip_id, $link);
@@ -53,8 +46,8 @@ if($messageDO!=null){
 	
 	Globle::$smarty->assign("name",$user);
     if($messageDO->bigimage==""&&$messageDO->image==""){
-    	$images = explode(",", "2013-10-26-22-54-07.jpg,2013-10-27-09-49-39.jpg,2013-10-27-09-49-48.jpg,2013-10-27-09-49-57.jpg,2013-10-27-09-50-07.jpg,2013-10-27-10-48-18.jpg");
-		Globle::$smarty->assign("bigimage","2013-10-26-22-43-46.jpg");
+    	$images = explode(",", "2013-12-04-17-48-03.jpg,2013-12-04-17-48-08.jpg,2013-12-04-17-49-07.jpg,2013-12-04-17-49-13.jpg,2013-12-04-17-49-36.jpg,2013-12-04-17-49-44.jpg");
+		Globle::$smarty->assign("bigimage","2013-12-04-17-51-28.jpg");
     	Globle::$smarty->assign("images",$images);
 	}else{
 		$images = explode(",", $messageDO->image);
@@ -66,6 +59,13 @@ if($messageDO!=null){
 	Globle::$smarty->assign("font_family",$user->font_family);
 	Globle::$smarty->assign("advert",$user->advert);
 	Globle::$smarty->assign("is_advert",$user->is_advert);
+	Globle::$smarty->assign("extends",$user->extends);
+	Globle::$smarty->assign("special_name",$user->special_name);
+	Globle::$smarty->assign("title1",$user->title1);
+	Globle::$smarty->assign("title2",$user->title2);
+	Globle::$smarty->assign("title3",$user->title3);
+	Globle::$smarty->assign("title4",$user->title4);
+	Globle::$smarty->assign("title5",$user->title5);
 	$info=isMobile();
     if($info){
     	if($user->is_phone==1||$user->is_pay==0){
