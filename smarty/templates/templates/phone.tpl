@@ -397,40 +397,23 @@ window.onload = function() {
         <div class="detail-ml">
         <div class="detail-mm">
         
-                	 <div>
-                	 
-                	 {#section name=customer loop=$images #}
-					  
-					  
-					    <figure>
-	                              <a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" imgname="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]" style="width:33%;display:block;text-align:center;"></a>
-	                    </figure>
-					  
-					   {#if $smarty.section.customer.iteration mod 3 == 0 #}
-					    	 </div>
-                		         <div>
-					    {#/if#} 
-					  
-					  
-					  {#/section#}
-                		    </div>            		
         
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
 
 
 
-<!-- <ul id="Gallery" class="gallery" style="width: 100% ">
+<ul id="Gallery" class="gallery" >
 		
 
 
- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>
+ <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->  
  
 {#section name=customer loop=$images #}
 	<li><a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="external"><img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" alt=" "/></a></li>
 {#/section#}
 
  </ul>
-     -->                          
+                             
 	</div>
         </div>
         </div>

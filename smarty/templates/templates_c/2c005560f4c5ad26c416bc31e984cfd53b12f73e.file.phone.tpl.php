@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-11 08:05:50
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-11 08:29:40
          compiled from "smarty\templates\templates\phone.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3092752a70fcb195bc9-56078005%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c005560f4c5ad26c416bc31e984cfd53b12f73e' => 
     array (
       0 => 'smarty\\templates\\templates\\phone.tpl',
-      1 => 1386749140,
+      1 => 1386750394,
       2 => 'file',
     ),
   ),
@@ -114,7 +114,7 @@ font-family:微软雅黑;
 		(function(window, $, PhotoSwipe){
 			$(document).ready(function(){
 				var options = {};
-				$("#Gallery a").photoSwipe(options);
+				$("#detail-mm a").photoSwipe(options);
 			});
 		}(window, window.jQuery, window.Code.PhotoSwipe));
 	</script>
@@ -469,15 +469,17 @@ window.onload = function() {
         <div class="detail-mr">
         <div class="detail-ml">
         <div class="detail-mm">
+        
+        
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
 
 
 
- <ul id="Gallery" class="gallery" style="width: 100% ">
+<ul id="Gallery" class="gallery" >
 		
 
 
- <!--<li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->
+ <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->  
  
 <?php if (isset($_smarty_tpl->tpl_vars['smarty']->value['section']['customer'])) unset($_smarty_tpl->tpl_vars['smarty']->value['section']['customer']);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['name'] = 'customer';
@@ -509,7 +511,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
 <?php endfor; endif; ?>
 
  </ul>
-                               
+                             
 	</div>
         </div>
         </div>
@@ -539,6 +541,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['customer']['last']       = (
         <div class="detail-mm">
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
  <script language="javascript">
+
  function Check()
  {
 
