@@ -57,7 +57,7 @@ font-family:微软雅黑;
 		(function(window, $, PhotoSwipe){
 			$(document).ready(function(){
 				var options = {};
-				$("#detail-mm a").photoSwipe(options);
+				$("#Gallery a").photoSwipe(options);
 			});
 		}(window, window.jQuery, window.Code.PhotoSwipe));
 	</script>
