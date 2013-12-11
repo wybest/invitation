@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-12-10 12:56:14
+<?php /* Smarty version Smarty-3.1.13, created on 2013-12-11 03:08:28
          compiled from "smarty\templates\templates\invit_info.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:491252a70f6ea72549-96139942%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e6300a9d9206d4d2f591f1acc448905dcb4fc02c' => 
     array (
       0 => 'smarty\\templates\\templates\\invit_info.tpl',
-      1 => 1386497939,
+      1 => 1386731282,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_52a70f6eb75f94_46767771',
   'variables' => 
   array (
     'target' => 0,
@@ -33,8 +35,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'message' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_52a70f6eb75f94_46767771',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_52a70f6eb75f94_46767771')) {function content_52a70f6eb75f94_46767771($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['target']->value=="true"){?>  
@@ -97,6 +97,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <option <?php if ($_smarty_tpl->tpl_vars['mould']->value=="桃色经典"){?>selected="selected"<?php }?> value="桃色经典">桃色经典</option>
               <option <?php if ($_smarty_tpl->tpl_vars['mould']->value=="正港台味"){?>selected="selected"<?php }?> value="正港台味">正港台味</option>
               <option <?php if ($_smarty_tpl->tpl_vars['mould']->value=="蓝色梦幻"){?>selected="selected"<?php }?> value="蓝色梦幻">蓝色梦幻</option>
+              <option <?php if ($_smarty_tpl->tpl_vars['mould']->value=="温馨淡黄"){?>selected="selected"<?php }?> value="温馨淡黄">温馨淡黄</option>
 		</select>
     </div>
   </div>-->

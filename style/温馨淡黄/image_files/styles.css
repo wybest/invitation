@@ -3,10 +3,10 @@ h2 { font-size: 1.1em; padding: 10px; margin: 0; }
 img { border: none; }
 a { color: #444340; }
 
-#Header { background: #EEBF02; height: 61px; padding: 0; border-bottom: 1px solid #3c3c3c;  }
+#Header { background: #85010C; height: 61px; padding: 0; border-bottom: 1px solid #85010C;  }
 #Header img { display: block; margin: 0 auto 0; }
 
-#MainContent { background: #ffffff; padding-bottom: 30px; }
+#MainContent { background: #85010C; padding-bottom: 30px; }
 
 #Footer { padding: 10px; border-top: none; } 
 

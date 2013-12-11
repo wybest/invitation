@@ -56,6 +56,7 @@
               <option {#if $mould eq "桃色经典"#}selected="selected"{#/if#} value="桃色经典">桃色经典</option>
               <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
               <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
+              <option {#if $mould eq "温馨淡黄"#}selected="selected"{#/if#} value="温馨淡黄">温馨淡黄</option>
 		</select>
     </div>
   </div>-->

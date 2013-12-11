@@ -1,4 +1,4 @@
-#Tue Dec 10 12:21:35 CST 2013
+#Wed Dec 11 11:26:28 CST 2013
 eclipse.preferences.version=1
 encoding//js/fun.inc.js=UTF-8
 encoding//js/html5.js=UTF-8
@@ -26,6 +26,7 @@ encoding//smarty/templates/templates/receiptDetail.tpl=UTF-8
 encoding//smarty/templates/templates/regist.tpl=UTF-8
 encoding//smarty/templates/templates/weixin.tpl=UTF-8
 encoding//style/weichat.js=UTF-8
+encoding//style/\u6E29\u99A8\u6DE1\u9EC4/image_files/custom.css=UTF-8
 encoding//templates/front_templ/wedding_theme_021/css/style.css=UTF-8
 encoding/Globle.class.php=UTF-8
 encoding/MyDB.class.php=UTF-8
