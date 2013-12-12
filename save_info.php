@@ -8,7 +8,6 @@ Globle::initSmarty();
 require 'is_login.php';
 
 if($_REQUEST['insert'] == "insert"){
-	$mould=$_REQUEST['mould'];
 	$music=$_REQUEST['music'];
 	$man=$_REQUEST['man'];
 	$women=$_REQUEST['women'];
@@ -28,7 +27,7 @@ if($_REQUEST['insert'] == "insert"){
 	if($messageDO==null){
 		$target = MyDB::insertInfoDB($mould, $music, $man, $women, $lasttime, $house, $adress, $user_id, $show_time, $mini_time, $title, $message, $image, $bigimage,$bigtitle,$link);
 	}else{
-		$target = MyDB::updateInfoDB($mould, $music, $lasttime, $house, $adress, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
+		$target = MyDB::updateInfoDB($music, $lasttime, $house, $adress, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
 	}
 	if($target){
 		Globle::$smarty->assign("target","true");
