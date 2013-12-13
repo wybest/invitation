@@ -40,15 +40,15 @@ for($i=0;$i<4;$i++)
 }
 
 $_SESSION['sn']=$rs;  //������ַ�洢��session��������sn��
-echo $_SESSION['sn'];
-////$im=imagecreatetruecolor(60,20);���ֻ���Ǻ�ɫ����
-//$im=imagecreate(60,20);
-//$bgcolor=imagecolorallocate($im,rand(1,255),0,rand(1,255)); //���������ɫ
-//$fontcolor=imagecolorallocate($im,0,255,0); //д�����ֵ���ɫ
-//imagestring($im,6,11,2,$rs,$fontcolor); //��$str�ַ�д��ͼƬ$im,����ɫ$fontcolor������ʽ5��ͼƬλ�ã�15��10����ʼ
-////header("Content_type:image/jpeg");
-////imagejpeg($im);
-//header("Content_type:image/png; charset=UTF-8");
-//imagepng($im);
-//imagedestroy($im);
+
+//$im=imagecreatetruecolor(60,20);���ֻ���Ǻ�ɫ����
+$im=imagecreate(60,20);
+$bgcolor=imagecolorallocate($im,rand(1,255),0,rand(1,255)); //���������ɫ
+$fontcolor=imagecolorallocate($im,0,255,0); //д�����ֵ���ɫ
+imagestring($im,6,11,2,$rs,$fontcolor); //��$str�ַ�д��ͼƬ$im,����ɫ$fontcolor������ʽ5��ͼƬλ�ã�15��10����ʼ
+//header("Content_type:image/jpeg");
+//imagejpeg($im);
+header("Content_type:image/png; charset=UTF-8");
+imagepng($im);
+imagedestroy($im);
 ?>
