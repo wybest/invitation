@@ -12,20 +12,20 @@ require_once("configure.php");
 //	$user = getenv('HTTP_BAE_ENV_AK');
 //	$pwd = getenv('HTTP_BAE_ENV_SK');
 	
-	$dbname = "invitation";
-
-	$host = "localhost";
-	$port = "3306";
-	$user = "root";
-	$pwd = "880507";
-
-//    $dbname = "test";
+//	$dbname = "invitation";
 //
 //	$host = "localhost";
 //	$port = "3306";
 //	$user = "root";
-//	$pwd = "root";
-	
+//	$pwd = "880507";
+
+    $dbname = "test";
+
+	$host = "localhost";
+	$port = "3306";
+	$user = "root";
+	$pwd = "root";
+
 //	echo $host." ".$port." ".$user." ".$pwd." ";
 	
 	/*接着调用mysql_connect()连接服务器*/

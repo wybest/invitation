@@ -1,9 +1,9 @@
 <?php
-/*Éú³É4¸ö´óÐ´×ÖÄ¸ÑéÖ¤ÂëµÄÍ¼Æ¬
- rand(Ëæ»úº¯Êý)£»Àý×Ó£ºrand(0,9)¼´Ëæ»ú0-9ÖÐµÄÒ»¸öÊý×Ö
- dechex(Ê®½øÖÆÊý)£¬Ê®½øÖÆ×ªÊ®Áù½øÖÆ£»Àý×Ó£º$a=dechex(10) ¼´$aÎªa
+/*ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½Ä¸ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Í¼Æ¬
+ rand(ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½rand(0,9)ï¿½ï¿½ï¿½ï¿½ï¿½0-9ï¿½Ðµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ dechex(Ê®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½Ê®ï¿½ï¿½ï¿½ï¿½×ªÊ®ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½Ó£ï¿½$a=dechex(10) ï¿½ï¿½$aÎªa
  */
-session_start();  //Æô¶¯session
+session_start();  //ï¿½ï¿½ï¿½ï¿½session
 for($i=0;$i<4;$i++)
 {
 	$sui=rand(1,26);
@@ -39,15 +39,16 @@ for($i=0;$i<4;$i++)
 	$rs.=$str;
 }
 
-$_SESSION['sn']=$rs;  //°ÑËæ»ú×Ö·û´æ´¢µ½sessionµÄËæ»úÃû³ÆsnÖÐ
-//$im=imagecreatetruecolor(60,20);Õâ¸öÖ»ÄÜÊÇºÚÉ«±³¾°
-$im=imagecreate(60,20);
-$bgcolor=imagecolorallocate($im,rand(1,255),0,rand(1,255)); //£¨Ëæ»ú£©±³¾°ÑÕÉ«
-$fontcolor=imagecolorallocate($im,0,255,0); //Ð´ÈëÎÄ×ÖµÄÑÕÉ«
-imagestring($im,6,11,2,$rs,$fontcolor); //°Ñ$str×Ö·û´®Ð´ÈëÍ¼Æ¬$im,ÓÃÑÕÉ«$fontcolor×ÖÌåÑùÊ½5ÔÚÍ¼Æ¬Î»ÖÃ£¨15£¬10£©¿ªÊ¼
-//header("Content_type:image/jpeg");
-//imagejpeg($im);
-header("Content_type:image/png; charset=UTF-8");
-imagepng($im);
-imagedestroy($im);
+$_SESSION['sn']=$rs;  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½æ´¢ï¿½ï¿½sessionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½snï¿½ï¿½
+echo $_SESSION['sn'];
+////$im=imagecreatetruecolor(60,20);ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½Çºï¿½É«ï¿½ï¿½ï¿½ï¿½
+//$im=imagecreate(60,20);
+//$bgcolor=imagecolorallocate($im,rand(1,255),0,rand(1,255)); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+//$fontcolor=imagecolorallocate($im,0,255,0); //Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½É«
+//imagestring($im,6,11,2,$rs,$fontcolor); //ï¿½ï¿½$strï¿½Ö·ï¿½Ð´ï¿½ï¿½Í¼Æ¬$im,ï¿½ï¿½ï¿½ï¿½É«$fontcolorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½5ï¿½ï¿½Í¼Æ¬Î»ï¿½Ã£ï¿½15ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½Ê¼
+////header("Content_type:image/jpeg");
+////imagejpeg($im);
+//header("Content_type:image/png; charset=UTF-8");
+//imagepng($im);
+//imagedestroy($im);
 ?>
