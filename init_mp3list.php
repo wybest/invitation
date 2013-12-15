@@ -28,11 +28,14 @@ $d = opendir("mp3folder");
 while ($file = readdir($d))
 {
     if ($file == '.' || $file == '..' || eregi($mask, $file) ) continue;
-    if (is_dir($dir.'/'.$file))
-    {
-        $files += ls($dir.'/'.$file, $mask);
-        continue;
-    }
+//    if (is_dir($dir.'/'.$file))
+//    {
+//        $files += ls($dir.'/'.$file, $mask);
+//        continue;
+//    }
+
+    $file = str_replace('_',' ',$file);
+
     $files[$i++] = $file;
 //    echo $dir.'/'.$file;
 }
