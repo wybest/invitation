@@ -36,7 +36,7 @@ if($responseCore->isOK()){
 
     $opt = array (
         "fileWriteTo" => $fileWriteTo);
-    $response = $baiduBCS->get_object ( $bucket, "hhh.jpg", $opt );
+    $response = $baiduBCS->get_object ( $bucket, "2013-12-15-16-27-28.jpg", $opt );
     if (! $response->isOK ()) {
         die ( "Download object failed." );
     }
