@@ -19,7 +19,7 @@ if($responseCore->isOK()){
 //    for ($i = 0; $i < $lengh; $i++){
 //        $dt_record = $object_list[$i];
 //// 		echo $dt_record->object."</br>";
-//        $fileWriteTo = "marryimg/";
+//        $fileWriteTo = "./marryimg/";
 //
 //        $opt = array (
 //            "fileWriteTo" => $fileWriteTo.$dt_record->object );
