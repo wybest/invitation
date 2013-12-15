@@ -6,7 +6,7 @@ $sk = 'dysGQqeSi0HMyQFeiFhpBb6hbmydEKbe';
 $bucket = 'bcs-phpsdk-simple-start-' . time () . "-" . rand ( 1000, 999 );
 $object = '/a.txt';
 $fileUpload = './marryimg/2013-12-15-12-11-08.jpg';
-$fileWriteTo = './testaaa.' . time () . '.txt';
+$fileWriteTo = './testaaa.' . time () . '.jpg';
 $baiduBCS = new BaiduBCS ( $ak, $sk, $host );
 
 //step1. create a bucket
