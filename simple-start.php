@@ -12,6 +12,7 @@ $baiduBCS = new BaiduBCS ( $ak, $sk, $host );
 //step1. create a bucket
 $response = $baiduBCS->create_bucket ( $bucket );
 
+
 if ($response->isOK ()) {
 	echo "Create bucket[$bucket] success\n";
 
