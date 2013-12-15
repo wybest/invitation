@@ -143,8 +143,8 @@ class  MyDB {
 		}
 	}
 
-	public static function insertInfoDB($mould,$music,$man,$women,$lasttime,$house,$adress,$user_id,$show_time,$mini_time,$title,$message,$image,$bigimage,$bigtitle,$link){
-		$sql="INSERT INTO message (mould,pc_mould,music,man,women,lasttime,house,adress,user_id,show_time,mini_time,title,message,image,bigimage,bigtitle) VALUES ('粉红浪漫','p1','".$music."','".$man."','".$women."','".$lasttime."','".$house."','".$adress."',".$user_id.",'".$show_time."','".$mini_time."','".$title."','".$message."','".$image."','".$bigimage."','".$bigtitle."')";
+	public static function insertInfoDB($man,$women,$lasttime,$house,$adress,$user_id,$show_time,$mini_time,$title,$message,$image,$bigimage,$bigtitle,$link){
+		$sql="INSERT INTO message (mould,pc_mould,music,man,women,lasttime,house,adress,user_id,show_time,mini_time,title,message,image,bigimage,bigtitle) VALUES ('粉红浪漫','p1','','".$man."','".$women."','".$lasttime."','".$house."','".$adress."',".$user_id.",'".$show_time."','".$mini_time."','".$title."','".$message."','".$image."','".$bigimage."','".$bigtitle."')";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			//			echo "Select Failed: " . mysql_error($link);
@@ -203,9 +203,9 @@ class  MyDB {
 
 	}
 
-	public static function updateInfoDB($music,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
+	public static function updateInfoDB($lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
-		$sql="update message set music='".$music."',lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id='".$name."'";
+		$sql="update message set lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id='".$name."'";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;

@@ -60,18 +60,7 @@
 		</select>
     </div>
   </div>-->
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">背景音乐</label>
-    <div class="col-sm-10">
-      <select class="form-control" name="music">
-		{#$mp3list#}
-		{#section name=customer loop=$mp3list #}
-			<option {#if $music eq $mp3list[customer]#}selected="selected"{#/if#} value ="{#$mp3list[customer]#}">{#$mp3list[customer]#}</option>
-		{#/section#}
-		
-		</select>
-    </div>
-  </div>
+
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">婚宴日期</label>
     <div class="col-sm-10">

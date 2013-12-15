@@ -233,11 +233,13 @@ font-family: "微软雅黑";
     </div>
     <div id="Waiting">
         <span style="text-align:center; color:#F00">
-            加载中...
+            幸福加载中...
         </span>
     </div>
 </div>
+
 <audio preload="preload" id="audio_play" loop="loop"><source src="http://bcs.duapp.com/mp3folder/{#$music#}" type="audio/mpeg"></audio>
+
 <script language="javascript" type="text/javascript">
 var music = document.getElementById("audio_play");
 music.pause();
