@@ -9,7 +9,9 @@ $baiduBCS = new BaiduBCS ( $ak, $sk, $host );
 
 
 //下载百度云存储的文件
-
+$opt = array (
+            "start" => 0,
+    "limit" => 547);
 $responseCore = $baiduBCS->list_object_by_dir($bucket, '/',0);
 if($responseCore->isOK()){
     $body = json_decode($responseCore->body);
