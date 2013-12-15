@@ -6,7 +6,7 @@ require 'MyDB.class.php';
 require 'MessageDO.class.php';
 Globle::initSmarty();
 require 'is_login.php';
-require 'upfile.php';
+//require 'upfile.php';
 $messageDO = MyDB::selectInfoDB($user_id,$link);
 
 Globle::$smarty->display('head.tpl');
@@ -29,7 +29,7 @@ if($messageDO!=null){
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
 }
 //初始化音乐列表
-require 'init_mp3list.php';
+//require 'init_mp3list.php';
 
 Globle::$smarty->display('invit_info.tpl');
 Globle::$smarty->display('foot.tpl');

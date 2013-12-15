@@ -120,7 +120,7 @@
  
 <p style="line-height:20px">
   			<span style="display:inline">	
-	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	</p>
+	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	</p>
 </div>
  
 </header>
@@ -191,8 +191,8 @@
 {#section name=customer loop=$images #}
 				
 				
-	<a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]">
-	<img src2="" src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" alt="" style="margin:5px;max-width:300px;"/>
+	<a href="marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]">
+	<img src2="" src="marryimg/{#$images[customer]#}" alt="" style="margin:5px;max-width:300px;"/>
 	</a>			
 
 {#/section#}

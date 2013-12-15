@@ -4,7 +4,7 @@ require 'Globle.class.php';
 require 'basicDB.php';
 require 'MyDB.class.php';
 require 'MessageDO.class.php';
-require 'upfile.php';
+//require 'upfile.php';
 Globle::initSmarty();
 require 'is_login.php';
 
@@ -36,7 +36,7 @@ if($_REQUEST['fileup'] == "true"){
     'image/bmp',  
     'image/x-png'  
     );
-    $destination_folder="uploadimg/";
+    $destination_folder="marryimg/";
     $allmessage = "";
     if (!is_uploaded_file($_FILES["upfile"][tmp_name]))
     //是否存在文件
@@ -120,26 +120,12 @@ if($_REQUEST['fileup'] == "true"){
     
     $object = '/'.$newfilename;
     $fileUpload = $tmppinfo['dirname']."/".$tmppinfo['basename'];
-    $opt = array ("acl" => "public-read" );
-	$response = $baiduBCS->create_object ( $bucket, $object, $fileUpload );
-	if (! $response->isOK ()) {
-		$message = "移动文件出错,亲重新上传";
-    	Globle::$smarty->assign("message",$message);
-    	Globle::$smarty->display('head.tpl');
-    	if($_REQUEST['type'] == "big"){
-    		Globle::$smarty->display('big_photo.tpl');
-    	}
-    	else if($_REQUEST['type'] == "image"){
-    		Globle::$smarty->display('image.tpl');
-    	}
-    	Globle::$smarty->display('foot.tpl');
-    	exit;
-	}
-//	echo "Create object[$object] in bucket[$bucket] success\n";
-    
-//    if(!move_uploaded_file ($filename, $destination_folder.$newfilename))
-//    {
-//    	$message = "移动文件出错,亲重新上传";
+
+    //禁用百度云存储，速度太慢
+//    $opt = array ("acl" => "public-read" );
+//	$response = $baiduBCS->create_object ( $bucket, $object, $fileUpload );
+//	if (! $response->isOK ()) {
+//		$message = "移动文件出错,亲重新上传";
 //    	Globle::$smarty->assign("message",$message);
 //    	Globle::$smarty->display('head.tpl');
 //    	if($_REQUEST['type'] == "big"){
@@ -150,26 +136,46 @@ if($_REQUEST['fileup'] == "true"){
 //    	}
 //    	Globle::$smarty->display('foot.tpl');
 //    	exit;
-//    }
+//	}
+
+//   本地存储
+//	echo "Create object[$object] in bucket[$bucket] success\n";
+    
+    if(!move_uploaded_file ($filename, $destination_folder.$newfilename))
+    {
+    	$message = "移动文件出错,亲重新上传";
+    	Globle::$smarty->assign("message",$message);
+    	Globle::$smarty->display('head.tpl');
+    	if($_REQUEST['type'] == "big"){
+    		Globle::$smarty->display('big_photo.tpl');
+    	}
+    	else if($_REQUEST['type'] == "image"){
+    		Globle::$smarty->display('image.tpl');
+    	}
+    	Globle::$smarty->display('foot.tpl');
+    	exit;
+    }
+
     Globle::$smarty->display('head.tpl');
     if($_REQUEST['type'] == "big"){
 
     	$target = MyDB::updateInfoGigPhotoDB($newfilename, $user_id,$link);
-    	//删除文件
-	    if($messageDO->bigimage!=""){
-	    
-	    	$object = '/'.$messageDO->bigimage;
-		    $response = $baiduBCS->delete_object ( $bucket, $object);
-			if (! $response->isOK ()) {
-				Globle::logError($image." 删除失败，请手动删除");
-			}
-	    }
-//    	if($messageDO->bigimage!=""){
-//    		if(!unlink($destination_folder.$messageDO->bigimage) )
-//    		{
-//    			Globle::logError($messageDO->bigimage." 删除失败，请手动删除");
-//    		}
-//    	}
+    	//删除文件 百度调用，禁用
+//	    if($messageDO->bigimage!=""){
+//
+//	    	$object = '/'.$messageDO->bigimage;
+//		    $response = $baiduBCS->delete_object ( $bucket, $object);
+//			if (! $response->isOK ()) {
+//				Globle::logError($image." 删除失败，请手动删除");
+//			}
+//	    }
+        //本地删除文件 百度调用，禁用
+    	if($messageDO->bigimage!=""){
+    		if(!unlink($destination_folder.$messageDO->bigimage) )
+    		{
+    			Globle::logError($messageDO->bigimage." 删除失败，请手动删除");
+    		}
+    	}
 
     	if($target){
     		Globle::$smarty->assign("target","true");

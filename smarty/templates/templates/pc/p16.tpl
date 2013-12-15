@@ -72,8 +72,8 @@
           {#section name=customer loop=$images #}
 		  
 		  	<div class="grid_3 grid_3_1">
-            			<a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]">
-			<img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" style="margin:5px;height:240px;"/>
+            			<a href="marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]">
+			<img src="marryimg/{#$images[customer]#}" style="margin:5px;height:240px;"/>
 			</a>
 						</div>
 						
@@ -171,7 +171,7 @@
           <li class="last"><a href="#!/contacts">祝福留言</a></li>
           <li>
   			<span style="display:inline">	
-	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	
+	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	
           </li>
         </ul>
       </nav>

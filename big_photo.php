@@ -25,4 +25,5 @@ else{
 	echo "对不起，您不是付费用户，不能编辑图片，因为图片存储我们是要付费买空间的，请您谅解----<a href='http://item.taobao.com/item.htm?id=35673595249'>去付款</a>";
 }
 Globle::$smarty->display('foot.tpl');
+//http://bcs.duapp.com/marryimg/{#$bigimage#}
 ?>

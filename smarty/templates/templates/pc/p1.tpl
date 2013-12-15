@@ -125,7 +125,7 @@ function openChromeslessWindow(openUrl, winName, wWidth, wHeight, wPosx, wPosy, 
 					    {#/if#} 
 					  
 					    <figure>
-	                              <a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" imgname="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]" style="width:145px;display:block;text-align:center;"></a>
+	                              <a href="marryimg/{#$images[customer]#}" imgname="marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]" style="width:145px;display:block;text-align:center;"></a>
 	                    </figure>
 					  
 					  {#/section#}
@@ -231,7 +231,7 @@ function openChromeslessWindow(openUrl, winName, wWidth, wHeight, wPosx, wPosy, 
     <footer>
       <p style="line-height:20px">
   			<span style="display:inline">	
-	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	</p>
+	<object type="application/x-shockwave-flash"		data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"		id="dewplayer-mini">		<param name="wmode" value="transparent">		<param name="movie"			value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">		<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"			height="20" wmode="transparent"></embed>	</object></span>	</p>
       <!-- {%FOOTER_LINK} -->
       <div class="decor anim"></div>
     </footer>

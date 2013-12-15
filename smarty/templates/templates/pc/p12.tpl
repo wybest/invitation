@@ -85,9 +85,9 @@
                            {#section name=customer loop=$images #}
 						  	
 						    {#if $smarty.section.customer.iteration < 4  #}
-						    	<li style="float:left;width:292px;"><a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]"><img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}"  style="width:auto;height:300px" /></a></li>
+						    	<li style="float:left;width:292px;"><a href="marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]"><img src="marryimg/{#$images[customer]#}"  style="width:auto;height:300px" /></a></li>
 						    {#else#}
-						        <li style="float:left;width:292px;display:none;"><a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]"><img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}"  style="width:auto;height:300px" /></a></li>
+						        <li style="float:left;width:292px;display:none;"><a href="marryimg/{#$images[customer]#}" rel="prettyPhoto[gallery1]"><img src="marryimg/{#$images[customer]#}"  style="width:auto;height:300px" /></a></li>
 						    {#/if#} 
 						  {#/section#}
 						   </ul>
@@ -165,12 +165,12 @@
 	<!--footer -->
 	<footer  style="line-height:20px">          <div style="display:inline;">
 		<object type="application/x-shockwave-flash"
-			data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20" height="20"
+			data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20" height="20"
 			id="dewplayer-mini">
 			<param name="wmode" value="transparent">
 			<param name="movie"
-				value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
-			<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
+				value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
+			<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
 				height="20" wmode="transparent"></embed>
 		</object>
 	</div>

@@ -6,10 +6,10 @@ require 'MyDB.class.php';
 require 'MessageDO.class.php';
 Globle::initSmarty();
 require 'is_login.php';
-require 'upfile.php';
+//require 'upfile.php';
 if($_REQUEST['delete'] == "true"){
 
-	$destination_folder="uploadimg/";
+	$destination_folder="marryimg/";
 	//检查信息是存在
 	$messageDO = MyDB::selectInfoDB($user_id,$link);
 
@@ -79,14 +79,22 @@ if($_REQUEST['delete'] == "true"){
     	Globle::$smarty->display('image.tpl');
     	
     }
-    //删除文件
-    if($messageDO->bigimage!=""){
-    
-    	$object = '/'.$image;
-	    $response = $baiduBCS->delete_object ( $bucket, $object);
-		if (! $response->isOK ()) {
-			Globle::logError($image." 删除失败，请手动删除");
-		}
+    //删除文件，百度禁用
+//    if($messageDO->bigimage!=""){
+//
+//    	$object = '/'.$image;
+//	    $response = $baiduBCS->delete_object ( $bucket, $object);
+//		if (! $response->isOK ()) {
+//			Globle::logError($image." 删除失败，请手动删除");
+//		}
+//    }
+
+    //本地删除文件 百度调用，禁用
+    if($image!=""){
+        if(!unlink($destination_folder.$image) )
+        {
+            Globle::logError($image." 删除失败，请手动删除");
+        }
     }
     Globle::$smarty->display('foot.tpl');
 }

@@ -142,9 +142,9 @@
 	{#section name=customer loop=$images #}
 		<li>
 		<figure>
-			<a class="pic" rel="prettyPhoto[gallery1]" href="http://bcs.duapp.com/marryimg/{#$images[customer]#}"> <span
+			<a class="pic" rel="prettyPhoto[gallery1]" href="marryimg/{#$images[customer]#}"> <span
 				class="zoomSp"></span>			
-			<img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" alt="" style="height:330px;width:auto;"> </a>
+			<img src="marryimg/{#$images[customer]#}" alt="" style="height:330px;width:auto;"> </a>
 		</figure>
 		</li>
 	{#/section#}
@@ -247,12 +247,12 @@
 <div class="privHold" style="line-height:20px">	</pre>
 	<div style="display:inline;">
 		<object type="application/x-shockwave-flash"
-			data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"
+			data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"
 			id="dewplayer-mini">
 			<param name="wmode" value="transparent">
 			<param name="movie"
-				value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
-			<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
+				value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
+			<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
 				height="20" wmode="transparent"></embed>
 		</object>
 	</div>

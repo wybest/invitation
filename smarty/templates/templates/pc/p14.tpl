@@ -59,8 +59,8 @@
 			<li id="kwickblock{#$smarty.section.customer.iteration#}">
 	          <div>
 	            <div class="kwickshadow"></div>
-	            <a href="#"><img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" class="slideimage"
-										src2="http://bcs.duapp.com/marryimg/{#$images[customer]#}"
+	            <a href="#"><img src="marryimg/{#$images[customer]#}" class="slideimage"
+										src2="marryimg/{#$images[customer]#}"
 										alt="First Image" / style="max-height:400px;_height:400px;"></a> 
 	          </div>
 	        </li>		
@@ -113,8 +113,8 @@
         {#section name=customer loop=$images #}
 			<li class="rightspace imageicon"><a rel="prettyPhoto[gallery1]"
 							title=""
-							href="http://bcs.duapp.com/marryimg/{#$images[customer]#}"> <img class="fadetoicon"
-								src2="http://bcs.duapp.com/marryimg/{#$images[customer]#}" src=""/> </a></li>
+							href="marryimg/{#$images[customer]#}"> <img class="fadetoicon"
+								src2="marryimg/{#$images[customer]#}" src=""/> </a></li>
 		{#/section#}
         <li>  </li>
         </ul>
@@ -198,12 +198,12 @@
 
   <div class="privacy" style="line-height:20px">	<div style="display:inline;">
 		<object type="application/x-shockwave-flash"
-			data="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"
+			data="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="19" height="20"
 			id="dewplayer-mini">
 			<param name="wmode" value="transparent">
 			<param name="movie"
-				value="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
-			<embed src="images/dewplayer-mini.swf?mp3=http://bcs.duapp.com/mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
+				value="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1">
+			<embed src="images/dewplayer-mini.swf?mp3=mp3folder/{#$music#}&amp;autostart=1&amp;autoreplay=1" width="20"
 				height="20" wmode="transparent"></embed>
 		</object>
 	</div>

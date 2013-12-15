@@ -238,7 +238,7 @@ font-family: "微软雅黑";
     </div>
 </div>
 
-<audio preload="preload" id="audio_play" loop="loop"><source src="mp3folder/{#$music#}" type="audio/mpeg"></audio>
+<audio preload="preload" id="audio_play" loop="loop"><source src="http://bcs.duapp.com/mp3folder/{#$music#}" type="audio/mpeg"></audio>
 
 <script language="javascript" type="text/javascript">
 var music = document.getElementById("audio_play");
@@ -289,7 +289,7 @@ window.onload = function() {
                     <div class="inner-main-ml">
                         <div class="inner-main-mm">
 <!-- 大圖 -->  
-                            <img id="invite_webimg" src="marryimg/{#$bigimage #}" width="100%" alt="Mobile Wedding Invitations">
+                            <img id="invite_webimg" src="http://bcs.duapp.com/marryimg/{#$bigimage #}" width="100%" alt="Mobile Wedding Invitations">
                        	  <div id="img_videobutton_placeholder" style="position:relative;"> 
                         	<div id="img_videobutton" style=""></div>
                        		</div>
@@ -411,7 +411,7 @@ window.onload = function() {
  <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->  
  
 {#section name=customer loop=$images #}
-	<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>
+	<li><a href="http://bcs.duapp.com/marryimg/{#$images[customer]#}" rel="external"><img src="http://bcs.duapp.com/marryimg/{#$images[customer]#}" alt=" "/></a></li>
 {#/section#}
 
  </ul>
@@ -701,7 +701,7 @@ setInterval(_fresh,1000);
 
 
 <script type="text/javascript">
-    var share_img_url = "marryimg/{#$bigimage#}";
+    var share_img_url = "http://bcs.duapp.com/marryimg/{#$bigimage#}";
 var share_title = "{#$bigtitle#}";
 var share_desc = "{#$bigtitle#}";
 var share_link = "";

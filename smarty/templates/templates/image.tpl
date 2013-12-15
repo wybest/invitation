@@ -26,7 +26,7 @@
 <div style="float: left;">
 <div style="margin-left: 10px;">
 <img style="width: 190px; height: 180px;" class="img-thumbnail"
-	src="http://bcs.duapp.com/marryimg/{#$images[customer]#}">
+	src="marryimg/{#$images[customer]#}">
 </div>	
 <div style="text-align: center;">
 <a onclick="return confirm('确认要删除?');" href="delete_photo.php?delete=true&type=image&image={#$images[customer]#}"><img style="" src="img/delete.png" alt="删除"></a>
