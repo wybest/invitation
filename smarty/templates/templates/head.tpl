@@ -37,6 +37,11 @@ function clearText(field)
     <div id="templatemo_menu">
     
         <ul style="width: 90%">
+
+            <li style="float:left;margin-top:30px">
+                <span style="font-size: 30px;margin-left: 70px;">绝对正品，假一赔十，放心安全使用</span>
+            </li>
+
 				<style>
 				.J_login_before{background:#2C2C2C;border: 1px solid #171717;width:24px;padding:0 5px 0 25px;position:relative;height:20px;line-height:20px;}
 				.J_login_after{background:#2C2C2C;border: 1px solid #171717;padding:0 5px 0 22px;position:relative;height:20px;line-height:20px;}
