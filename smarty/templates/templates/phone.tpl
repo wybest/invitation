@@ -204,6 +204,50 @@ text-transform: none;
 line-height: 25px;
 font-family: "微软雅黑";
 }
+
+
+.huihan_list {
+    width: 95%;
+    height: auto;
+    margin: 5px auto;
+    border-bottom: 1px solid #CCC;
+    background: #fff;
+}
+
+.huihan_top {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-color: lightpink;
+}
+
+
+.huihan_name {
+    width: auto;
+    height: 20px;
+    font-weight: 700;
+    float: left;
+    font-size: 16px;
+    margin: 12px 10px 15px;
+}
+
+.huihan_time {
+    width: auto;
+    height: 20px;
+    float: right;
+    font-size: 12px;
+    color: #999;
+    margin: 12px 12px 15px;
+}
+
+.huihan_text {
+    width: auto;
+    height: auto;
+    padding: 10px 0px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px 12px 0px 40px;
+}
 </style>
 <style>
   #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200}
@@ -384,7 +428,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -427,7 +471,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -514,7 +558,20 @@ window.onload = function() {
                             </div>
 
                         </div>
-                    </div>   
+                    </div>
+
+
+            {#section name=customer loop=$shuju_array #}
+            <div class="huihan_list">
+                <div class="huihan_top">
+                    <div class="huihan_name">{#$shuju_array[customer]->name#}:{#$shuju_array[customer]->pnum#}</div>
+                    <div class="huihan_time">{#$shuju_array[customer]->time#}</div>
+                </div>
+                <div class="huihan_text">{#$shuju_array[customer]->bless#}</div>
+            </div>
+            {#/section#}
+
+
 	</div>
         </div>
 
@@ -532,7 +589,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -601,7 +658,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/5.png" src="style/桃色经典/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">{#$title#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/5.png" src="style/桃色经典/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">{#$title#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -633,7 +690,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://tcfate.com/m/mobile.asp?wedID=style5#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>

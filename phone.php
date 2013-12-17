@@ -6,6 +6,7 @@ require 'MyDB.class.php';
 require 'MessageDO.class.php';
 require 'VipDO.class.php';
 require 'UserDO.class.php';
+require 'ShujuDO.class.php';
 Globle::initSmarty();
 $message = $_REQUEST['name'];
 
@@ -66,23 +67,26 @@ if($messageDO!=null){
 	Globle::$smarty->assign("title3",$user->title3);
 	Globle::$smarty->assign("title4",$user->title4);
 	Globle::$smarty->assign("title5",$user->title5);
-	$info=isMobile();
-    if($info){
-    	if($user->is_phone==1||$user->is_pay==0){
-    	if($messageDO->mould == ""){
-    			header('Content-Type:text/html; charset=UTF-8');
-    			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
-    		}else{
+    $shuju_array = MyDB::selectShujuDB($user->id,1,20,$link);
+    Globle::$smarty->assign("shuju_array",$shuju_array);
+
+//	$info=isMobile();
+//    if($info){
+//    	if($user->is_phone==1||$user->is_pay==0){
+//    	if($messageDO->mould == ""){
+//    			header('Content-Type:text/html; charset=UTF-8');
+//    			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
+//    		}else{
     			Globle::$smarty->display('phone.tpl');
-    		}
-    	}else{
-    		header('Content-Type:text/html; charset=UTF-8');
-    		echo "对不起，您访问的请柬没有购买手机版的";
-    	}
-    }else{
-    		header('Content-Type:text/html; charset=UTF-8');
-    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"</a><br>因为微信升级安全机制，强制转码网页";
-    }
+//    		}
+//    	}else{
+//    		header('Content-Type:text/html; charset=UTF-8');
+//    		echo "对不起，您访问的请柬没有购买手机版的";
+//    	}
+//    }else{
+//    		header('Content-Type:text/html; charset=UTF-8');
+//    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"</a><br>因为微信升级安全机制，强制转码网页";
+//    }
 
 }
 
