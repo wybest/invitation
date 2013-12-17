@@ -510,7 +510,9 @@ window.onload = function() {
                                     <p id="submit-button" style="padding: 0px;">
                                         <span id="bi_msg"></span>
                                     </p>
+
                             </div>
+
                         </div>
                     </div>   
 	</div>
@@ -664,7 +666,7 @@ function _fresh()
  __h=parseInt((leftsecond/3600)%24);
  __m=parseInt((leftsecond/60)%24);
  __s=parseInt(leftsecond%60);
- __all ="　倒计时还有"+ __d+"天 "+__h+"小时"+__m+"分"+__s+"秒";
+ __all ="　倒计时还有<br/>"+ __d+"天 "+__h+"小时"+__m+"分"+__s+"秒";
  document.getElementById("_lefttime").innerHTML=__all;
 }
 _fresh()
@@ -690,7 +692,7 @@ setInterval(_fresh,1000);
 
 <div id="footer"><div id="copyright">
 {#if $is_advert eq "1"#}
-<div id="copyright-text">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
+<div id="copyright-text">{#if $advert #}<a href="http://{#$advert#}">{#$advert#}</a>{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
 {#/if#}
 </div>
 </div>
