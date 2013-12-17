@@ -52,7 +52,7 @@ font-family:微软雅黑;
 <script type="text/javascript" src="style/桃色经典/image_files/jquery-ui-1.8.18.full.min.js"></script>
 <script type="text/javascript" src="style/桃色经典/image_files/klass.min.js"></script>
 <script type="text/javascript" src="style/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=16268926682265790cca9062b1be7a79"></script>
+
 <script type="text/javascript">
 		(function(window, $, PhotoSwipe){
 			$(document).ready(function(){
@@ -285,7 +285,16 @@ font-family: "微软雅黑";
 <audio preload="preload" id="audio_play" loop="loop"><source src="mp3folder/{#$music#}" type="audio/mpeg"></audio>
 
 <script language="javascript" type="text/javascript">
-var music = document.getElementById("audio_play");
+
+function loadBaiduMap() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
+        document.body.appendChild(script);
+    }
+
+
+    var music = document.getElementById("audio_play");
 music.pause();
 var LoadingDIV = document.getElementById("Loading");
 window.onload = function() {
@@ -301,6 +310,7 @@ window.onload = function() {
                 });
             }
         });
+    loadBaiduMap();
 }
 </script>
 
@@ -622,21 +632,24 @@ window.onload = function() {
 	    </script>
 	  
 <script type="text/javascript">
-    var map = new BMap.Map("map_canvas7169");//在指定的容器内创建地图实例
-    map.setDefaultCursor("map_canvas7169");//设置地图默认的鼠标指针样式
-    map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
-    map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
-    map.addControl(new BMap.NavigationControl({
-        anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL 
-    }));
-    map.panBy({#$coordinate#})
-	
-    var pt = new BMap.Point({#$coordinate#});
-    var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
-    var marker2 = new BMap.Marker(pt,{
-        icon:myIcon
-    });// 创建标注
-    map.addOverlay(marker2);// 将标注添加到地图中
+ function initialize(){
+     var map = new BMap.Map("map_canvas7169");//在指定的容器内创建地图实例
+     map.setDefaultCursor("map_canvas7169");//设置地图默认的鼠标指针样式
+     map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
+     map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
+     map.addControl(new BMap.NavigationControl({
+         anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL
+     }));
+     map.panBy({#$coordinate#})
+
+     var pt = new BMap.Point({#$coordinate#});
+     var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
+     var marker2 = new BMap.Marker(pt,{
+         icon:myIcon
+     });// 创建标注
+     map.addOverlay(marker2);// 将标注添加到地图中
+ }
+
 	</script>
 	        </div>
         </div>
