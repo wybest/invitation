@@ -5,26 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
-<script type="text/javascript">  
-var browser={
-versions:function(){
-var u = navigator.userAgent, app = navigator.appVersion;
-return{
-trident: u.indexOf('Trident')>-1, 
-presto: u.indexOf('Presto')>-1, 
-webKit: u.indexOf('AppleWebKit')>-1,  
-gecko: u.indexOf('Gecko')>-1&& u.indexOf('KHTML')==-1, 
-mobile:!!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/), 
-ios:!!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), 
-android: u.indexOf('Android')>-1|| u.indexOf('Linux')>-1, 
-iPhone: u.indexOf('iPhone')>-1|| u.indexOf('Mac')>-1,  
-iPad: u.indexOf('iPad')>-1, 
-webApp: u.indexOf('Safari')==-1  
-};}()}
-if(!browser.versions.ios&&!browser.versions.mobie&&!browser.versions.android&&!browser.versions.iPhon&&!browser.versions.iPad){
-	self.location='error.htm'
-}
-</script><title>{#$bigtitle#}</title>
+
+<title>{#$bigtitle#}</title>
 <link href="style/{#$mould #}/image_files/custom.css" type="text/css" rel="stylesheet">
 <link href="style/{#$mould #}/image_files/style.css" type="text/css" rel="stylesheet">
 <link href="style/{#$mould #}/image_files/styles.css" type="text/css" rel="stylesheet">
