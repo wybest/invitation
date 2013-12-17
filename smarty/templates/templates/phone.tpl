@@ -596,7 +596,7 @@ window.onload = function() {
         <div class="detail-mm"> 
        <input type="hidden" name="invite_detail_mapimgurl7095" id="invite_detail_mapimgurl7169" value="" width="100%">
          <img id="invite_detail_mapimg7169" style="width:100%; border:thin; border-style:solid; border-color:#999;" src="" width="100%"/>
-	        <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:300px;"></div> 
+	        <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:300px;">百度地图加载中。。。</div>
 	    <div id="map_desc7169">地址：{#$adress#}<br /> </div>
 		</div>
   	 <script language="javascript">
