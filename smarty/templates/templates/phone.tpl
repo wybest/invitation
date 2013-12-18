@@ -753,7 +753,7 @@ setInterval(_fresh,1000);
 
 
 <script type="text/javascript">
-    var share_img_url = "marryimg/{#$bigimage#}";
+    var share_img_url = "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}";
 var share_title = "{#$bigtitle#}";
 var share_desc = "{#$bigtitle#}";
 var share_link = "";
