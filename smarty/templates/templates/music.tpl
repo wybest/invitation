@@ -4,8 +4,8 @@
 {#/if#}  
 {#if $target  eq  "false"#}  
      <div class="alert alert-danger">操作失败，重新提交</div> 
-{#/if#}  
-
+{#/if#}
+<div class="alert alert-success">温馨提示，360浏览器播放不了中文名字的歌曲，请换其他浏览器</div>
 
  <link rel="stylesheet" href="editor/jquery.wysiwyg.css" type="text/css" media="screen" />
   <script type="text/javascript" src="editor/jquery.wysiwyg.js"></script>
