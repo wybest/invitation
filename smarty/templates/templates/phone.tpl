@@ -379,7 +379,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style/桃色经典/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</span></a>
+    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style/{#$mould #}/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</span></a>
             </div>
             </div>
             </div>
@@ -394,7 +394,7 @@ window.onload = function() {
         <div class="detail-mm">
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
  <div class="invitext">
-              <p class="ip2"><img src="style/桃色经典/image_files/16052978.png" width="80%" height="30" alt=""> </p>
+              <p class="ip2"><img src="style/{#$mould #}/image_files/16052978.png" width="80%" height="30" alt=""> </p>
               {#if $vip != "none"#}
               <p class="ip4">{#$vip#}</p>
               {#/if#}
@@ -420,7 +420,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/2.png" src="style/桃色经典/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/2.png" src="style/{#$mould #}/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -463,7 +463,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style/桃色经典/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style/{#$mould #}/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -581,7 +581,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/4.png" src="style/桃色经典/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/4.png" src="style/{#$mould #}/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -625,7 +625,7 @@ window.onload = function() {
      map.panBy({#$coordinate#})
 
      var pt = new BMap.Point({#$coordinate#});
-     var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
+     var myIcon = new BMap.Icon("style/{#$mould #}/image_files/markers.gif", new BMap.Size(25,21));
      var marker2 = new BMap.Marker(pt,{
          icon:myIcon
      });// 创建标注
@@ -653,7 +653,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/5.png" src="style/桃色经典/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">{#$title#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/5.png" src="style/{#$mould #}/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">{#$title#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -685,7 +685,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/6.png" src="style/桃色经典/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/6.png" src="style/{#$mould #}/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
