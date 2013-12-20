@@ -1,0 +1,2333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0071) -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+
+<title>{新郎}与{新娘}婚宴邀约</title>
+<meta name="description" content="{宴客日期}">
+
+
+<link href="./example_files/styles.css" type="text/css" rel="stylesheet">
+<link href="./example_files/photoswipe.css" type="text/css" rel="stylesheet">
+
+
+
+<link href="./example_files/movcard.css.asp" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="./example_files/jquery-ui-1.8.18.custom.full_leo.css" type="text/css" media="screen" charset="utf-8">
+
+<script type="text/javascript" src="./example_files/firefox_xml_maxthon.js"></script>
+<script type="text/javascript" src="./example_files/jquery-latest.js"></script>
+<script type="text/javascript" src="./example_files/jquery-ui-1.8.18.full.min.js"></script>
+
+<script src="./example_files/api" type="text/javascript"></script><script type="text/javascript" src="./example_files/getscript"></script><link rel="stylesheet" type="text/css" href="./example_files/bmap.css">
+
+<script type="text/javascript" src="./example_files/date.format.js"></script>
+
+<link rel="stylesheet" href="editor/jquery.wysiwyg.css" type="text/css" media="screen" />
+<script type="text/javascript" src="editor/jquery.wysiwyg.js"></script>
+<script type="text/javascript">
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+		
+  		var bshow7042 = 1;
+		
+  		var bshow7041 = 1;
+		
+  		var bshow7043 = 1;
+		
+  		var bshow7044 = 1;
+
+			
+				  var geocoder7044;
+				  
+				  function codeAddress7044(address) {
+					//var address = document.getElementById("address7044").value;
+				 
+			//alert(address);	 
+					// Baidu map ?建地址解析器?例
+					geocoder7044 = new BMap.Geocoder();
+					// ?地址解析?果?示在地?上,并?整地??野
+					geocoder7044.getPoint(address, function(point){
+					  if (point) {
+						map7044.setCenter(point);
+						marker7044.setPosition(point);
+						$('#invite_detail_latcenter7044').val(point.lat);  
+						$('#invite_detail_lngcenter7044').val(point.lng);  
+						$('#invite_detail_latmarker7044').val(point.lat);  
+						$('#invite_detail_lngmarker7044').val(point.lng);  
+				
+						$('#iframepage').get(0).contentWindow.setMapCenter7044(point.lng,point.lat);	
+						$('#iframepage').get(0).contentWindow.setMarkerPos7044(point.lng,point.lat);	  
+				
+				
+					  } else {
+						alert("定位失败, 请修改地址後再试一次，失败原因： " + status);
+					  }
+					}, "");
+				
+				  }
+				  
+				//baidu map
+				  var map7044 = null;
+				  var marker7044;
+				  var map7044_latcenter = 31.240629;
+				  var map7044_lngcenter = 121.512625;
+				  var map7044_latmarker = 31.241401;
+				  var map7044_lngmarker = 121.512876;
+				  
+				  
+				  
+				  function initialize7044() {
+				
+				//Baidu MAP Control
+					map7044 = new BMap.Map("map_canvas7044");
+				//alert (map7044_latcenter + "," + map7044_lngcenter);
+				
+					//var point = new BMap.Point(116.404, 39.915);  // ?建?坐?
+					//var point = new BMap.Point(map7044_lngcenter, map7044_latcenter );  // ?建?坐?
+					map7044.centerAndZoom(new BMap.Point(map7044_lngcenter, map7044_latcenter ),  16);                 // 初始化地?，?置中心?坐?和地???
+				
+					var opts = {type: BMAP_NAVIGATION_CONTROL_ZOOM}  
+					map7044.addControl(new BMap.NavigationControl(opts));  
+					//map7044.addControl(new BMap.ScaleControl());  
+					//map7044.addControl(new BMap.OverviewMapControl());  
+					//map7044.addControl(new BMap.MapTypeControl());
+					//var opts = {anchor: BMAP_ANCHOR_BOTTOM_RIGHT }  
+					//map7044.addControl(new CopyrightControl(opts));
+				
+				
+					map7044.addEventListener("click", function(e){
+						//alert("你??了地?");
+						$('#invite_detail_latmarker7044').val(e.point.lat);  
+						$('#invite_detail_lngmarker7044').val(e.point.lng);  
+						marker7044.setPosition(e.point);
+						$('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);	  
+					});
+				
+					map7044.addEventListener("moving", function(){  
+					 var center = map7044.getCenter();  
+					 //alert("地?中心??更?：" + center.lng + ", " + center.lat);  
+					 $('#invite_detail_latcenter7044').val(center.lat);  
+					 $('#invite_detail_lngcenter7044').val(center.lng);  
+					 $('#iframepage').get(0).contentWindow.setMapCenter7044(center.lng,center.lat);	
+					});  
+				
+					map7044.addEventListener("zoomend", function(){  
+					 $('#invite_detail_zoom7044').val(map7044.getZoom());  
+					 $('#iframepage').get(0).contentWindow.setMapZoom7044(map7044.getZoom());	  
+					});
+				
+					// ?建???象  
+					var myIcon = new BMap.Icon("images/mobile_invite/map_marker.png", new BMap.Size(34, 34), {  
+					// 指定定位位置。  
+					// ??注?示在地?上?，其所指向的地理位置距离??左上  
+					   // 角各偏移10像素和25像素。您可以看到在本例中?位置即是  
+					   // ??中央下端的尖角位置。  
+					   offset: new BMap.Size(17, 34),  
+					   // ?置?片偏移。  
+					   // ?您需要?一幅?大的?片中截取某部分作??注???，您  
+					   // 需要指定大?的偏移位置，此做法与css sprites技??似。  
+					   imageOffset: new BMap.Size(0,0)   // ?置?片偏移  
+					 });    
+					 // ?建?注?象并添加到地?  
+				
+					marker7044 = new BMap.Marker(
+						new BMap.Point(map7044_lngmarker, map7044_latmarker), 
+						{	
+							icon: myIcon, 
+							enableDragging: true,
+							raiseOnDrag: true,
+							title: "拖拽以標注地點" 
+						}
+					); // ?建?注  
+					
+					marker7044.addEventListener("dragging", function(e){
+					
+					 $('#invite_detail_latmarker7044').val(e.point.lat);  
+					 $('#invite_detail_lngmarker7044').val(e.point.lng);  
+					 $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);	  
+					
+					
+					});
+					map7044.addOverlay(marker7044);                     
+				  }
+				  
+			
+			
+					
+  		var bshow7046 = 1;
+		
+  		var bshow7045 = 1;
+  
+  
+
+
+$(function() {
+
+	$( "#accordion_header" ).accordion({
+		autoHeight: false, 
+		collapsible: true
+	});
+	
+	$("#accordion_header").bind('accordionchange', function(event, ui) {
+	 // ui.newHeader // jQuery object, activated header
+	 // ui.oldHeader // jQuery object, previous header
+	 // ui.newContent // jQuery object, activated content
+	 // ui.oldContent // jQuery object, previous content
+	 //  alert($(ui.newHeader).attr("id") + " was opened, " + $(ui.oldHeader).attr("id") + " was closed");
+	 //   console.log(ui.newHeader.attr('id'));
+		if (ui.newHeader.attr('id') == 'header')
+		{
+			 $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
+		}
+		
+		
+	});
+		
+	
+	$( "#accordion_detail" ).accordion({
+		autoHeight: false, 
+		collapsible: false
+	});
+
+
+});
+
+
+
+$(document).ready(function(){
+  $('input[type=text][title],input[type=password][title],textarea[title]').each(function(i){
+    $(this).addClass('input-prompt-' + i);
+    var promptSpan = $('<span class="input-prompt"/>');
+    $(promptSpan).attr('id', 'input-prompt-' + i);
+    $(promptSpan).append($(this).attr('title'));
+    $(promptSpan).click(function(){
+      $(this).hide();
+      $('.' + $(this).attr('id')).focus();
+    });
+    if($(this).val() != ''){
+      $(promptSpan).hide();
+    }
+    $(this).before(promptSpan);
+    $(this).focus(function(){
+      $('#input-prompt-' + i).hide();
+    });
+
+    $(this).change(function(){
+      if($(this).val() != ''){
+        $('#input-prompt-' + i).hide();
+      }
+    });
+    $(this).blur(function(){
+      if($(this).val() == ''){
+        $('#input-prompt-' + i).show();
+      }
+    });
+  });
+});
+
+
+function indexOfStr(strArray, searchString) {
+	var found = -1;
+	
+	for (var i = 0; i < strArray.length; i++) {
+	  if (strArray[i] == searchString) {
+		found = i;
+		break;
+	  }
+	}
+	return found;
+}
+
+function getMinTextInOrder(txt){
+	var txt_array_inorder = txt.split('').sort();
+	
+	if (txt_array_inorder.length > 0) {
+		txt_min = txt_array_inorder[0]; 
+		prechr = txt_array_inorder[0];
+		for (i=1; i<txt_array_inorder.length; i++){
+			if (txt_array_inorder[i] != prechr){
+				prechr = txt_array_inorder[i];
+				txt_min = txt_min + txt_array_inorder[i];
+			}
+		}
+	} else {
+		txt_min = "";
+	}
+
+	return txt_min;	
+}
+
+
+
+function getMainPanelText(){
+
+	var panel_text =  + $('#invite_maintitle').val() + $('#invite_subtitle').val();
+	$('.tab_name').each( function () {
+		panel_text = panel_text + $(this).val();
+	});
+	return encodeURIComponent(getMinTextInOrder(panel_text));
+}
+
+var delay = (function(){
+  var timer = 0;
+  return function(callback, ms){
+	clearTimeout (timer);
+	timer = setTimeout(callback, ms);
+  };
+})();
+
+
+var webfont_index = 1;
+
+function reloadMainPanelFont(){
+
+	var fontData = $("#invite_fontface option:selected").val();
+	//alert(fontData);
+	var fontfamily = fontData.split('|')[0];
+	var fontface = fontData.split('|')[1];
+	var bwebfont = fontData.split('|')[2];
+	var webfonttype = fontData.split('|')[3];
+	
+	if (bwebfont == 1) {
+		if (webfonttype==3){
+			$('#iframepage').contents().find(".fontcss").attr("href",fontface); 
+		} else {
+			fontfamily = fontfamily.split(',')[0] + webfont_index;
+			fontface = fontface.split('&font=')[0] + webfont_index + '&font=' + fontface.split('&font=')[1];
+		//alert(fontfamily );
+		//alert(fontface );
+			fontface=fontface + "&text=" + getMainPanelText();
+		//	alert( 'fontfamily=' + fontfamily + ', fontface=' + fontface);
+			//alert(fontface);
+			//$('#iframepage').contents().find(".fontcss").remove();
+			//$('#iframepage').contents().find('head').append('<link class="fontcss"  rel="stylesheet" type="text/css" href="'+ fontface +'">');
+			
+			$('#iframepage').contents().find(".fontcss").attr("href",fontface); 
+			webfont_index = webfont_index + 1;
+		}
+		
+	}
+	$('#iframepage').contents().find("body").css("font-family",fontfamily); 
+	$('#iframepage').contents().find(".ui-widget").css("font-family",fontfamily); 
+
+}
+
+
+
+
+$(document).ready(function() { 
+
+
+
+//alert(getMainPanelText());
+	$("#invite_style").change(function() {
+		$('#mould').val($("#invite_style option:selected").text());
+
+		var a = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/custom.css';
+		var b = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/style.css';
+		var c = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/styles.css';
+		var d = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/photoswipe.css';
+
+
+
+
+		$('#invite_styleid').val($(this).val().split('|')[4]);  
+
+		$('#iframepage').contents().find(".a").attr("href",a);
+		$('#iframepage').contents().find(".b").attr("href",b);
+        $('#iframepage').contents().find(".c").attr("href",c);
+        $('#iframepage').contents().find(".d").attr("href",d);
+        var i=1;
+		$('#iframepage').contents().find('.iconimage').each(function () {
+			var imageName = 'style/'+$("#invite_style option:selected").text()+'/image_files/'+i+'.png';
+			$(this).attr('src', imageName);
+            i++;
+		});
+		$('#iframepage').get(0).contentWindow.invite_styletype = styletype;
+		
+		$('#iframepage').get(0).contentWindow.initProcessButtonBackground();	//call iframe function to reset id	 
+
+		
+	});
+
+
+
+	$("#invite_fontface").change(function() {
+		$('#invite_fontname').val($("#invite_fontface option:selected").text());  
+		reloadMainPanelFont();
+	});
+
+
+
+
+
+
+
+	$("#invite_maintitle,#invite_subtitle,.tab_name").keyup(function() {
+
+
+		delay(function(){
+
+			reloadMainPanelFont();
+
+		}, 1000 );
+
+	});
+
+
+
+
+	$(".tab_name").addClass("tab_name_idle");
+
+
+	//$( "#tabs" ).tabs({selected: 3});
+	$( "#tabs" ).tabs({selected: -1});
+	//$( "#tabs" ).tabs({ disabled: [2, 3] });
+
+	$( "#tabs" ).tabs().find( ".ui-tabs-nav" ).sortable({ axis: "x",
+		//start: function(event, ui) { alert("start sort") },
+		items: 'li',
+		update: function(event, ui) {
+			var id_selected = ui.item.attr("id");
+			var id_array = $(this).sortable('toArray');
+			 //console.log( id_selected );
+			 //console.log( id_array );
+	
+			 
+			 //index_selected = id_array.indexOf(id_selected);
+			 index_selected = indexOfStr(id_array,id_selected);
+			 
+			 
+//			 console.log( index_selected );
+			 if (index_selected != 0) {
+				var id_moveto = id_array[index_selected-1];
+				$('#iframepage').contents().find('#invite_detail_title' + id_selected ).insertAfter($('#iframepage').contents().find('#invite_detail_content' + id_moveto));	 
+				 
+			 } else {
+				var id_moveto =  id_array[1];
+				$('#iframepage').contents().find('#invite_detail_title' + id_selected ).insertBefore($('#iframepage').contents().find('#invite_detail_title' + id_moveto));	 
+			 }
+			$('#iframepage').contents().find('#invite_detail_content' + id_selected ).insertAfter($('#iframepage').contents().find('#invite_detail_title' + id_selected));
+			 
+			 
+			 
+			$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function	 
+			 
+			 
+			 //
+			 
+			//var invite_detail_id = ui.tab.id.substr(19, ui.tab.id.length - 19 );
+			//alert(invite_detail_id);
+			//$("#div2").insertAfter("#div3");
+		//$('#iframepage').contents().find('#invite_detail_title660').insertAfter($('#iframepage').contents().find('#invite_detail_content657'));
+			//$('#iframepage').contents().find('#invite_detail_content660').insertAfter($('#iframepage').contents().find('#invite_detail_title660'));
+
+			//$('#iframepage').contents().find('div[name="button1"]').attr('id','button400'); 
+			//var id_buf = $('#iframepage').contents().find('div[name="button1"]').attr('id'); 
+			//alert(id_buf);
+			
+		}
+		//change: function(event, ui) { alert("change sort")}
+
+	});
+
+
+
+	$('#tabs').bind('tabsselect', function(event, ui) {
+		//ui.tab     // anchor element of the selected (clicked) tab
+		//ui.panel   // element, that contains the selected/clicked tab contents
+		//ui.index   // zero-based index of the selected (clicked) tab
+		//alert($("#accordion_header").accordion("activate"));
+		$("#accordion_header").accordion("activate", false );
+		
+		
+		//"invite_detail_title" length = 19
+		var invite_detail_id = ui.tab.id.substr(19, ui.tab.id.length - 19 );
+		
+		//alert(invite_detail_id);
+		$(".tab_name").removeClass("tab_name_idle");
+		//$(".tab_name").removeClass("tab_name_focus");
+		$(".tab_name").addClass("tab_name_idle");
+		$("#invite_detail_name" + invite_detail_id ).removeClass("tab_name_idle");
+
+		var tabSelected = ui.index;
+		//alert($('#tabs').tabs( "option", "selected" ))
+		var accordionActive = $('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active" );
+	    //console.log("tabSelected=" + tabSelected + ", " + "accordionActive=" + accordionActive );		
+		
+		if (accordionActive===false){
+			accordionActive = -1;
+		}
+//	    console.log("tabSelected=" + tabSelected + ", " + "accordionActive=" + accordionActive );		
+//	    console.log(accordionActive);		
+//		console.log($('#iframepage').contents().find('h3>a[id^="invite_detail_title"]')[accordionActive].id);
+		//console.log($("input[id='invite_detail_id']")[0]);
+		
+		//var bshow = eval("bshow" + $("input[id='invite_detail_id']")[ui.index].value);
+		var bshow = eval("bshow" + invite_detail_id);
+		//console.log("bshow" + $("input[id='invite_detail_id']")[ui.index].value + "=" + bshow );
+		//console.log($("input[id='invite_detail_id']")[0]);
+		if (tabSelected != accordionActive && bshow == 1) {
+			//alert("open accordion:" + tabSelected);
+		//if (tabSelected != accordionActive ) {
+			
+			if($.browser.msie && parseInt($.browser.version, 10) <= 7) {
+				// delay for open accordion because ie7 ie8 will hang
+				setTimeout(function() {$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);},1250);
+			} else {
+				$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);
+			}
+			
+			// '#accordion > div:has(#item117) > h3'
+			//$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate","h3:has(#" + ui.tab.id +")" );
+		}
+	});
+
+
+	 // initial when tab open 
+                  
+	var bReloadWebFontOnce = 1;
+
+			// reload web font when new created invite replace text from dialog 
+	
+			$('#tabs').bind('tabsshow', function(event, ui) {
+				if (ui.panel.id == 'invite_detail_content7042' )
+				{
+					if (bReloadWebFontOnce == 1) {
+//						ck_editor.execCommand( 'reloadWebFont');
+						bReloadWebFontOnce = 0;
+					}
+					
+				}
+			});
+	
+
+	
+			$('#tabs').bind('tabsshow', function(event, ui) {
+				if (ui.panel.id == 'invite_detail_content7044' && !map7044 && $("#invite_detail_mapimgurl7044").val() == '')
+				{
+					//alert("initialize7044");
+					initialize7044();
+					//resizeMap();
+					
+				}
+			});
+
+
+
+
+
+
+});
+
+
+
+
+</script>
+
+
+
+
+<title>無標題文件</title>
+<style type="text/css">
+
+
+
+.tab_name_idle {
+    border: 1px solid transparent;
+	background-color:transparent;
+}
+.tab_name_hide { color:#AAA;
+}
+
+.global_setting {
+	margin:3px 3px 3px 3px;
+}
+/*
+
+.section-header {
+	margin:4px 0px 4px 0px;
+	padding:0px 0px 0px 0px;
+	height:22px;
+	background-color:#AAA;
+	color:#FFF;
+	font-size:16px;
+	border-style:none;
+	
+}
+*/
+
+.section-content {
+	padding:0px;
+	margin: 0px;
+}
+
+.input-prompt {
+  position: absolute;
+  font-style: italic;
+  color: #ddd;
+  margin: 0.2em 0 0 0.5em;
+}
+
+</style>
+
+
+
+
+<style type="text/css">
+<!--  
+  .showText{
+    
+    font-size:9pt; 
+    border:0px solid #333;
+  }
+
+  .showInput{
+    
+    font-size:9pt; 
+    border:1px solid #333;
+    background:#FFFFEB;
+	
+  }
+  
+  
+ .editable {
+	border:0px solid;
+  }
+ .editable:hover {
+	border:2px dotted;
+  }
+
+//-->
+</style>
+  
+
+<script language="javascript">
+<!--
+
+$(document).ready(function() { 
+
+   //$(this).scrollTop(0);
+});
+
+
+<!-- fix jquery dialog bug of modal:true scrollbar  -->
+(function( $, undefined ) {
+  if ($.ui && $.ui.dialog) {
+    $.ui.dialog.overlay.events = $.map('focus,keydown,keypress'.split(','), function(event) { return event + '.dialog-overlay'; }).join(' ');
+  }
+}(jQuery));
+
+
+  String.prototype.trim = function() { return this.replace(/^\s\s*/, '').replace(/\s\s*$/, '');};
+  
+  String.prototype.ReplaceAll = function (AFindText,ARepText){
+  
+    raRegExp = new RegExp(AFindText,"g");
+    return this.replace(raRegExp,ARepText)
+  } 
+
+
+
+function engstr(str){
+   var subStr = "";
+   for (i=0,n=str.length;i<n;i++){
+      subStr = str.charCodeAt(i);
+      if ((subStr > 256)){
+         return false;
+      }
+   }
+   return true;
+}
+
+  function isIns(){
+    
+    
+    
+  }
+
+
+  var maxid = 89993;
+
+  function addRow(parent_node){
+  
+   
+    maxid++;
+    
+    //取得屬於要應用新增列的區塊
+    var obj=document.getElementById( parent_node);
+    //取得目前有多少欄位
+    //var sIndex=obj.getElementsByTagName('div').length+1;
+    var sIndex = maxid;
+    
+    //依照原表單格式,先建一個div
+    var div=document.createElement('div');
+    div.id = 's'+sIndex; 
+	div.style="valign: middle;";
+
+    
+    //再建立文字欄位,並指定相關屬性
+    var input=document.createElement('input');
+    input.type='radio';
+    input.name='q'+parent_node.replace('q', '');
+    //input.id='t'+sIndex;
+    //把文字欄位和按鈕加到div中
+
+    var span=document.createElement('span');
+    span.className='editable';
+
+
+
+    var txt=document.createElement('input');
+    txt.type='text';
+    txt.name='o'+parent_node.replace('q', '');
+    txt.value='新增选项';
+    txt.className='showText';
+    txt.onfocus = function(){this.className='showInput';};   
+    txt.onblur = function(){this.className='showText';};   
+    txt.onkeyup = function(){setOptionTitle( sIndex, this.value);};   
+    
+
+    var del=document.createElement('img');
+    del.src='./image/del.png';
+    del.onclick = function(){ delRow( parent_node , 's' + sIndex );};   
+    del.style.cursor='pointer';
+    del.vspace='5';
+    del.hspace='5';
+    del.align='absmiddle';
+    
+    span.appendChild(txt);
+
+    div.appendChild(del);
+
+    div.appendChild(span);
+	
+    // div.appendChild(input);
+    
+  
+     
+    //把div加到區塊中
+    obj.appendChild(div);
+    
+    window.frames.iframepage.addRow(parent_node, maxid);
+    
+  }
+
+  function delRow(q, t){
+
+    d = document.getElementById(t);
+
+    d.parentNode.removeChild(d);
+    
+
+    window.frames.iframepage.delRow(q, t);
+    
+  }
+
+  function addOption(parent_node){
+  
+   
+    maxid++;
+    
+    //取得屬於要應用新增列的區塊
+    var obj=document.getElementById( parent_node);
+    //取得目前有多少欄位
+    //var sIndex=obj.getElementsByTagName('div').length+1;
+    var sIndex = maxid;
+    
+    //依照原表單格式,先建一個div
+    var div=document.createElement('div');
+    div.id = 's'+sIndex; 
+    
+    var span=document.createElement('span');
+    span.className='editable';
+
+    //再建立文字欄位,並指定相關屬性
+    var input=document.createElement('input');
+    input.type='radio';
+    input.name='q'+parent_node.replace('q', '');
+    //input.id='t'+sIndex;
+    //把文字欄位和按鈕加到div中
+
+    var txt=document.createElement('input');
+    txt.type='text';
+    txt.name='o'+parent_node.replace('q', '');
+    txt.value='新增选项';
+    txt.className='showText';
+    txt.onfocus = function(){this.className='showInput';this.size=20;};   
+    txt.onblur = function(){this.className='showText';this.size=this.value.length*2;};   
+    txt.onkeyup = function(){window.frames.iframepage.updateSelect(parent_node, this.value);};   
+    txt.onclick = function(){window.frames.iframepage.updateSelect(parent_node, this.value);};   
+    
+
+
+    var del=document.createElement('img');
+    del.src='./image/del.png';
+    del.onclick = function(){ delOption( parent_node , 's' + sIndex );};   
+    del.style.cursor='pointer';
+    del.vspace='5';
+    del.hspace='5';
+    del.align='absmiddle';
+    
+	span.appendChild(txt);
+    div.appendChild(del);
+    // div.appendChild(input);
+    div.appendChild(span);
+    
+  
+     
+    //把div加到區塊中
+    obj.appendChild(div);
+    
+    //alert(document.getElementById(parent_node).innerHTML);
+    
+    window.frames.iframepage.updateSelect(parent_node, '新增选项');
+    
+  }
+
+  function delOption(q, t){
+
+    d = document.getElementById(t);
+
+    d.parentNode.removeChild(d);
+    
+
+    window.frames.iframepage.updateSelect(q);
+    
+  }
+
+
+  function updateOption(t){
+    
+    
+   var s = document.getElementById(t);
+   var a = document.getElementById(t.replace('t', 'n'));
+    
+    var arr = a.value.split('\n')
+    
+    s.options.length = 0;
+    
+    s.options[0] = new Option(  '請選擇', 0);
+    for (var i=0; i<arr.length; i++){
+      
+        if (arr[i] != ''){
+           s.options[i+1] = new Option( arr[i], arr[i]);
+        }
+    }
+    
+  }
+
+  function updateSelect(t){
+    
+    
+   var s = document.getElementById(t);
+   var a = document.getElementById(t.replace('t', 'n'));
+    
+    var arr = a.value.split('\n')
+    
+    s.options.length = 0;
+    
+    s.options[0] = new Option('請選擇', 0);
+    for (var i=0; i<arr.length; i++){
+      
+        if (arr[i].Trim().length != 0){
+           s.options[i+1] = new Option( arr[i], arr[i]);
+        }
+    }
+    
+  }
+
+
+  function setQuestionTitle(qq, txt){
+    
+    
+    window.frames.iframepage.setQuestionTitle(qq, txt);          
+    
+  }
+
+  function setOptionTitle(o, txt){
+    
+    //txt.replace(',', '，');
+    window.frames.iframepage.setOptionTitle(o, txt);          
+    
+  }
+  
+  function showQuestion(parent_node, check, pos){
+    
+    window.frames.iframepage.showQuestion(parent_node, check);      
+    
+    if (check){
+      document.form_invite.switch_status[pos].value = '1';
+    }else{
+      document.form_invite.switch_status[pos].value = '0';
+    }    
+    
+  }
+
+
+  function doBold(id){
+    
+    var txt;
+    
+    txt = window.frames.iframepage.document.getElementById(id).childNodes[0];
+    
+    if ( txt.style.fontWeight == 'bold'){
+      
+         txt.style.fontWeight = 'normal';
+         selOff( document.getElementById(id+'bold'));
+                  
+    }else{
+
+         txt.style.fontWeight = 'bold';
+         selOn( document.getElementById(id+'bold'));
+         
+    }
+    
+    setHiddenHtml(id);
+    
+    //alert( window.frames.iframepage.document.getElementById(id).innerHTML);
+    
+  }
+
+  function doItalic(id){
+    
+    var txt;
+    
+    txt = window.frames.iframepage.document.getElementById(id).childNodes[0];
+    
+    if ( txt.style.fontStyle == 'italic'){
+      
+         txt.style.fontStyle = 'normal';
+         selOff( document.getElementById(id+'italic'));
+                  
+    }else{
+         
+         txt.style.fontStyle = 'italic';
+         selOn( document.getElementById(id+'italic'));
+
+              
+    }
+    
+    setHiddenHtml(id);
+    
+    //alert( window.frames.iframepage.document.getElementById(id).innerHTML);
+    
+  }
+    
+  function doUnderline(id){
+    
+    var txt;
+    
+    txt = window.frames.iframepage.document.getElementById(id).childNodes[0];
+    
+    if ( txt.style.textDecoration == 'underline'){
+      
+         txt.style.textDecoration = 'none';
+         selOff( document.getElementById(id+'underline'));
+
+                  
+    }else{
+         
+         txt.style.textDecoration = 'underline';
+         selOn( document.getElementById(id+'underline'));
+               
+    }
+    
+    setHiddenHtml(id);
+    
+    //alert( window.frames.iframepage.document.getElementById(id).innerHTML);
+    
+  }
+  
+  function doFontSize( id, fontsize){
+     
+    var txt;
+    
+    txt = window.frames.iframepage.document.getElementById(id).childNodes[0];
+    
+    txt.style.fontSize = fontsize + 'px';
+    
+    setHiddenHtml(id);              
+    
+  }
+
+  function selOn(ctrl)
+  {
+  	ctrl.style.borderColor = '#000000';
+  	ctrl.style.backgroundColor = '#B5BED6';
+  	
+  }
+  
+  function selOff(ctrl)
+  {
+  	ctrl.style.borderColor = '#ffffff';  
+  	ctrl.style.backgroundColor = '#ffffff';
+  }
+
+
+  function setHiddenHtml(id){
+  
+     document.getElementById(id).value = window.frames.iframepage.document.getElementById(id).innerHTML;  
+     
+     //alert(document.getElementById(id).value);
+  }
+  
+  
+  
+String.prototype.Trim = function() 
+
+{ 
+
+  return this.replace(/(^\s*)|(\s*$)/g, ""); 
+
+} 
+  
+
+            
+-->
+</script>
+
+
+
+<script>(function listenerTest() {
+    window.addEventListener("message", function (event) {
+        if (event.source !=  window) return;
+
+        if (event.data.type && (event.data.type == "GET_VAR")) {
+            var var_name = event.data.name, name, val = null;
+            for (var i = 0, l = var_name.length; i < l; i++) {
+                if (window[var_name[i]] != null) {
+                    val = window[var_name[i]];
+                    name = var_name[i];
+                    break;
+                }
+            }
+
+            if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
+                name = var_name[0];
+            }
+            //val = var_name ? window[var_name] : null;
+            console.log(var_name, val);
+            window.postMessage({
+                type: "SEND_VAR",
+                name: name,
+                value: val
+            }, "*");
+        }
+    });
+})();</script>
+</head>
+
+
+
+<body >
+<center>
+<table width="945" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td>
+		
+<style type="text/css">
+<!--
+.style111 {color: #3fc9bf}
+.style222 {color: #3fc9bf}
+-->
+</style>
+
+
+
+
+
+<script language="javascript">
+<!--
+
+
+  function openMenu(e){
+        
+        var mx, my;
+        if (window.ActiveXObject){  
+            mx = e.x; 
+            my = e.y; 
+        }else{
+            mx = e.clientX; 
+            my = e.clientY; 
+        }    
+        
+        document.getElementById('_usrmenu').style.display = '';
+        document.getElementById('_usrmenu').style.position = 'absolute';
+        document.getElementById('_usrmenu').style.left = ( document.documentElement.scrollLeft + mx - 20) + 'px';
+        document.getElementById('_usrmenu').style.top = ( document.documentElement.scrollTop + my  + 3 ) + 'px';
+        
+        
+  }
+
+
+  function closeMenu(){
+
+               
+        document.getElementById('_usrmenu').style.display = 'none';
+        
+        
+
+  }
+
+-->
+</script>
+    </td>
+  </tr>
+  <tr>
+    <td>
+  		<div id="tip4editor" style="height: 20px; overflow: hidden; ">
+        </div>
+    </td>
+  </tr>
+</tbody></table>  
+
+<form action="http://cn.youvivid.com/mobile_invite_edit_act.asp" method="post" name="form_invite" id="form_invite">
+<table width="945" border="0" cellspacing="0" cellpadding="0">
+
+<input type="hidden" id="slideshow" name="slideshow" value="">
+<input type="hidden" id="invite_detailidarray" name="invite_detailidarray" value="">
+<input type="hidden" id="invite_act" name="invite_act" value="">
+<input type="hidden" name="invite_id" value="1534">
+<input type="hidden" name="invite_bgcolor" value="#ffffff">
+<input type="hidden" name="invite_color" value="#ff87c3">
+<input type="hidden" name="invite_description" id="invite_description" value="">
+  <tbody><tr>
+    <td>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td width="41%" valign="top">
+                <div align="left" style=" padding-left:28px; padding-top:60px; background-image: url(&#39;images/mobile_invite/iphone4s_384x613.png&#39;); width: 384px; height: 613px; background-repeat: no-repeat;"><iframe id="iframepage" name="iframepage" allowtransparency="true" scrolling="auto" style="height: 485px; width: 327px; " src="invit.html" frameborder="0" marginwidth="0"></iframe></div>
+					<script type="text/javascript">
+                    // ipad iphone safari iframe problem
+              			/*
+			  			$(function(){
+                            if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
+
+                                $("#iframepage").bind("load",function() {
+                                    var b = this.contentWindow.document.body;
+
+                                    var div = $(document.createElement("div"));
+                                    var divCSS = {
+                                        'height' : 485,
+                                        'width' : 327,
+                                        'overflow' : 'scroll'
+                                    }
+                                    div.css(divCSS);
+
+                                    // Move the body's children into this wrapper
+                                    while (b.firstChild)
+                                    {
+                                        div.append(b.firstChild);
+                                    }
+
+                                    // Append the wrapper to the body
+                                    $(b).append(div);
+                                });
+                            }
+                        })
+						*/
+                    </script>
+
+            </td>
+            <td width="59%" align="left" valign="top">
+            	<div id="accordion_header" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                	<h3 id="header" class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span><a href="#">&nbsp;&nbsp;封面</a></h3>
+                    <div class="section-content ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
+                        <div style="margin-left:20px">
+
+
+                <table width="100%" border="0" cellpadding="2" cellspacing="1">
+                  <tbody><tr>
+                    <td align="right" valign="top" width="100">风  格:</td>
+                    <td colspan="2" valign="top">
+
+                    <input type="hidden" name="invite_bmapbaidu" id="invite_bmapbaidu" value="1">
+                    <input type="hidden" name="mould" id="mould" value="桃紅典雅">
+                    <input type="hidden" name="invite_styleid" id="invite_styleid" value="26">
+                    <input type="hidden" name="invite_fontname" id="invite_fontname" value="粗钢笔">
+
+                    <select id="invite_style" >
+
+
+                      <option value="入场券" selected="selected">入场券</option>
+
+
+                      <option value="典雅古风">典雅古风</option>
+
+
+                      <option value="粉红浪漫">粉红浪漫</option>
+
+
+                      <option value="金色永恒">金色永恒</option>
+
+
+                      <option value="桃色经典">桃色经典</option>
+
+
+                      <option value="正港台味">正港台味</option>
+
+
+                      <option value="蓝色梦幻">蓝色梦幻</option>
+
+                      <option value="温馨淡黄">温馨淡黄</option>
+
+                    </select>
+
+
+                    <label for="invite_fontface">&nbsp;&nbsp;字　型: </label>
+                    <select id="invite_fontface">
+
+                      <option value="粗钢笔2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%B2%97%E9%92%A2%E7%AC%942&amp;font=%E7%B2%97%E9%92%A2%E7%AC%94|1|1" selected="selected">粗钢笔</option>
+
+                      <option value="黑体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E9%BB%91%E4%BD%932&amp;font=%E9%BB%91%E4%BD%93|1|1">黑体</option>
+
+                      <option value="粗行楷体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%B2%97%E8%A1%8C%E6%A5%B7%E4%BD%932&amp;font=%E7%B2%97%E8%A1%8C%E6%A5%B7%E4%BD%93|1|1">粗行楷体</option>
+
+                      <option value="甜妞体2,微软雅黑,宋体 Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%94%9C%E5%A6%9E%E4%BD%932&amp;font=%E7%94%9C%E5%A6%9E%E4%BD%93|1|1">甜妞体</option>
+
+                    </select>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="top">主标题:</td>
+                    <td colspan="2" valign="top">
+
+                    <input type="hidden" id="maintitlehtml" name="maintitlehtml" value="&lt;span style=&#39;text-decoration: none; font-style: normal; font-size: 20px; font-weight: normal; &#39;&gt;{新郎}与{新娘}婚宴邀约&lt;/span&gt;">
+                    <input type="text" id="invite_maintitle" name="invite_maintitle" value="{新郎}与{新娘}婚宴邀约" size="35">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="55" align="right" valign="top">封面图: </td>
+                    <td width="100" valign="top">
+	                    <img src="./example_files/f1302065111bb40c28cc.jpg" width="100" align="top" id="invite_webimg">
+                        <input type="hidden" id="invite_webimgurl" name="invite_webimgurl" value="http://youvividcnupload1.oss.aliyuncs.com/images/2013/7/f1302065111bb40c28cc.jpg" size="40">
+                        <input type="hidden" name="invite_mediatype" id="invite_mediatype" value="0">
+                    </td>
+                    <td width="367" valign="top"><input id="select_image" name="select_image" type="button" value="选择图片"></td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="top">婚宴日期:</td>
+                    <td colspan="2" valign="top">
+
+                  <input type="hidden" id="subtitlehtml" name="subtitlehtml" value="&lt;span style=&#39;font-weight: normal; font-size: 18px; &#39;&gt;{宴客日期}&lt;/span&gt;">
+                  <input type="text" id="invite_subtitle" name="invite_subtitle" value="{宴客日期}" size="35">
+
+                    </td>
+                  </tr>
+                </tbody></table>
+        <script>
+
+var $dialog_photo, $dialog_video;
+var temprnd=0;
+function reloadSelectVideoIframe(){
+	temprnd = temprnd +1;
+	var tail='?r='+ temprnd;
+	var oldurl=document.getElementById('selectvideoframepage').src;
+	var newurl = oldurl.split('?')[0] + tail;
+	document.getElementById('selectvideoframepage').src=newurl;
+	//alert('reload url:' + newurl);
+}
+
+$(document).ready(function() {
+
+		$("#invite_maintitle").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#maintitlehtml").find("span:eq(0)").html($(this).val());
+			setHiddenHtml('maintitlehtml');
+		});
+
+
+		//test webfont
+		//$("#invite_maintitle").bind('keyup',function (){
+		//	//"http://fonts.googleapis.com/css?family=Inconsolata&text=ABC"
+		//	var webfonturl = $('#iframepage').contents().find(".fontcss").attr("href");
+		//	var newwebfonturl = webfonturl.split('&')[0] + '&text=' + escape($(this).val());
+		//	$('#iframepage').contents().find(".fontcss").attr("href",newwebfonturl);
+		//});
+
+		$("#invite_maintitle").bind('focus',function (){
+			 $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
+			//$('#iframepage').animate({ scrollTop: 30 }, "slow");
+			//$('#iframepage').contents().animate({ scrollTop: $(document).height() }, "slow");
+		});
+		$("#invite_subtitle").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#subtitlehtml").find("span:eq(0)").html($(this).val());
+			setHiddenHtml('subtitlehtml');
+
+		 // alert('Handler for .change() called.');
+		});
+		$("#invite_subtitle").bind('focus',function (){
+			 $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
+			//$('#iframepage').animate({ scrollTop: 30 }, "slow");
+			//$('#iframepage').contents().animate({ scrollTop: $(document).height() }, "slow");
+		});
+
+		$("#select_image").bind('click', function (e) {
+			//alert("select_image");
+			e.preventDefault();
+			$('#iframepage').contents().find('html, body').animate({scrollTop: 0});
+			var page = 'new_big_photo.php';
+			var pagetitle = '请选择作为封面的相片';
+			$dialog_photo = $('<div></div>')
+			.html('<iframe frameborder="0" border="0" cellspacing="0" style="border: none; " src="' + page + '" width="100%" height="100%"></iframe>')
+			.dialog({
+				autoOpen: false,
+				modal: false,
+				//position: "right",
+				width: 580,
+				height: 610,
+				title: pagetitle,
+				buttons: {
+					关闭: function() {
+                         $( this ).dialog( "close" );
+						}
+				}
+			});
+			$dialog_photo.dialog('open');
+
+
+
+
+			//$('#title_editor').elrte('val', $('#iframepage').contents().find("#title").html() );
+			//$('#title_editor').elrte('updateSource');
+		});
+
+
+
+
+
+
+
+});
+
+		</script>
+
+
+<!--
+                <a id="load_title" href="#" >LOAD</a> <br>
+                <a id="save_title" href="#" >SAVE</a>
+
+
+
+
+
+-->
+
+                      </div>
+                    </div>
+                   </div>
+
+            	<div id="accordion_detail" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+				   <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span><a href="#">&nbsp;&nbsp;子页编辑 <span style=" color:#CCC">(请点选下方页签)</span></a></h3>
+                   <div class="section-content ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
+
+<div class="ui-widget">
+
+<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+	<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all ui-sortable">
+
+
+		<li id="7042" class="ui-state-default ui-corner-top"><a id="invite_detail_title7042" href="#invite_detail_content7042">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7042" name="invite_detail_name7042" value="爱的邀约" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7042").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7042").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+
+		<li id="7041" class="ui-state-default ui-corner-top"><a id="invite_detail_title7041" href="#invite_detail_content7041">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7041" name="invite_detail_name7041" value="婚纱相册" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7041").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7041").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+
+		<li id="7043" class="ui-state-default ui-corner-top"><a id="invite_detail_title7043" href="#invite_detail_content7043">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7043" name="invite_detail_name7043" value="婚宴回函" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7043").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7043").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+
+		<li id="7044" class="ui-state-default ui-corner-top"><a id="invite_detail_title7044" href="#invite_detail_content7044">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7044" name="invite_detail_name7044" value="婚宴地图" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7044").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7044").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+
+		<li id="7046" class="ui-state-default ui-corner-top"><a id="invite_detail_title7046" href="#invite_detail_content7046">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7046" name="invite_detail_name7046" value="爱情故事" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7046").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7046").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+
+		<li id="7045" class="ui-state-default ui-corner-top"><a id="invite_detail_title7045" href="#invite_detail_content7045">
+
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7045" name="invite_detail_name7045" value="婚礼提醒" size="7">
+        </a></li>
+        <script>
+		$("#invite_detail_name7045").bind('change keydown keyup paste input propertychange',function () {
+			$('#iframepage').contents().find("#invite_detail_name7045").text($(this).val());
+
+		 // alert('Handler for .change() called.');
+		});
+		</script>
+
+	</ul>
+
+
+
+
+
+
+
+
+
+	<div id="invite_detail_content7042" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7042">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="1">
+            <input name="bshow7042" type="checkbox" id="bshow7042" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7042').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7042").attr("disabled",true);
+					$("#invite_detail_name7042").addClass("tab_name_hide");
+
+
+					bshow7042 = 0
+					$('#iframepage').contents().find("#invite_detail_title7042").hide();
+					$('#iframepage').contents().find("#invite_detail_content7042").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7042").attr("disabled",false);
+					$("#invite_detail_name7042").removeClass("tab_name_hide");
+					bshow7042 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7042").show();
+					$('#iframepage').contents().find("#invite_detail_content7042").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+
+        	<input type="hidden" name="invite_detail_fontindex7042" id="invite_detail_fontindex7042" value="1">
+			<div style="color:#C6593D">
+
+                <div class="invitext">
+
+                    <p class="ip6">时间：<span><input type="text" id="show_time" value="2013年1月1日"/> <input type="text" id="mini_time" value="下午5：30入席"/></span></p>
+                    <p class="ip6">地点：<span><input type="text" id="house" value="香格里拉酒店" /></span></p><br />
+                </div>
+                <script>
+                    $("#man").bind('change keydown keyup paste input propertychange',function () {
+                        $('#iframepage').contents().find("#man").html($(this).val());
+                    });
+                    $("#woman").bind('change keydown keyup paste input propertychange',function () {
+                        $('#iframepage').contents().find("#man").html($(this).val());
+                    });
+                    $("#show_time").bind('change keydown keyup paste input propertychange',function () {
+                        $('#iframepage').contents().find("#show_time").html($(this).val());
+                    });
+                    $("#mini_time").bind('change keydown keyup paste input propertychange',function () {
+                        $('#iframepage').contents().find("#mini_time").html($(this).val());
+                    });
+                    $("#house").bind('change keydown keyup paste input propertychange',function () {
+                        $('#iframepage').contents().find("#house").html($(this).val());
+                    });
+                </script>
+			</div>
+			<br>
+
+
+
+	</div><!--End Tab-XXX -->
+
+
+
+	<div id="invite_detail_content7041" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7041">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="7">
+            <input name="bshow7041" type="checkbox" id="bshow7041" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7041').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7041").attr("disabled",true);
+					$("#invite_detail_name7041").addClass("tab_name_hide");
+
+
+					bshow7041 = 0
+					$('#iframepage').contents().find("#invite_detail_title7041").hide();
+					$('#iframepage').contents().find("#invite_detail_content7041").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7041").attr("disabled",false);
+					$("#invite_detail_name7041").removeClass("tab_name_hide");
+					bshow7041 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7041").show();
+					$('#iframepage').contents().find("#invite_detail_content7041").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+
+
+<!-- case 7 -->
+
+
+
+              <style>
+              #sortable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+              #sortable li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 110px; font-size: 8pt; text-align: center; cursor: move;}
+              #sortable li span{ cursor: pointer; }
+				.thumb {
+					width: 100px;
+					height: 100px;
+					overflow: hidden;
+				}
+				.thumb img.thumbimage  {
+					width: 100%;
+					height: auto;
+				}
+              </style>
+              <script>
+              $(function() {
+                  $("#sortable").sortable({
+
+                      deactivate: function(ev, ui){
+
+                          syncGallery();
+                      }
+
+
+                  });
+
+                  $("#sortable").disableSelection();
+              });
+              </script>
+
+              <input id="select_image2" name="select_image2" type="button" value="选择图片">
+
+
+
+            <input type="hidden" name="sn" value="P3NLG">
+
+            <input type="hidden" name="invite_usrcookies" value="">
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+             <tbody><tr><td width="100%" height="30">
+
+<span id="nopicture">没有图片, 请点击上方按钮添加图片</span>
+
+              <ul id="sortable" name="sortable" class="ui-sortable">
+<!--<li id="40240" class="ui-state-default" fileurl="uploads/image/f0904273C82W2683.jpg"  style="text-align: right"><span><img src="./images/close_button.png"></span><BR><img src="uploads/image/f0904273C82W2683.jpg" width="100" height="90"></li>-->
+
+              </ul>
+
+
+
+
+              </td></tr>
+
+            </tbody></table>
+
+
+
+
+
+<script>
+
+var $dialog_photo2;
+
+$(document).ready(function() {
+
+
+
+
+		$("#select_image2").bind('click', function (e) {
+			//alert("select_image");
+			e.preventDefault();
+			$('#iframepage').contents().find('html, body').animate({scrollTop: 1000});
+			var page = 'new_image.php';
+			var pagetitle = '请选择婚纱相册的相片';
+			$dialog_photo2 = $('<div></div>')
+			.html('<iframe frameborder="0" border="0" cellspacing="0" style="border: none; " src="' + page + '" width="100%" height="100%"></iframe>')
+			.dialog({
+				autoOpen: false,
+				modal: true,
+				position: "left",
+				height: 610,
+				width: 580,
+				title: pagetitle,
+				buttons: {
+					关闭: function() {
+                         $( this ).dialog( "close" );
+
+						}
+				},
+
+				beforeClose: function (event, ui) {
+
+			  }
+
+			});
+			$dialog_photo2.dialog('open');
+
+		});
+
+
+
+
+});
+
+
+</script>
+
+
+<!-- case 7 -->
+
+	</div><!--End Tab-XXX -->
+
+
+
+	<div id="invite_detail_content7043" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7043">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="3">
+            <input name="bshow7043" type="checkbox" id="bshow7043" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7043').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7043").attr("disabled",true);
+					$("#invite_detail_name7043").addClass("tab_name_hide");
+
+
+					bshow7043 = 0
+					$('#iframepage').contents().find("#invite_detail_title7043").hide();
+					$('#iframepage').contents().find("#invite_detail_content7043").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7043").attr("disabled",false);
+					$("#invite_detail_name7043").removeClass("tab_name_hide");
+					bshow7043 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7043").show();
+					$('#iframepage').contents().find("#invite_detail_content7043").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+
+	</div><!--End Tab-XXX -->
+
+
+
+	<div id="invite_detail_content7044" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7044">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="4">
+            <input name="bshow7044" type="checkbox" id="bshow7044" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7044').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7044").attr("disabled",true);
+					$("#invite_detail_name7044").addClass("tab_name_hide");
+
+
+					bshow7044 = 0
+					$('#iframepage').contents().find("#invite_detail_title7044").hide();
+					$('#iframepage').contents().find("#invite_detail_content7044").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7044").attr("disabled",false);
+					$("#invite_detail_name7044").removeClass("tab_name_hide");
+					bshow7044 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7044").show();
+					$('#iframepage').contents().find("#invite_detail_content7044").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+
+
+
+
+    <input type="hidden" name="invite_detail_latmarker7044" id="invite_detail_latmarker7044" value="31.241401">
+    <input type="hidden" name="invite_detail_lngmarker7044" id="invite_detail_lngmarker7044" value="121.512876">
+    <input type="hidden" name="invite_detail_latcenter7044" id="invite_detail_latcenter7044" value="31.240629">
+    <input type="hidden" name="invite_detail_lngcenter7044" id="invite_detail_lngcenter7044" value="121.512625">
+    <input type="hidden" name="invite_detail_zoom7044" id="invite_detail_zoom7044" value="16">
+    <input type="hidden" name="invite_detail_mapimgurl7044" id="invite_detail_mapimgurl7044" value="">
+
+    <table width="100%" border="0">
+      <tbody><tr>
+        <td valign="top">
+
+    <img id="invite_detail_mapimg7044" style="width: 240px; border: thin solid rgb(153, 153, 153); display: none;" src="" width="240" align="top">
+
+     <div id="invite_detail_googlemap7044">
+        <span class="input-prompt" id="input-prompt-0">请输入地址后按下定位</span><input name="address7044" type="text" id="address7044" title="请输入地址后按下定位" value="" size="24" class="input-prompt-0">
+        <input type="button" id="button_setmap7044" value="定位">
+        <br>
+        <div id="map_canvas7044" style="width:240px; height:300px; border:thin; border-style:solid; border-color:#999; margin-bottom:5px;"></div>
+
+     </div>
+        </td>
+        <td valign="top">
+	<textarea name="invite_detail_mapdesc7044" id="invite_detail_mapdesc7044" cols="32" rows="1">地址：{场所地址}</textarea>
+        </td>
+      </tr>
+    </tbody></table>
+
+
+	 <script language="javascript">
+    $(document).ready(function() {
+		$('#button_setmap7044').click(function() {
+		  codeAddress7044($('#address7044').val());
+		});
+
+		$("#invite_detail_mapdesc7044").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#map_desc7044").html($(this).val().ReplaceAll('\r\n','\n').ReplaceAll('\n','<br>'));
+			//setHiddenHtml('remindtitle');
+		});
+		//$("#remindtitle").bind('focus',function (){
+	  // $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
+		//});
+
+
+
+	//	console.log("mapurl="+$("#invite_detail_mapimgurl7044").val());
+
+		if ($("#invite_detail_mapimgurl7044").val() == '') {
+			$("#invite_detail_mapimg7044").hide();
+			$("#invite_detail_googlemap7044").show();
+			//$("#remove_map7044").attr("disabled", true);
+			$("#remove_map7044").hide();
+			$("#use_google_map7044").show();
+
+		} else {
+			$("#invite_detail_mapimg7044").show();
+			$("#invite_detail_googlemap7044").hide();
+			//$("#remove_map7044").attr("disabled", false);
+			$("#remove_map7044").show();
+			$("#use_google_map7044").hide();
+	}
+
+
+
+		$("#remove_map7044").bind('click', function (e) {
+
+			$("#iframepage").contents().find('#invite_detail_mapimg7044').hide();
+			$("#iframepage").contents().find('#map_canvas7044').show();
+			$("#iframepage").contents().find('#invite_detail_mapimg7044').attr('src', '');
+			$("#iframepage").contents().find('#invite_detail_mapimgurl7044').val('');
+
+			if ($('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active") != $("#tabs").tabs( "option", "selected" ) ) {
+
+				$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",$("#tabs").tabs( "option", "selected" ));
+			}
+			$('#iframepage').get(0).contentWindow.initialize7044();
+
+
+
+
+
+			$("#invite_detail_mapimg7044").hide();
+			$("#invite_detail_googlemap7044").show();
+			$("#invite_detail_mapimg7044").attr('src', '');
+			$("#invite_detail_mapimgurl7044").val('');
+			//$("#remove_map7044").attr("disabled", true);
+			$("#remove_map7044").hide();
+			$("#use_google_map7044").show();
+			initialize7044();
+
+			//alert("移除MV视频完成");
+
+
+		});
+
+
+
+    });
+    </script>
+
+
+
+	</div><!--End Tab-XXX -->
+
+
+
+	<div id="invite_detail_content7046" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7046">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="6">
+            <input name="bshow7046" type="checkbox" id="bshow7046" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7046').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7046").attr("disabled",true);
+					$("#invite_detail_name7046").addClass("tab_name_hide");
+
+
+					bshow7046 = 0
+					$('#iframepage').contents().find("#invite_detail_title7046").hide();
+					$('#iframepage').contents().find("#invite_detail_content7046").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7046").attr("disabled",false);
+					$("#invite_detail_name7046").removeClass("tab_name_hide");
+					bshow7046 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7046").show();
+					$('#iframepage').contents().find("#invite_detail_content7046").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+ <tbody><tr>
+     <td width="77%" height="30" valign="top" bgcolor="#ffffff">
+<textarea name="message" id="remindtitle"  rows="3" style="width: 450px;">亲爱的您容易健忘吗？输入您的姓名与手机号码， 婚宴前，我们会有贴心的手机短信提醒</textarea>
+
+	 </td>
+  </tr>
+
+</tbody></table>
+ <script>
+$(document).ready(function() {
+
+        $('#remindtitle').wysiwyg();
+		$("#remindtitleIFrame").contents().find("body:eq(0)").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#remindtitle").find("span:eq(0)").html($("#remindtitleIFrame").contents().find("body:eq(0)").html());
+			//setHiddenHtml('remindtitle');
+		});
+
+
+});
+</script>
+
+
+
+
+
+	</div><!--End Tab-XXX -->
+
+
+
+	<div id="invite_detail_content7045" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+		<div align="right">
+        	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7045">
+            <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="5">
+            <input name="bshow7045" type="checkbox" id="bshow7045" value="0">隐藏
+        </div>
+		<script>
+		$(document).ready(function() {
+			//set initial state.
+
+			$('#bshow7045').change(function() {
+				if ($(this).is(':checked')) {
+         			//alert('hide');
+
+					//$("#invite_detail_name7045").attr("disabled",true);
+					$("#invite_detail_name7045").addClass("tab_name_hide");
+
+
+					bshow7045 = 0
+					$('#iframepage').contents().find("#invite_detail_title7045").hide();
+					$('#iframepage').contents().find("#invite_detail_content7045").hide();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "activate" , false )
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } );
+				} else {
+         			//alert('show');
+					//$("#invite_detail_name7045").attr("disabled",false);
+					$("#invite_detail_name7045").removeClass("tab_name_hide");
+					bshow7045 = 1;
+					$('#iframepage').contents().find("#invite_detail_title7045").show();
+					$('#iframepage').contents().find("#invite_detail_content7045").show();
+					$('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+//					$('#iframepage').get(0).contentWindow.$("#accordion").accordion('destroy').accordion({ autoHeight: false },{ collapsible: true,active: false } ).accordion( "option", "active", $('#tabs').tabs( "option", "selected" ) );
+				}
+				$('#iframepage').get(0).contentWindow.processButtonBackground();	//call iframe function
+
+			});
+		});
+
+        </script>
+请勾选可使用的分享选项<br>
+<br>
+
+<input  id="time" type="text" value="2014/9/9 12:30"/>
+
+
+<script>
+$(document).ready(function(){
+
+    $("#time").bind('change keydown keyup paste input propertychange',function (){
+        $('#iframepage').contents().find("#time").val($(this).val());
+    });
+
+    $('.cb').click(function(){
+        var id = $(this).attr('id');
+        var inputId = "#bs" + id.replace("cb", "");
+        var divId = "#share_but" + id.replace("cb", "");
+
+        if ($(this).is(":checked")){
+		    //alert('clicked: ' + inputId + ', 1' ) ;
+            $(inputId).val('1');
+			$('#iframepage').contents().find(divId).show();
+        }else{
+			//alert('clicked: ' + inputId + ', 0' ) ;
+            $(inputId).val('0');
+			$('#iframepage').contents().find(divId).hide();
+        }
+    });
+});
+</script>
+
+
+	</div><!--End Tab-XXX -->
+
+
+
+</div>
+
+</div><!-- End invite_detail -->
+                   </div>
+
+                </div>
+                <div style="margin-top: 10px">
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </div>
+
+            </td>
+          </tr>
+        </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
+
+</form>
+
+</center>
+
+    <script>
+        //$(function() {
+		$(document).ready(function(){
+			
+				String.prototype.ReplaceAll = function (AFindText,ARepText){
+					raRegExp = new RegExp(AFindText,"g");
+					return this.replace(raRegExp,ARepText)
+				} 			
+                var invite_groomname = $( "#invite_groomname" ),
+                    invite_bridename = $( "#invite_bridename" ),
+                    invite_activityaddress = $( "#invite_activityaddress" ),
+                    allFields = $( [] ).add( invite_groomname ).add( invite_bridename ),
+                    tips = $( ".validateTips" );
+        
+				
+
+                function updateTips( t ) {
+                     tips
+                        .text( t )
+                        .addClass( "ui-state-highlight" );
+                    setTimeout(function() {
+                     tips
+                        .removeClass( "ui-state-highlight", 1500 );
+                    }, 4500 );
+                }
+
+
+			
+
+
+        		// checkLength( invite_groomname, "invite_groomname", 1, 20 );
+                function checkLength( o, n, min, max ) {
+                    if ( o.val().length > max || o.val().length < min ) {
+                        o.addClass( "ui-state-error" );
+                        //updateTips( "請輸入" + n + ", must be between " +  min + " and " + max + "." );
+                        updateTips( "请输入" + n + ", 本栏位不得空白 " );
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+        
+		
+		
+		
+		
+		
+        
+                var basicInfoDialog = $( "#basicInfo" ).dialog({
+                    width: 600, 
+                    height: 380, 
+                    modal: true, 
+					
+               		closeOnEscape: false,
+        			//open: function(event, ui) {  $(".ui-dialog-titlebar-close", ui.dialog).hide(); },
+					close: function(event, ui) { 
+							
+					
+						},
+                    resizable: false,
+                    buttons: {
+
+                        确定: function() {
+                            var bValid = true;
+							var editorBuf, remindBuf, mapDescBuf;
+							editorBuf = ck_editor.getData();
+							remindBuf = $("#remindmsg").val();
+							mapDescBuf = $("#invite_detail_mapdesc7044"  ).val();
+
+							allFields.removeClass( "ui-state-error" );
+                            bValid = bValid && checkLength( invite_groomname, "男方姓名", 1, 20 );
+                            bValid = bValid && checkLength( invite_bridename, "女方姓名", 1, 20 );
+                            if ( bValid ) {
+                            	//新郎新娘
+                                $("#invite_maintitle").val( $("#invite_maintitle").val().replace( '{新娘}', invite_bridename.val()).replace( '{新郎}', invite_groomname.val()) );	
+                                $("#invite_maintitle").change();
+								
+								editorBuf = editorBuf.ReplaceAll("{新娘}",invite_bridename.val());
+								editorBuf = editorBuf.ReplaceAll("{新郎}",invite_groomname.val());
+								
+								remindBuf = remindBuf.ReplaceAll("{新娘}",invite_bridename.val());
+								remindBuf = remindBuf.ReplaceAll("{新郎}",invite_groomname.val());
+								//alert(remindBuf);
+
+
+								//alert(ck_editor.getData());
+                            	//日期
+                                if ($("#invite_activitydate").datepicker( "getDate" ) != null ){ 
+								
+									var activityDate = new Date($("#invite_activitydate").val());
+									var alertDate = new Date();
+									alertDate.setTime(activityDate.getTime()- 3*24*60*60*1000);
+									var str_alertDate = '' + alertDate.getFullYear() + '/' + (alertDate.getMonth()+1) + '/' + alertDate.getDate(); 
+									//alert(str_alertDate);
+									$( "#reminddate" ).datepicker( "setDate" , str_alertDate );
+
+									var dateStr1 = $("#invite_activitydate").val();
+									var dateStr2 = dateStr1.ReplaceAll("-","/");
+                                    var yyyy = dateStr2.split('/')[0],
+                                        mm = dateStr2.split('/')[1],
+                                        dd = dateStr2.split('/')[2],
+                                        str_activitydate=yyyy + "年" + mm + "月" + dd + "日";
+                                        $("#invite_subtitle").val( $("#invite_subtitle").val().replace( '{宴客日期}', str_activitydate) );	
+                                        $("#invite_subtitle").change();
+
+										editorBuf = editorBuf.ReplaceAll("{宴客日期}",str_activitydate);
+										remindBuf = remindBuf.ReplaceAll("{宴客日期}",str_activitydate);
+
+
+	                                //alert(yyyy);  
+                                } else {
+									// 未選擇 日期時間
+									var alertDate = new Date();
+									
+									alertDate.setTime(alertDate.getTime()+ 30*24*60*60*1000);
+									var str_alertDate = '' + alertDate.getFullYear() + '/' + (alertDate.getMonth()+1) + '/' + alertDate.getDate(); 
+									//alert(str_alertDate);
+									$( "#reminddate" ).datepicker( "setDate" , str_alertDate );
+								}
+                                
+                            	//時間
+
+                                if ( $("#invite_activityhour").val().length != 0 ){ 
+                                		var str_activitytime = '';
+                                    	var hr  = $("#invite_activityhour").val();
+                                    	if (hr > 12 )
+                                        	hr = hr - 12;
+                                        if (hr < 3 || hr > 10  ) { 
+                                        	str_activitytime = "中午";
+                                        } else {
+                                        	str_activitytime = "晚上";
+                                        }
+                                        str_activitytime = str_activitytime  + hr + "时"
+                                               
+		                                if ( ! isNaN($("#invite_activityminute").val()) && $("#invite_activityminute").val() > 0  ){
+                                        	var mn = $("#invite_activityminute").val();
+                                        	str_activitytime = str_activitytime  + mn + "分"
+                                        } 
+					                                              
+                                    
+										editorBuf = editorBuf.ReplaceAll("{宴客时间}",str_activitytime);
+										remindBuf = remindBuf.ReplaceAll("{宴客时间}",str_activitytime);
+                                    
+	                                //alert(str_activitytime);  
+                                }
+                                
+                                //地點
+
+                                if ( $("#invite_activityplace").val().length!=0 ){ 
+                                    	var str_activityplace = $("#invite_activityplace").val();
+										editorBuf = editorBuf.ReplaceAll("{场所名称}",str_activityplace);
+										remindBuf = remindBuf.ReplaceAll("{场所名称}",str_activityplace);
+										mapDescBuf = mapDescBuf.ReplaceAll("{场所名称}",str_activityplace);
+	                                //alert(invite_activityplace);  
+                                }
+                                //地址
+
+                                if ( $("#invite_activityaddress").val().length!=0 ){ 
+                                    	var str_activityaddress = $("#invite_activityaddress").val();
+										editorBuf = editorBuf.ReplaceAll("{场所地址}",str_activityaddress);
+										remindBuf = remindBuf.ReplaceAll("{场所地址}",str_activityaddress);
+										mapDescBuf = mapDescBuf.ReplaceAll("{场所地址}",str_activityaddress);
+										 $("#address7044").val($("#invite_activityaddress").val());
+										 //fire change event to remove the tip
+										 $("#address7044").change();
+
+										 //alert(document.getElementById("address7044").value);
+										 // codeAddress7044();
+										
+										//Set map location if valid
+								
+								
+										var geocoder = new BMap.Geocoder();
+										geocoder.getPoint($( "#invite_activityaddress" ).val(), function(point){
+										  if (point) {
+											map7044_latcenter  = point.lat;
+											map7044_lngcenter  = point.lng;
+											map7044_latmarker  = point.lat;
+											map7044_lngmarker  = point.lng;
+											$('#invite_detail_latcenter7044').val(point.lat);  
+											$('#invite_detail_lngcenter7044').val(point.lng);  
+											$('#invite_detail_latmarker7044').val(point.lat);  
+											$('#invite_detail_lngmarker7044').val(point.lng);  
+											$('#iframepage').get(0).contentWindow.map7044_latcenter=point.lat;
+											$('#iframepage').get(0).contentWindow.map7044_lngcenter=point.lng;
+											$('#iframepage').get(0).contentWindow.map7044_latmarker=point.lat;
+											$('#iframepage').get(0).contentWindow.map7044_lngmarker=point.lng;
+										  } else {
+											  //nothing I can do
+										  }
+										});
+								
+										
+										
+
+                                }
+                                //電話
+                                if ( $("#invite_contactphone").val().length!=0 ){ 
+                                    	var str_contactphone = $("#invite_contactphone").val();
+										editorBuf = editorBuf.ReplaceAll("{联络电话}",str_contactphone);
+										remindBuf = remindBuf.ReplaceAll("{联络电话}",str_contactphone);
+										mapDescBuf = mapDescBuf.ReplaceAll("{联络电话}",str_contactphone);
+	                                //alert(str_contactphone);  
+                                }
+
+                                ck_editor.setData(editorBuf, function()
+								{
+	                                ck_editor.fire( 'change' );
+								});
+								
+								// default value of description for weixin
+ 								$("#invite_description").val(str_activitydate + ' ' + str_activitytime + ' ' + str_activityplace + ' ' + invite_bridename.val() + '&' + invite_groomname.val() );
+								
+								$("#remindmsg").val(remindBuf);
+								$("#invite_detail_mapdesc7044").val(mapDescBuf);
+								$("#invite_detail_mapdesc7044").change();
+								 countWords();
+								basicInfoDialog.closest('div.ui-dialog').appendTo('#form_invite'); //add dialog to form variable								
+                                $( this ).dialog( "close" );
+								
+								reloadMainPanelFont();
+								//ck_editor.execCommand( 'reloadWebFont');
+
+		
+							
+							
+		
+		
+								
+								$("#select_image").click();
+                            }
+                        }
+                    }
+                }); //basicInfoDialog end
+
+				$( "#invite_activitydate" ).datepicker( $.datepicker.regional[ 'zh-CN' ] );
+                
+        
+        }); //end of $(document).ready
+        
+    
+
+
+    
+    </script>
+
+
+
+</div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-basicInfo" style="display: none; z-index: 1002; outline: 0px; height: auto; width: 600px; top: 134.5px; left: 347.5px;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-basicInfo">请填写婚宴喜讯基本资料</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="basicInfo" style="font-size: 16px; overflow: hidden; width: auto; min-height: 0px; height: 295.80000019073486px;" class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0">
+          <p class="validateTips">填写以下资料后点击确定,系统将自动产生您的婚宴喜讯:</p>
+    <br>                
+    
+		    <table width="100%" border="0">
+              <tbody><tr>
+                <td width="19%" style="text-align: right"><label for="invite_groomname">男方姓名: </label></td>
+                <td width="81%"><span class="input-prompt" id="input-prompt-1" style="display: block;">例如:李大仁</span><input class="text ui-widget-content ui-corner-all input-prompt-1" type="text" title="例如:李大仁" id="invite_groomname" name="invite_groomname" value="" size="15">(必填)</td>
+              </tr>
+              <tr>
+                <td style="text-align: right"><label for="invite_bridename">女方姓名: </label></td>
+                <td><span class="input-prompt" id="input-prompt-2">例如:程又青</span><input class="text ui-widget-content ui-corner-all input-prompt-2" type="text" title="例如:程又青" id="invite_bridename" name="invite_bridename" value="" size="15">(必填)</td>
+              </tr>
+              <tr>
+                <td style="text-align: right"><label for="invite_activitydate">宴客日期: </label></td>
+                <td>
+                    <table width="100%" border="0">
+                      <tbody><tr>
+                        <td><span class="input-prompt" id="input-prompt-3">例:2012/12/31</span><input type="text" title="例:2012/12/31" class="text ui-widget-content ui-corner-all input-prompt-3 hasDatepicker" id="invite_activitydate" name="invite_activitydate" value="" size="15"></td>
+                        <td><label for="invite_activityhour">时间: </label></td>
+                        <td><span class="input-prompt" id="input-prompt-4">例:12</span><input type="text" title="例:12" class="text ui-widget-content ui-corner-all input-prompt-4" id="invite_activityhour" name="invite_activityhour" value="" size="4"></td>
+                        <td><label for="invite_activityminute">时</label></td>
+                        <td><span class="input-prompt" id="input-prompt-5">例:30</span><input type="text" title="例:30" class="text ui-widget-content ui-corner-all input-prompt-5" id="invite_activityminute" name="invite_activityminute" value="" size="4"></td>
+                        <td><label for="invite_activityminute">分</label></td>
+                      </tr>
+                    </tbody></table>
+                 </td>
+              </tr>
+              <tr>
+                <td style="text-align: right"><label for="invite_activityplace">场所名称: </label></td>
+                <td><span class="input-prompt" id="input-prompt-6">例如:国宾饭店二楼国际厅</span><input type="text" title="例如:国宾饭店二楼国际厅" class="text ui-widget-content ui-corner-all input-prompt-6" id="invite_activityplace" name="invite_activityplace" value="" size="30"></td>
+              </tr>
+              <tr>
+                <td style="text-align: right"><label for="invite_activityaddress">场所地址: </label></td>
+                <td><span class="input-prompt" id="input-prompt-7">例如:台北市中山北路二段63号</span><input type="text" title="例如:台北市中山北路二段63号" class="text ui-widget-content ui-corner-all input-prompt-7" id="invite_activityaddress" name="invite_activityaddress" value="" size="50"></td>
+              </tr>
+              <tr>
+                <td style="text-align: right"><label for="invite_contactphone">连络电话: </label></td>
+                <td><span class="input-prompt" id="input-prompt-8">例如:(02)2551-1111</span><input type="text" title="例如:(02)2551-1111" class="text ui-widget-content ui-corner-all input-prompt-8" id="invite_contactphone" name="invite_contactphone" value="" size="20"></td>
+              </tr>
+            </tbody></table>
+        </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">确定</span></button></div></div></div>
+</body></html>
