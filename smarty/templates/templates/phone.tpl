@@ -709,7 +709,7 @@ window.onload = function() {
             <div style="margin-top:5px; margin-bottom:15px">
                 <div style="font-size:14px; margin-bottom:5px">倒计时还有:</div>
                 <div style="width:100%" align="center">
-                    <input style="border:1px solid #777; background-color:#FFC; font-size:22px; color:#777;" type="text" id="lefttime" value="本喜讯尚未发布" size="20">
+                    <input style="border:1px solid #777; background-color:#FFC; font-size:22px; color:#777;" type="text" id="lefttime"  size="20">
                     <div style="font-size:12px; margin-top:5px"></div>
                 </div>
             </div>
@@ -717,7 +717,7 @@ window.onload = function() {
             <SCRIPT LANGUAGE="JavaScript">
                 function _fresh()
                 {
-                    var endtime=new Date(document.getElementById("time").value);
+                    var endtime=new Date("{#$lasttime#}");
                     var nowtime = new Date();
                     var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
                     if(leftsecond<0){leftsecond=0;}
