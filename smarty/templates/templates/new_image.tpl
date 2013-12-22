@@ -60,7 +60,7 @@
         $("#iframepage", parent.document.body).contents().find('#Gallery').children().filter('li').remove();
         {#section name=customer loop=$images #}
         var thumbnailurl = 'marryimg/{#$images[customer]#}';
-        $("#sortable", parent.document.body).append('<li  class="ui-state-default thumb" style="text-align: right"><span><img src="./images/close_button.png"></span>' +
+        $("#sortable", parent.document.body).append('<li  class="ui-state-default thumb" style="text-align: right">' +
                 '<img class="thumbimage" src="' + thumbnailurl + '" ></li>');
 
         $("#iframepage", parent.document.body).contents().find('#Gallery').append('<li><a href="#"><img src="' + thumbnailurl + '" alt=""/></a></li>');
