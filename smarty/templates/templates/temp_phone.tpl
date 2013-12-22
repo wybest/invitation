@@ -998,7 +998,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="1.png" src="style/{#$mould #}/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7042">{#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="1.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7042">{#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1017,7 +1017,7 @@ String.prototype.Trim = function() {
                     <div class="invite_detail_editor" id="invite_detail_editor7042">
 
                         <div class="invitext">
-                            <p class="ip2"><img src="style/{#$mould #}/image_files/16052978.png" width="80%" height="30" alt=""> </p>
+                            <p class="ip2"><img src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/16052978.png" width="80%" height="30" alt=""> </p>
                             <p class="ip3"><span id="show_time2">{#if $show_time #}{#$show_time#}{#else#}2014年9月9日{#/if#}</span></p>
                             <p class="ip4">贵宾名字</p>
                             <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span id="man">{#$man#}</span> 新娘：<span id="women">{#$women#}</span> {#/if#}</p>
@@ -1168,7 +1168,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="7.png" src="style/{#$mould #}/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="7.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1216,7 +1216,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="3.png" src="style/{#$mould #}/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7043">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="3.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7043">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1306,7 +1306,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="4.png" src="style/{#$mould #}/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7044">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="4.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7044">{#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1369,7 +1369,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="6.png" src="style/{#$mould #}/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7046">{#if $title#}{#$title#}{#else#}爱情故事{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="6.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7046">{#if $title#}{#$title#}{#else#}爱情故事{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1410,7 +1410,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="5.png" src="style/{#$mould #}/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7045">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="5.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7045">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></a>
                 </div>
             </div>
         </div>
