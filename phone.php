@@ -67,7 +67,7 @@ if($messageDO!=null){
 	Globle::$smarty->assign("title3",$user->title3);
 	Globle::$smarty->assign("title4",$user->title4);
 	Globle::$smarty->assign("title5",$user->title5);
-    $shuju_array = MyDB::selectShujuDB($user->id,1,20,$link);
+    $shuju_array = MyDB::selectShujuDB($user->id,1,200,$link);
     Globle::$smarty->assign("shuju_array",$shuju_array);
 
 	$info=isMobile();
