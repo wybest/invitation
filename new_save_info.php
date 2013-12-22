@@ -9,6 +9,8 @@ Globle::initSmarty();
 require 'is_login.php';
 
 if($_REQUEST['insert'] == "insert"){
+
+    $music=$_REQUEST['music'];
     $mould=$_REQUEST['mould'];
     $bigtitle=$_REQUEST['bigtitle'];
     $show_time=$_REQUEST['show_time'];
@@ -50,6 +52,7 @@ if($_REQUEST['insert'] == "insert"){
         }
 		$target = MyDB::updateInfoDB($man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
         MyDB::updateInfoPhoneMouldDB($mould,$user_id,$link);
+        MyDB::updateInfoMusicDB($music,$user_id,$link);
         MyDB::updateInfoCoordinateDB($coordinate,$user_id,$link);
         MyDB::updateUserTitleDB($title1,$title2,$title3,$title4,$title5,$num,$user_id,$link);
 
