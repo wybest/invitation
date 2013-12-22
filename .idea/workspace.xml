@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="fix&#10;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/05551f69ce64f428f0bf0be8fd2371db9d88e1d0.file.edit_info.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/0e86fab22c5a4831a282eaff69841c1cbe962486.file.music.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/173aa6649f9fe9615e7b955e4006cfa0c7377bf3.file.invitadress.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/1b595b0a3aa9964137f6ea949eb83fd6a72270f0.file.big_photo.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/21c1d1beb73f4192969ebd385646bac19ac93646.file.invitadress.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/27333a5c513b4dc9b6e4088a17f4bd40d566dac8.file.invit_info.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/2c005560f4c5ad26c416bc31e984cfd53b12f73e.file.phone.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/2de736f6001d1c7bfba91a989458cb118a518345.file.createA.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/31c81449bb8672b157a9810b71ecd94bf51abea4.file.foot.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/382608064ff22409fdcd9e3bc42f4028d85ad856.file.head.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/43c82dde3503e348e6903799791453af5935597b.file.login.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/73a1f20d7cd85b3127f9375d6117befa4a38f5cb.file.phone.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/7836823e6079002856dba3438c74f705199f50dd.file.foot.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/87637e28d2d3768f87eca2c293c1336fa751e40b.file.head.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/8de095b722df9b7acb2f693088efdad7ecd07ac3.file.login.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/9df1e95484ce62a8659c7f6addfa78ab7cb5be80.file.music.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/9f7a984918614f64ff198c326dfd16b0937b9036.file.createA.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/cd2f72b3c1779be5174736b43bfed56d426d8f89.file.edit_info.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/e6300a9d9206d4d2f591f1acc448905dcb4fc02c.file.invit_info.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/eee1904516ae28506d7794b6be520030d4542520.file.coordinate.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/faed5209ee7d212353af77f37c9e03dfca85281d.file.p16.tpl.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/ckeditor.js" afterPath="$PROJECT_DIR$/example_files/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/code.photoswipe.jquery-3.0.5.min.js" afterPath="$PROJECT_DIR$/example_files/code.photoswipe.jquery-3.0.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/code.photoswipe.jquery-3.0.5.min.js" afterPath="$PROJECT_DIR$/invit_files/code.photoswipe.jquery-3.0.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/common.js" afterPath="$PROJECT_DIR$/example_files/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/config.js" afterPath="$PROJECT_DIR$/example_files/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/custom.css" afterPath="$PROJECT_DIR$/example_files/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/custom.css" afterPath="$PROJECT_DIR$/invit_files/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/date.format.js" afterPath="$PROJECT_DIR$/example_files/date.format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/default.js" afterPath="$PROJECT_DIR$/example_files/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/detect_timezone.js" afterPath="$PROJECT_DIR$/example_files/detect_timezone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/editor.css" afterPath="$PROJECT_DIR$/example_files/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/firefox_xml_maxthon.js" afterPath="$PROJECT_DIR$/example_files/firefox_xml_maxthon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/getcss" afterPath="$PROJECT_DIR$/example_files/getcss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/getcss" afterPath="$PROJECT_DIR$/invit_files/getcss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/jquery-latest.js" afterPath="$PROJECT_DIR$/example_files/jquery-latest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/jquery-latest.js" afterPath="$PROJECT_DIR$/invit_files/jquery-latest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/jquery-ui-1.8.18.custom.full_leo.css" afterPath="$PROJECT_DIR$/example_files/jquery-ui-1.8.18.custom.full_leo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/jquery-ui-1.8.18.full.min.js" afterPath="$PROJECT_DIR$/example_files/jquery-ui-1.8.18.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/jquery-ui-1.8.18.full.min.js" afterPath="$PROJECT_DIR$/invit_files/jquery-ui-1.8.18.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/jquery-ui-1.8.20.custom.empty.css" afterPath="$PROJECT_DIR$/example_files/jquery-ui-1.8.20.custom.empty.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/jquery-ui-1.8.20.custom.empty.css" afterPath="$PROJECT_DIR$/invit_files/jquery-ui-1.8.20.custom.empty.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/klass.min.js" afterPath="$PROJECT_DIR$/example_files/klass.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/klass.min.js" afterPath="$PROJECT_DIR$/invit_files/klass.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/m-front-icon.css" afterPath="$PROJECT_DIR$/example_files/m-front-icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/m-front-invite.css" afterPath="$PROJECT_DIR$/example_files/m-front-invite.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/m-front-mess.css" afterPath="$PROJECT_DIR$/example_files/m-front-mess.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/m-webim-lite.css" afterPath="$PROJECT_DIR$/example_files/m-webim-lite.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/movcard.css.asp" afterPath="$PROJECT_DIR$/example_files/movcard.css.asp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/photoswipe.css" afterPath="$PROJECT_DIR$/example_files/photoswipe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/photoswipe.css" afterPath="$PROJECT_DIR$/invit_files/photoswipe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/plugin(1).js" afterPath="$PROJECT_DIR$/example_files/plugin(1).js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/plugin.js" afterPath="$PROJECT_DIR$/example_files/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/styles.css" afterPath="$PROJECT_DIR$/example_files/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/styles_leo.css" afterPath="$PROJECT_DIR$/example_files/styles_leo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/styles_leo.css" afterPath="$PROJECT_DIR$/invit_files/styles_leo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/swfobject.js" afterPath="$PROJECT_DIR$/example_files/swfobject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/wxshare.js" afterPath="$PROJECT_DIR$/example_files/wxshare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invit_files/wxshare.js" afterPath="$PROJECT_DIR$/invit_files/wxshare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_files/zh-cn.js" afterPath="$PROJECT_DIR$/example_files/zh-cn.js" />
+    </list>
+    <ignored path="invitation.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="invitation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="jquery-ui-1.8.18.custom.full_leo.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example_files/jquery-ui-1.8.18.custom.full_leo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="897" selection-end="897" vertical-scroll-proportion="0.6494845" vertical-offset="0" max-vertical-offset="10692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/smarty/templates/templates/pc/p15.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/pc/p16.tpl" />
+        <option value="$PROJECT_DIR$/upfile.php" />
+        <option value="$PROJECT_DIR$/upfile1.php" />
+        <option value="$PROJECT_DIR$/simple-start.php" />
+        <option value="$PROJECT_DIR$/music.php" />
+        <option value="$PROJECT_DIR$/save_music.php" />
+        <option value="$PROJECT_DIR$/init_mp3list.php" />
+        <option value="$PROJECT_DIR$/save_mp3.php" />
+        <option value="$PROJECT_DIR$/pc.html" />
+        <option value="$PROJECT_DIR$/temp.html" />
+        <option value="$PROJECT_DIR$/temp.css" />
+        <option value="$PROJECT_DIR$/basicDB.php" />
+        <option value="$PROJECT_DIR$/example_files/mobile_invite.html" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/music.tpl" />
+        <option value="$PROJECT_DIR$/new_big_photo.php" />
+        <option value="$PROJECT_DIR$/save_photo.php" />
+        <option value="$PROJECT_DIR$/new_save_photo.php" />
+        <option value="$PROJECT_DIR$/new_image.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/coordinate.tpl" />
+        <option value="$PROJECT_DIR$/invit.html" />
+        <option value="$PROJECT_DIR$/font.php" />
+        <option value="$PROJECT_DIR$/example.html" />
+        <option value="$PROJECT_DIR$/delete_photo.php" />
+        <option value="$PROJECT_DIR$/regist.php" />
+        <option value="$PROJECT_DIR$/UserDO.class.php" />
+        <option value="$PROJECT_DIR$/new_temp_phone.php" />
+        <option value="$PROJECT_DIR$/MyDB.class.php" />
+        <option value="$PROJECT_DIR$/new_music.php" />
+        <option value="$PROJECT_DIR$/new_save_music.php" />
+        <option value="$PROJECT_DIR$/new_save_info.php" />
+        <option value="$PROJECT_DIR$/error.htm" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/new_invit_info.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl" />
+        <option value="$PROJECT_DIR$/new_delete_photo.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_head.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_image.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_music.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
+        <option value="$PROJECT_DIR$/invitadress.php" />
+        <option value="$PROJECT_DIR$/invitvipadress.php" />
+        <option value="$PROJECT_DIR$/mould_pc.php" />
+        <option value="$PROJECT_DIR$/receipt.php" />
+        <option value="$PROJECT_DIR$/receiptDetail.php" />
+        <option value="$PROJECT_DIR$/weixin.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/head.tpl" />
+        <option value="$PROJECT_DIR$/phone.php" />
+        <option value="$PROJECT_DIR$/example_files/jquery-ui-1.8.18.custom.full_leo.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="-5" />
+    <option name="width" value="1319" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="96" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1000" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="96" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1000" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/smarty/templates/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="" />
+      <created>1386922453867</created>
+      <updated>1386922453867</updated>
+      <workItem from="1386922456155" duration="520000" />
+      <workItem from="1386923002022" duration="79000" />
+      <workItem from="1386923105138" duration="622000" />
+      <workItem from="1386927325244" duration="75000" />
+      <workItem from="1386927422146" duration="226000" />
+      <workItem from="1386927673479" duration="718000" />
+      <workItem from="1386928941428" duration="1220000" />
+      <workItem from="1386936359607" duration="131000" />
+      <workItem from="1386936502100" duration="60000" />
+      <workItem from="1386936573910" duration="7794000" />
+      <workItem from="1387094681468" duration="3988000" />
+      <workItem from="1387100777230" duration="11922000" />
+      <workItem from="1387116279000" duration="10149000" />
+      <workItem from="1387159714235" duration="4530000" />
+      <workItem from="1387179071900" duration="826000" />
+      <workItem from="1387194139250" duration="1262000" />
+      <workItem from="1387199766853" duration="5942000" />
+      <workItem from="1387245871259" duration="316000" />
+      <workItem from="1387274827899" duration="13590000" />
+      <workItem from="1387331077768" duration="10059000" />
+      <workItem from="1387354991135" duration="166000" />
+      <workItem from="1387355173586" duration="3665000" />
+      <workItem from="1387358860425" duration="7057000" />
+      <workItem from="1387419300195" duration="15705000" />
+      <workItem from="1387441348626" duration="6108000" />
+      <workItem from="1387447480113" duration="3324000" />
+      <workItem from="1387462906169" duration="4161000" />
+      <workItem from="1387505770440" duration="20582000" />
+      <workItem from="1387590809470" duration="28448000" />
+      <workItem from="1387679388790" duration="29957000" />
+    </task>
+    <task id="LOCAL-00001" summary="过滤祝福信息">
+      <created>1386945066586</created>
+      <updated>1386945066586</updated>
+    </task>
+    <task id="LOCAL-00002" summary="过滤祝福信息&#10;">
+      <created>1386945168819</created>
+      <updated>1386945168819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改">
+      <created>1387097027260</created>
+      <updated>1387097027260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改&#10;">
+      <created>1387097092640</created>
+      <updated>1387097092640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="下载云存储&#10;">
+      <created>1387110617505</created>
+      <updated>1387110617505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加目录&#10;">
+      <created>1387110891711</created>
+      <updated>1387110891711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加目录&#10;">
+      <created>1387111105555</created>
+      <updated>1387111105555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加目录&#10;">
+      <created>1387111491451</created>
+      <updated>1387111491451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加目录&#10;">
+      <created>1387111901454</created>
+      <updated>1387111901454</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加目录&#10;">
+      <created>1387112084944</created>
+      <updated>1387112084944</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加目录&#10;">
+      <created>1387112827192</created>
+      <updated>1387112827192</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加目录&#10;">
+      <created>1387112981801</created>
+      <updated>1387112981801</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加目录&#10;">
+      <created>1387113096502</created>
+      <updated>1387113096502</updated>
+    </task>
+    <task id="LOCAL-00014" summary="添加目录&#10;">
+      <created>1387114128445</created>
+      <updated>1387114128445</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加目录&#10;">
+      <created>1387114463665</created>
+      <updated>1387114463665</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加目录&#10;">
+      <created>1387114983226</created>
+      <updated>1387114983226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加目录&#10;">
+      <created>1387115138368</created>
+      <updated>1387115138368</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加目录&#10;">
+      <created>1387115165488</created>
+      <updated>1387115165488</updated>
+    </task>
+    <task id="LOCAL-00019" summary="取出百度依赖&#10;">
+      <created>1387121496389</created>
+      <updated>1387121496389</updated>
+    </task>
+    <task id="LOCAL-00020" summary="取出百度依赖&#10;">
+      <created>1387122117819</created>
+      <updated>1387122117819</updated>
+    </task>
+    <task id="LOCAL-00021" summary="取出百度依赖&#10;">
+      <created>1387123040414</created>
+      <updated>1387123040414</updated>
+    </task>
+    <task id="LOCAL-00022" summary="取出百度依赖&#10;">
+      <created>1387123986069</created>
+      <updated>1387123986069</updated>
+    </task>
+    <task id="LOCAL-00023" summary="取出百度依赖&#10;">
+      <created>1387124357765</created>
+      <updated>1387124357765</updated>
+    </task>
+    <task id="LOCAL-00024" summary="取出百度依赖&#10;">
+      <created>1387124472697</created>
+      <updated>1387124472697</updated>
+    </task>
+    <task id="LOCAL-00025" summary="取出百度依赖&#10;">
+      <created>1387124563050</created>
+      <updated>1387124563050</updated>
+    </task>
+    <task id="LOCAL-00026" summary="取出百度依赖&#10;">
+      <created>1387127089590</created>
+      <updated>1387127089590</updated>
+    </task>
+    <task id="LOCAL-00027" summary="取出百度依赖&#10;">
+      <created>1387127996599</created>
+      <updated>1387127996599</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix&#10;">
+      <created>1387210298312</created>
+      <updated>1387210298312</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix&#10;">
+      <created>1387210501314</created>
+      <updated>1387210501314</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix&#10;">
+      <created>1387275020281</created>
+      <updated>1387275020281</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix&#10;">
+      <created>1387276372354</created>
+      <updated>1387276372354</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加回函list&#10;">
+      <created>1387288725807</created>
+      <updated>1387288725807</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix&#10;">
+      <created>1387288894111</created>
+      <updated>1387288894111</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix&#10;">
+      <created>1387294376449</created>
+      <updated>1387294376449</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix&#10;">
+      <created>1387294535821</created>
+      <updated>1387294535821</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix&#10;">
+      <created>1387294847408</created>
+      <updated>1387294847408</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix&#10;">
+      <created>1387297409111</created>
+      <updated>1387297409111</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix&#10;">
+      <created>1387334501750</created>
+      <updated>1387334501750</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix&#10;">
+      <created>1387420645090</created>
+      <updated>1387420645090</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add&#10;">
+      <created>1387537689412</created>
+      <updated>1387537689412</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add&#10;">
+      <created>1387537804435</created>
+      <updated>1387537804435</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix&#10;">
+      <created>1387552279457</created>
+      <updated>1387552279457</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix&#10;">
+      <created>1387553110059</created>
+      <updated>1387553110059</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix&#10;">
+      <created>1387591112171</created>
+      <updated>1387591112171</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix&#10;">
+      <created>1387690864273</created>
+      <updated>1387690864273</updated>
+    </task>
+    <task id="LOCAL-00046" summary="新版本&#10;">
+      <created>1387718250099</created>
+      <updated>1387718250099</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix&#10;">
+      <created>1387718316477</created>
+      <updated>1387718316477</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="-5" width="1319" height="774" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5052161" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.068554394" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25208807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <confirmMoveToFailedCommit value="1" />
+    <MESSAGE value="过滤祝福信息" />
+    <MESSAGE value="过滤祝福信息&#10;" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="修改&#10;" />
+    <MESSAGE value="下载云存储&#10;" />
+    <MESSAGE value="添加目录&#10;" />
+    <MESSAGE value="取出百度依赖&#10;" />
+    <MESSAGE value="添加回函list&#10;" />
+    <MESSAGE value="add&#10;" />
+    <MESSAGE value="新版本&#10;" />
+    <MESSAGE value="fix&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/edit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="51" selection-start="2693" selection-end="2704" vertical-scroll-proportion="0.39250815" vertical-offset="947" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_shuju.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="152" selection-end="178" vertical-scroll-proportion="0.1791531" vertical-offset="34" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="57" selection-start="492" selection-end="496" vertical-scroll-proportion="0.5675676" vertical-offset="108" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-back.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1471" column="47" selection-start="43410" selection-end="43425" vertical-scroll-proportion="0.0" vertical-offset="26478" max-vertical-offset="81972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="46" selection-start="668" selection-end="668" vertical-scroll-proportion="0.17100978" vertical-offset="291" max-vertical-offset="1962">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserDO.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="336" selection-end="336" vertical-scroll-proportion="0.5863192" vertical-offset="0" max-vertical-offset="614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="295" selection-end="295" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marryimg/2013-12-19-09-44-58.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marryimg/2013-12-15-12-15-31.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/image.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="7" selection-start="939" selection-end="1577" vertical-scroll-proportion="0.77870214" vertical-offset="324" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1126" column="72" selection-start="0" selection-end="49735" vertical-scroll-proportion="-8.666667" vertical-offset="20034" max-vertical-offset="30402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13194">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="419" selection-end="595" vertical-scroll-proportion="0.578125" vertical-offset="27" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="1786" selection-end="1981" vertical-scroll-proportion="-13.407408" vertical-offset="340" max-vertical-offset="1062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="488" selection-end="488" vertical-scroll-proportion="-8.666667" vertical-offset="108" max-vertical-offset="1044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="579" selection-end="591" vertical-scroll-proportion="-10.740741" vertical-offset="34" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/invit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="629" selection-end="681" vertical-scroll-proportion="3.3333333" vertical-offset="486" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.2222223" vertical-offset="168" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_save_music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="865" selection-end="865" vertical-scroll-proportion="-21.11111" vertical-offset="42" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/music.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1933" selection-end="1975" vertical-scroll-proportion="-12.666667" vertical-offset="378" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_save_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="-1.2413793" vertical-offset="0" max-vertical-offset="1962">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.0" vertical-offset="324" max-vertical-offset="3330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mould.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="49" selection-start="561" selection-end="561" vertical-scroll-proportion="-12.0" vertical-offset="54" max-vertical-offset="1746">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="452" selection-end="452" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="688" column="231" selection-start="26869" selection-end="26913" vertical-scroll-proportion="-1.5402299" vertical-offset="12250" max-vertical-offset="14274">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="2" selection-start="695" selection-end="1103" vertical-scroll-proportion="-5.296296" vertical-offset="217" max-vertical-offset="6156">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#dl#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#dl#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#dl#0;n#li#6;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="421" selection-end="421" vertical-scroll-proportion="0.5500849" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyDB.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="27" selection-start="3850" selection-end="3850" vertical-scroll-proportion="-0.119791664" vertical-offset="2391" max-vertical-offset="8802">
+          <folding>
+            <marker date="1387702254207" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_delete_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="54" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.3327032" vertical-offset="598" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="5" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.89850247" vertical-offset="612" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_image.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="5" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.9375" vertical-offset="954" max-vertical-offset="1638">
+          <folding>
+            <marker date="1387716909512" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_music.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="5" selection-start="2577" selection-end="2577" vertical-scroll-proportion="2.0" vertical-offset="0" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/coordinate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2064" selection-end="2184" vertical-scroll-proportion="0.25570032" vertical-offset="1409" max-vertical-offset="2916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="35" selection-start="2999" selection-end="3644" vertical-scroll-proportion="0.6321627" vertical-offset="1620" max-vertical-offset="26748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.4883721" vertical-offset="2214" max-vertical-offset="39240">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1387717278396" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387717278396" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387717278396" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invitadress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="150" selection-end="150" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invitvipadress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="292" selection-end="292" vertical-scroll-proportion="-3.5185184" vertical-offset="85" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mould_pc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="337" selection-end="337" vertical-scroll-proportion="-4.185185" vertical-offset="85" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_invit_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="908" selection-end="908" vertical-scroll-proportion="-3.7037036" vertical-offset="314" max-vertical-offset="1062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="314" selection-end="314" vertical-scroll-proportion="16.481482" vertical-offset="643" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receiptDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="259" selection-end="259" vertical-scroll-proportion="-3.3703704" vertical-offset="71" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="302" selection-end="302" vertical-scroll-proportion="-3.4074075" vertical-offset="106" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/head-back.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_head.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="65" selection-start="0" selection-end="5229" vertical-scroll-proportion="0.6289517" vertical-offset="378" max-vertical-offset="2538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/head.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="5457" selection-end="5457" vertical-scroll-proportion="-71.333336" vertical-offset="504" max-vertical-offset="2538">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1387717739592" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="24" selection-start="3099" selection-end="3099" vertical-scroll-proportion="0.38935107" vertical-offset="1188" max-vertical-offset="2916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="758" selection-end="759" vertical-scroll-proportion="0.45405406" vertical-offset="54" max-vertical-offset="38880">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#h3#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1387686121283" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1387686121283" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_files/jquery-ui-1.8.18.custom.full_leo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="897" selection-end="897" vertical-scroll-proportion="0.6494845" vertical-offset="0" max-vertical-offset="10692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
