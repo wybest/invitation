@@ -28,7 +28,7 @@
 	src="marryimg/{#$bigimage#}">
 </div>	
 <div style="text-align: center;">
-<a onclick="return confirm('确认要删除?');" href="delete_photo.php?delete=true&type=big"><img style="" src="img/delete.png" alt="删除"></a>
+<a onclick="return confirm('确认要删除?');" href="new_delete_photo.php?delete=true&type=big"><img style="" src="img/delete.png" alt="删除"></a>
 
 </div>
 </div>
@@ -50,4 +50,17 @@
     }
     setTimeout(function(){test();},500);
 
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
 </script>

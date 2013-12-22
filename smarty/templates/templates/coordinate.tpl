@@ -7,7 +7,7 @@
 {#/if#}  
 {#$message#}
 
-<script	type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+<script	type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124"></script>
 
 <script language="JavaScript">
 
@@ -80,9 +80,9 @@ var map = new BMap.Map("container");//在指定的容器内创建地图实例
 map.setDefaultCursor("crosshair");//设置地图默认的鼠标指针样式
 map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
 map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
-map.addControl(new BMap.NavigationControl()); 
+map.addControl(new BMap.NavigationControl());
 map.addEventListener("click", function(e){//地图单击事件
-	map.clearOverlays(); 
+	map.clearOverlays();
 	document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
 });
 map.panBy(450,170)

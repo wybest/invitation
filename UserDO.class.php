@@ -18,6 +18,7 @@ class  UserDO {
 	public $title3;
 	public $title4;
 	public $title5;
+    public $snum;
 }
 
 ?>

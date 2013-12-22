@@ -31,7 +31,7 @@
 	src="marryimg/{#$images[customer]#}">
 </div>	
 <div style="text-align: center;">
-<a onclick="return confirm('确认要删除?');" href="delete_photo.php?delete=true&type=image&image={#$images[customer]#}"><img style="" src="img/delete.png" alt="删除"></a>
+<a onclick="return confirm('确认要删除?');" href="new_delete_photo.php?delete=true&type=image&image={#$images[customer]#}"><img style="" src="img/delete.png" alt="删除"></a>
 
 </div>
 </div>
@@ -55,8 +55,9 @@
 
     function test() {
         {#if $images != "none"#}
-        $('#iframepage', parent.document.body).contents().find('#nopicture').html("");
         $('#nopicture', parent.document.body).html("");
+        $("#sortable", parent.document.body).children().filter('li').remove();
+        $("#iframepage", parent.document.body).contents().find('#Gallery').children().filter('li').remove();
         {#section name=customer loop=$images #}
         var thumbnailurl = 'marryimg/{#$images[customer]#}';
         $("#sortable", parent.document.body).append('<li  class="ui-state-default thumb" style="text-align: right"><span><img src="./images/close_button.png"></span>' +
@@ -68,5 +69,18 @@
     }
     setTimeout(function(){test();},500);
 
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
 </script>
 </body>

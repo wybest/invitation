@@ -3,9 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=8">
 
-<title>{新郎}与{新娘}婚宴邀约</title>
+<title>美男与美女婚宴邀约</title>
 <meta name="description" content="{宴客日期}">
-
+<style type="text/css">
+    @font-face {
+        font-family:甜妞体214;
+        Src:
+            url(http://tw.youvivid.com:8080/Fonts/getfont/0c84073b-d688-4bd1-9e10-c63ea504fd14iwoff)  format("woff");
+    }
+</style>
 
 <link href="./example_files/styles.css" type="text/css" rel="stylesheet">
 <link href="./example_files/photoswipe.css" type="text/css" rel="stylesheet">
@@ -16,13 +22,13 @@
 
 <link rel="stylesheet" href="./example_files/jquery-ui-1.8.18.custom.full_leo.css" type="text/css" media="screen" charset="utf-8">
 
-<script type="text/javascript" src="./example_files/firefox_xml_maxthon.js"></script>
 <script type="text/javascript" src="./example_files/jquery-latest.js"></script>
 <script type="text/javascript" src="./example_files/jquery-ui-1.8.18.full.min.js"></script>
 
-<script src="./example_files/api" type="text/javascript"></script><script type="text/javascript" src="./example_files/getscript"></script><link rel="stylesheet" type="text/css" href="./example_files/bmap.css">
-
 <script type="text/javascript" src="./example_files/date.format.js"></script>
+
+<script	type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124"></script>
+
 
 <link rel="stylesheet" href="editor/jquery.wysiwyg.css" type="text/css" media="screen" />
 <script type="text/javascript" src="editor/jquery.wysiwyg.js"></script>
@@ -74,7 +80,7 @@ function MM_swapImage() { //v3.0
 			//alert(address);	 
 					// Baidu map ?建地址解析器?例
 					geocoder7044 = new BMap.Geocoder();
-					// ?地址解析?果?示在地?上,并?整地??野
+					// ?地址解析?果?示在地?上BMap,并?整地??野
 					geocoder7044.getPoint(address, function(point){
 					  if (point) {
 						map7044.setCenter(point);
@@ -102,84 +108,98 @@ function MM_swapImage() { //v3.0
 				  var map7044_lngcenter = 121.512625;
 				  var map7044_latmarker = 31.241401;
 				  var map7044_lngmarker = 121.512876;
-				  
-				  
-				  
+
+                  var map;
+
 				  function initialize7044() {
-				
-				//Baidu MAP Control
-					map7044 = new BMap.Map("map_canvas7044");
-				//alert (map7044_latcenter + "," + map7044_lngcenter);
-				
-					//var point = new BMap.Point(116.404, 39.915);  // ?建?坐?
-					//var point = new BMap.Point(map7044_lngcenter, map7044_latcenter );  // ?建?坐?
-					map7044.centerAndZoom(new BMap.Point(map7044_lngcenter, map7044_latcenter ),  16);                 // 初始化地?，?置中心?坐?和地???
-				
-					var opts = {type: BMAP_NAVIGATION_CONTROL_ZOOM}  
-					map7044.addControl(new BMap.NavigationControl(opts));  
-					//map7044.addControl(new BMap.ScaleControl());  
-					//map7044.addControl(new BMap.OverviewMapControl());  
-					//map7044.addControl(new BMap.MapTypeControl());
-					//var opts = {anchor: BMAP_ANCHOR_BOTTOM_RIGHT }  
-					//map7044.addControl(new CopyrightControl(opts));
-				
-				
-					map7044.addEventListener("click", function(e){
-						//alert("你??了地?");
-						$('#invite_detail_latmarker7044').val(e.point.lat);  
-						$('#invite_detail_lngmarker7044').val(e.point.lng);  
-						marker7044.setPosition(e.point);
-						$('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);	  
-					});
-				
-					map7044.addEventListener("moving", function(){  
-					 var center = map7044.getCenter();  
-					 //alert("地?中心??更?：" + center.lng + ", " + center.lat);  
-					 $('#invite_detail_latcenter7044').val(center.lat);  
-					 $('#invite_detail_lngcenter7044').val(center.lng);  
-					 $('#iframepage').get(0).contentWindow.setMapCenter7044(center.lng,center.lat);	
-					});  
-				
-					map7044.addEventListener("zoomend", function(){  
-					 $('#invite_detail_zoom7044').val(map7044.getZoom());  
-					 $('#iframepage').get(0).contentWindow.setMapZoom7044(map7044.getZoom());	  
-					});
-				
-					// ?建???象  
-					var myIcon = new BMap.Icon("images/mobile_invite/map_marker.png", new BMap.Size(34, 34), {  
-					// 指定定位位置。  
-					// ??注?示在地?上?，其所指向的地理位置距离??左上  
-					   // 角各偏移10像素和25像素。您可以看到在本例中?位置即是  
-					   // ??中央下端的尖角位置。  
-					   offset: new BMap.Size(17, 34),  
-					   // ?置?片偏移。  
-					   // ?您需要?一幅?大的?片中截取某部分作??注???，您  
-					   // 需要指定大?的偏移位置，此做法与css sprites技??似。  
-					   imageOffset: new BMap.Size(0,0)   // ?置?片偏移  
-					 });    
-					 // ?建?注?象并添加到地?  
-				
-					marker7044 = new BMap.Marker(
-						new BMap.Point(map7044_lngmarker, map7044_latmarker), 
-						{	
-							icon: myIcon, 
-							enableDragging: true,
-							raiseOnDrag: true,
-							title: "拖拽以標注地點" 
-						}
-					); // ?建?注  
-					
-					marker7044.addEventListener("dragging", function(e){
-					
-					 $('#invite_detail_latmarker7044').val(e.point.lat);  
-					 $('#invite_detail_lngmarker7044').val(e.point.lng);  
-					 $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);	  
-					
-					
-					});
-					map7044.addOverlay(marker7044);                     
-				  }
-				  
+
+                      map = new BMap.Map("map_canvas7044");//在指定的容器内创建地图实例
+                      map.setDefaultCursor("crosshair");//设置地图默认的鼠标指针样式
+                      map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
+                      map.centerAndZoom(new BMap.Point(116.404, 39.915), 15);
+                        map.addControl(new BMap.NavigationControl());
+                        map.addEventListener("click", function(e){//地图单击事件
+                            $('#invite_detail_latmarker7044').val(e.point.lat);
+                            $('#invite_detail_lngmarker7044').val(e.point.lng);
+                            $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
+                            map.clearOverlays();alert(11);
+                            document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
+                        });
+                        map.panBy(450,170)
+                        /*function iploac(result){//根据IP设置地图中心
+                         var cityName = result.name;
+                         map.setCenter(cityName);
+                         }
+                         var myCity = new BMap.LocalCity();
+                         myCity.get(iploac);*/
+
+                        var pt = new BMap.Point(116.404, 39.915);
+                        var myIcon = new BMap.Icon("markers.gif", new BMap.Size(25,21));
+                        var marker2 = new BMap.Marker(pt,{
+                            icon:myIcon
+                        });// 创建标注
+                        map.addOverlay(marker2);// 将标注添加到地图中
+
+
+                      map.addEventListener("moving", function(){
+                          var center = map.getCenter();
+                          //alert("地?中心??更?：" + center.lng + ", " + center.lat);
+                          $('#invite_detail_latcenter7044').val(center.lat);
+                          $('#invite_detail_lngcenter7044').val(center.lng);
+                          $('#iframepage').get(0).contentWindow.setMapCenter7044(center.lng,center.lat);
+                      });
+
+                      map.addEventListener("zoomend", function(){
+                          $('#invite_detail_zoom7044').val(map.getZoom());
+                          $('#iframepage').get(0).contentWindow.setMapZoom7044(map.getZoom());
+                      });
+
+                      map.addEventListener("dragging", function(e){
+
+                          $('#invite_detail_latmarker7044').val(e.point.lat);
+                          $('#invite_detail_lngmarker7044').val(e.point.lng);
+                          $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
+
+
+                      });
+                  }
+                    function sear(result){//地图搜索
+                        var local = new BMap.LocalSearch(map, {
+                            renderOptions:{map: map}
+                        });
+                        local.search(result);
+                    }
+
+
+                    function G(id) {
+                        return document.getElementById(id);
+                    }
+                    var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+                            {"input" : "address7044"
+                                ,"location" : map
+                            });
+                    ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+                        var str = "";
+                        var _value = e.fromitem.value;
+                        var value = "";
+                        if (e.fromitem.index > -1) {
+                            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+                        }
+                        str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+
+                        value = "";
+                        if (e.toitem.index > -1) {
+                            _value = e.toitem.value;
+                            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+                        }
+                        str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+                        G("searchResultPanel").innerHTML = str;
+                    });
+
+                    var myValue;
+                    ac.addEventListener("onconfirm", function(e) {
+                        sear(document.getElementById('where').value)
+                    });
 			
 			
 					
@@ -290,7 +310,7 @@ function getMinTextInOrder(txt){
 
 function getMainPanelText(){
 
-	var panel_text =  + $('#invite_maintitle').val() + $('#invite_subtitle').val();
+	var panel_text =  + $('#bigtitle').val() + $('#show_time').val();
 	$('.tab_name').each( function () {
 		panel_text = panel_text + $(this).val();
 	});
@@ -310,34 +330,17 @@ var webfont_index = 1;
 
 function reloadMainPanelFont(){
 
-	var fontData = $("#invite_fontface option:selected").val();
-	//alert(fontData);
-	var fontfamily = fontData.split('|')[0];
-	var fontface = fontData.split('|')[1];
-	var bwebfont = fontData.split('|')[2];
-	var webfonttype = fontData.split('|')[3];
-	
-	if (bwebfont == 1) {
-		if (webfonttype==3){
-			$('#iframepage').contents().find(".fontcss").attr("href",fontface); 
-		} else {
-			fontfamily = fontfamily.split(',')[0] + webfont_index;
-			fontface = fontface.split('&font=')[0] + webfont_index + '&font=' + fontface.split('&font=')[1];
-		//alert(fontfamily );
-		//alert(fontface );
-			fontface=fontface + "&text=" + getMainPanelText();
-		//	alert( 'fontfamily=' + fontfamily + ', fontface=' + fontface);
-			//alert(fontface);
-			//$('#iframepage').contents().find(".fontcss").remove();
-			//$('#iframepage').contents().find('head').append('<link class="fontcss"  rel="stylesheet" type="text/css" href="'+ fontface +'">');
-			
-			$('#iframepage').contents().find(".fontcss").attr("href",fontface); 
-			webfont_index = webfont_index + 1;
-		}
-		
-	}
+    var fontData = $("#invite_fontface option:selected").val();
+    var fontfamily = fontData.split('|')[0];alert(fontfamily.split(',')[0]);
+    fontfamily = fontfamily.split(',')[0] + webfont_index;
+    var fontface = fontData.split('|')[1]+"&pn="+fontfamily;
+
+    $('#iframepage').contents().find(".fontcss").attr("href",fontface);alert(fontface);
+    webfont_index = webfont_index + 1;
+//    var fontfamily = '甜妞体21';
+    alert(fontfamily);
 	$('#iframepage').contents().find("body").css("font-family",fontfamily); 
-	$('#iframepage').contents().find(".ui-widget").css("font-family",fontfamily); 
+	$('#iframepage').contents().find(".ui-widget").css("font-family",fontfamily);
 
 }
 
@@ -382,7 +385,7 @@ $(document).ready(function() {
 
 
 	$("#invite_fontface").change(function() {
-		$('#invite_fontname').val($("#invite_fontface option:selected").text());  
+		$('#font_family').val($("#invite_fontface option:selected").text());
 		reloadMainPanelFont();
 	});
 
@@ -392,7 +395,7 @@ $(document).ready(function() {
 
 
 
-	$("#invite_maintitle,#invite_subtitle,.tab_name").keyup(function() {
+	$("#bigtitle,#show_time,.tab_name").keyup(function() {
 
 
 		delay(function(){
@@ -1111,7 +1114,7 @@ String.prototype.Trim = function()
   </tr>
 </tbody></table>  
 
-<form action="http://cn.youvivid.com/mobile_invite_edit_act.asp" method="post" name="form_invite" id="form_invite">
+<form action="new_save_info.php" method="post" name="form_invite" id="form_invite">
 <table width="945" border="0" cellspacing="0" cellpadding="0">
 
 <input type="hidden" id="slideshow" name="slideshow" value="">
@@ -1127,36 +1130,7 @@ String.prototype.Trim = function()
           <tbody><tr>
             <td width="41%" valign="top">
                 <div align="left" style=" padding-left:28px; padding-top:60px; background-image: url(&#39;images/mobile_invite/iphone4s_384x613.png&#39;); width: 384px; height: 613px; background-repeat: no-repeat;"><iframe id="iframepage" name="iframepage" allowtransparency="true" scrolling="auto" style="height: 485px; width: 327px; " src="invit.html" frameborder="0" marginwidth="0"></iframe></div>
-					<script type="text/javascript">
-                    // ipad iphone safari iframe problem
-              			/*
-			  			$(function(){
-                            if (/iPhone|iPod|iPad/.test(navigator.userAgent)) {
 
-                                $("#iframepage").bind("load",function() {
-                                    var b = this.contentWindow.document.body;
-
-                                    var div = $(document.createElement("div"));
-                                    var divCSS = {
-                                        'height' : 485,
-                                        'width' : 327,
-                                        'overflow' : 'scroll'
-                                    }
-                                    div.css(divCSS);
-
-                                    // Move the body's children into this wrapper
-                                    while (b.firstChild)
-                                    {
-                                        div.append(b.firstChild);
-                                    }
-
-                                    // Append the wrapper to the body
-                                    $(b).append(div);
-                                });
-                            }
-                        })
-						*/
-                    </script>
 
             </td>
             <td width="59%" align="left" valign="top">
@@ -1171,10 +1145,8 @@ String.prototype.Trim = function()
                     <td align="right" valign="top" width="100">风  格:</td>
                     <td colspan="2" valign="top">
 
-                    <input type="hidden" name="invite_bmapbaidu" id="invite_bmapbaidu" value="1">
                     <input type="hidden" name="mould" id="mould" value="桃紅典雅">
-                    <input type="hidden" name="invite_styleid" id="invite_styleid" value="26">
-                    <input type="hidden" name="invite_fontname" id="invite_fontname" value="粗钢笔">
+                    <input type="hidden" name="font_family" id="font_family" value="粗钢笔">
 
                     <select id="invite_style" >
 
@@ -1202,37 +1174,33 @@ String.prototype.Trim = function()
                       <option value="温馨淡黄">温馨淡黄</option>
 
                     </select>
+                    <!--
+                    <label for="invite_fontface" style="font-family: 甜妞体214;">&nbsp;&nbsp;字　型: </label>
+                    <select id="invite_fontface" >
 
+                      <option value="粗钢笔2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://localhost:8080/invitation/font.php?param=a" selected="selected">粗钢笔</option>
 
-                    <label for="invite_fontface">&nbsp;&nbsp;字　型: </label>
-                    <select id="invite_fontface">
+                      <option value="黑体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://localhost:8080/invitation/font.php?param=b">黑体</option>
 
-                      <option value="粗钢笔2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%B2%97%E9%92%A2%E7%AC%942&amp;font=%E7%B2%97%E9%92%A2%E7%AC%94|1|1" selected="selected">粗钢笔</option>
+                      <option value="粗行楷体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://localhost:8080/invitation/font.php?param=c">粗行楷体</option>
 
-                      <option value="黑体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E9%BB%91%E4%BD%932&amp;font=%E9%BB%91%E4%BD%93|1|1">黑体</option>
-
-                      <option value="粗行楷体2,微软雅黑,宋体,Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%B2%97%E8%A1%8C%E6%A5%B7%E4%BD%932&amp;font=%E7%B2%97%E8%A1%8C%E6%A5%B7%E4%BD%93|1|1">粗行楷体</option>
-
-                      <option value="甜妞体2,微软雅黑,宋体 Microsoft JhengHei,Microsoft YaHei,arial|http://tw.youvivid.com:8080/Fonts/getcss?family=%E7%94%9C%E5%A6%9E%E4%BD%932&amp;font=%E7%94%9C%E5%A6%9E%E4%BD%93|1|1">甜妞体</option>
+                      <option value="甜妞体2,微软雅黑,宋体 Microsoft JhengHei,Microsoft YaHei,arial|http://localhost:8080/invitation/font.php?param=d">甜妞体</option>
 
                     </select>
-
+                    -->
                     </td>
                   </tr>
                   <tr>
                     <td align="right" valign="top">主标题:</td>
                     <td colspan="2" valign="top">
 
-                    <input type="hidden" id="maintitlehtml" name="maintitlehtml" value="&lt;span style=&#39;text-decoration: none; font-style: normal; font-size: 20px; font-weight: normal; &#39;&gt;{新郎}与{新娘}婚宴邀约&lt;/span&gt;">
-                    <input type="text" id="invite_maintitle" name="invite_maintitle" value="{新郎}与{新娘}婚宴邀约" size="35">
+                    <input type="text" id="bigtitle" name="bigtitle" value="美男与美女婚宴邀约" size="35">
                     </td>
                   </tr>
                   <tr>
                     <td width="55" align="right" valign="top">封面图: </td>
                     <td width="100" valign="top">
 	                    <img src="./example_files/f1302065111bb40c28cc.jpg" width="100" align="top" id="invite_webimg">
-                        <input type="hidden" id="invite_webimgurl" name="invite_webimgurl" value="http://youvividcnupload1.oss.aliyuncs.com/images/2013/7/f1302065111bb40c28cc.jpg" size="40">
-                        <input type="hidden" name="invite_mediatype" id="invite_mediatype" value="0">
                     </td>
                     <td width="367" valign="top"><input id="select_image" name="select_image" type="button" value="选择图片"></td>
                   </tr>
@@ -1240,8 +1208,7 @@ String.prototype.Trim = function()
                     <td align="right" valign="top">婚宴日期:</td>
                     <td colspan="2" valign="top">
 
-                  <input type="hidden" id="subtitlehtml" name="subtitlehtml" value="&lt;span style=&#39;font-weight: normal; font-size: 18px; &#39;&gt;{宴客日期}&lt;/span&gt;">
-                  <input type="text" id="invite_subtitle" name="invite_subtitle" value="{宴客日期}" size="35">
+                  <input type="text" id="show_time" name="show_time" value="2014年9月9日" size="35">
 
                     </td>
                   </tr>
@@ -1261,32 +1228,30 @@ function reloadSelectVideoIframe(){
 
 $(document).ready(function() {
 
-		$("#invite_maintitle").bind('change keydown keyup paste input propertychange',function (){
+		$("#bigtitle").bind('change keydown keyup paste input propertychange',function (){
 			$('#iframepage').contents().find("#maintitlehtml").find("span:eq(0)").html($(this).val());
-			setHiddenHtml('maintitlehtml');
+//			setHiddenHtml('maintitlehtml');
 		});
 
 
 		//test webfont
-		//$("#invite_maintitle").bind('keyup',function (){
+		//$("#bigtitle").bind('keyup',function (){
 		//	//"http://fonts.googleapis.com/css?family=Inconsolata&text=ABC"
 		//	var webfonturl = $('#iframepage').contents().find(".fontcss").attr("href");
 		//	var newwebfonturl = webfonturl.split('&')[0] + '&text=' + escape($(this).val());
 		//	$('#iframepage').contents().find(".fontcss").attr("href",newwebfonturl);
 		//});
 
-		$("#invite_maintitle").bind('focus',function (){
+		$("#bigtitle").bind('focus',function (){
 			 $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
 			//$('#iframepage').animate({ scrollTop: 30 }, "slow");
 			//$('#iframepage').contents().animate({ scrollTop: $(document).height() }, "slow");
 		});
-		$("#invite_subtitle").bind('change keydown keyup paste input propertychange',function (){
-			$('#iframepage').contents().find("#subtitlehtml").find("span:eq(0)").html($(this).val());
-			setHiddenHtml('subtitlehtml');
-
-		 // alert('Handler for .change() called.');
+		$("#show_time").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#show_time1").html($(this).val());
+            $('#iframepage').contents().find("#show_time2").html($(this).val());
 		});
-		$("#invite_subtitle").bind('focus',function (){
+		$("#show_time").bind('focus',function (){
 			 $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
 			//$('#iframepage').animate({ scrollTop: 30 }, "slow");
 			//$('#iframepage').contents().animate({ scrollTop: $(document).height() }, "slow");
@@ -1357,9 +1322,9 @@ $(document).ready(function() {
 	<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all ui-sortable">
 
 
-		<li id="7042" class="ui-state-default ui-corner-top"><a id="invite_detail_title7042" href="#invite_detail_content7042">
+		<li style="width: 15.5%;" id="7042" class="ui-state-default ui-corner-top"><a id="invite_detail_title7042" href="#invite_detail_content7042">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7042" name="invite_detail_name7042" value="爱的邀约" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7042" name="title1" value="爱的邀约" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7042").bind('change keydown keyup paste input propertychange',function () {
@@ -1370,9 +1335,9 @@ $(document).ready(function() {
 		</script>
 
 
-		<li id="7041" class="ui-state-default ui-corner-top"><a id="invite_detail_title7041" href="#invite_detail_content7041">
+		<li style="width: 15.5%;" id="7041" class="ui-state-default ui-corner-top"><a id="invite_detail_title7041" href="#invite_detail_content7041">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7041" name="invite_detail_name7041" value="婚纱相册" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7041" name="title2" value="婚纱相册" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7041").bind('change keydown keyup paste input propertychange',function () {
@@ -1383,9 +1348,9 @@ $(document).ready(function() {
 		</script>
 
 
-		<li id="7043" class="ui-state-default ui-corner-top"><a id="invite_detail_title7043" href="#invite_detail_content7043">
+		<li style="width: 15.5%;" id="7043" class="ui-state-default ui-corner-top"><a id="invite_detail_title7043" href="#invite_detail_content7043">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7043" name="invite_detail_name7043" value="婚宴回函" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7043" name="title3" value="婚宴回函" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7043").bind('change keydown keyup paste input propertychange',function () {
@@ -1396,9 +1361,9 @@ $(document).ready(function() {
 		</script>
 
 
-		<li id="7044" class="ui-state-default ui-corner-top"><a id="invite_detail_title7044" href="#invite_detail_content7044">
+		<li style="width: 15.5%;" id="7044" class="ui-state-default ui-corner-top"><a id="invite_detail_title7044" href="#invite_detail_content7044">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7044" name="invite_detail_name7044" value="婚宴地图" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7044" name="title4" value="婚宴地图" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7044").bind('change keydown keyup paste input propertychange',function () {
@@ -1409,9 +1374,9 @@ $(document).ready(function() {
 		</script>
 
 
-		<li id="7046" class="ui-state-default ui-corner-top"><a id="invite_detail_title7046" href="#invite_detail_content7046">
+		<li style="width: 15.5%;" id="7046" class="ui-state-default ui-corner-top"><a id="invite_detail_title7046" href="#invite_detail_content7046">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7046" name="invite_detail_name7046" value="爱情故事" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7046" name="title" value="爱情故事" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7046").bind('change keydown keyup paste input propertychange',function () {
@@ -1422,9 +1387,9 @@ $(document).ready(function() {
 		</script>
 
 
-		<li id="7045" class="ui-state-default ui-corner-top"><a id="invite_detail_title7045" href="#invite_detail_content7045">
+		<li style="width: 15.5%;" id="7045" class="ui-state-default ui-corner-top"><a id="invite_detail_title7045" href="#invite_detail_content7045">
 
-                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7045" name="invite_detail_name7045" value="婚礼提醒" size="7">
+                <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7045" name="title5" value="婚礼提醒" size="6">
         </a></li>
         <script>
 		$("#invite_detail_name7045").bind('change keydown keyup paste input propertychange',function () {
@@ -1489,8 +1454,8 @@ $(document).ready(function() {
 
                 <div class="invitext">
 
-                    <p class="ip6">时间：<span><input type="text" id="show_time" value="2013年1月1日"/> <input type="text" id="mini_time" value="下午5：30入席"/></span></p>
-                    <p class="ip6">地点：<span><input type="text" id="house" value="香格里拉酒店" /></span></p><br />
+                    <p class="ip6">时间：<span><input type="text" id="mini_time" name="mini_time" value="5：30入席"/></span></p>
+                    <p class="ip6">地点：<span><input type="text" id="house" name="house" value="香格里拉酒店" /></span></p><br />
                 </div>
                 <script>
                     $("#man").bind('change keydown keyup paste input propertychange',function () {
@@ -1681,6 +1646,7 @@ $(document).ready(function() {
 		<div align="right">
         	<input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7043">
             <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="3">
+            展现回函数量：<input name="num" id="num" type="text" value="20">
             <input name="bshow7043" type="checkbox" id="bshow7043" value="0">隐藏
         </div>
 		<script>
@@ -1778,15 +1744,15 @@ $(document).ready(function() {
     <img id="invite_detail_mapimg7044" style="width: 240px; border: thin solid rgb(153, 153, 153); display: none;" src="" width="240" align="top">
 
      <div id="invite_detail_googlemap7044">
-        <span class="input-prompt" id="input-prompt-0">请输入地址后按下定位</span><input name="address7044" type="text" id="address7044" title="请输入地址后按下定位" value="" size="24" class="input-prompt-0">
+        <input name="address" type="text" id="address7044" title="请输入地址后按下定位" value="" size="24" class="input-prompt-0">
         <input type="button" id="button_setmap7044" value="定位">
         <br>
         <div id="map_canvas7044" style="width:240px; height:300px; border:thin; border-style:solid; border-color:#999; margin-bottom:5px;"></div>
-
+         <TD align="right" bgcolor=""><B>地图坐标：</B></TD>
+         <TD bgcolor=""><input id="coordinate" name="coordinate" type="text"
+                               readonly="readonly" value="{#$coordinate#}">
+             &nbsp;通过十字鼠标的单击地图，获取位置的正确经纬值。</TD>
      </div>
-        </td>
-        <td valign="top">
-	<textarea name="invite_detail_mapdesc7044" id="invite_detail_mapdesc7044" cols="32" rows="1">地址：{场所地址}</textarea>
         </td>
       </tr>
     </tbody></table>
@@ -1795,11 +1761,12 @@ $(document).ready(function() {
 	 <script language="javascript">
     $(document).ready(function() {
 		$('#button_setmap7044').click(function() {
+          sear($('#address7044').val());
 		  codeAddress7044($('#address7044').val());
 		});
 
-		$("#invite_detail_mapdesc7044").bind('change keydown keyup paste input propertychange',function (){
-			$('#iframepage').contents().find("#map_desc7044").html($(this).val().ReplaceAll('\r\n','\n').ReplaceAll('\n','<br>'));
+		$("#address7044").bind('change keydown keyup paste input propertychange',function (){
+			$('#iframepage').contents().find("#map_desc7044").html("地址："+$(this).val().ReplaceAll('\r\n','\n').ReplaceAll('\n','<br>'));
 			//setHiddenHtml('remindtitle');
 		});
 		//$("#remindtitle").bind('focus',function (){
@@ -1979,8 +1946,6 @@ $(document).ready(function() {
 		});
 
         </script>
-请勾选可使用的分享选项<br>
-<br>
 
 <input  id="time" type="text" value="2014/9/9 12:30"/>
 
@@ -2034,8 +1999,8 @@ $(document).ready(function(){
 
 
 
-
-
+<input type="hidden"  id="women" name="women" value="">
+<input type="hidden" id="man" name="man" value="">
 </form>
 
 </center>
@@ -2048,10 +2013,9 @@ $(document).ready(function(){
 					raRegExp = new RegExp(AFindText,"g");
 					return this.replace(raRegExp,ARepText)
 				} 			
-                var invite_groomname = $( "#invite_groomname" ),
-                    invite_bridename = $( "#invite_bridename" ),
-                    invite_activityaddress = $( "#invite_activityaddress" ),
-                    allFields = $( [] ).add( invite_groomname ).add( invite_bridename ),
+                var man = $( "#varman" ),
+                    women = $( "#varwomen" ),
+                    allFields = $( [] ).add( man ).add( women ),
                     tips = $( ".validateTips" );
         
 				
@@ -2070,7 +2034,7 @@ $(document).ready(function(){
 			
 
 
-        		// checkLength( invite_groomname, "invite_groomname", 1, 20 );
+        		// checkLength( man, "man", 1, 20 );
                 function checkLength( o, n, min, max ) {
                     if ( o.val().length > max || o.val().length < min ) {
                         o.addClass( "ui-state-error" );
@@ -2103,180 +2067,44 @@ $(document).ready(function(){
                     buttons: {
 
                         确定: function() {
+
                             var bValid = true;
-							var editorBuf, remindBuf, mapDescBuf;
-							editorBuf = ck_editor.getData();
-							remindBuf = $("#remindmsg").val();
-							mapDescBuf = $("#invite_detail_mapdesc7044"  ).val();
+							var   mapDescBuf;
+							mapDescBuf = $("#adress"  ).val();
 
 							allFields.removeClass( "ui-state-error" );
-                            bValid = bValid && checkLength( invite_groomname, "男方姓名", 1, 20 );
-                            bValid = bValid && checkLength( invite_bridename, "女方姓名", 1, 20 );
+                            bValid = bValid && checkLength( man, "新郎姓名", 1, 20 );
+                            bValid = bValid && checkLength( women, "新娘姓名", 1, 20 );
                             if ( bValid ) {
                             	//新郎新娘
-                                $("#invite_maintitle").val( $("#invite_maintitle").val().replace( '{新娘}', invite_bridename.val()).replace( '{新郎}', invite_groomname.val()) );	
-                                $("#invite_maintitle").change();
-								
-								editorBuf = editorBuf.ReplaceAll("{新娘}",invite_bridename.val());
-								editorBuf = editorBuf.ReplaceAll("{新郎}",invite_groomname.val());
-								
-								remindBuf = remindBuf.ReplaceAll("{新娘}",invite_bridename.val());
-								remindBuf = remindBuf.ReplaceAll("{新郎}",invite_groomname.val());
-								//alert(remindBuf);
+                                $("#bigtitle").val( $("#bigtitle").val().replace( '美女', women.val()).replace( '美男', man.val()) );	
+                                $("#bigtitle").change();
 
-
-								//alert(ck_editor.getData());
-                            	//日期
-                                if ($("#invite_activitydate").datepicker( "getDate" ) != null ){ 
-								
-									var activityDate = new Date($("#invite_activitydate").val());
-									var alertDate = new Date();
-									alertDate.setTime(activityDate.getTime()- 3*24*60*60*1000);
-									var str_alertDate = '' + alertDate.getFullYear() + '/' + (alertDate.getMonth()+1) + '/' + alertDate.getDate(); 
-									//alert(str_alertDate);
-									$( "#reminddate" ).datepicker( "setDate" , str_alertDate );
-
-									var dateStr1 = $("#invite_activitydate").val();
-									var dateStr2 = dateStr1.ReplaceAll("-","/");
-                                    var yyyy = dateStr2.split('/')[0],
-                                        mm = dateStr2.split('/')[1],
-                                        dd = dateStr2.split('/')[2],
-                                        str_activitydate=yyyy + "年" + mm + "月" + dd + "日";
-                                        $("#invite_subtitle").val( $("#invite_subtitle").val().replace( '{宴客日期}', str_activitydate) );	
-                                        $("#invite_subtitle").change();
-
-										editorBuf = editorBuf.ReplaceAll("{宴客日期}",str_activitydate);
-										remindBuf = remindBuf.ReplaceAll("{宴客日期}",str_activitydate);
-
-
-	                                //alert(yyyy);  
-                                } else {
-									// 未選擇 日期時間
-									var alertDate = new Date();
-									
-									alertDate.setTime(alertDate.getTime()+ 30*24*60*60*1000);
-									var str_alertDate = '' + alertDate.getFullYear() + '/' + (alertDate.getMonth()+1) + '/' + alertDate.getDate(); 
-									//alert(str_alertDate);
-									$( "#reminddate" ).datepicker( "setDate" , str_alertDate );
-								}
-                                
-                            	//時間
-
-                                if ( $("#invite_activityhour").val().length != 0 ){ 
-                                		var str_activitytime = '';
-                                    	var hr  = $("#invite_activityhour").val();
-                                    	if (hr > 12 )
-                                        	hr = hr - 12;
-                                        if (hr < 3 || hr > 10  ) { 
-                                        	str_activitytime = "中午";
-                                        } else {
-                                        	str_activitytime = "晚上";
-                                        }
-                                        str_activitytime = str_activitytime  + hr + "时"
-                                               
-		                                if ( ! isNaN($("#invite_activityminute").val()) && $("#invite_activityminute").val() > 0  ){
-                                        	var mn = $("#invite_activityminute").val();
-                                        	str_activitytime = str_activitytime  + mn + "分"
-                                        } 
-					                                              
-                                    
-										editorBuf = editorBuf.ReplaceAll("{宴客时间}",str_activitytime);
-										remindBuf = remindBuf.ReplaceAll("{宴客时间}",str_activitytime);
-                                    
-	                                //alert(str_activitytime);  
-                                }
-                                
-                                //地點
-
-                                if ( $("#invite_activityplace").val().length!=0 ){ 
-                                    	var str_activityplace = $("#invite_activityplace").val();
-										editorBuf = editorBuf.ReplaceAll("{场所名称}",str_activityplace);
-										remindBuf = remindBuf.ReplaceAll("{场所名称}",str_activityplace);
-										mapDescBuf = mapDescBuf.ReplaceAll("{场所名称}",str_activityplace);
-	                                //alert(invite_activityplace);  
-                                }
+                                $('#iframepage').contents().find("#man").html(man.val());
+                                $('#iframepage').contents().find("#women").html(women.val());alert(1);
+                                $("#man").val(man.val());
+                                $("#women").val(women.val());
+                                alert(2);
+                                $("#time").val($("#invite_activitydate").val()+" "+$("#invite_activityhour").val()+":"+$("#invite_activityminute").val())
+                                $('#iframepage').contents().find("#time").val($("#time").val());
+                                alert(3);
                                 //地址
-
-                                if ( $("#invite_activityaddress").val().length!=0 ){ 
-                                    	var str_activityaddress = $("#invite_activityaddress").val();
-										editorBuf = editorBuf.ReplaceAll("{场所地址}",str_activityaddress);
-										remindBuf = remindBuf.ReplaceAll("{场所地址}",str_activityaddress);
-										mapDescBuf = mapDescBuf.ReplaceAll("{场所地址}",str_activityaddress);
-										 $("#address7044").val($("#invite_activityaddress").val());
-										 //fire change event to remove the tip
-										 $("#address7044").change();
-
-										 //alert(document.getElementById("address7044").value);
-										 // codeAddress7044();
-										
-										//Set map location if valid
-								
-								
-										var geocoder = new BMap.Geocoder();
-										geocoder.getPoint($( "#invite_activityaddress" ).val(), function(point){
-										  if (point) {
-											map7044_latcenter  = point.lat;
-											map7044_lngcenter  = point.lng;
-											map7044_latmarker  = point.lat;
-											map7044_lngmarker  = point.lng;
-											$('#invite_detail_latcenter7044').val(point.lat);  
-											$('#invite_detail_lngcenter7044').val(point.lng);  
-											$('#invite_detail_latmarker7044').val(point.lat);  
-											$('#invite_detail_lngmarker7044').val(point.lng);  
-											$('#iframepage').get(0).contentWindow.map7044_latcenter=point.lat;
-											$('#iframepage').get(0).contentWindow.map7044_lngcenter=point.lng;
-											$('#iframepage').get(0).contentWindow.map7044_latmarker=point.lat;
-											$('#iframepage').get(0).contentWindow.map7044_lngmarker=point.lng;
-										  } else {
-											  //nothing I can do
-										  }
-										});
-								
-										
-										
-
-                                }
-                                //電話
-                                if ( $("#invite_contactphone").val().length!=0 ){ 
-                                    	var str_contactphone = $("#invite_contactphone").val();
-										editorBuf = editorBuf.ReplaceAll("{联络电话}",str_contactphone);
-										remindBuf = remindBuf.ReplaceAll("{联络电话}",str_contactphone);
-										mapDescBuf = mapDescBuf.ReplaceAll("{联络电话}",str_contactphone);
-	                                //alert(str_contactphone);  
-                                }
-
-                                ck_editor.setData(editorBuf, function()
-								{
-	                                ck_editor.fire( 'change' );
-								});
-								
-								// default value of description for weixin
- 								$("#invite_description").val(str_activitydate + ' ' + str_activitytime + ' ' + str_activityplace + ' ' + invite_bridename.val() + '&' + invite_groomname.val() );
-								
-								$("#remindmsg").val(remindBuf);
-								$("#invite_detail_mapdesc7044").val(mapDescBuf);
-								$("#invite_detail_mapdesc7044").change();
-								 countWords();
-								basicInfoDialog.closest('div.ui-dialog').appendTo('#form_invite'); //add dialog to form variable								
+                                $("#house").val($("#varhouse").val());
+                                $("#house").change();
+//								$("#adress").val(mapDescBuf);
+//								$("#adress").change();
+								basicInfoDialog.closest('div.ui-dialog').appendTo('#form_invite'); //add dialog to form variable
                                 $( this ).dialog( "close" );
 								
-								reloadMainPanelFont();
-								//ck_editor.execCommand( 'reloadWebFont');
+//								reloadMainPanelFont();
 
-		
-							
-							
-		
-		
-								
-								$("#select_image").click();
+//								$("#select_image").click();
                             }
                         }
                     }
                 }); //basicInfoDialog end
 
-				$( "#invite_activitydate" ).datepicker( $.datepicker.regional[ 'zh-CN' ] );
-                
+
         
         }); //end of $(document).ready
         
@@ -2288,46 +2116,40 @@ $(document).ready(function(){
 
 
 
-</div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-basicInfo" style="display: none; z-index: 1002; outline: 0px; height: auto; width: 600px; top: 134.5px; left: 347.5px;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-basicInfo">请填写婚宴喜讯基本资料</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="basicInfo" style="font-size: 16px; overflow: hidden; width: auto; min-height: 0px; height: 295.80000019073486px;" class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0">
-          <p class="validateTips">填写以下资料后点击确定,系统将自动产生您的婚宴喜讯:</p>
+</div>
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-basicInfo" style="display: none; z-index: 1002; outline: 0px; height: auto; width: 600px; top: 134.5px; left: 347.5px;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-basicInfo">请填写婚宴喜讯基本资料</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="basicInfo" style="font-size: 16px; overflow: hidden; width: auto; min-height: 0px; height: 295.80000019073486px;" class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0">
+          <p class="validateTips">请填写以下资料,才能生产请柬信息:</p>
     <br>                
     
 		    <table width="100%" border="0">
               <tbody><tr>
-                <td width="19%" style="text-align: right"><label for="invite_groomname">男方姓名: </label></td>
-                <td width="81%"><span class="input-prompt" id="input-prompt-1" style="display: block;">例如:李大仁</span><input class="text ui-widget-content ui-corner-all input-prompt-1" type="text" title="例如:李大仁" id="invite_groomname" name="invite_groomname" value="" size="15">(必填)</td>
+                <td width="19%" style="text-align: right"><label for="varman">新郎姓名: </label></td>
+                <td width="81%"><input class="text ui-widget-content ui-corner-all input-prompt-1" type="text" title="例如:美男" id="varman" name="varman" value="" size="15">(必填)</td>
               </tr>
               <tr>
-                <td style="text-align: right"><label for="invite_bridename">女方姓名: </label></td>
-                <td><span class="input-prompt" id="input-prompt-2">例如:程又青</span><input class="text ui-widget-content ui-corner-all input-prompt-2" type="text" title="例如:程又青" id="invite_bridename" name="invite_bridename" value="" size="15">(必填)</td>
+                <td style="text-align: right"><label for="varwomen">新娘姓名: </label></td>
+                <td><input class="text ui-widget-content ui-corner-all input-prompt-2" type="text" title="例如:美女" id="varwomen" name="varwomen" value="" size="15">(必填)</td>
               </tr>
               <tr>
                 <td style="text-align: right"><label for="invite_activitydate">宴客日期: </label></td>
                 <td>
                     <table width="100%" border="0">
                       <tbody><tr>
-                        <td><span class="input-prompt" id="input-prompt-3">例:2012/12/31</span><input type="text" title="例:2012/12/31" class="text ui-widget-content ui-corner-all input-prompt-3 hasDatepicker" id="invite_activitydate" name="invite_activitydate" value="" size="15"></td>
+                        <td><input type="text" class="text ui-widget-content ui-corner-all input-prompt-3 hasDatepicker" id="invite_activitydate" name="invite_activitydate" value="2014/9/9" size="15"></td>
                         <td><label for="invite_activityhour">时间: </label></td>
-                        <td><span class="input-prompt" id="input-prompt-4">例:12</span><input type="text" title="例:12" class="text ui-widget-content ui-corner-all input-prompt-4" id="invite_activityhour" name="invite_activityhour" value="" size="4"></td>
+                        <td><input type="text" title="例:12" class="text ui-widget-content ui-corner-all input-prompt-4" id="invite_activityhour" name="invite_activityhour" value="12" size="4"></td>
                         <td><label for="invite_activityminute">时</label></td>
-                        <td><span class="input-prompt" id="input-prompt-5">例:30</span><input type="text" title="例:30" class="text ui-widget-content ui-corner-all input-prompt-5" id="invite_activityminute" name="invite_activityminute" value="" size="4"></td>
+                        <td><input type="text" title="例:30" class="text ui-widget-content ui-corner-all input-prompt-5" id="invite_activityminute" name="invite_activityminute" value="30" size="4"></td>
                         <td><label for="invite_activityminute">分</label></td>
                       </tr>
                     </tbody></table>
                  </td>
               </tr>
               <tr>
-                <td style="text-align: right"><label for="invite_activityplace">场所名称: </label></td>
-                <td><span class="input-prompt" id="input-prompt-6">例如:国宾饭店二楼国际厅</span><input type="text" title="例如:国宾饭店二楼国际厅" class="text ui-widget-content ui-corner-all input-prompt-6" id="invite_activityplace" name="invite_activityplace" value="" size="30"></td>
-              </tr>
-              <tr>
-                <td style="text-align: right"><label for="invite_activityaddress">场所地址: </label></td>
-                <td><span class="input-prompt" id="input-prompt-7">例如:台北市中山北路二段63号</span><input type="text" title="例如:台北市中山北路二段63号" class="text ui-widget-content ui-corner-all input-prompt-7" id="invite_activityaddress" name="invite_activityaddress" value="" size="50"></td>
-              </tr>
-              <tr>
-                <td style="text-align: right"><label for="invite_contactphone">连络电话: </label></td>
-                <td><span class="input-prompt" id="input-prompt-8">例如:(02)2551-1111</span><input type="text" title="例如:(02)2551-1111" class="text ui-widget-content ui-corner-all input-prompt-8" id="invite_contactphone" name="invite_contactphone" value="" size="20"></td>
+                <td style="text-align: right"><label for="house">场所名称: </label></td>
+                <td><input type="text" title="例如:香格里拉大酒店" class="text ui-widget-content ui-corner-all input-prompt-6" id="varhouse" name="varhouse" value="香格里拉酒店" size="30"></td>
               </tr>
             </tbody></table>
-        </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">确定</span></button></div></div></div>
+        </div>
+</div>
 </body></html>
