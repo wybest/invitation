@@ -137,7 +137,7 @@ function MM_swapImage() { //v3.0
                         });
 
         var pt = new BMap.Point({#if $coordinate #}{#$coordinate#}{#else#}116.404, 39.915{#/if#});
-        var myIcon = new BMap.Icon("markers.gif", new BMap.Size(25,21));
+        var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
         var marker2 = new BMap.Marker(pt,{
             icon:myIcon
         });// 创建标注
