@@ -36,14 +36,6 @@ font-family:微软雅黑;
 <script type="text/javascript" src="style/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
 
 <script type="text/javascript">
-		(function(window, $, PhotoSwipe){
-			$(document).ready(function(){
-				var options = {};
-				$("#Gallery a").photoSwipe(options);
-			});
-		}(window, window.jQuery, window.Code.PhotoSwipe));
-	</script>
-<script type="text/javascript">
 var bReloadWebFontOnce = 1;
 $(document).ready(function() {
 	$("#accordion").accordion({ autoHeight: false },{ collapsible: true,active: false } );
@@ -437,9 +429,13 @@ window.onload = function() {
 		
 
 
- <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->  
- 
+ <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>
+    {#section name=customer loop=$images #}
 
+    <li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>
+
+    {#/section#}
+-->
  </ul>
                              
 	</div>
@@ -771,22 +767,29 @@ var contentModel = {
 function loadAll(){
     loadImg();
     loadBaiduMap();
+    var options = {};
+    $("#Gallery a").photoSwipe(options);
 }
 
-function loadBaiduMap() {alert(2);
+function loadBaiduMap() {
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
     document.body.appendChild(script);
 }
-function loadImg(){ alert(1);
+function loadImg(){
     {#section name=customer loop=$images #}
 
     $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
 
     {#/section#}
 }
-setTimeout(function(){loadAll()},500);
+
+(function(window, $, PhotoSwipe){
+    $(document).ready(function(){
+        setTimeout(function(){loadAll()},500);
+    });
+}(window, window.jQuery, window.Code.PhotoSwipe));
 
 </script>
 
