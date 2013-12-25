@@ -268,12 +268,6 @@ font-family: "微软雅黑";
 
 <script language="javascript" type="text/javascript">
 
-function loadBaiduMap() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
-        document.body.appendChild(script);
-    }
 
 
     var music = document.getElementById("audio_play");
@@ -281,19 +275,19 @@ music.pause();
 var LoadingDIV = document.getElementById("Loading");
 window.onload = function() {
     music.play();
-	LoadingDIV.style.display = "none";
-	 $(document).ready(function(){    
-           if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
-                $(document).one('touchstart', function (e) {
+    LoadingDIV.style.display = "none";
+    $(document).ready(function(){
+        if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
+            $(document).one('touchstart', function (e) {
                 var music = document.getElementById("audio_play");
-                if (music.paused) { 
-                music.play(); 
-                } 
-                });
-            }
-        });
-    loadBaiduMap();
+                if (music.paused) {
+                    music.play();
+                }
+            });
+        }
+    });
 }
+
 </script>
 
 
@@ -445,9 +439,6 @@ window.onload = function() {
 
  <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>-->  
  
-{#section name=customer loop=$images #}
-	<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>
-{#/section#}
 
  </ul>
                              
@@ -776,8 +767,26 @@ var contentModel = {
     "title": share_title, 
     "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} " 
 };
-//实验muin
-var muinObj = {"allUser":1};
+
+function loadAll(){
+    loadImg();
+    loadBaiduMap();
+}
+
+function loadBaiduMap() {alert(2);
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
+    document.body.appendChild(script);
+}
+function loadImg(){ alert(1);
+    {#section name=customer loop=$images #}
+
+    $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
+
+    {#/section#}
+}
+setTimeout(function(){loadAll()},500);
 
 </script>
 
