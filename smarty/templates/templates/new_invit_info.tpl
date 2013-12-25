@@ -1149,7 +1149,7 @@ String.prototype.Trim = function()
                     <td align="right" valign="top" width="100">风  格:</td>
                     <td colspan="2" valign="top">
 
-                        <input type="hidden" name="mould" id="mould" value="桃色经典">
+                        <input type="hidden" name="mould" id="mould" value="{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}">
                         <input type="hidden" name="font_family" id="font_family" value="粗钢笔">
 
                         <select id="invite_style" >
