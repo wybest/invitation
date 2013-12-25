@@ -779,9 +779,7 @@ function loadBaiduMap() {
 }
 function loadImg(){
     {#section name=customer loop=$images #}
-
     $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
-
     {#/section#}
 }
 
