@@ -795,5 +795,4 @@ function loadImg(){
 
 <script language="JavaScript" src="style/weichat.js" type="text/javascript" charset="utf-8"></script>
 
-
 </body></html>
