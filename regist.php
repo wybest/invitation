@@ -17,6 +17,7 @@ if($name!=""){
 			if(MyDB::insertUserDB($name,$password,$email, $link)){
                 $user = MyDB::selectUserByNameDB($name, $link);
                 $target = MyDB::insertInfoDB("", "", "", "", "", $user->id, "", "", "", "", "", "","",$link);
+                $_SESSION['sn'] = "";
                 echo '<script>location.href="login.php?target=true"</script>';
 			}else{
 				Globle::$smarty->assign("message","注册失败，重新尝试(用户名是否错误)");
