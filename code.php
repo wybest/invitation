@@ -1,9 +1,8 @@
 <?php
-/*���4����д��ĸ��֤���ͼƬ
- rand(�����)�����ӣ�rand(0,9)�����0-9�е�һ������
- dechex(ʮ������)��ʮ����תʮ����ƣ����ӣ�$a=dechex(10) ��$aΪa
- */
-session_start();  //����session
+
+session_start();
+$rs = 1;
+$str = 1;
 for($i=0;$i<4;$i++)
 {
 	$sui=rand(1,26);
