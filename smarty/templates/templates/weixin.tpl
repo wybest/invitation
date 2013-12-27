@@ -12,7 +12,7 @@
 		METHOD="POST" id="form1" name="form1" style="width: 90%; margin: auto;">
 		<input type="hidden" name="insert" value="insert" />
   <div class="form-group">
-    <label >自定义微信名片文字（不填写默认使用"诚挚邀请您来参加，点击查看详情."）</label>
+    <label >自定义微信名片文字（不填写默认使用"诚挚邀请您来参加，点击查看详情."） 不能换行，不能加空格哦，微信不支持</label>
   </div>		
   <div class="form-group">
     <div>
