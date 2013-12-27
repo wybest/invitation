@@ -1259,7 +1259,7 @@ String.prototype.Trim = function() {
                                     <input id="guest" type="text" name="guest" placeholder="姓名" class="textbox">
                                     <br>
                                     <br>
-                                    你是否参加:
+                                    您是否参加:
                                     <select id="pnum" name="pnum">
                                         <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
                                         <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
