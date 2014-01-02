@@ -9,6 +9,8 @@ require 'is_login.php';
 
 if($_REQUEST['insert'] == "insert"){
 	$weixin=$_REQUEST['weixin'];
+    $weixin = str_replace("\r","",$weixin);
+    $weixin = str_replace("\n","",$weixin);
 	$target = false;
 	$messageDO = MyDB::selectInfoDB($user_id,$link);
 
