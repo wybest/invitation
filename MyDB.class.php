@@ -54,6 +54,24 @@ class  MyDB {
 		}
 	}
 
+    public static function updateUserByAdmin($admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
+
+        $sql = "update user set admin_id = '.$admin_id.' , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
+        $ret = mysql_query($sql, $link);
+
+        if ($ret === false) {
+            die("Select Database Failed: " . mysql_error($link));
+            return false;
+        } else {
+            $row =  mysql_affected_rows($link);
+            if($row>0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+    }
+
     public static function updateUserTitleDB($title1,$title2,$title3,$title4,$title5,$num,$user_id,$link){
 
         $sql = "update user set snum=".$num." , title1='".$title1."',title2='".$title2."',title3='".$title3."',title4='".$title4."',title5='".$title5."'  where id='".$user_id."'";
@@ -478,6 +496,26 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 			return true;
 		}
 	}
+
+    public static function selectAdminDB($name,$password,$link){
+
+        $sql="select * from wy_power where admin_name='".$name."' and admin_password='".$password."'";
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return null;
+        } else {
+            if(mysql_num_rows($ret)==0){
+                return null;
+            }else{
+                $user = new AdminDO();
+                $row = mysql_fetch_array($ret);
+                $user->id = $row["id"];
+                $user->admin_name = $row["admin_name"];
+                $user->admin_password = $row["admin_password"];
+                return $user;
+            }
+        }
+    }
 }
 
 ?>

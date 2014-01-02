@@ -3,14 +3,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../groocerycrud" value="1387163734525" />
-      </map>
-    </option>
-  </component>
-  <component name="IdProvider" IDEtalkID="D97F8847EB52E20AA3EB543C05FDE3DD" />
+  <component name="IdProvider" IDEtalkID="5025589EBB50C4599605D89D18D8341A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />

@@ -1484,7 +1484,7 @@ String.prototype.Trim = function() {
 
 <!--<div id="PhotoSwipeTarget"></div>-->
 
-<div id="footer"><div id="copyright"><div id="copyright-text">本服务由QQ:2378822906提供</div></div></div>
+<div id="footer"><div id="copyright"><div id="copyright-text"></div></div></div>
 
 </div>
 

@@ -258,7 +258,7 @@ var _hmt = _hmt || [];
 
     <div class="pad_50 clearfix">
 
-      <h4>欢迎登录爱尚帐户</h4>
+      <h4>欢迎登录帐户</h4>
 
       <form action="login.php" id="form1" method="post">
 
@@ -327,7 +327,7 @@ var _hmt = _hmt || [];
 
   <ul class="links">
 
-    <li class="copyright"><span>爱尚网络版权所有</span></li>
+    <li class="copyright"><span>网络版权所有</span></li>
 
   </ul>
 

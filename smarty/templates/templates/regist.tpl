@@ -6,7 +6,7 @@
 
 <meta charset=utf-8>
 
-<title>爱尚微信喜帖  会员注册</title>
+<title>微信喜帖  会员注册</title>
 
 <link href="skin/style/css/index.css"  rel="stylesheet" type="text/css"/>
 
@@ -86,7 +86,7 @@ if (document.getElementById('email').value=="")
 
     <div class="hei_513">
 
-      <h4 class="h4_suc">注册爱尚微信喜帖帐户</h4>
+      <h4 class="h4_suc">注册微信喜帖帐户</h4>
 
       <p class="suc_p">新人可以在爱尚电子喜帖网站中，挑选中意的样式，填上相关信息，就可以发送给亲朋好友。追求个性化的新人还可以选择喜欢的背景图片、音乐或贴上自己的婚纱照，DIY有声有色的电子喜帖。。如果您已拥有爱尚帐户，则可<a href="" class="cor_yellow">在此登录</a></p>
 
@@ -177,7 +177,7 @@ if (document.getElementById('email').value=="")
 
   <ul class="links">
 
-    <li class="copyright"><span>爱尚网络版权所有</span></li>
+    <li class="copyright"><span>网络版权所有</span></li>
 
   </ul>
 

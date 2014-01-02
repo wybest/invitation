@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-$rs = 1;
-$str = 1;
+$rs = "";
+$str = "";
 for($i=0;$i<4;$i++)
 {
 	$sui=rand(1,26);
