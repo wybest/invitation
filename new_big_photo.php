@@ -21,7 +21,7 @@ if($user->is_pay == 1){
 	Globle::$smarty->display('new_big_photo.tpl');
 }
 else{
-	echo "对不起，您不是付费用户，不能编辑图片，因为图片存储我们是要付费买空间的，请您谅解----<a href='http://item.taobao.com/item.htm?id=35673595249'>去付款</a>";
+	echo "对不起，您不是付费用户，不能编辑图片，因为图片存储我们是要付费买空间的，请您谅解----请联系客服去付款</a>";
 }
 //http://bcs.duapp.com/marryimg/{#$bigimage#}
 ?>
