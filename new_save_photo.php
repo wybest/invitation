@@ -55,10 +55,10 @@ if($_REQUEST['fileup'] == "true"){
     }
 
     $file = $_FILES["upfile"];
-    if(150*1024 < $file["size"])
+    if(200*1024 < $file["size"])
     //检查文件大小
     {
-    	$message = "文件太大,不要超过150KB";
+    	$message = "文件太大,不要超过200KB";
     	Globle::$smarty->assign("message",$message);
     	
     	if($_REQUEST['type'] == "big"){
