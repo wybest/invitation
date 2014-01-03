@@ -19,6 +19,7 @@ class  UserDO {
 	public $title4;
 	public $title5;
     public $snum;
+    public $create_time;
 }
 
 ?>

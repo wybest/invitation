@@ -100,10 +100,11 @@
                 <div id="templatemo_sidebar_top"></div>
                 <div id="templatemo_sidebar">
 
-                    <h2>请柬DIY</h2>
+                    <h2>后台管理</h2>
 
                     <ul class="categories_list">
-                        <li><a href="#">待添加菜单</a></li>
+                        <li><a href="power_select_user.php">开通vip账号</a></li>
+                        <li><a href="power_vip_user.php">已开通的vip账号</a></li>
                     </ul>
 
                 </div>

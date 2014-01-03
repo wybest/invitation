@@ -1,4 +1,4 @@
- <table width="65%" border="1" align="center">
+<table width="65%" border="1" align="center">
   <tr>
     <td colspan="2" align="left">婚庆回函详情</td>
   </tr>

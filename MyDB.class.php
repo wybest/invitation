@@ -54,9 +54,13 @@ class  MyDB {
 		}
 	}
 
-    public static function updateUserByAdmin($admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
+    public static function updateUserByAdmin($create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
 
-        $sql = "update user set admin_id = '.$admin_id.' , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
+        $registTime = "";
+        if($create_time == ""){
+            $registTime = " creat_time = now() , ";
+        }
+        $sql = "update user set ".$registTime." admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
         $ret = mysql_query($sql, $link);
 
         if ($ret === false) {
@@ -140,6 +144,7 @@ class  MyDB {
 				$user->title3=$row['title3'];
 				$user->title4=$row['title4'];
 				$user->title5=$row['title5'];
+                $user->create_time=$row['creat_time'];
 				return $user;
 			}
 		}
@@ -179,6 +184,46 @@ class  MyDB {
 			}
 		}
 	}
+
+    public static function selectUserByAdminCountDB($admin_id,$link){
+
+        $sql="select count(*) as num from user where admin_id=".$admin_id."";
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return 0;
+        } else {
+            $row = mysql_fetch_array($ret);
+            return $row['num'];
+        }
+    }
+
+    public static function selectUserByAdminDB($admin_id,$page,$pagesize,$link){
+        $shuju_array = array();
+        $page = $page-1;
+        $count = $page*$pagesize;
+        $sql="select * from user where admin_id=".$admin_id." order by id LIMIT ".$count.",".$pagesize;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return $shuju_array;
+        } else {
+            while ($row = mysql_fetch_assoc($ret)) {
+
+                $user = new UserDO();
+                $user->id = $row["id"];
+                $user->name = $row["name"];
+                $user->password = $row["password"];
+                $user->is_pay = $row["is_pay"];
+                $user->is_phone = $row["is_phone"];
+                $user->is_pc = $row["is_pc"];
+                $user->font_family = $row["font_family"];
+                $user->extends=$row['extends'];
+                $user->special_name=$row['special_name'];
+                $user->create_time=$row['creat_time'];
+                array_push($shuju_array,$user);
+            }
+            return $shuju_array;
+        }
+    }
 
 	public static function insertInfoDB($man,$women,$lasttime,$house,$adress,$user_id,$show_time,$mini_time,$title,$message,$image,$bigimage,$bigtitle,$link){
 		$sql="INSERT INTO message (mould,pc_mould,music,man,women,lasttime,house,adress,user_id,show_time,mini_time,title,message,image,bigimage,bigtitle) VALUES ('桃色经典','p1','','".$man."','".$women."','".$lasttime."','".$house."','".$adress."',".$user_id.",'".$show_time."','".$mini_time."','".$title."','".$message."','".$image."','".$bigimage."','".$bigtitle."')";

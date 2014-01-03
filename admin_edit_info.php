@@ -27,7 +27,7 @@ if ($_REQUEST['insert'] == "insert") {
     $admin_id = $_SESSION['admin_id'];
     echo $admin_id;
     if ($admin_id>0) {
-        $target = MyDB::updateUserByAdmin($admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
+        $target = MyDB::updateUserByAdmin($user->create_time,$admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
 
         if ($target) {
             Globle::$smarty->assign("target", "true");
