@@ -15,7 +15,7 @@ class  MyDB {
 
 	public static function insertUserDB($name,$password,$email,$link){
 
-		$sql="INSERT INTO user (name,password,creat_time,vip_num,is_pay,email) VALUES ('".$name."','".$password."',NOW(),10,0,'".$email."')";
+		$sql="INSERT INTO user (name,password,creat_time,vip_num,is_pay,email) VALUES ('".$name."','".$password."',NOW(),20,0,'".$email."')";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;
@@ -54,13 +54,13 @@ class  MyDB {
 		}
 	}
 
-    public static function updateUserByAdmin($create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
+    public static function updateUserByAdmin($vip_num,$advert,$create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
 
         $registTime = "";
         if($create_time == ""){
             $registTime = " creat_time = now() , ";
         }
-        $sql = "update user set ".$registTime." admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
+        $sql = "update user set ".$registTime." vip_num=".$vip_num." , advert='".$advert."', admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
         $ret = mysql_query($sql, $link);
 
         if ($ret === false) {
