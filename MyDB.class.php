@@ -15,7 +15,7 @@ class  MyDB {
 
 	public static function insertUserDB($name,$password,$email,$link){
 
-		$sql="INSERT INTO user (name,password,creat_time,vip_num,is_pay,email) VALUES ('".$name."','".$password."',NOW(),20,0,'".$email."')";
+		$sql="INSERT INTO user (name,password,vip_num,is_pay,email) VALUES ('".$name."','".$password."',20,0,'".$email."')";
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return false;
