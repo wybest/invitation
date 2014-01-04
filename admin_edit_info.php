@@ -25,10 +25,11 @@ if ($_REQUEST['insert'] == "insert") {
     $extends = $_REQUEST['extends'];
     $special_name = $_REQUEST['special_name'];
     $advert = $_REQUEST['advert'];
+    $vip_num = $_REQUEST['vip_num'];
     $admin_id = $_SESSION['admin_id'];
     echo $admin_id;
     if ($admin_id>0) {
-        $target = MyDB::updateUserByAdmin($advert,$user->create_time,$admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
+        $target = MyDB::updateUserByAdmin($vip_num,$advert,$user->create_time,$admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
 
         if ($target) {
             Globle::$smarty->assign("target", "true");
@@ -50,6 +51,7 @@ Globle::$smarty->assign("font_family", $user->font_family);
 Globle::$smarty->assign("extends", $user->extends);
 Globle::$smarty->assign("special_name", $user->special_name);
 Globle::$smarty->assign("advert", $user->advert);
+Globle::$smarty->assign("vip_num", $user->vip_num);
 
 Globle::$smarty->display('admin_head.tpl');
 Globle::$smarty->display('power_edit.tpl');
