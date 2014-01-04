@@ -219,6 +219,7 @@ class  MyDB {
                 $user->extends=$row['extends'];
                 $user->special_name=$row['special_name'];
                 $user->create_time=$row['creat_time'];
+                $user->vip_num = $row["vip_num"];
                 array_push($shuju_array,$user);
             }
             return $shuju_array;
