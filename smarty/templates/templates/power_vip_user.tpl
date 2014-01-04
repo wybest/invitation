@@ -5,6 +5,7 @@
         <td align="center">手机版状态</td>
         <td align="center">电脑版状态</td>
         <td align="center">开通时间</td>
+        <td align="center">贵宾数量</td>
         <td align="center">操作</td>
     </tr>
     {#section name=customer loop=$shuju_array #}
@@ -13,6 +14,7 @@
         <td align="center" >{#if $shuju_array[customer]->is_phone == 0 #}未开通{#else#}开通{#/if#}</td>
         <td align="center">{#if $shuju_array[customer]->is_pc == 0 #}未开通{#else#}开通{#/if#}</td>
         <td align="center" >{#$shuju_array[customer]->create_time#}</td>
+        <td align="center" >{#$shuju_array[customer]->vip_num#}</td>
         <td><a href="#">关闭</a></td>
     </tr>
     {#/section#}
