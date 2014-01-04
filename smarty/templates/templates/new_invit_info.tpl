@@ -1666,7 +1666,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7043">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="3">
-        展现回函数量：<input name="num" id="num" type="text" value="{#if $snum #}{#$snum#}{#else#}20{#/if#}">
+        展现回函数量：<input name="num" id="num" type="text" value="{#$snum#}">
         <!--  <input name="hidden3" type="checkbox" id="bshow7043" value="1">隐藏 -->
       </div>
       <script>
