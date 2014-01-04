@@ -50,6 +50,12 @@
         </div>
     </div>
     <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">广告</label>
+        <div class="col-sm-10">
+            <input class="form-control" name="advert" type="text" id="advert" value="{#$advert#}"/>
+        </div>
+    </div>
+    <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">字体</label>
         <div class="col-sm-10">
             <input class="form-control" name="font_family" type="text" id="font_family" value="{#$font_family#}"/>
