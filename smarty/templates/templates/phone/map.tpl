@@ -9,7 +9,6 @@
 <title>地图</title>
 <script type="text/javascript" src="style/style9/api"></script><script type="text/javascript" src="style/style9/getscript"></script>
 <link href="style/style9/style.css" rel="stylesheet" type="text/css">
-    <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
 <script>(function listenerTest() {
     window.addEventListener("message", function (event) {
         if (event.source !=  window) return;
@@ -101,11 +100,10 @@ function setMarkerPos7044(lng,lat) {
 var music = document.getElementById("audio_play");
 var musicdiv = document.getElementById("music");
 
-(function(window, $, PhotoSwipe){
-    $(document).ready(function(){
-        music.play();
-    });
-}(window, window.jQuery));
+window.onload = function(){
+    music.play();
+}
+
 var music_con = true;
 musicdiv.onclick = function() {
     if (music_con) {
