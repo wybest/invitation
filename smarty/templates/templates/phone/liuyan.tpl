@@ -112,20 +112,10 @@
 <script type="text/javascript">
     var music = document.getElementById("audio_play");
     var musicdiv = document.getElementById("music");
-    music.pause();
 
     window.onload = function() {
         music.play();
         LoadingDIV.style.display = "none";
-        $(document).ready(function(){
-            if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
-                $(document).one('touchstart', function (e) {
-                    if (music.paused) {
-                        music.play();
-                    }
-                });
-            }
-        });
     }
     var music_con = true;
     musicdiv.onclick = function() {

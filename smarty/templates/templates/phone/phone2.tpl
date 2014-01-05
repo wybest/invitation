@@ -9,7 +9,9 @@
 
     <script language="JavaScript" src="style/style9/jquery-latest.js" type="text/javascript"></script>
     <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
-    <script type="text/javascript" src="invit_files/code.photoswipe.jquery-3.0.5.min.js"></script>
+    <script src="style/桃色经典/image_files/jquery-latest.js"></script>
+    <script type="text/javascript" src="style/桃色经典/image_files/klass.min.js"></script>
+    <script type="text/javascript" src="style/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
     <link href="invit_files/photoswipe.css" type="text/css" rel="stylesheet">
     <link href="style/style9/style.css" rel="stylesheet" type="text/css">
     <style>
