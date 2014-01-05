@@ -13,10 +13,10 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
-
+<!--
     <link rel="stylesheet" href="intro/introjs.min.css"/>
     <script type="text/javascript" src="intro/intro.min.js"></script>
-
+-->
     <link rel="stylesheet" href="example_files/jquery-ui-1.8.18.custom.full_leo.css" type="text/css" media="screen" charset="utf-8">
 
     <script type="text/javascript" src="example_files/jquery-latest.js"></script>
