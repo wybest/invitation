@@ -1,4 +1,4 @@
-<table class="table table-hover" align="center" border="1" width="100%">
+<table class="table table-hover" >
     <tr>
       <td align="center">姓名</td>
       <td align="center">是否参加</td>
