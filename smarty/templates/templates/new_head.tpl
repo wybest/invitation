@@ -102,27 +102,27 @@ function clearText(field)
             
                 <h2>请柬DIY</h2>
                 
-                <ul class="categories_list">
-                    <li><a href="javascript:aa()">请柬内容设置</a></li>
-                    <li><a href="mould_pc.php">电脑请柬风格设置</a></li>
-                    <li><a href="weixin.php">微信名片设置</a></li>
+                <ul class="categories_list nav nav-pills nav-stacked">
+                    <li {#if $active eq "1"#}class="active"{#/if#}><a href="javascript:aa()">请柬内容设置</a></li>
+                    <li {#if $active eq "2"#}class="active"{#/if#}><a href="mould_pc.php">电脑请柬风格设置</a></li>
+                    <li {#if $active eq "3"#}class="active"{#/if#}><a href="weixin.php">微信名片设置</a></li>
                 </ul>
                 
                 <div class="cleaner_h30"></div>
                 
                 <h2>请柬二维码地址</h2>
             
-               <ul class="categories_list">
-                    <li><a href="invitadress.php">请柬通用地址</a></li>
-                    <li><a href="invitvipadress.php">请柬贵宾地址</a></li>
+               <ul class="categories_list  nav nav-pills nav-stacked">
+                    <li {#if $active eq "4"#}class="active"{#/if#}><a href="invitadress.php">请柬通用地址</a></li>
+                    <li {#if $active eq "5"#}class="active"{#/if#}><a href="invitvipadress.php">请柬贵宾地址</a></li>
                 </ul>
                 
                 <div class="cleaner_h30"></div>
                 
                  <h2>亲友回函</h2>
             
-               <ul class="categories_list">
-                    <li><a href="receipt.php">查看回函</a></li>
+               <ul class="categories_list  nav nav-pills nav-stacked">
+                    <li {#if $active eq "6"#}class="active"{#/if#}><a href="receipt.php">查看回函</a></li>
                 </ul>
                 
                 <div class="cleaner_h10"></div>
