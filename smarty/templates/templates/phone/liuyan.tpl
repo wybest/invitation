@@ -8,6 +8,7 @@
     <meta http-equiv="description" content="免费获得电子请柬,免费获得手机请柬,免费体验手机请柬,免费下载电子请柬,免费制作电子请柬,免费制作Flash电子请柬样板,免费获得二维码请柬">
     <title>祝福留言</title>
     <link href="style/style9/style.css" rel="stylesheet" type="text/css">
+    <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
     <style>
 
 
@@ -113,10 +114,12 @@
     var music = document.getElementById("audio_play");
     var musicdiv = document.getElementById("music");
 
-    window.onload = function() {
-        music.play();
-        LoadingDIV.style.display = "none";
-    }
+    (function(window, $, PhotoSwipe){
+        $(document).ready(function(){
+            music.play();
+        });
+    }(window, window.jQuery));
+
     var music_con = true;
     musicdiv.onclick = function() {
         if (music_con) {
