@@ -101,7 +101,7 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("bigimage", $messageDO->bigimage);
         Globle::$smarty->assign("bigtitle", $messageDO->bigtitle);
     }
-    Globle::$smarty->display('new_invit_info.html');
+    Globle::$smarty->display('new_invit_info.tpl');
 }else{
 	echo '<script>location.href="new_invit_info.php"</script>';
 }
