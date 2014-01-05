@@ -1,6 +1,8 @@
 
 <div id="showtext" style="margin: auto; width: 99%;margin-top: 50px;">
-
+    {#if $message #}
+    <div class="alert alert-danger">{#$message#}</div>
+    {#/if#}
     <form class="form-inline" role="form" ACTION="admin_edit_info.php" METHOD="POST" id="form1" name="form1">
         <div class="form-group">
             <label class="sr-only" for="exampleInputEmail2">客户账号</label>
