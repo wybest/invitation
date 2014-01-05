@@ -9,7 +9,7 @@ Globle::initSmarty();
 require 'is_login.php';
 $page_size = 20;
 $page_nm = (int)$_REQUEST['page_nm'];
-Globle::$smarty->display('new_head.tpl');
+
 if($page_nm==0){
 	$page_nm=1;
 }
@@ -37,6 +37,7 @@ Globle::$smarty->assign("end",$end);
 Globle::$smarty->assign("count",$count);
 Globle::$smarty->assign("page",$page_nm);
 Globle::$smarty->assign("shuju_array",$shuju_array);
+Globle::$smarty->display('new_head.tpl');
 Globle::$smarty->display('receipt.tpl');
 Globle::$smarty->display('foot.tpl');
 ?>

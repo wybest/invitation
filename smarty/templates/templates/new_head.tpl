@@ -122,7 +122,7 @@ function clearText(field)
                  <h2>亲友回函</h2>
             
                <ul class="categories_list  nav nav-pills nav-stacked">
-                    <li {#if $active eq "6"#}class="active"{#/if#}><a href="receipt.php">查看回函</a></li>
+                   <li {#if $active eq "6"#}class="active"{#/if#}><a href="receipt.php">查看回函</a></li>
                 </ul>
                 
                 <div class="cleaner_h10"></div>
