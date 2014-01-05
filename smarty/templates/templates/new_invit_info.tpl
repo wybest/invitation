@@ -513,7 +513,6 @@ $(document).ready(function() {
         }else{
             $('#iframepage').contents().find('html').animate( { scrollTop: destination }, 500, 'easeInQuad' );
         }
-
         if(invite_detail_id=='7044'){
             $('#iframepage').attr('src','map.php?user={#$userID#}');
             $('#iframepage').load(function(){initlistener();});
@@ -532,9 +531,7 @@ $(document).ready(function() {
             }else{
                 dinwei(invite_detail_id);
             }
-
         }else{
-
             $("#accordion_header").accordion("activate", false );
 
             //alert(invite_detail_id);

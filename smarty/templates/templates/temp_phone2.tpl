@@ -274,7 +274,7 @@
         }
     }
     menu1.onclick = function() {movex('mo', -300)};
-    menu2.onclick = function() {self.location='liuyan.php?user={#$userID#}'};
+    menu2.onclick = function() {alert("这个操作在手机上显示哦")};
     menu3.onclick = function() {movex('mo1', -90)};
     closebtn.onclick = function() {movex2('mo', 0)};
     closebtn1.onclick = function() {movex2('mo1', 0)};
