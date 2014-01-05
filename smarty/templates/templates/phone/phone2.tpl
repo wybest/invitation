@@ -86,7 +86,7 @@
                 <div id="texttxt">{#$show_time#} {#$mini_time#}</div>
                 <div id="textimg1">
                     <div id="subtextimg"><img name="" src="style/style9/ps/1.png"></div>
-                    <div id="subtexttxt">宴会时间</div>
+                    <div id="subtexttxt" style="margin-top: -13px;">宴会时间</div>
                 </div>
 
             </div>
@@ -94,7 +94,7 @@
                 <div id="texttxt">{#$house#}</div>
                 <div id="textimg2">
                     <div id="subtextimg"><img name="" src="style/style9/ps/2.png"></div>
-                    <div id="subtexttxt">点击导航</div>
+                    <div id="subtexttxt" style="margin-top: -13px;">查看地图</div>
                 </div>
 
             </div>
