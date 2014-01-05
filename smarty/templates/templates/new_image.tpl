@@ -2,6 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onbeforecopy="return false" onmouseup=document.selection.empty() oncopy=document.selection.empty() onselect=document.selection.empty()>
 {#if $message != ""#}
@@ -16,14 +24,17 @@
 <div class="alert alert-success">（建议6张相片最合适,相片要求为竖版 500*750）相片大小限制在150kb内，手机屏幕小，打开是很清晰的，同时手机打开速度会很快,，压缩图片去<a target="_blank" href="http://xiuxiu.web.meitu.com/">美图秀秀网页版</a> </div>
 <div style="">
 <form class="form-inline" role="form" action="new_save_photo.php" method="post" enctype="multipart/form-data">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail2">相册图片（建议6张最合适）</label>
-    <input class="input-file" type="file" name="upfile">
-  </div>
+ <table>
+     <tr>
+         <td><input class="input-file" type="file" name="upfile"></td>
+         <td><button type="submit" class="btn btn-primary">提 交</button></td>
+     </tr>
+ </table>
+
  <input type="hidden" name="fileup" value="true">
 			<input type="hidden" name="type" value="image">
     <input type="hidden" name="target" value="new">
-  <button type="submit" class="btn btn-primary">提 交</button>
+
 </form>
 </div>
 <div style="margin-top: 20px;width: 100%;">

@@ -2,6 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 {#if $message != ""#}
@@ -17,14 +25,16 @@
 <div id="showtext" class="editor active" style="margin: auto;width: 100%;">
 <div style="float: left;padding-top: 20px;">
 <form class="form-inline" role="form" action="new_save_photo.php" method="post" enctype="multipart/form-data">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail2">首页图片</label>
-    <input class="input-file" type="file" name="upfile">
-  </div>
+
+    <table>
+        <tr>
+            <td><input class="input-file" type="file" name="upfile"></td>
+            <td><button type="submit" class="btn btn-primary">提 交</button></td>
+        </tr>
+    </table>
  <input type="hidden" name="fileup" value="true">
 			<input type="hidden" name="type" value="big">
     <input type="hidden" name="target" value="new">
-  <button type="submit" class="btn btn-primary">提 交</button>
 </form>
 </div>
 {#if $bigimage !=  "none" #}  
