@@ -9,7 +9,7 @@ require 'is_login.php';
 //require 'upfile.php';
 $messageDO = MyDB::selectInfoDB($user_id,$link);
 
-Globle::$smarty->display('head.tpl');
+Globle::$smarty->display('new_head.tpl');
 if($messageDO!=null){
 	Globle::$smarty->assign("mould",$messageDO->mould);
 	Globle::$smarty->assign("music",$messageDO->music);
