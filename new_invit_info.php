@@ -10,6 +10,7 @@ require 'is_login.php';
 //require 'upfile.php';
 $messageDO = MyDB::selectInfoDB($user_id, $link);
 $user = MyDB::selectUserByIdDB($user_id, $link);
+Globle::$smarty->assign("userID", $user_id);
 if ($user != null) {
     Globle::$smarty->assign("snum", $user->snum);
     Globle::$smarty->assign("font_family", $user->font_family);
@@ -49,6 +50,6 @@ if ($messageDO != null) {
 //初始化音乐列表
 //require 'init_mp3list.php';
 
-Globle::$smarty->display('new_invit_info.tpl');
+Globle::$smarty->display('new_invit_info.html');
 //Globle::$smarty->display('foot.tpl');
 ?>

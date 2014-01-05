@@ -10,6 +10,7 @@ require 'is_login.php';
 //require 'upfile.php';
 $messageDO = MyDB::selectInfoDB($user_id, $link);
 $user = MyDB::selectUserByIdDB($user_id, $link);
+Globle::$smarty->assign("userID", $user_id);
 if ($user != null) {
     Globle::$smarty->assign("snum", $user->snum);
     Globle::$smarty->assign("font_family", $user->font_family);
@@ -37,18 +38,25 @@ if ($messageDO != null) {
     Globle::$smarty->assign("title", $messageDO->title);
     Globle::$smarty->assign("message", $messageDO->message);
     Globle::$smarty->assign("image", $messageDO->image);
-    if($messageDO->image==""){
-        Globle::$smarty->assign("images","none");
-    }else{
+    if ($messageDO->image == "") {
+        Globle::$smarty->assign("images", "none");
+    } else {
         $images = explode(",", $messageDO->image);
-        Globle::$smarty->assign("images",$images);
+        Globle::$smarty->assign("images", $images);
     }
     Globle::$smarty->assign("bigimage", $messageDO->bigimage);
     Globle::$smarty->assign("bigtitle", $messageDO->bigtitle);
 }
 //初始化音乐列表
 //require 'init_mp3list.php';
-
-Globle::$smarty->display('temp_phone.tpl');
-//Globle::$smarty->display('foot.tpl');
+$tpl = $_REQUEST['tpl'];
+if ($tpl == "") {
+    if ($messageDO->mould == "phone2") {
+        Globle::$smarty->display('temp_phone2.tpl');
+    } else {
+        Globle::$smarty->display('temp_phone.tpl');
+    }
+} else {
+    Globle::$smarty->display('temp_'.$tpl.'.tpl');
+}
 ?>

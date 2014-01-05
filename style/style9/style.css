@@ -1,0 +1,264 @@
+@charset "gb2312";
+/* CSS Document */
+
+body {
+	background-image: url(ps/main_bg.png);
+	background-repeat: repeat;
+	margin:0;
+	
+}
+#main{
+	width:100%;
+	height:auto;
+	z-index:9;
+}
+
+#top{
+	text-align:right;
+	font-family:"΢���ź�",Arial,"����";
+	font-size:16px;
+	color:#FFF;
+	background-image: url(ps/bg2.png);
+	background-repeat:repeat-x;
+	width: 100%;
+	height: 98px;
+	margin:40px 0 0 0;
+
+}
+#top #headbox {
+	background-image: url(ps/headbox.png);
+	background-repeat:no-repeat;
+	width:99px;
+	height: 118px;
+	position:absolute;
+    margin:-20px auto auto 5px;
+
+}
+#top #headbox #headimg{
+	background-color:#FFF;
+	width:75px;
+	height: 75px;
+	margin:8px auto auto 12px;
+}
+#top #headbox #headimg img{
+	width:73px;
+	height: 73px;
+	margin:1px;
+
+
+}
+
+
+#top #heart {
+	background-image: url(ps/heart.png);
+	background-repeat:no-repeat;
+	width:26px;
+	height: 21px;
+	position:absolute;
+	left:60%;
+	margin:15px auto auto -13px;
+
+}
+#top #xinlang {
+	text-align:right;
+	width:50px;
+	height: 21px;
+	position:absolute;
+	left:60%;
+	margin:15px auto auto -70px;
+
+}
+
+#top #xinniang {
+	text-align:left;
+	width:50px;;
+	height: 21px;
+	position:absolute;
+	left:60%;
+	margin:15px auto auto 20px;
+
+}
+#top #music {
+/*	background-image: url(ps/music.png);
+	background-repeat:no-repeat;*/
+	width:25px;
+	height: 25px;
+	float:right;
+    margin:15px 15px;
+}
+
+
+
+#content {
+	background-color:#FFF;
+	position:relative;
+
+	height:auto;
+	padding:10px;
+	margin:10px 10px 0 10px;
+	
+
+}
+
+
+#content #video{
+	background-color:#f9baba;
+	margin-bottom:10px;
+
+}
+#content #album img{
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+}
+
+
+#content #saytext{
+	margin-top:5px;
+	margin-bottom:10px;
+	background-color:#F00
+
+}
+#content #saytext #saytitle{
+	 text-align:center;
+	 margin:10px 0 0 0;
+}
+#content #saytext #saytitle img{
+	 text-align:center;
+	 margin:5px 0 0 0;
+	 width:100%;
+	 height:auto;
+}
+#content #saytext #remindtitle{
+	 background:url(ps/ring.png) no-repeat right bottom;
+	 font-family:"΢���ź�",Arial,"����";
+   	font-size:16px;
+	 color:#FFF;
+	 text-align:left;
+	 padding:0 5px 5px 5px;
+
+
+}
+
+#content #text{
+
+		margin:5px 0;
+		height:50px;
+		width:100%;
+		background-color:#facccc;
+		text-align:right;
+		display:table;  
+		
+	
+}
+
+
+
+
+#content #textbox #textimg1,#textimg2,#textimg3{
+    display:table-cell;  
+	vertical-align:middle;
+	background-image:url(ps/bg3.png);
+	background-repeat:repeat-x;
+    width: 50px;
+    height: 50px;;
+    float: right;
+}
+#content #textbox #texttxt {
+    display:table-cell;  
+	vertical-align:middle;
+	font-family:"΢���ź�",Arial,"����";
+	font-size:18px;
+	height:50px;
+    color: #000000;
+	text-align:left;
+	margin:0 60px 0 10px;
+	padding:0 10px;
+
+}
+
+#content #textbox #subtextimg{
+	text-align:center;
+	margin:3px;
+}
+#content #textbox #subtexttxt{
+	 font-family:"΢���ź�",Arial,"����";
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	
+}
+
+
+
+#content #menubox{
+/*	background-image:url(ps/shadow.png);
+	background-repeat:repeat-x;*/
+    height: auto;
+	width:100%;
+
+
+}
+#content #menubox #submenubox {
+	margin:30px 10px 30px 10px;
+
+}
+
+#content #menubox #menu{
+	border-radius:5px;
+	 background:url(ps/btn_bg.png) repeat-x center; margin:5px;
+	 font-family:"΢���ź�",Arial,"����";
+	font-size:16px;
+	color:#FFF;
+	text-align:center;
+	height:40px;
+}
+#bottom{
+	background-image:url(ps/shadow.png);
+	background-repeat:repeat-x;
+	position:relative;
+	height:auto;
+	padding:10px;
+	margin:-5px 10px 0 10px;
+}
+
+#inputlist{
+	margin:10px;
+	
+}
+
+/*ul.input_test li{
+height:24px;
+list-style:none;
+text-align:center;
+}*/
+.input_out{
+/*height:16px;Ĭ�ϸ߶�*/
+padding:2px 8px 0pt 2px;
+margin-top:10px;
+height:22px;
+width:80%;
+border:1px solid #CCC;
+background-color:#FFF;
+}
+.input_on{
+padding:2px 8px 0pt 2px;
+margin-top:10px;
+height:22px;
+width:80%;
+border:1px solid #999;
+background-color:#FFFFCC;
+}
+.subit{
+	background-image:url(ps/subit.png);
+	color:#FFF;
+	width:90px;
+	height:30px;
+	border:1px;
+	border-radius:5px;
+}
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 33%; }
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; }

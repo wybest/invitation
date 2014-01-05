@@ -105,7 +105,6 @@ var map7044_latmarker = 31.241401;
 var map7044_lngmarker = 121.512876;
 
 function initialize7044() {
-    map_canvas7044
     //Baidu MAP Control
     map7044 = new BMap.Map("map_canvas7044");
 

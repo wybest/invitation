@@ -117,7 +117,7 @@ function MM_swapImage() { //v3.0
 
     //baidu map
     var map7044 = null;
-    var marker7044;
+    var marker2
 
     var map;
 
@@ -128,21 +128,26 @@ function MM_swapImage() { //v3.0
         map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
         map.centerAndZoom(new BMap.Point({#if $coordinate #}{#$coordinate#}{#else#}116.404, 39.915{#/if#}), 15);
         map.addControl(new BMap.NavigationControl());
-        map.addEventListener("click", function(e){//地图单击事件
-                            $('#invite_detail_latmarker7044').val(e.point.lat);
-                            $('#invite_detail_lngmarker7044').val(e.point.lng);
-                            $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
-                            map.clearOverlays();
-                            document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
-                        });
+
 
         var pt = new BMap.Point({#if $coordinate #}{#$coordinate#}{#else#}116.404, 39.915{#/if#});
         var myIcon = new BMap.Icon("style/桃色经典/image_files/markers.gif", new BMap.Size(25,21));
-        var marker2 = new BMap.Marker(pt,{
+        marker2 = new BMap.Marker(pt,{
             icon:myIcon
         });// 创建标注
         map.addOverlay(marker2);// 将标注添加到地图中
 
+        initlistener();
+    }
+
+    function initlistener(){
+        map.addEventListener("click", function(e){//地图单击事件
+            $('#invite_detail_latmarker7044').val(e.point.lat);
+            $('#invite_detail_lngmarker7044').val(e.point.lng);
+            $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
+            marker2.setPosition(new BMap.Point(e.point.lng,e.point.lat)) ;
+            document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
+        });
 
         map.addEventListener("moving", function(){
             var center = map.getCenter();
@@ -166,6 +171,7 @@ function MM_swapImage() { //v3.0
 
         });
     }
+
     function sear(result){//地图搜索
                         var local = new BMap.LocalSearch(map, {
                             renderOptions:{map: map}
@@ -356,33 +362,41 @@ $(document).ready(function() {
 
 //alert(getMainPanelText());
     $("#invite_style").change(function() {
-        $('#mould').val($("#invite_style option:selected").text());
 
-        var a = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/custom.css';
-        var b = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/style.css';
-        var c = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/styles.css';
-        var d = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/photoswipe.css';
+        $('#mould').val($("#invite_style option:selected").val());
+        if($("#invite_style option:selected").text() == "红色典雅"){
+            $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
+        }else{
 
-
-
-
-        $('#invite_styleid').val($(this).val().split('|')[4]);
-
-        $('#iframepage').contents().find(".a").attr("href",a);
-        $('#iframepage').contents().find(".b").attr("href",b);
-        $('#iframepage').contents().find(".c").attr("href",c);
-        $('#iframepage').contents().find(".d").attr("href",d);
-        var i=1;
-        $('#iframepage').contents().find('.iconimage').each(function () {
-            var imageName = 'style/'+$("#invite_style option:selected").text()+'/image_files/'+i+'.png';
-            $(this).attr('src', imageName);
-            i++;
-        });
-        $('#iframepage').get(0).contentWindow.invite_styletype = styletype;
-
-        $('#iframepage').get(0).contentWindow.initProcessButtonBackground();	//call iframe function to reset id
+            $('#iframepage').load(function(){
+                var a = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/custom.css';
+                var b = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/style.css';
+                var c = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/styles.css';
+                var d = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/photoswipe.css';
 
 
+
+
+                $('#invite_styleid').val($(this).val().split('|')[4]);
+
+                $('#iframepage').contents().find(".a").attr("href",a);
+                $('#iframepage').contents().find(".b").attr("href",b);
+                $('#iframepage').contents().find(".c").attr("href",c);
+                $('#iframepage').contents().find(".d").attr("href",d);
+                var i=1;
+                $('#iframepage').contents().find('.iconimage').each(function () {
+                    var imageName = 'style/'+$("#invite_style option:selected").text()+'/image_files/'+i+'.png';
+                    $(this).attr('src', imageName);
+                    i++;
+                });
+                $('#iframepage').get(0).contentWindow.invite_styletype = styletype;
+
+                $('#iframepage').get(0).contentWindow.initProcessButtonBackground();	//call iframe function to reset id
+
+            });
+
+            $('#iframepage').attr('src','new_temp_phone.php?tpl=phone');
+        }
     });
 
 
@@ -466,55 +480,91 @@ $(document).ready(function() {
 
     });
 
+    function dinwei(invite_detail_id){
+        var destination = 0;
+        if(invite_detail_id=='7042'){
+            $('#iframepage').contents().find('#close').click();
+            $('#iframepage').contents().find('#close1').click();
+            destination = $('#iframepage').contents().find('#textbox').offset().top;
+        }
+        if(invite_detail_id=='7041'){
+            $('#iframepage').contents().find('#close').click();
+            $('#iframepage').contents().find('#close1').click();
+            destination = $('#iframepage').contents().find('#Gallery').offset().top;
+        }
+        if(invite_detail_id=='7043'){
+            destination = $('#iframepage').contents().find('#submenu1').offset().top-400;
+            $('#iframepage').contents().find('#close1').click();
+            $('#iframepage').contents().find('#submenu1').click();
+        }
+        if(invite_detail_id=='7045'){
+            destination = $('#iframepage').contents().find('#submenu3').offset().top-390;
+            $('#iframepage').contents().find('#close').click();
+            $('#iframepage').contents().find('#submenu3').click();
 
+        }
+        if(invite_detail_id=='7046'){
+            $('#iframepage').contents().find('#close').click();
+            $('#iframepage').contents().find('#close1').click();
+            destination = $('#iframepage').contents().find('#saytext').offset().top;
+        }
+        if($.browser.safari){
+            $('#iframepage').contents().find('body').animate( { scrollTop: destination }, 500, 'easeInQuad' );
+        }else{
+            $('#iframepage').contents().find('html').animate( { scrollTop: destination }, 500, 'easeInQuad' );
+        }
+
+        if(invite_detail_id=='7044'){
+            $('#iframepage').attr('src','map.php?user={#$userID#}');
+            $('#iframepage').load(function(){initlistener();});
+
+        }
+    }
 
     $('#tabs').bind('tabsselect', function(event, ui) {
-        //ui.tab     // anchor element of the selected (clicked) tab
-        //ui.panel   // element, that contains the selected/clicked tab contents
-        //ui.index   // zero-based index of the selected (clicked) tab
-        //alert($("#accordion_header").accordion("activate"));
-        $("#accordion_header").accordion("activate", false );
 
 
-        //"invite_detail_title" length = 19
         var invite_detail_id = ui.tab.id.substr(19, ui.tab.id.length - 19 );
-
-        //alert(invite_detail_id);
-        $(".tab_name").removeClass("tab_name_idle");
-        //$(".tab_name").removeClass("tab_name_focus");
-        $(".tab_name").addClass("tab_name_idle");
-        $("#invite_detail_name" + invite_detail_id ).removeClass("tab_name_idle");
-
-        var tabSelected = ui.index;
-        //alert($('#tabs').tabs( "option", "selected" ))
-        var accordionActive = $('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active" );
-        //console.log("tabSelected=" + tabSelected + ", " + "accordionActive=" + accordionActive );
-
-        if (accordionActive===false){
-            accordionActive = -1;
-        }
-//	    console.log("tabSelected=" + tabSelected + ", " + "accordionActive=" + accordionActive );
-//	    console.log(accordionActive);
-//		console.log($('#iframepage').contents().find('h3>a[id^="invite_detail_title"]')[accordionActive].id);
-        //console.log($("input[id='invite_detail_id']")[0]);
-
-        //var bshow = eval("bshow" + $("input[id='invite_detail_id']")[ui.index].value);
-        var bshow = eval("bshow" + invite_detail_id);
-        //console.log("bshow" + $("input[id='invite_detail_id']")[ui.index].value + "=" + bshow );
-        //console.log($("input[id='invite_detail_id']")[0]);
-        if (tabSelected != accordionActive && bshow == 1) {
-            //alert("open accordion:" + tabSelected);
-            //if (tabSelected != accordionActive ) {
-
-            if($.browser.msie && parseInt($.browser.version, 10) <= 7) {
-                // delay for open accordion because ie7 ie8 will hang
-                setTimeout(function() {$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);},1250);
-            } else {
-                $('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);
+        if($("#invite_style option:selected").text() == "红色典雅"){
+            if($('#iframepage').attr('src') == "map.php?user={#$userID#}"){
+                $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
+                $('#iframepage').load(function(){dinwei(invite_detail_id);});
+            }else{
+                dinwei(invite_detail_id);
             }
 
-            // '#accordion > div:has(#item117) > h3'
-            //$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate","h3:has(#" + ui.tab.id +")" );
+        }else{
+
+            $("#accordion_header").accordion("activate", false );
+
+            //alert(invite_detail_id);
+            $(".tab_name").removeClass("tab_name_idle");
+            //$(".tab_name").removeClass("tab_name_focus");
+            $(".tab_name").addClass("tab_name_idle");
+            $("#invite_detail_name" + invite_detail_id ).removeClass("tab_name_idle");
+
+            var tabSelected = ui.index;
+            //alert($('#tabs').tabs( "option", "selected" ))
+            var accordionActive = $('#iframepage').get(0).contentWindow.$("#accordion").accordion( "option", "active" );
+            //console.log("tabSelected=" + tabSelected + ", " + "accordionActive=" + accordionActive );
+
+            if (accordionActive===false){
+                accordionActive = -1;
+            }
+
+            var bshow = eval("bshow" + invite_detail_id);
+            if (tabSelected != accordionActive && bshow == 1) {
+                //alert("open accordion:" + tabSelected);
+                //if (tabSelected != accordionActive ) {
+
+                if($.browser.msie && parseInt($.browser.version, 10) <= 7) {
+                    // delay for open accordion because ie7 ie8 will hang
+                    setTimeout(function() {$('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);},1250);
+                } else {
+                    $('#iframepage').get(0).contentWindow.$("#accordion").accordion("activate",tabSelected);
+                }
+
+            }
         }
     });
 
@@ -1161,6 +1211,7 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
                             <option {#if $mould eq "温馨淡黄"#}selected="selected"{#/if#} value="温馨淡黄">温馨淡黄</option>
+                            <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
                         </select>
                         <!--
                         <label for="invite_fontface" style="font-family: 甜妞体214;">&nbsp;&nbsp;字　型: </label>
@@ -1249,9 +1300,12 @@ String.prototype.Trim = function()
                         $('#iframepage').contents().find("#show_time2").html($(this).val());
                     });
                     $("#show_time").bind('focus',function (){
-                        $('#iframepage').contents().find('html, body').animate({scrollTop: 0});
-                        //$('#iframepage').animate({ scrollTop: 30 }, "slow");
-                        //$('#iframepage').contents().animate({ scrollTop: $(document).height() }, "slow");
+                        var destination = 0;
+                        if($("#invite_style option:selected").text() == "红色典雅"){
+                            destination = $('#iframepage').contents().find('#textbox').offset().top;
+                        }
+                        $('#iframepage').contents().find('html, body').animate({scrollTop: destination});
+
                     });
 
                     $("#select_image").bind('click', function (e) {

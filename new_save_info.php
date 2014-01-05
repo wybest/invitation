@@ -64,6 +64,7 @@ if($_REQUEST['insert'] == "insert"){
 	}
     $messageDO = MyDB::selectInfoDB($user_id, $link);
     $user = MyDB::selectUserByIdDB($user_id, $link);
+    Globle::$smarty->assign("userID", $user_id);
     if ($user != null) {
         Globle::$smarty->assign("snum", $user->snum);
         Globle::$smarty->assign("font_family", $user->font_family);
@@ -100,7 +101,7 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("bigimage", $messageDO->bigimage);
         Globle::$smarty->assign("bigtitle", $messageDO->bigtitle);
     }
-    Globle::$smarty->display('new_invit_info.tpl');
+    Globle::$smarty->display('new_invit_info.html');
 }else{
 	echo '<script>location.href="new_invit_info.php"</script>';
 }
