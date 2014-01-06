@@ -185,9 +185,9 @@ class  MyDB {
 		}
 	}
 
-    public static function selectUserByAdminCountDB($admin_id,$link){
+    public static function selectUserByAdminCountDB($dateStr,$admin_id,$link){
 
-        $sql="select count(*) as num from user where admin_id=".$admin_id."";
+        $sql="select count(*) as num from user where admin_id=".$admin_id.$dateStr."";
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return 0;
