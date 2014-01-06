@@ -10,17 +10,12 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css">
+    <link href="datepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script language="JavaScript" src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="intro/introjs.min.css"/>
-    <script type="text/javascript" src="intro/intro.min.js"></script>
-
-    <link rel="stylesheet" href="example_files/jquery-ui-1.8.18.custom.full_leo.css" type="text/css" media="screen" charset="utf-8">
-
-    <script type="text/javascript" src="example_files/jquery-latest.js"></script>
-    <script type="text/javascript" src="example_files/jquery-ui-1.8.18.full.min.js"></script>
 
     <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
     <script language="javascript" type="text/javascript">
@@ -88,7 +83,7 @@
                     .J_login a:hover{color:#fff !important;}
                 </style>
                 <li style="float:right;margin-top:30px">
-                    <div class="J_login J_login_after"><i></i><span style="color: white;">{#$name#}</span> </div></li>
+                    <div class="J_login J_login_after"><i></i><span style="color: white;">{#$admin_name#}</span> </div></li>
             </ul>
 
         </div> <!-- end of templatemo_menu -->

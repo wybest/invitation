@@ -1,4 +1,21 @@
 
+<form >
+<div class="form-group">
+    <div id="date1" class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-MM-dd" data-link-field="bdate" data-link-format="yyyy-mm-dd">
+        <input class="form-control" size="16" type="text" value="{#$bdate#}" readonly>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+    </div>
+    <div id="date2" class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-MM-dd" data-link-field="edate" data-link-format="yyyy-mm-dd">
+        <input class="form-control" size="16" type="text" value="{#$edate#}" readonly>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+    </div>
+    <input type="hidden" id="bdate" name="bdate" value="{#$bdate#}" />
+    <input type="hidden" id="edate" name="edate" value="{#$edate#}" />
+    <button type="submit" class="btn btn-primary">查询</button>
+</div>
+</form>
 <table class="table table-hover">
     <tr>
         <td align="center">账户名字</td>
@@ -30,3 +47,18 @@
     <li class="next"><a href="power_vip_user.php?page_nm={#$next#}">下一页&rarr;</a></li>
     <td>第{#$page#}页    (总共 {#$count#}人,共{#$end#}页)</td>
 </ul>
+<script type="text/javascript" src="datepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="datepicker/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+<script type="text/javascript">
+
+    $('.form_date').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+</script>

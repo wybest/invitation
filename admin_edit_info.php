@@ -9,7 +9,7 @@ session_start();
 $uname = $_REQUEST['uname'];
 $uname = trim($uname);
 $user = MyDB::selectUserByNameDB($uname, $link);
-Globle::$smarty->assign("name", $_SESSION['admin_name']);
+Globle::$smarty->assign("admin_name", $_SESSION['admin_name']);
 Globle::$smarty->display('admin_head.tpl');
 
 
@@ -51,6 +51,7 @@ if($user==null){
 
     }
 
+    Globle::$smarty->assign("name", $user->name);
     Globle::$smarty->assign("is_pc", $user->is_pc);
     Globle::$smarty->assign("is_phone", $user->is_phone);
     Globle::$smarty->assign("is_pay", $user->is_pay);
