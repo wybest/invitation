@@ -10,9 +10,12 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css">
+<link href="http://cdn.bootcss.com/bootstrap-datetimepicker/0.0.11/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
 <!-- Latest compiled and minified JavaScript -->
+<script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
 <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap-datetimepicker/0.0.11/js/bootstrap-datetimepicker.min.js"></script>
 
   <link rel="stylesheet" href="intro/introjs.min.css"/>
   <script type="text/javascript" src="intro/intro.min.js"></script>
@@ -21,6 +24,7 @@
 
     <script type="text/javascript" src="example_files/jquery-latest.js"></script>
     <script type="text/javascript" src="example_files/jquery-ui-1.8.18.full.min.js"></script>
+
 
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 <script language="javascript" type="text/javascript">

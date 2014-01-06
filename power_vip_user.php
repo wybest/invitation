@@ -28,9 +28,23 @@ if($page_nm>$end){
     $page_nm = $end;
 }
 
-$shuju_array = MyDB::selectUserByAdminDB($_SESSION['admin_id'],$page_nm,$page_size,$link);
+$bdate = $_REQUEST['bdate'];
+$edate = $_REQUEST['edate'];
+if($bdate == ""){
+    $bdate = date('Y-m-d',strtotime('-1 month'));
+}
+if($edate == ""){
+//    $edate = date('Y-m-d',strtotime('+1 day'));// H:i:s
+    $edate = date('Y-m-d');;
+}
 
+$dateStr = " and creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 23:59:59'";
 
+$shuju_array = MyDB::selectUserByAdminDB($dateStr,$_SESSION['admin_id'],$page_nm,$page_size,$link);
+
+Globle::$smarty->assign("admin_name", $_SESSION['admin_name']);
+Globle::$smarty->assign("bdate",$bdate);
+Globle::$smarty->assign("edate",$edate);
 Globle::$smarty->assign("up",$up);
 Globle::$smarty->assign("next",$next);
 Globle::$smarty->assign("end",$end);

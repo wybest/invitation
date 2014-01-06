@@ -197,11 +197,11 @@ class  MyDB {
         }
     }
 
-    public static function selectUserByAdminDB($admin_id,$page,$pagesize,$link){
+    public static function selectUserByAdminDB($dateStr,$admin_id,$page,$pagesize,$link){
         $shuju_array = array();
         $page = $page-1;
         $count = $page*$pagesize;
-        $sql="select * from user where admin_id=".$admin_id." order by id desc LIMIT ".$count.",".$pagesize;
+        $sql="select * from user where admin_id=".$admin_id.$dateStr." order by id desc LIMIT ".$count.",".$pagesize;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return $shuju_array;

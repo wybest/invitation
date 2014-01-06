@@ -50,7 +50,7 @@ if($user==null){
 
 
     }
-
+    $user = MyDB::selectUserByNameDB($uname, $link);
     Globle::$smarty->assign("name", $user->name);
     Globle::$smarty->assign("is_pc", $user->is_pc);
     Globle::$smarty->assign("is_phone", $user->is_phone);
