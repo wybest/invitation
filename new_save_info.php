@@ -50,6 +50,7 @@ if($_REQUEST['insert'] == "insert"){
         if($messageDO->women != ""){
             $women = $messageDO->women;
         }
+        $message = mysql_real_escape_string($message);
 		$target = MyDB::updateInfoDB($man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
         MyDB::updateInfoPhoneMouldDB($mould,$user_id,$link);
         MyDB::updateInfoMusicDB($music,$user_id,$link);
@@ -90,7 +91,7 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("show_time", $messageDO->show_time);
         Globle::$smarty->assign("mini_time", $messageDO->mini_time);
         Globle::$smarty->assign("title", $messageDO->title);
-        Globle::$smarty->assign("message", $messageDO->message);
+        Globle::$smarty->assign("message", htmlspecialchars($messageDO->message));
         Globle::$smarty->assign("image", $messageDO->image);
         if($messageDO->image==""){
             Globle::$smarty->assign("images","none");
@@ -101,7 +102,7 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("bigimage", $messageDO->bigimage);
         Globle::$smarty->assign("bigtitle", $messageDO->bigtitle);
     }
-    Globle::$smarty->display('new_invit_info.tpl');
+    Globle::$smarty->display('new_invit_info.html');
 }else{
 	echo '<script>location.href="new_invit_info.php"</script>';
 }
