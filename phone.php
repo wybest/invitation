@@ -29,7 +29,7 @@ if($messageDO!=null){
 	Globle::$smarty->assign("show_time",$messageDO->show_time);
 	Globle::$smarty->assign("mini_time",$messageDO->mini_time);
 	Globle::$smarty->assign("title",$messageDO->title);
-	Globle::$smarty->assign("message",htmlspecialchars($messageDO->message));
+	Globle::$smarty->assign("message",$messageDO->message);
 	Globle::$smarty->assign("nongli",$messageDO->nongli);
 	Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
 	Globle::$smarty->assign("weixin",$messageDO->weixin);

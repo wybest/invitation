@@ -50,6 +50,6 @@ if ($messageDO != null) {
 //初始化音乐列表
 //require 'init_mp3list.php';
 
-Globle::$smarty->display('new_invit_info.tpl');
+Globle::$smarty->display('new_invit_info.html');
 //Globle::$smarty->display('foot.tpl');
 ?>
