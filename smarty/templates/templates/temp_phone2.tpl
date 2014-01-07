@@ -317,14 +317,6 @@
     // movex('mo',-200);
 </script>
 
-<script language="javascript" type="text/javascript">
-    var contentModel = {
-        "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
-        "title": "{#$bigtitle#}",
-        "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} "
-    };
-</script>
-<script language="JavaScript" src="style/style9/share.js" type="text/javascript"></script>
 
 
 </body></html>
