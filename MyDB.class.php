@@ -288,7 +288,7 @@ class  MyDB {
 
 	public static function updateInfoDB($man,$women,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
-		$sql="update message set man='".$man."',women='".$women."' , lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id='".$name."'";
+		$sql="update message set man='".$man."',women='".$women."' , lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id=".$name;
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
             die("Select Database Failed: " . mysql_error($link));
