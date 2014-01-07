@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
     <meta http-equiv="keywords" content="手机请柬,电子请柬,Flash请柬,喜帖,二维码请柬,微信请柬">
     <meta http-equiv="description" content="免费获得电子请柬,免费获得手机请柬,免费体验手机请柬,免费下载电子请柬,免费制作电子请柬,免费制作Flash电子请柬样板,免费获得二维码请柬">
-
-    <script language="JavaScript" src="style/style9/jquery-latest.js" type="text/javascript"></script>
+    <script src="style/桃色经典/image_files/jquery-latest.js"></script>
     <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
     <link href="style/style9/style.css" rel="stylesheet" type="text/css">
     <style>
