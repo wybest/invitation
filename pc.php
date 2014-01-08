@@ -65,7 +65,13 @@ if($messageDO!=null){
     			header('Content-Type:text/html; charset=UTF-8');
     			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
     		}else{
-    			Globle::$smarty->display('phone.tpl');
+            if ($messageDO->mould == "phone2") {
+                Globle::$smarty->display('phone/phone2.tpl');
+            }else if ($messageDO->mould == "phone3") {
+                Globle::$smarty->display('phone/phone3.tpl');
+            } else {
+                Globle::$smarty->display('phone/phone.tpl');
+            }
     		}
     	}else{
     		header('Content-Type:text/html; charset=UTF-8');
