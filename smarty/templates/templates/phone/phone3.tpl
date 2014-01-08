@@ -11,10 +11,11 @@
 
     <script type="text/javascript" charset="utf-8" src="style/style10/jq.mobi.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="style/style10/jq.ui.min.js"></script>
-    <link href="style/style10/styles.css" type="text/css" rel="stylesheet">
-    <link href="style/style10/photoswipe.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" charset="utf-8" src="style/style10/klass.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="style/style10/code.photoswipe-3.0.5.min.js"></script>
+
+    <link href="style/style10/styles.css" type="text/css" rel="stylesheet" />
+    <link href="style/style10/photoswipe.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="style/style10/klass.min.js"></script>
+    <script type="text/javascript" src="style/style10/code.photoswipe-3.0.5-dys.js"></script>
 
     <script>(function listenerTest() {
             window.addEventListener("message", function (event) {
@@ -86,10 +87,32 @@ font-size: 16px;
 border-radius: 5px;
 margin: 5px 12px 0px 40px;
 }
+#Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200}
+  /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
+  #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+#Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
+#mainbox{margin:0;}
 </style>
 </head>
 
 <body>
+<div id="Loading">
+    <div id="heart">
+        <img src="img/12.gif" />
+    </div>
+    <div id="Waiting">
+        <span style="text-align:center; color:#F00">
+            幸福加载中...
+        </span>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var LoadingDIV = document.getElementById("Loading");
+    window.onload = function() {
+        LoadingDIV.style.display = "none";
+    }
+</script>
 <div id="jQUi"><div id="jQui_modal" style="overflow: hidden;"><div id="modalContainer" style="-webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;"></div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
 
     <div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" style="z-index: 99999; overflow: hidden; display: block;" js-scrolling="yes"><div class="jqmScrollPanel" style="z-index: 99999; -webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;" js-scrolling="yes">
@@ -101,7 +124,9 @@ margin: 5px 12px 0px 40px;
                 </div>
                 <a class="meetus" href="#first" style="text-decoration:none; display:block; width:80px"> 开启喜帖</a> </div>
         </div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-    <div id="header"><a id="backButton" href="javascript:;" class="button" style="visibility: hidden;">返回</a> <h1 id="pageTitle"></h1>
+    <div id="header">
+        <a id="backButton" href="javascript:;" class="button" style="visibility: hidden;">返回</a>
+        <h1 id="pageTitle"></h1>
         <h1>{#$man#} &amp; {#$women#}</h1>
     </div>
     <div id="content" style="bottom: 0px; top: 60px;">
@@ -111,9 +136,9 @@ margin: 5px 12px 0px 40px;
                     <div class="content-top">&nbsp;</div>
                     <div class="content">
                         <ul class="wednav">
-                            <li><a href="#invitation" onclick="hidenav()"><img src="style/style10/wednav1.png" alt="{#$title1#}"><br>
+                            <li><a href="#invitation" ><img src="style/style10/wednav1.png" alt="{#$title1#}"><br>
                                     {#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</a></li>
-                            <li><a href="#images" data-persist-ajax="true" data-refresh-ajax="true" title="_" data-pull-scroller="true"><img src="style/style10/wednav2.png" alt="{#$title2#}"><br>
+                            <li><a href="showimgs.php?user={#$name#}" data-persist-ajax="true" data-refresh-ajax="true" title="_" data-pull-scroller="true"><img src="style/style10/wednav2.png" alt="{#$title2#}"><br>
                                     {#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</a></li>
                             <li><a href="#story"><img src="style/style10/wednav3.png" alt="{#$title#}"><br>
                                     {#$title#}</a></li>
@@ -156,19 +181,7 @@ margin: 5px 12px 0px 40px;
                     </div>
                 </div>
             </div>
-            <div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-        <div id="images" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
-                <div class="content-wrapper">
-                    <div class="content-top">&nbsp;</div>
-                    <div class="content">
-                        <ul id="Gallery" class="gallery">
-                            {#section name=customer loop=$images #}
-                            <li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>
-                            {#/section#}
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
             <div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
         <!-- jqPlugins > jQ.carousel -->
         <div title="Carousel" class="panel" id="webcarousel" style="overflow:hidden;" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
@@ -410,18 +423,12 @@ margin: 5px 12px 0px 40px;
                 }
             });
         }
-
+        setTimeout(function(){ loadAll(); },500);
     });
-
-    (function(window, PhotoSwipe){
-        document.addEventListener('DOMContentLoaded', function(){
-            loadAll();
-            var options = {};
-            var instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
-
-        }, false);
-//        setTimeout(function(){ loadAll(); },500);
-    }(window, window.Code.PhotoSwipe));
+    var LoadingDIV = document.getElementById("Loading");
+    window.onload = function() {
+        LoadingDIV.style.display = "none";
+    }
 </script>
 
 </script>

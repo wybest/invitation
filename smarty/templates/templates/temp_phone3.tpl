@@ -273,7 +273,6 @@
                 </div>
             </div>
         </div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-    <div id="jQui_ajax" data-crc="jQui_ajax" class="panel" js-scrolling="yes" style="overflow: hidden;"><div data-crc="jQui_ajax" class="jqmScrollPanel" js-scrolling="yes" style="overflow: hidden;"><div data-crc="jQui_ajax" class="jqmScrollPanel" js-scrolling="yes"></div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div></div></div>
 <header id="pageheader"> <a id="backButton" class="button" style="left:0px;left:auto;overflow:hidden">返回</a>
     <h1><div id="maintitlehtml"><span style="text-decoration: none; font-style: normal; font-size: 20px; font-weight: normal; ">{#if $bigtitle #}{#$bigtitle#}{#else#}美男与美女婚宴邀约{#/if#}</span></div></h1>
 </header>

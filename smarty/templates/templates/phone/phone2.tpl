@@ -14,9 +14,9 @@
     <link href="invit_files/photoswipe.css" type="text/css" rel="stylesheet">
     <link href="style/style9/style.css" rel="stylesheet" type="text/css">
     <style>
-        #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200; display:none;}
+        #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200}
   /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
-  #heart_{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+  #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
         #Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
         #mainbox{margin:0;}
         #copyright-text{ text-align:center; color:#FFF; margin:10px 10px 0px 10px;}
@@ -51,9 +51,9 @@
         })();</script></head>
 
 <body>
-<div id="Loading" style="display: none;">
-    <div id="heart_">
-        <img src="style/style9/ps/12.gif">
+<div id="Loading">
+    <div id="heart">
+        <img src="img/12.gif" />
     </div>
     <div id="Waiting">
         <span style="text-align:center; color:#F00">
@@ -327,7 +327,19 @@
         $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
         {#/section#}
     }
-
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
     (function(window, $, PhotoSwipe){
         $(document).ready(function(){
             setTimeout(function(){loadAll()},500);
