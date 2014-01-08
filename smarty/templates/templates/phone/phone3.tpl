@@ -96,25 +96,16 @@ margin: 5px 12px 0px 40px;
 </head>
 
 <body>
-<div id="Loading">
+
+<div id="jQUi">
+<div id="splashscreen" class='ui-loader'><br><br> <img src=""> <br>
+    <br>
     <div id="heart">
         <img src="img/12.gif" />
     </div>
-    <div id="Waiting">
-        <span style="text-align:center; color:#F00">
-            幸福加载中...
-        </span>
-    </div>
+    <h1>正在加载幸福加载中...<br>
+        请稍等...</h1>
 </div>
-<script type="text/javascript">
-
-    var LoadingDIV = document.getElementById("Loading");
-    window.onload = function() {
-        LoadingDIV.style.display = "none";
-    }
-</script>
-<div id="jQUi"><div id="jQui_modal" style="overflow: hidden;"><div id="modalContainer" style="-webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;"></div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-
     <div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" style="z-index: 99999; overflow: hidden; display: block;" js-scrolling="yes"><div class="jqmScrollPanel" style="z-index: 99999; -webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;" js-scrolling="yes">
             <div class="wedbox">
                 <div class="thedate" style="margin-top: 30px;">
@@ -447,4 +438,6 @@ margin: 5px 12px 0px 40px;
 </script>
 
 
-<style>.jqselectscrollBarV{opacity:1 !important;}</style><div id="jQui_mask" class="ui-loader" style="z-index: 20000; display: none;"><span class="ui-icon ui-icon-loading spin"></span><h1>Loading Content</h1></div></body></html>
+<style>.jqselectscrollBarV{opacity:1 !important;}</style><div id="jQui_mask" class="ui-loader" style="z-index: 20000; display: none;"><span class="ui-icon ui-icon-loading spin"></span><h1>Loading Content</h1></div></div>
+</body>
+</html>
