@@ -388,20 +388,12 @@ margin: 5px 12px 0px 40px;
         });// 创建标注
         map.addOverlay(marker2);// 将标注添加到地图中
     }
-    function loadAll(){
-        loadImg();
-        loadBaiduMap();
-
-    }
 
     function loadBaiduMap() {
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
         document.body.appendChild(script);
-    }
-    function loadImg(){
-
     }
 
     $(document).ready(function(){
@@ -414,7 +406,7 @@ margin: 5px 12px 0px 40px;
                 }
             });
         }
-        setTimeout(function(){ loadAll(); },500);
+        setTimeout(function(){ loadBaiduMap(); },500);
     });
     var LoadingDIV = document.getElementById("Loading");
     window.onload = function() {
