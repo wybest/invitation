@@ -115,7 +115,7 @@ function initialize7044() {
 
 
 
-    var myIcon = new BMap.Icon("style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/markers.gif", new BMap.Size(25,21));
+    var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
     // ?建?注?象并添加到地?
 
     marker7044 = new BMap.Marker(new BMap.Point({#if $coordinate #}{#$coordinate#}{#else#}116.404, 39.915{#/if#}), {icon: myIcon}); // ?建?注
@@ -1399,7 +1399,7 @@ String.prototype.Trim = function() {
 
                     <div class="invitext">
 
-                        <div id="remindtitle"><span><span style="font-size: large; ">{#$message #}</span></span></div>
+                        <div id="remindtitle"><span style="font-size: large; ">{#$message #}</span></div>
                     </div>
 
 

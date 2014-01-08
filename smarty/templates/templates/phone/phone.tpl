@@ -451,7 +451,7 @@ window.onload = function() {
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style/{#$mould #}/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴回函{#/if#}</span></a>            </div>
+    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style/{#$mould #}/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">{#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -763,7 +763,19 @@ var contentModel = {
     "title": share_title, 
     "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} " 
 };
-
+document.oncontextmenu = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false;
+    }
+}
 function loadAll(){
     loadImg();
     loadBaiduMap();

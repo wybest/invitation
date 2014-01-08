@@ -366,7 +366,10 @@ $(document).ready(function() {
         $('#mould').val($("#invite_style option:selected").val());
         if($("#invite_style option:selected").text() == "红色典雅"){
             $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
-        }else{
+        }else if($("#invite_style option:selected").text() == "墨绿森林"){
+            $('#iframepage').attr('src','new_temp_phone.php?tpl=phone3');
+        }
+        else{
 
             $('#iframepage').load(function(){
                 var a = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/custom.css';
@@ -520,6 +523,29 @@ $(document).ready(function() {
         }
     }
 
+    function dinwei3(invite_detail_id){
+        if(invite_detail_id=='7042'){
+            $('#iframepage').contents().find('#step2').click();
+        }
+        if(invite_detail_id=='7041'){
+            $('#iframepage').contents().find('#step3').click();
+        }
+        if(invite_detail_id=='7043'){
+            $('#iframepage').contents().find('#step5').click();
+        }
+        if(invite_detail_id=='7045'){
+            $('#iframepage').contents().find('#step7').click();
+
+        }
+        if(invite_detail_id=='7046'){
+            $('#iframepage').contents().find('#step4').click();
+        }
+        if(invite_detail_id=='7044'){
+            $('#iframepage').contents().find('#step6').click();
+
+        }
+    }
+
     $('#tabs').bind('tabsselect', function(event, ui) {
 
 
@@ -531,6 +557,8 @@ $(document).ready(function() {
             }else{
                 dinwei(invite_detail_id);
             }
+        }else if($("#invite_style option:selected").val() == "phone3"){
+                dinwei3(invite_detail_id);
         }else{
             $("#accordion_header").accordion("activate", false );
 
@@ -1207,8 +1235,8 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "桃色经典"#}selected="selected"{#/if#} value="桃色经典">桃色经典</option>
                             <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
-                            <option {#if $mould eq "温馨淡黄"#}selected="selected"{#/if#} value="温馨淡黄">温馨淡黄</option>
                             <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
+                            <option {#if $mould eq "phone3"#}selected="selected"{#/if#} value="phone3">墨绿森林</option>
                         </select>
                         <!--
                         <label for="invite_fontface" style="font-family: 甜妞体214;">&nbsp;&nbsp;字　型: </label>

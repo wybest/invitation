@@ -53,6 +53,8 @@ $tpl = $_REQUEST['tpl'];
 if ($tpl == "") {
     if ($messageDO->mould == "phone2") {
         Globle::$smarty->display('temp_phone2.tpl');
+    }else if ($messageDO->mould == "phone3") {
+        Globle::$smarty->display('temp_phone3.tpl');
     } else {
         Globle::$smarty->display('temp_phone.tpl');
     }

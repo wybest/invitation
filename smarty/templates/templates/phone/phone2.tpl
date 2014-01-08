@@ -7,7 +7,6 @@
     <meta http-equiv="keywords" content="手机请柬,电子请柬,Flash请柬,喜帖,二维码请柬,微信请柬">
     <meta http-equiv="description" content="免费获得电子请柬,免费获得手机请柬,免费体验手机请柬,免费下载电子请柬,免费制作电子请柬,免费制作Flash电子请柬样板,免费获得二维码请柬">
 
-    <script language="JavaScript" src="style/style9/jquery-latest.js" type="text/javascript"></script>
     <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
     <script src="style/桃色经典/image_files/jquery-latest.js"></script>
     <script type="text/javascript" src="style/桃色经典/image_files/klass.min.js"></script>
@@ -144,6 +143,19 @@
                 }, 3000);
             });
         }
+        document.oncontextmenu = function (event){
+            if(window.event){
+                event = window.event;
+            }try{
+                var the = event.srcElement;
+                if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                    return false;
+                }
+                return true;
+            }catch (e){
+                return false;
+            }
+        }
     </script>
 
 
@@ -211,8 +223,9 @@
 
 
 <div id="ad">
+    {#if $is_advert eq "1"#}
     <div id="copyright-text">{#if $advert #}<a href="http://{#$advert#}">{#$advert#}</a>{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
-
+    {#/if#}
 
 </div>
 
