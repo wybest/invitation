@@ -2223,11 +2223,11 @@ String.prototype.Trim = function()
         <table width="100%" border="0">
             <tbody><tr>
                 <td width="19%" style="text-align: right"><label for="varman">新郎姓名: </label></td>
-                <td width="81%"><input class="text ui-widget-content ui-corner-all input-prompt-1" type="text" title="例如:美男" id="varman" name="varman" value="" size="15">(必填)</td>
+                <td width="81%"><input class="text ui-widget-content ui-corner-all input-prompt-1" type="text" title="例如:美男" id="varman" name="varman" value="" size="15">(认真填写，不能修改)</td>
             </tr>
             <tr>
                 <td style="text-align: right"><label for="varwomen">新娘姓名: </label></td>
-                <td><input class="text ui-widget-content ui-corner-all input-prompt-2" type="text" title="例如:美女" id="varwomen" name="varwomen" value="" size="15">(必填)</td>
+                <td><input class="text ui-widget-content ui-corner-all input-prompt-2" type="text" title="例如:美女" id="varwomen" name="varwomen" value="" size="15">(认真填写，不能修改)</td>
             </tr>
             <tr>
                 <td style="text-align: right"><label for="invite_activitydate">宴客日期: </label></td>
