@@ -17,7 +17,7 @@ require_once("configure.php");
 	$host = "localhost";
 	$port = "3306";
 	$user = "root";
-	$pwd = "880507";
+	$pwd = "1q2w3e4r";
 
 //    $dbname = "test";
 //
