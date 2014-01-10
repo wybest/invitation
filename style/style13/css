@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Parisienne';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/parisienne/v1/1wiHF6pWOa568Cj3p-anxMDdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}

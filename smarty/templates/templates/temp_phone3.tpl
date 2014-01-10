@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0022) -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><div id="maintitlehtml"><span style="text-decoration: none; font-style: normal; font-size: 20px; font-weight: normal; ">{#if $bigtitle #}{#$bigtitle#}{#else#}美男与美女婚宴邀约{#/if#}</span></div></title>
+    <title>{#if $bigtitle #}{#$bigtitle#}{#else#}美男与美女婚宴邀约{#/if#}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -342,6 +342,19 @@
 </script>
 
 <script type="text/javascript">
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
     var map7044 = null;
     var marker7044;
 

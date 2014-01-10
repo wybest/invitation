@@ -340,6 +340,19 @@ margin: 5px 12px 0px 40px;
 <!-- 发送留言 -->
 
 <script>
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
     var user_id = 1621247;
     var is_go = 1; //去
     $(function (){

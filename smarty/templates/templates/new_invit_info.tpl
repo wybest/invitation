@@ -366,8 +366,12 @@ $(document).ready(function() {
         $('#mould').val($("#invite_style option:selected").val());
         if($("#invite_style option:selected").text() == "红色典雅"){
             $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
-        }else if($("#invite_style option:selected").text() == "墨绿森林"){
-            $('#iframepage').attr('src','new_temp_phone.php?tpl=phone3');
+        }else if($("#invite_style option:selected").val() == "phone3" || $("#invite_style option:selected").val() == "phone4"
+                ||$("#invite_style option:selected").val() == "phone5"
+                || $("#invite_style option:selected").val() == "phone6"
+                ||$("#invite_style option:selected").val() == "phone7"
+                ||$("#invite_style option:selected").val() == "phone8"){
+            $('#iframepage').attr('src','new_temp_phone.php?tpl='+$("#invite_style option:selected").val());
         }
         else{
 
@@ -557,7 +561,11 @@ $(document).ready(function() {
             }else{
                 dinwei(invite_detail_id);
             }
-        }else if($("#invite_style option:selected").val() == "phone3"){
+        }else if($("#invite_style option:selected").val() == "phone3" || $("#invite_style option:selected").val() == "phone4"
+                ||$("#invite_style option:selected").val() == "phone5"
+                || $("#invite_style option:selected").val() == "phone6"
+                ||$("#invite_style option:selected").val() == "phone7"
+                ||$("#invite_style option:selected").val() == "phone8"){
                 dinwei3(invite_detail_id);
         }else{
             $("#accordion_header").accordion("activate", false );
@@ -1237,6 +1245,11 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
                             <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
                             <option {#if $mould eq "phone3"#}selected="selected"{#/if#} value="phone3">墨绿森林</option>
+                            <option {#if $mould eq "phone4"#}selected="selected"{#/if#} value="phone4">深黄爱心</option>
+                            <option {#if $mould eq "phone5"#}selected="selected"{#/if#} value="phone5">淡紫百叶</option>
+                            <option {#if $mould eq "phone6"#}selected="selected"{#/if#} value="phone6">浅蓝幽鸟</option>
+                            <option {#if $mould eq "phone7"#}selected="selected"{#/if#} value="phone7">蜻蜓点水</option>
+                            <option {#if $mould eq "phone8"#}selected="selected"{#/if#} value="phone8">双喜临门</option>
                         </select>
                         <!--
                         <label for="invite_fontface" style="font-family: 甜妞体214;">&nbsp;&nbsp;字　型: </label>

@@ -2,29 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style10/images/loader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/21c1d1beb73f4192969ebd385646bac19ac93646.file.invitadress.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/288092d91bfded5b1bd5b22dc2c1561cd4891c96.file.temp_phone.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/31c81449bb8672b157a9810b71ecd94bf51abea4.file.foot.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/3ccd53adfdf5a68efd6d0a6b53d4be93fb82ff65.file.phone.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/40d93c4211954c5426c683ac513424d63d613638.file.phone3.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/40e7b8e88fc66a1df4cef8cd9b554198b05bab66.file.temp_phone2.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/43b3b81c262c85e776b3009cae300e36766a8668.file.temp_phone3.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/43c82dde3503e348e6903799791453af5935597b.file.login.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/473b6edbca484ba7d4e913229b574c6cf10f4f29.file.new_head.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/a8689470311e121d60f782ccd647ff1d5ae1d95d.file.map.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/a8995c842d573ca2a287afe6bbc4198f6266575a.file.showimgs.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/content-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/images/main-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/images/main-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/images/main-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/images/main-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/main-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/meetus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/navigation_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/images/open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/images/open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/staticimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/staticimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/staticimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/staticimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/staticimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/images/thedate-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/wednav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/wednav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/wednav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/wednav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/wednav6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/welcome_img_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/images/welcome_img_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/7429fa2350f8d057c3f889ed37b44235484b04fc.file.temp_phone6.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/7c82532649d236464ff3976cec8dd9adae6759cd.file.phone8.tpl.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/bf33d2fd2895f95106fce359a0cd00b296e7f956.file.new_invit_info.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/c0564dcabe910ad6b335bd647b438cc9fc2cfa0f.file.p9.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style10/code.photoswipe-3.0.5-dys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/showimgs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/images/button_back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/images/button_back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/images/button_back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/images/button_back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/code.photoswipe-3.0.5-dys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/code.photoswipe-3.0.5-dys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/code.photoswipe-3.0.5-dys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/code.photoswipe-3.0.5-dys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/code.photoswipe-3.0.5-dys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/df70c6225d663d0a82cf2e991b9b4c980624fde0.file.phone6.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/h.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/h.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/h.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/h.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/h.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/jq.mobi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/jq.mobi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/jq.mobi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/jq.mobi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/jq.mobi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/jq.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/jq.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/jq.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/jq.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/jq.ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/jq.ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/jq.ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/jq.ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/jq.ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/jq.ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/klass.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/klass.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/klass.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/klass.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/klass.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/photoswipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/temp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone4.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone5.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone7.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style11/weixin_share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style12/weixin_share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style13/weixin_share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style14/weixin_share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style15/weixin_share.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/smarty/templates/templates_c/b8fed35381a0801de06143ff662cca6f90babfbe.file.admin_head.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/style10/code.photoswipe-3.0.5.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/new_head.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/new_head.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_temp_phone.php" afterPath="$PROJECT_DIR$/new_temp_phone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.php" afterPath="$PROJECT_DIR$/pc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone.php" afterPath="$PROJECT_DIR$/phone.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone2.php" afterPath="$PROJECT_DIR$/phone2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/temp_phone3.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone3.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -93,7 +212,7 @@
       <file leaf-file-name="phone.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="249" column="21" selection-start="7500" selection-end="7503" vertical-scroll-proportion="109.43678" vertical-offset="14003" max-vertical-offset="14652">
+            <state line="389" column="38" selection-start="13637" selection-end="13651" vertical-scroll-proportion="197.85185" vertical-offset="12344" max-vertical-offset="14652">
               <folding />
             </state>
           </provider>
@@ -102,27 +221,70 @@
       <file leaf-file-name="phone3.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="3189" selection-end="3585" vertical-scroll-proportion="-4.259259" vertical-offset="1649" max-vertical-offset="8190">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="9" selection-start="3574" selection-end="3574" vertical-scroll-proportion="-12.0" vertical-offset="1296" max-vertical-offset="3024">
+            <state line="354" column="5" selection-start="22550" selection-end="22948" vertical-scroll-proportion="-16.666666" vertical-offset="5922" max-vertical-offset="8154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone2.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phone2.php">
+      <file leaf-file-name="phone4.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="64" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.359401" vertical-offset="918" max-vertical-offset="2970">
+            <state line="348" column="5" selection-start="23002" selection-end="23002" vertical-scroll-proportion="-13.0" vertical-offset="5913" max-vertical-offset="8046">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone5.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="348" column="5" selection-start="23002" selection-end="23002" vertical-scroll-proportion="-20.0" vertical-offset="5724" max-vertical-offset="8046">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone6.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone6.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="348" column="5" selection-start="22998" selection-end="22998" vertical-scroll-proportion="-9.518518" vertical-offset="6007" max-vertical-offset="8046">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone7.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="351" column="5" selection-start="23260" selection-end="23260" vertical-scroll-proportion="-16.0" vertical-offset="5886" max-vertical-offset="8100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone8.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="344" column="33" selection-start="23032" selection-end="23032" vertical-scroll-proportion="0.15625" vertical-offset="6102" max-vertical-offset="8154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp_phone7.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone7.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="358" column="5" selection-start="23998" selection-end="23998" vertical-scroll-proportion="-13.962963" vertical-offset="6067" max-vertical-offset="7614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp_phone8.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="360" column="5" selection-start="24025" selection-end="24025" vertical-scroll-proportion="-13.62963" vertical-offset="6112" max-vertical-offset="7650">
               <folding />
             </state>
           </provider>
@@ -131,10 +293,8 @@
       <file leaf-file-name="phone2.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="341" column="5" selection-start="14224" selection-end="14224" vertical-scroll-proportion="-4.770115" vertical-offset="5723" max-vertical-offset="6534">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="130" column="9" selection-start="5137" selection-end="5583" vertical-scroll-proportion="-14.0" vertical-offset="1962" max-vertical-offset="6570">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,37 +312,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pc.html" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl" />
-        <option value="$PROJECT_DIR$/style/style9/api" />
-        <option value="$PROJECT_DIR$/style/style9/getscript" />
-        <option value="$PROJECT_DIR$/style/style9/style.css" />
-        <option value="$PROJECT_DIR$/map.php" />
-        <option value="$PROJECT_DIR$/liuyan.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/liuyan.tpl" />
-        <option value="$PROJECT_DIR$/temp.html" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/head.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_image.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl" />
-        <option value="$PROJECT_DIR$/invit_info.php" />
-        <option value="$PROJECT_DIR$/css/templatemo_style.css" />
-        <option value="$PROJECT_DIR$/invitadress.php" />
-        <option value="$PROJECT_DIR$/invitvipadress.php" />
-        <option value="$PROJECT_DIR$/mould_pc.php" />
         <option value="$PROJECT_DIR$/receiptDetail.php" />
         <option value="$PROJECT_DIR$/receipt.php" />
         <option value="$PROJECT_DIR$/weixin.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/receipt.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/power_select_user.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_head.tpl" />
         <option value="$PROJECT_DIR$/datepicker/js/locales/bootstrap-datetimepicker.fr.js" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/admin_head.tpl" />
         <option value="$PROJECT_DIR$/power_select_user.php" />
         <option value="$PROJECT_DIR$/admin_edit_info.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl" />
         <option value="$PROJECT_DIR$/power_vip_user.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl" />
         <option value="$PROJECT_DIR$/jquery-latest.js" />
         <option value="$PROJECT_DIR$/MyDB.class.php" />
         <option value="$PROJECT_DIR$/login.php" />
@@ -190,19 +330,39 @@
         <option value="$PROJECT_DIR$/new_save_info.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/map.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.html" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone.tpl" />
-        <option value="$PROJECT_DIR$/new_temp_phone.php" />
         <option value="$PROJECT_DIR$/style/style10/styles.css" />
+        <option value="$PROJECT_DIR$/style/style10/jq.ui.min.js" />
+        <option value="$PROJECT_DIR$/showimgs.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl" />
+        <option value="$PROJECT_DIR$/basicDB.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/temp.html" />
+        <option value="$PROJECT_DIR$/style/style11/styles.css" />
+        <option value="$PROJECT_DIR$/style/style12/styles.css" />
+        <option value="$PROJECT_DIR$/style/style13/styles.css" />
+        <option value="$PROJECT_DIR$/style/style14/styles.css" />
+        <option value="$PROJECT_DIR$/style/style15/styles.css" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
+        <option value="$PROJECT_DIR$/phone2.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.html" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_head.tpl" />
+        <option value="$PROJECT_DIR$/new_temp_phone.php" />
         <option value="$PROJECT_DIR$/pc.php" />
         <option value="$PROJECT_DIR$/phone.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone3.tpl" />
-        <option value="$PROJECT_DIR$/style/style10/jq.ui.min.js" />
-        <option value="$PROJECT_DIR$/phone2.php" />
-        <option value="$PROJECT_DIR$/showimgs.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone4.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone5.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone6.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone7.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone6.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl" />
       </list>
     </option>
   </component>
@@ -257,7 +417,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -287,78 +446,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="smarty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smarty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smarty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invitation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smarty" />
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,16 +484,18 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="987" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/style/style10" />
-      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/smarty/templates/templates" />
-      <recent name="$PROJECT_DIR$/style/style10/images" />
+      <recent name="$PROJECT_DIR$/style/style15" />
+      <recent name="$PROJECT_DIR$/smarty/templates/templates/phone" />
+      <recent name="$PROJECT_DIR$/style/style14" />
+      <recent name="$PROJECT_DIR$/style/style13" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mp3folder" />
       <recent name="$PROJECT_DIR$/style/style10/images" />
       <recent name="$PROJECT_DIR$/smarty/templates/templates/phone" />
       <recent name="$PROJECT_DIR$/style/style9/ps" />
@@ -706,7 +802,9 @@
       <workItem from="1388927403357" duration="7627000" />
       <workItem from="1388973199184" duration="19582000" />
       <workItem from="1389062671194" duration="26335000" />
-      <workItem from="1389141738180" duration="37619000" />
+      <workItem from="1389141738180" duration="40797000" />
+      <workItem from="1389233193226" duration="5209000" />
+      <workItem from="1389323195745" duration="14255000" />
     </task>
     <task id="LOCAL-00001" summary="过滤祝福信息">
       <created>1386945066586</created>
@@ -1136,11 +1234,55 @@
       <created>1389184776813</created>
       <updated>1389184776813</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="fix&#10;">
+      <created>1389196185208</created>
+      <updated>1389196185208</updated>
+    </task>
+    <task id="LOCAL-00109" summary="fix&#10;">
+      <created>1389196480096</created>
+      <updated>1389196480096</updated>
+    </task>
+    <task id="LOCAL-00110" summary="fix&#10;">
+      <created>1389197194209</created>
+      <updated>1389197194209</updated>
+    </task>
+    <task id="LOCAL-00111" summary="fix&#10;">
+      <created>1389200989503</created>
+      <updated>1389200989504</updated>
+    </task>
+    <task id="LOCAL-00112" summary="fix&#10;">
+      <created>1389235637304</created>
+      <updated>1389235637304</updated>
+    </task>
+    <task id="LOCAL-00113" summary="fix&#10;">
+      <created>1389236182183</created>
+      <updated>1389236182183</updated>
+    </task>
+    <task id="LOCAL-00114" summary="fix&#10;">
+      <created>1389259690378</created>
+      <updated>1389259690378</updated>
+    </task>
+    <task id="LOCAL-00115" summary="fix&#10;">
+      <created>1389323990821</created>
+      <updated>1389323990821</updated>
+    </task>
+    <task id="LOCAL-00116" summary="fix&#10;">
+      <created>1389324008012</created>
+      <updated>1389324008012</updated>
+    </task>
+    <task id="LOCAL-00117" summary="fix&#10;">
+      <created>1389324271485</created>
+      <updated>1389324271485</updated>
+    </task>
+    <task id="LOCAL-00118" summary="fix&#10;">
+      <created>1389325728531</created>
+      <updated>1389325728532</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383481000" />
+    <option name="totallyTimeSpent" value="406123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-7" width="1319" height="776" extended-state="6" />
@@ -1151,7 +1293,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.171875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4947839" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1166,7 +1308,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27790433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27714503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1209,127 +1351,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/foot.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/login.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="12" selection-start="9235" selection-end="9280" vertical-scroll-proportion="0.0" vertical-offset="5130" max-vertical-offset="6192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_image.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="1001" selection-end="1029" vertical-scroll-proportion="-0.29950082" vertical-offset="486" max-vertical-offset="1944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.8.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datepicker/build/build.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/big_photo.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datepicker/sample in bootstrap v3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="2623" selection-end="2827" vertical-scroll-proportion="0.47920132" vertical-offset="540" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datepicker/js/locales/bootstrap-datetimepicker.fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="545" selection-end="545" vertical-scroll-proportion="0.46471602" vertical-offset="0" max-vertical-offset="581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save_photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="38" selection-start="3159" selection-end="3193" vertical-scroll-proportion="-12.666667" vertical-offset="1782" max-vertical-offset="3870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="1090" selection-end="1090" vertical-scroll-proportion="1.1891892" vertical-offset="162" max-vertical-offset="1728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/admin_head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="33" selection-start="4199" selection-end="4199" vertical-scroll-proportion="0.7004992" vertical-offset="1325" max-vertical-offset="2088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/power_select_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="113" selection-end="176" vertical-scroll-proportion="0.1465798" vertical-offset="0" max-vertical-offset="614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin_edit_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="52" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.59375" vertical-offset="594" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_select_user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="434" selection-end="439" vertical-scroll-proportion="0.23960066" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="1242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/power_vip_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="665" selection-end="689" vertical-scroll-proportion="-7.3333335" vertical-offset="324" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/liuyan.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="795" selection-end="881" vertical-scroll-proportion="-2.2462564" vertical-offset="1530" max-vertical-offset="2718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/style10/video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31716">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31716" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="80" selection-start="594" selection-end="597" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="14" column="80" selection-start="594" selection-end="597" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style9/api">
@@ -1339,30 +1368,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example_files/getscript">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="102030" selection-start="102030" selection-end="102030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="264">
-          <folding />
-        </state>
+        <state line="0" column="102030" selection-start="102030" selection-end="102030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="264" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style9/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="50" selection-start="2500" selection-end="2519" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="72" column="50" selection-start="2500" selection-end="2519" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style9/getscript">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style9/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.8896103" vertical-offset="4244" max-vertical-offset="4860">
-          <folding />
-        </state>
+        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style9/jquery-latest.js">
@@ -1374,79 +1390,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="394" selection-end="394" vertical-scroll-proportion="-2.6666667" vertical-offset="216" max-vertical-offset="1044">
-          <folding />
-        </state>
+        <state line="16" column="17" selection-start="394" selection-end="394" vertical-scroll-proportion="-2.6666667" vertical-offset="216" max-vertical-offset="1044" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="27" selection-start="7370" selection-end="7370" vertical-scroll-proportion="0.33333334" vertical-offset="3912" max-vertical-offset="10332">
-          <folding />
-        </state>
+        <state line="228" column="27" selection-start="7370" selection-end="7370" vertical-scroll-proportion="0.33333334" vertical-offset="3912" max-vertical-offset="10332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_save_photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3870">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_save_info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="49" selection-start="4025" selection-end="4029" vertical-scroll-proportion="-14.666667" vertical-offset="1476" max-vertical-offset="2052">
-          <folding />
-        </state>
+        <state line="104" column="49" selection-start="4025" selection-end="4029" vertical-scroll-proportion="-14.666667" vertical-offset="1476" max-vertical-offset="2052" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_invit_info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="45" selection-start="2264" selection-end="2264" vertical-scroll-proportion="-16.481482" vertical-offset="491" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1624" selection-end="2022" vertical-scroll-proportion="0.3560732" vertical-offset="326" max-vertical-offset="2592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="45" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.6188925" vertical-offset="628" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="13" selection-start="2831" selection-end="2831" vertical-scroll-proportion="-9.333333" vertical-offset="1062" max-vertical-offset="3006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1304" column="72" selection-start="39277" selection-end="39290" vertical-scroll-proportion="-791.3333" vertical-offset="2106" max-vertical-offset="40662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="34" selection-start="3799" selection-end="3966" vertical-scroll-proportion="-56.0" vertical-offset="0" max-vertical-offset="5868">
-          <folding />
-        </state>
+        <state line="52" column="45" selection-start="2264" selection-end="2264" vertical-scroll-proportion="-16.481482" vertical-offset="491" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/map.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="4" selection-start="18805" selection-end="18805" vertical-scroll-proportion="-7.740741" vertical-offset="583" max-vertical-offset="2016">
-          <folding />
-        </state>
+        <state line="44" column="4" selection-start="18805" selection-end="18805" vertical-scroll-proportion="-7.740741" vertical-offset="583" max-vertical-offset="2016" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style10/jq.ui.min.js">
@@ -1458,150 +1427,305 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style10/jq.ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="16" selection-start="11526" selection-end="11541" vertical-scroll-proportion="0.3747927" vertical-offset="8720" max-vertical-offset="16452">
-          <folding />
-        </state>
+        <state line="497" column="16" selection-start="11526" selection-end="11541" vertical-scroll-proportion="0.3747927" vertical-offset="8720" max-vertical-offset="16452" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style10/code.photoswipe-3.0.5-dys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1199" column="16" selection-start="41290" selection-end="41495" vertical-scroll-proportion="-724.2593" vertical-offset="2027" max-vertical-offset="26964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone3.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="72" selection-start="10195" selection-end="10195" vertical-scroll-proportion="0.5707155" vertical-offset="2339" max-vertical-offset="7344">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#8;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#header#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#h1#0;n#header#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#h1#0;n#header#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#10;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#10;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#11;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="279" selection-end="283" vertical-scroll-proportion="-4.6666665" vertical-offset="54" max-vertical-offset="2682">
-          <folding />
-        </state>
+        <state line="10" column="23" selection-start="279" selection-end="283" vertical-scroll-proportion="-4.6666665" vertical-offset="54" max-vertical-offset="2682" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/showimgs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="279" selection-end="283" vertical-scroll-proportion="-4.6666665" vertical-offset="54" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="10" column="23" selection-start="279" selection-end="283" vertical-scroll-proportion="-4.6666665" vertical-offset="54" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="99" selection-start="796" selection-end="796" vertical-scroll-proportion="-2.0689654" vertical-offset="162" max-vertical-offset="792">
+        <state line="19" column="99" selection-start="796" selection-end="796" vertical-scroll-proportion="-2.0689654" vertical-offset="162" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="72" selection-start="3435" selection-end="3446" vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="3870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
+    <entry file="file://$PROJECT_DIR$/bcs.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="21" selection-start="7500" selection-end="7503" vertical-scroll-proportion="109.43678" vertical-offset="14003" max-vertical-offset="14652">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
+    <entry file="file://$PROJECT_DIR$/basicDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="5" selection-start="14224" selection-end="14224" vertical-scroll-proportion="-4.770115" vertical-offset="5723" max-vertical-offset="6534">
+        <state line="19" column="18" selection-start="444" selection-end="450" vertical-scroll-proportion="0.33505154" vertical-offset="147" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style9/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="742" selection-end="742" vertical-scroll-proportion="0.1592775" vertical-offset="821" max-vertical-offset="4860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="29" selection-start="0" selection-end="22049" vertical-scroll-proportion="0.75922674" vertical-offset="2484" max-vertical-offset="5670">
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#6;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#8;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#9;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#9;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#9;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
+    <entry file="file://$PROJECT_DIR$/style/style11/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3189" selection-end="3585" vertical-scroll-proportion="-4.259259" vertical-offset="1649" max-vertical-offset="8190">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="6" column="35" selection-start="347" selection-end="347" vertical-scroll-proportion="0.20149253" vertical-offset="0" max-vertical-offset="648">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phone.php">
+    <entry file="file://$PROJECT_DIR$/style/style12/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="9" selection-start="3574" selection-end="3574" vertical-scroll-proportion="-12.0" vertical-offset="1296" max-vertical-offset="3024">
+        <state line="6" column="36" selection-start="348" selection-end="348" vertical-scroll-proportion="0.18120806" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style13/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="347" selection-end="347" vertical-scroll-proportion="0.18120806" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style14/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="346" selection-end="346" vertical-scroll-proportion="0.18120806" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style15/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="347" selection-end="347" vertical-scroll-proportion="0.18120806" vertical-offset="0" max-vertical-offset="648">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phone2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="64" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.359401" vertical-offset="918" max-vertical-offset="2970">
+        <state line="73" column="42" selection-start="3059" selection-end="3059" vertical-scroll-proportion="0.69595784" vertical-offset="918" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1250" column="97" selection-start="37000" selection-end="37117" vertical-scroll-proportion="-2.8390806" vertical-offset="22253" max-vertical-offset="40896">
+          <folding>
+            <marker date="1389347054648" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389347054648" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389347054648" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="5" selection-start="2268" selection-end="2723" vertical-scroll-proportion="-14.888889" vertical-offset="750" max-vertical-offset="1332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="25" selection-start="2533" selection-end="2533" vertical-scroll-proportion="-5.3333335" vertical-offset="1062" max-vertical-offset="3096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="48" selection-start="3195" selection-end="3195" vertical-scroll-proportion="-7.3333335" vertical-offset="1242" max-vertical-offset="3114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1199" column="16" selection-start="41290" selection-end="41495" vertical-scroll-proportion="-697.85187" vertical-offset="2740" max-vertical-offset="26964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_head.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="1624" selection-end="2022" vertical-scroll-proportion="-3.3333333" vertical-offset="450" max-vertical-offset="2592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="19" selection-start="2705" selection-end="2711" vertical-scroll-proportion="108.44444" vertical-offset="3828" max-vertical-offset="5868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone3.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="356" column="5" selection-start="24183" selection-end="24183" vertical-scroll-proportion="-18.666666" vertical-offset="5904" max-vertical-offset="7578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone4.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="5" selection-start="23760" selection-end="23760" vertical-scroll-proportion="-12.814815" vertical-offset="6044" max-vertical-offset="7560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone5.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="5" selection-start="23760" selection-end="23760" vertical-scroll-proportion="-15.962963" vertical-offset="5959" max-vertical-offset="7560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone6.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="5" selection-start="23756" selection-end="23756" vertical-scroll-proportion="-18.148148" vertical-offset="5900" max-vertical-offset="7560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone7.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="5" selection-start="23998" selection-end="23998" vertical-scroll-proportion="-13.962963" vertical-offset="6067" max-vertical-offset="7614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="5" selection-start="24025" selection-end="24025" vertical-scroll-proportion="-13.62963" vertical-offset="6112" max-vertical-offset="7650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="389" column="38" selection-start="13637" selection-end="13651" vertical-scroll-proportion="197.85185" vertical-offset="12344" max-vertical-offset="14652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="9" selection-start="5137" selection-end="5583" vertical-scroll-proportion="-14.0" vertical-offset="1962" max-vertical-offset="6570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="354" column="5" selection-start="22550" selection-end="22948" vertical-scroll-proportion="-16.666666" vertical-offset="5922" max-vertical-offset="8154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="348" column="5" selection-start="23002" selection-end="23002" vertical-scroll-proportion="-13.0" vertical-offset="5913" max-vertical-offset="8046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="348" column="5" selection-start="23002" selection-end="23002" vertical-scroll-proportion="-20.0" vertical-offset="5724" max-vertical-offset="8046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone6.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="348" column="5" selection-start="22998" selection-end="22998" vertical-scroll-proportion="-9.518518" vertical-offset="6007" max-vertical-offset="8046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="5" selection-start="23260" selection-end="23260" vertical-scroll-proportion="-16.0" vertical-offset="5886" max-vertical-offset="8100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="33" selection-start="23032" selection-end="23032" vertical-scroll-proportion="0.15625" vertical-offset="6102" max-vertical-offset="8154">
           <folding />
         </state>
       </provider>

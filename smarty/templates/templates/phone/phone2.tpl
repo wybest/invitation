@@ -116,6 +116,19 @@
         </div>
     </div>
     <script language="javascript">
+        document.oncontextmenu = function (event){
+            if(window.event){
+                event = window.event;
+            }try{
+                var the = event.srcElement;
+                if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                    return false;
+                }
+                return true;
+            }catch (e){
+                return false;
+            }
+        }
         function FormCheck()
         {
             var guest = $('#guest').val();
@@ -143,19 +156,7 @@
                 }, 3000);
             });
         }
-        document.oncontextmenu = function (event){
-            if(window.event){
-                event = window.event;
-            }try{
-                var the = event.srcElement;
-                if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
-                    return false;
-                }
-                return true;
-            }catch (e){
-                return false;
-            }
-        }
+
     </script>
 
 

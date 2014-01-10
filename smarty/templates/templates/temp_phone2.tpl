@@ -12,7 +12,7 @@
     <style>
         #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200; display:none;}
   /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
-  #heart_{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+  #heart1{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
         #Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
         #mainbox{margin:0;}
         #copyright-text{ text-align:center; color:#FFF; margin:10px 10px 0px 10px;}
@@ -48,7 +48,7 @@
 
 <body>
 <div id="Loading" style="display: none;">
-    <div id="heart_">
+    <div id="heart1">
         <img src="style/style9/ps/12.gif">
     </div>
     <div id="Waiting">
