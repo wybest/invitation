@@ -248,7 +248,7 @@
     var musicdiv = document.getElementById("music");
     window.onload = function() {
         music.play();
-        LoadingDIV.style.display = "none";
+
         $(document).ready(function(){
             if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
                 $(document).one('touchstart', function (e) {
@@ -342,6 +342,7 @@
     }
     (function(window, $, PhotoSwipe){
         $(document).ready(function(){
+            LoadingDIV.style.display = "none";
             setTimeout(function(){loadAll()},500);
         });
     }(window, window.jQuery, window.Code.PhotoSwipe));
