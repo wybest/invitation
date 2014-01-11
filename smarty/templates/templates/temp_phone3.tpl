@@ -77,7 +77,7 @@
             <a class="meetus" href="#first" style="text-decoration:none; display:block; width:80px"> <span id="step1">开启喜帖</span></a> </div>
     </div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
 <div id="header"><a id="backButton" href="javascript:;" class="button" style="visibility: hidden;">返回</a> <h1 id="pageTitle"></h1>
-    <h1>{#$man#} &amp; {#$women#}</h1>
+    <h1>{#$bigtitle#}</h1>
 </div>
 <div id="content" style="bottom: 0px; top: 60px;">
 
