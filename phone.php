@@ -147,7 +147,15 @@ function isMobile() {
                                     'midp',
                                     'wap',
                                     'mobile',
-                					'windows phone'
+                					'windows phone',
+                                    'trident',
+                                    'presto',
+                                    'appleWebKit',
+                                    'gecko',
+                                    'khtml',
+                                    'linux',
+                                    'mac',
+                                    'safari'
             );
             // 从HTTP_USER_AGENT中查找手机浏览器的关键字
             if (preg_match("/(" . implode('|', $clientkeywords) . ")/i", strtolower($_SERVER['HTTP_USER_AGENT']))) {
