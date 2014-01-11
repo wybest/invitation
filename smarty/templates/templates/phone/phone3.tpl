@@ -118,7 +118,7 @@ margin: 5px 12px 0px 40px;
     <div id="header">
         <a id="backButton" href="javascript:;" class="button" style="visibility: hidden;">返回</a>
         <h1 id="pageTitle"></h1>
-        <h1>{#$man#} &amp; {#$women#}</h1>
+        <h1>{#$bigtitle#}</h1>
     </div>
     <div id="content" style="bottom: 0px; top: 60px;">
 

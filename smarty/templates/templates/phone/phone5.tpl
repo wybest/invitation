@@ -105,7 +105,7 @@ margin: 5px 12px 0px 40px;
 <div id="jQui_modal" style="overflow: hidden;"><div id="modalContainer" style="-webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;"></div><div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
 
     <div id="header">
-        <h1>{#$man#} &amp; {#$women#}</h1>
+        <h1>{#$bigtitle#}</h1>
     </div>
     <div id="content" style="bottom: 0px; top: 60px;">
         <div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" js-scrolling="yes" style="overflow: hidden; display: block;"><div class="jqmScrollPanel" js-scrolling="yes" style="-webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;">
