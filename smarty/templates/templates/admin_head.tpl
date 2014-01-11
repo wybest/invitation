@@ -72,7 +72,7 @@
             <ul style="width: 90%">
 
                 <li style="float:left;margin-top:30px">
-                    <span style="font-size: 30px;margin-left: 70px;">绝对正品，假一赔十，放心安全使用，盗版必究</span>
+                    <span style="font-size: 30px;margin-left: 70px;"></span>
                 </li>
 
                 <style>
