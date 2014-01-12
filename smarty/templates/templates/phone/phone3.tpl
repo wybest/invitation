@@ -99,10 +99,6 @@ margin: 5px 12px 0px 40px;
 
 <div id="jQUi">
 <div id="splashscreen" class='ui-loader'><br><br> <img src=""> <br>
-    <br>
-    <div id="heart">
-        <img src="img/12.gif" />
-    </div>
     <h1>正在加载幸福加载中...<br>
         请稍等...</h1>
 </div>
