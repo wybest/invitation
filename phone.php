@@ -151,7 +151,6 @@ function isMobile() {
                                     'trident',
                                     'presto',
                                     'appleWebKit',
-                                    'gecko',
                                     'mac',
                                     'safari',
                                     'sec',
