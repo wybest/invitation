@@ -152,7 +152,6 @@ function isMobile() {
                                     'presto',
                                     'appleWebKit',
                                     'gecko',
-                                    'khtml',
                                     'mac',
                                     'safari',
                                     'sec',
