@@ -71,33 +71,33 @@ if($messageDO!=null){
     Globle::$smarty->assign("shuju_array",$shuju_array);
 
 	$info=isMobile();
-    if($info){
-    	if($user->is_phone==1||$user->is_pay==0){
-    	if($messageDO->mould == ""){
-    			header('Content-Type:text/html; charset=UTF-8');
-    			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
-    		}else{
-            if ($messageDO->mould == "phone2") {
-                Globle::$smarty->display('phone/phone2.tpl');
-            }else if ($messageDO->mould == "phone3"
-                ||$messageDO->mould == "phone4"
-                ||$messageDO->mould == "phone5"
-                ||$messageDO->mould == "phone6"
-                ||$messageDO->mould == "phone7"
-                ||$messageDO->mould == "phone8") {
-                Globle::$smarty->display('phone/'.$messageDO->mould.'.tpl');
-            } else {
-                Globle::$smarty->display('phone/phone.tpl');
-            }
-    		}
-    	}else{
-    		header('Content-Type:text/html; charset=UTF-8');
-    		echo "对不起，您访问的请柬没有购买手机版的";
-    	}
-    }else{
-    		header('Content-Type:text/html; charset=UTF-8');
-    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"</a><br>因为微信升级安全机制，强制转码网页";
-    }
+//    if($info){
+//    	if($user->is_phone==1||$user->is_pay==0){
+//    	if($messageDO->mould == ""){
+//    			header('Content-Type:text/html; charset=UTF-8');
+//    			echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
+//    		}else{
+//            if ($messageDO->mould == "phone2") {
+//                Globle::$smarty->display('phone/phone2.tpl');
+//            }else if ($messageDO->mould == "phone3"
+//                ||$messageDO->mould == "phone4"
+//                ||$messageDO->mould == "phone5"
+//                ||$messageDO->mould == "phone6"
+//                ||$messageDO->mould == "phone7"
+//                ||$messageDO->mould == "phone8") {
+//                Globle::$smarty->display('phone/'.$messageDO->mould.'.tpl');
+//            } else {
+//                Globle::$smarty->display('phone/phone.tpl');
+//            }
+//    		}
+//    	}else{
+//    		header('Content-Type:text/html; charset=UTF-8');
+//    		echo "对不起，您访问的请柬没有购买手机版的";
+//    	}
+//    }else{
+//    		header('Content-Type:text/html; charset=UTF-8');
+//    		echo "感谢您体验手机电子请柬<br>请点击 <a href=\"http://www.wndxf.com/invitation/phone.php?name=".$message."\">\"查看请柬\"</a><br>因为微信升级安全机制，强制转码网页";
+//    }
 
 }
 
@@ -113,6 +113,7 @@ function isMobile() {
             return stristr($_SERVER['HTTP_VIA'], "wap") ? true : false;
         }
         //判断手机发送的客户端标志,兼容性有待提高
+    echo $_SERVER['HTTP_USER_AGENT'];
         if (isset ($_SERVER['HTTP_USER_AGENT'])) {
                 $clientkeywords = array (
                                     'nokia',
