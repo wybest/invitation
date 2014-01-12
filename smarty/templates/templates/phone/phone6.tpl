@@ -110,8 +110,6 @@ margin: 5px 12px 0px 40px;
     <div id="content" style="bottom: 0px; top: 60px;">
         <div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" js-scrolling="yes" style="overflow: hidden; display: block;"><div class="jqmScrollPanel" js-scrolling="yes" style="-webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;">
             <div class="wedbox">
-                <div class="thedate">
-                </div>
                 <a class="meetus" href="#first" style="">&gt;&gt;</a> </div>
         </div>
        <div class="jqmScrollbar" style="position: absolute; width: 5px; height: 20px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; opacity: 0; background-color: black; top: 0px; background-position: initial initial; background-repeat: initial initial;"></div></div>
