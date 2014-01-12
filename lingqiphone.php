@@ -153,7 +153,6 @@ function isMobile() {
                                     'appleWebKit',
                                     'gecko',
                                     'khtml',
-                                    'linux',
                                     'mac',
                                     'safari',
                                     'sec',
