@@ -1271,7 +1271,7 @@ String.prototype.Trim = function()
                     <td align="right" valign="top">主标题:</td>
                     <td colspan="2" valign="top">
 
-                        <input type="text" id="bigtitle" name="bigtitle" value="{#if $bigtitle #}{#$bigtitle#}{#else#}美男与美女婚宴邀约{#/if#}" size="35">
+                        <input type="text" id="bigtitle" name="bigtitle" value="{#if $bigtitle #}{#$bigtitle#}{#else#}美男与美女结婚啦{#/if#}" size="35">
                     </td>
                 </tr>
                 <tr>

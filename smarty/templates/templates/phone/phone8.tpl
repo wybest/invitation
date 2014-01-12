@@ -164,10 +164,10 @@ margin: 5px 12px 0px 40px;
                                 <p class="ip4">{#$vip#}</p>
                                 {#/if#}
                                 <p class="ip3"><span>{#$show_time#}</span></p>
-                                <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span class="">{#$man#}</span> 新娘：<span>{#$women#}</span> {#/if#}</p>
+                                <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎:<span class="">{#$man#}</span> 新娘:<span>{#$women#}</span> {#/if#}</p>
                                 <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
-                                <p class="ip6">时间：<span>{#$mini_time#}</span></p>
-                                <p class="ip6">地点：<span>{#$house#}</span></p><br /></div>
+                                <p class="ip6">时间:<span>{#$mini_time#}</span></p>
+                                <p class="ip6">地点:<span>{#$house#}</span></p><br /></div>
                         </div>
                     </div>
                 </div>
@@ -257,7 +257,7 @@ margin: 5px 12px 0px 40px;
                             </div>
                             <p style="margin:5px 0">
                                 <a href="http://api.map.baidu.com/marker?location={#$coordinate#},&zoom=10&title=地图&content={#$adress#}&output=html" target="_blank">
-                                    地址：{#$adress#}
+                                    地址:{#$adress#}
                                 </a></p>
                             <p>[点击地图查看详细]</p>
                         </div>

@@ -123,10 +123,10 @@
                             <p class="ip2">Wedding Invitation</p>
                             <p class="ip3"><span id="show_time2">{#if $show_time #}{#$show_time#}{#else#}2014年9月9日{#/if#}</span></p>
                             <p class="ip4">贵宾名字</p>
-                            <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span id="man">{#$man#}</span> 新娘：<span id="women">{#$women#}</span> {#/if#}</p>
+                            <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎:<span id="man">{#$man#}</span> 新娘:<span id="women">{#$women#}</span> {#/if#}</p>
                             <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
-                            <p class="ip6">时间：<span id="mini_time">{#if $mini_time #}{#$mini_time#}{#else#}5:30入席{#/if#}</span></p>
-                            <p class="ip6">地点：<span id="house">{#$house#}</span></p><br />
+                            <p class="ip6">时间:<span id="mini_time">{#if $mini_time #}{#$mini_time#}{#else#}5:30入席{#/if#}</span></p>
+                            <p class="ip6">地点:<span id="house">{#$house#}</span></p><br />
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
                             <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:300px;">百度地图加载中。。。</div>
                             <p style="margin:5px 0">
                                 <a href="http://api.map.baidu.com/marker?location={#$coordinate#},&zoom=10&title=地图&content={#$adress#}&output=html" target="_blank">
-                                    <span id="map_desc7044">地址：{#$adress#}</span>
+                                    <span id="map_desc7044">地址:{#$adress#}</span>
                                 </a></p>
                             <p>[点击地图查看详细]</p>
                         </div>
