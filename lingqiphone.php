@@ -113,7 +113,6 @@ function isMobile() {
             return stristr($_SERVER['HTTP_VIA'], "wap") ? true : false;
         }
         //判断手机发送的客户端标志,兼容性有待提高
-    echo $_SERVER['HTTP_USER_AGENT'];
         if (isset ($_SERVER['HTTP_USER_AGENT'])) {
                 $clientkeywords = array (
                                     'nokia',
