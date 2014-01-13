@@ -6,44 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Parisienne">
-    <link rel="stylesheet" type="text/css" href="style/style15/css">
-    <link rel="stylesheet" type="text/css" href="style/style15/icons.css">
-    <link rel="stylesheet" type="text/css" href="style/style15/jq.ui.css">
+    <link rel="stylesheet" type="text/css" href="style/style13/css">
+    <link rel="stylesheet" type="text/css" href="style/style13/icons.css">
+    <link rel="stylesheet" type="text/css" href="style/style13/jq.ui.css">
 
-    <script type="text/javascript" charset="utf-8" src="style/style15/jq.mobi.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="style/style15/jq.ui.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="style/style13/jq.mobi.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="style/style13/jq.ui.min.js"></script>
 
-    <link href="style/style15/styles.css" type="text/css" rel="stylesheet" />
-    <link href="style/style15/photoswipe.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="style/style15/klass.min.js"></script>
-    <script type="text/javascript" src="style/style15/code.photoswipe-3.0.5-dys.js"></script>
+    <link href="style/style13/styles.css" type="text/css" rel="stylesheet" />
+    <link href="style/style13/photoswipe.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="style/style13/klass.min.js"></script>
+    <script type="text/javascript" src="style/style13/code.photoswipe-3.0.5-dys.js"></script>
     <script>(function listenerTest() {
-            window.addEventListener("message", function (event) {
-                if (event.source !=  window) return;
+        window.addEventListener("message", function (event) {
+            if (event.source !=  window) return;
 
-                if (event.data.type && (event.data.type == "GET_VAR")) {
-                    var var_name = event.data.name, name, val = null;
-                    for (var i = 0, l = var_name.length; i < l; i++) {
-                        if (window[var_name[i]] != null) {
-                            val = window[var_name[i]];
-                            name = var_name[i];
-                            break;
-                        }
+            if (event.data.type && (event.data.type == "GET_VAR")) {
+                var var_name = event.data.name, name, val = null;
+                for (var i = 0, l = var_name.length; i < l; i++) {
+                    if (window[var_name[i]] != null) {
+                        val = window[var_name[i]];
+                        name = var_name[i];
+                        break;
                     }
-
-                    if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
-                        name = var_name[0];
-                    }
-                    //val = var_name ? window[var_name] : null;
-                    console.log(var_name, val);
-                    window.postMessage({
-                        type: "SEND_VAR",
-                        name: name,
-                        value: val
-                    }, "*");
                 }
-            });
-        })();</script></head>
+
+                if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
+                    name = var_name[0];
+                }
+                //val = var_name ? window[var_name] : null;
+                console.log(var_name, val);
+                window.postMessage({
+                    type: "SEND_VAR",
+                    name: name,
+                    value: val
+                }, "*");
+            }
+        });
+    })();</script></head>
 <style>
     .huihan_list {
         width: 95%;
@@ -87,16 +87,17 @@
         border-radius: 5px;
         margin: 5px 12px 0px 40px;
     }
+    #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200}
+    /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
     #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+    #Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
+    #mainbox{margin:0;}
 </style>
 <body>
 <div id="jQUi">
-    <div id="splashscreen" class='ui-loader'><br><br>
-        <div id="heart">
-            <img src="img/12.gif" />
-        </div><br>
+    <div id="splashscreen" class='ui-loader'><br><br> <img src=""> <br>
         <br>
-        <h1>幸福加载中<br>
+        <h1>正在加载ff与ff的电子喜帖<br>
             请稍等...</h1>
     </div>
     <div id="header">
@@ -105,33 +106,25 @@
     <div id="content">
         <div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home"  style="z-index:99999">
             <div class="wedbox">
-                <div class="thedate">
-                    <p class="day"></p>
-                    <p class="month">{#$show_time#}</p>
-                    <p class="time">{#$mini_time#}</p>
-                    <p class="add"></p>
-                </div>
-                <a class="meetus" href="#first" style="text-decoration:none;"> <span class="heart">新婚<br>
-        大喜</span> <span class="buttontext">打开电子喜帖</span> </a>
-            </div>
+                <a class="meetus" href="#first" style="">&gt;&gt;</a> </div>
         </div>
         <div  id="first" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader_first">
             <div class="content-wrapper">
                 <div class="content-top">&nbsp;</div>
                 <div class="content">
                     <ul class="wednav">
-                        <li><a href="#invitation" ><img src="style/style15/wednav1.png" alt="{#$title1#}"><br>
-                                {#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</a></li>
-                        <li><a href="showimgs.php?user={#$name#}" data-persist-ajax="true" data-refresh-ajax="true" title="_" data-pull-scroller="true"><img src="style/style15/wednav2.png" alt="{#$title2#}"><br>
-                                {#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</a></li>
-                        <li><a href="#story"><img src="style/style15/wednav3.png" alt="{#$title#}"><br>
-                                {#$title#}</a></li>
-                        <li><a href="#signin"><img src="style/style15/wednav4.png" alt="{#$title3#}"><br>
-                                {#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</a></li>
-                        <li><a href="#map"><img src="style/style15/wednav6.png" alt="{#$title4#}"><br>
-                                {#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</a></li>
-                        <li><a href="#share"><img src="style/style15/wednav5.png" alt="{#$title5#}"><br>
-                                {#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</a></li>
+                        <li><a href="#invitation" ><img src="style/style13/wednav1.png" alt="{#$title1#}"><br>
+                            {#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</a></li>
+                        <li><a href="showimgs.php?user={#$name#}" data-persist-ajax="true" data-refresh-ajax="true" title="_" data-pull-scroller="true"><img src="style/style13/wednav2.png" alt="{#$title2#}"><br>
+                            {#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</a></li>
+                        <li><a href="#story"><img src="style/style13/wednav3.png" alt="{#$title#}"><br>
+                            {#$title#}</a></li>
+                        <li><a href="#signin"><img src="style/style13/wednav4.png" alt="{#$title3#}"><br>
+                            {#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</a></li>
+                        <li><a href="#map"><img src="style/style13/wednav6.png" alt="{#$title4#}"><br>
+                            {#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</a></li>
+                        <li><a href="#share"><img src="style/style13/wednav5.png" alt="{#$title5#}"><br>
+                            {#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</a></li>
                     </ul>
                 </div>
             </div>
@@ -309,7 +302,7 @@
         var nowtime = new Date();
         var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
         if(leftsecond<0){leftsecond=0;}
-            __d=parseInt(leftsecond/3600/24);
+        __d=parseInt(leftsecond/3600/24);
         __h=parseInt((leftsecond/3600)%24);
         __m=parseInt((leftsecond/60)%24);
         __s=parseInt(leftsecond%60);
@@ -364,7 +357,7 @@
 </script>
 <!-- 播放音乐 -->
 
-<script type="text/javascript" src="style/style15/video.js"></script>
+<script type="text/javascript" src="style/style13/video.js"></script>
 <script type="text/javascript">
 
     function initialize(){
@@ -372,17 +365,17 @@
         map.setDefaultCursor("map_canvas7169");//设置地图默认的鼠标指针样式
         map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
         map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
-        map.addControl(new BMap.NavigationControl({
-            anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL
-        }));
-        map.panBy({#$coordinate#})
+    map.addControl(new BMap.NavigationControl({
+        anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL
+    }));
+    map.panBy({#$coordinate#})
 
-        var pt = new BMap.Point({#$coordinate#});
-        var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
-        var marker2 = new BMap.Marker(pt,{
-            icon:myIcon
-        });// 创建标注
-        map.addOverlay(marker2);// 将标注添加到地图中
+    var pt = new BMap.Point({#$coordinate#});
+    var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
+    var marker2 = new BMap.Marker(pt,{
+        icon:myIcon
+    });// 创建标注
+    map.addOverlay(marker2);// 将标注添加到地图中
     }
 
     function loadBaiduMap() {
@@ -410,7 +403,7 @@
 </audio>
 <!-- 微信分享 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script src="style/style15/weixin_share.js"></script>
+<script src="style/style13/weixin_share.js"></script>
 <script>
     var contentModel = {
         "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",

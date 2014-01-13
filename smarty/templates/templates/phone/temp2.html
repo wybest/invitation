@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head>
+<!-- saved from url=(0022) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>{#$bigtitle#}</title>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Parisienne">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" type="text/css" href="style/style10/css">
     <link rel="stylesheet" type="text/css" href="style/style10/icons.css">
     <link rel="stylesheet" type="text/css" href="style/style10/jq.ui.css">
@@ -17,93 +16,125 @@
     <link href="style/style10/photoswipe.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="style/style10/klass.min.js"></script>
     <script type="text/javascript" src="style/style10/code.photoswipe-3.0.5-dys.js"></script>
+
+    <script>(function listenerTest() {
+        window.addEventListener("message", function (event) {
+            if (event.source !=  window) return;
+
+            if (event.data.type && (event.data.type == "GET_VAR")) {
+                var var_name = event.data.name, name, val = null;
+                for (var i = 0, l = var_name.length; i < l; i++) {
+                    if (window[var_name[i]] != null) {
+                        val = window[var_name[i]];
+                        name = var_name[i];
+                        break;
+                    }
+                }
+
+                if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
+                    name = var_name[0];
+                }
+                //val = var_name ? window[var_name] : null;
+                console.log(var_name, val);
+                window.postMessage({
+                    type: "SEND_VAR",
+                    name: name,
+                    value: val
+                }, "*");
+            }
+        });
+    })();</script>
+    <style>
+        .huihan_list {
+            width: 95%;
+            height: auto;
+            margin: 5px auto;
+            border-bottom: 1px solid #CCC;
+            background: #fff;
+        }
+
+        .huihan_top {
+            width: 100%;
+            height: 40px;
+            float: left;
+            background-color: lightpink;
+        }
+
+
+        .huihan_name {
+            width: auto;
+            height: 20px;
+            font-weight: 700;
+            float: left;
+            font-size: 16px;
+            margin: 12px 10px 15px;
+        }
+
+        .huihan_time {
+            width: auto;
+            height: 20px;
+            float: right;
+            font-size: 12px;
+            color: #999;
+            margin: 12px 12px 15px;
+        }
+
+        .huihan_text {
+            width: auto;
+            height: auto;
+            padding: 10px 0px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 5px 12px 0px 40px;
+        }
+        #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+    </style>
 </head>
-<style>
-    .huihan_list {
-        width: 95%;
-        height: auto;
-        margin: 5px auto;
-        border-bottom: 1px solid #CCC;
-        background: #fff;
-    }
 
-    .huihan_top {
-        width: 100%;
-        height: 40px;
-        float: left;
-        background-color: lightpink;
-    }
-
-
-    .huihan_name {
-        width: auto;
-        height: 20px;
-        font-weight: 700;
-        float: left;
-        font-size: 16px;
-        margin: 12px 10px 15px;
-    }
-
-    .huihan_time {
-        width: auto;
-        height: 20px;
-        float: right;
-        font-size: 12px;
-        color: #999;
-        margin: 12px 12px 15px;
-    }
-
-    .huihan_text {
-        width: auto;
-        height: auto;
-        padding: 10px 0px 30px;
-        font-size: 16px;
-        border-radius: 5px;
-        margin: 5px 12px 0px 40px;
-    }
-    #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
-</style>
 <body>
+
 <div id="jQUi">
 <div id="splashscreen" class='ui-loader'><br><br>
     <div id="heart">
         <img src="img/12.gif" />
-    </div><br>
-    <br>
-    <h1>幸福加载中<br>
+    </div> <br>
+    <h1>正在加载幸福加载中...<br>
         请稍等...</h1>
 </div>
-<div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" style="z-index:99999">
+<div id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home" style="z-index: 99999; overflow: hidden; display: block;" js-scrolling="yes"><div class="jqmScrollPanel" style="z-index: 99999; -webkit-transform: translate3d(0px, 0px, 0); -webkit-transition: 0ms linear; transition: 0ms linear;" js-scrolling="yes">
     <div class="wedbox">
-        <div class="thedate" style="margin-top: 30px;" >
+        <div class="thedate" style="margin-top: 30px;">
             <a href="#first" style="padding:10px; background-color:#fff;display: block;border-radius: 5px;border: 1px solid #aeaeae;"> <img src="marryimg/{#$bigimage #}" style="width: 100%;"></a>
 
 
         </div>
         <a class="meetus" href="#first" style="text-decoration:none; display:block; width:80px"> 开启喜帖</a> </div>
 </div>
+</div>
 <div id="header">
+    <a id="backButton" href="javascript:;" class="button" style="visibility: hidden;">返回</a>
+    <h1 id="pageTitle"></h1>
     <h1>{#$bigtitle#}</h1>
 </div>
-<div id="content">
+<div id="content" style="bottom: 0px; top: 60px;">
 
-    <div  id="first" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader_first">
+    <div id="first" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader_first" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
                 <ul class="wednav">
                     <li><a href="#invitation" ><img src="style/style10/wednav1.png" alt="{#$title1#}"><br>
-                            {#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</a></li>
+                        {#if $title1#}{#$title1#}{#else#}爱的邀约{#/if#}</a></li>
                     <li><a href="showimgs.php?user={#$name#}" data-persist-ajax="true" data-refresh-ajax="true" title="_" data-pull-scroller="true"><img src="style/style10/wednav2.png" alt="{#$title2#}"><br>
-                            {#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</a></li>
+                        {#if $title2#}{#$title2#}{#else#}婚纱相册{#/if#}</a></li>
                     <li><a href="#story"><img src="style/style10/wednav3.png" alt="{#$title#}"><br>
-                            {#$title#}</a></li>
+                        {#$title#}</a></li>
                     <li><a href="#signin"><img src="style/style10/wednav4.png" alt="{#$title3#}"><br>
-                            {#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</a></li>
+                        {#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</a></li>
                     <li><a href="#map"><img src="style/style10/wednav6.png" alt="{#$title4#}"><br>
-                            {#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</a></li>
+                        {#if $title4#}{#$title4#}{#else#}婚宴地图{#/if#}</a></li>
                     <li><a href="#share"><img src="style/style10/wednav5.png" alt="{#$title5#}"><br>
-                            {#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</a></li>
+                        {#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</a></li>
                 </ul>
                 <div class="inner">
                     <div class="cbox">
@@ -118,7 +149,8 @@
             </div>
         </div>
     </div>
-    <div id="invitation" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    </div>
+    <div id="invitation" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -132,19 +164,19 @@
                         <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎:<span class="">{#$man#}</span>&nbsp;&nbsp;&nbsp;&nbsp;新娘:<span>{#$women#}</span> {#/if#}</p>
                         <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
                         <p class="ip6">时间：<span>{#$mini_time#}</span></p>
-                        <p class="ip6">地点：<span>{#$house#}</span></p><br />
-                    </div>
+                        <p class="ip6">地点：<span>{#$house#}</span></p><br /></div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
     <!-- jqPlugins > jQ.carousel -->
-    <div title="Carousel" class="panel" id="webcarousel"  style="overflow:hidden;"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    <div title="Carousel" class="panel" id="webcarousel" style="overflow:hidden;" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
         <div id="carousel_dots" style="text-align: center; margin:auto;  display : table; clear: both; position: relative; top: 90%; z-index: 200"> </div>
         <div id="carousel" style="display:block;height:80%;width:100%;">
         </div>
     </div>
-    <div id="story" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    <div id="story" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -159,7 +191,8 @@
             </div>
         </div>
     </div>
-    <div id="signin" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    </div>
+    <div id="signin" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -210,7 +243,8 @@
         </div>
         {#/section#}
     </div>
-    <div id="map" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    </div>
+    <div id="map" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -228,7 +262,8 @@
             </div>
         </div>
     </div>
-    <div id="share" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" data-footer="myfooter">
+    </div>
+    <div id="share" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" data-footer="myfooter" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -247,8 +282,9 @@
             </div>
         </div>
     </div>
+    </div>
     <!-- 真诚鸣谢 -->
-    <div id="thanks" class="panel"  data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader">
+    <div id="thanks" class="panel" data-load="loadedPanel" data-unload="unloadedPanel" data-header="pageheader" js-scrolling="yes" style="overflow: hidden;"><div class="jqmScrollPanel" js-scrolling="yes">
         <div class="content-wrapper">
             <div class="content-top">&nbsp;</div>
             <div class="content">
@@ -264,15 +300,15 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
-<header id="pageheader"> <a id="backButton"  class='button' style='left:0px;left:auto;overflow:hidden'>返回</a>
+<header id="pageheader"> <a id="backButton" class="button" style="left:0px;left:auto;overflow:hidden">返回</a>
     <h1>{#$bigtitle#}</h1>
 </header>
 <header id="pageheader_first">
     <h1>{#$bigtitle#}</h1>
 </header>
 <footer id="myfooter"></footer>
-</div>
 <script>
     $(function (){
         $.ui.removeFooterMenu();
@@ -291,7 +327,7 @@
         var nowtime = new Date();
         var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
         if(leftsecond<0){leftsecond=0;}
-            __d=parseInt(leftsecond/3600/24);
+        __d=parseInt(leftsecond/3600/24);
         __h=parseInt((leftsecond/3600)%24);
         __m=parseInt((leftsecond/60)%24);
         __s=parseInt(leftsecond%60);
@@ -354,17 +390,17 @@
         map.setDefaultCursor("map_canvas7169");//设置地图默认的鼠标指针样式
         map.enableScrollWheelZoom();//启用滚轮放大缩小，默认禁用。
         map.centerAndZoom(new BMap.Point({#$coordinate#}), 15);
-        map.addControl(new BMap.NavigationControl({
-            anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL
-        }));
-        map.panBy({#$coordinate#})
+    map.addControl(new BMap.NavigationControl({
+        anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL
+    }));
+    map.panBy({#$coordinate#})
 
-        var pt = new BMap.Point({#$coordinate#});
-        var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
-        var marker2 = new BMap.Marker(pt,{
-            icon:myIcon
-        });// 创建标注
-        map.addOverlay(marker2);// 将标注添加到地图中
+    var pt = new BMap.Point({#$coordinate#});
+    var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
+    var marker2 = new BMap.Marker(pt,{
+        icon:myIcon
+    });// 创建标注
+    map.addOverlay(marker2);// 将标注添加到地图中
     }
 
     function loadBaiduMap() {
@@ -388,11 +424,14 @@
     });
 
 </script>
+
+</script>
 <audio autoplay="autoplay" id="audio_play" loop="loop">
-    <source src="mp3folder/{#$music#}" type="audio/mpeg" />
-</audio>
-<!-- 微信分享 -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <source src="mp3folder/{#$music#}" type="audio/mpeg">
+        </audio>
+    <!-- 微信分享 -->
+
+<script src="style/style10/weixin_share.js"></script>
 <script>
     var contentModel = {
         "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",

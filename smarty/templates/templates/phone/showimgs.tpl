@@ -5,7 +5,6 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <link href="style/style10/styles.css" type="text/css" rel="stylesheet" />
     <link href="style/style10/photoswipe.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="style/style10/klass.min.js"></script>
     <script type="text/javascript" src="style/style10/code.photoswipe-3.0.5-dys.js"></script>
