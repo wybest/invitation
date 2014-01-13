@@ -27,7 +27,7 @@ if($edate == ""){
 
 $dateStr = " and creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 23:59:59'";
 
-$count = MyDB::selectUserByAdminCountDB("1",$dateStr,$_SESSION['admin_id'],$link);
+$count = MyDB::selectUserByAdminCountDB("3",$dateStr,$_SESSION['admin_id'],$link);
 $up = $page_nm-1;
 $next = $page_nm+1;
 $end = 1;
@@ -41,7 +41,7 @@ if($page_nm>$end){
     $page_nm = $end;
 }
 
-$shuju_array = MyDB::selectUserByAdminDB("1",$dateStr,$_SESSION['admin_id'],$page_nm,$page_size,$link);
+$shuju_array = MyDB::selectUserByAdminDB("3",$dateStr,$_SESSION['admin_id'],$page_nm,$page_size,$link);
 
 Globle::$smarty->assign("admin_name", $_SESSION['admin_name']);
 Globle::$smarty->assign("bdate",$bdate);
@@ -53,7 +53,7 @@ Globle::$smarty->assign("count",$count);
 Globle::$smarty->assign("page",$page_nm);
 Globle::$smarty->assign("shuju_array",$shuju_array);
 Globle::$smarty->display('admin_head.tpl');
-Globle::$smarty->display('power_vip_user.tpl');
+Globle::$smarty->display('power_closed_user.tpl');
 Globle::$smarty->display('foot.tpl');
 
 

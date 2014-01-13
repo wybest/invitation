@@ -30,7 +30,7 @@ if($_REQUEST['insert'] == "insert"){
 	}
 
 	Globle::$smarty->assign("mould",$mould);
-	Globle::$smarty->display('head.tpl');
+	Globle::$smarty->display('new_head.tpl');
 	Globle::$smarty->display('mould_phone.tpl');
 	Globle::$smarty->display('foot.tpl');
 }else{

@@ -100,6 +100,7 @@
                     <ul class="categories_list">
                         <li><a href="power_select_user.php">开通vip账号</a></li>
                         <li><a href="power_vip_user.php">已开通的vip账号</a></li>
+                        <li><a href="power_closed_user.php">已关闭的vip账号</a></li>
                     </ul>
 
                 </div>

@@ -31,7 +31,7 @@ if($_REQUEST['insert'] == "insert"){
 	}
 
 	Globle::$smarty->assign("weixin",$weixin);
-	Globle::$smarty->display('head.tpl');
+	Globle::$smarty->display('new_head.tpl');
 	Globle::$smarty->display('weixin.tpl');
 	Globle::$smarty->display('foot.tpl');
 }else{

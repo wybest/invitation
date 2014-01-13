@@ -25,7 +25,7 @@ if($vip_name!=""){
 	}
 }	
 $vip_array = MyDB::selectVipDB($user->id, $link);
-	Globle::$smarty->display('head.tpl');
+	Globle::$smarty->display('new_head.tpl');
 	Globle::$smarty->assign("name",$name);
 	Globle::$smarty->assign("vip_array",$vip_array);
 	Globle::$smarty->display('invitvipadress.tpl');

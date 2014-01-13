@@ -185,9 +185,9 @@ class  MyDB {
 		}
 	}
 
-    public static function selectUserByAdminCountDB($dateStr,$admin_id,$link){
+    public static function selectUserByAdminCountDB($is_pay,$dateStr,$admin_id,$link){
 
-        $sql="select count(*) as num from user where admin_id=".$admin_id.$dateStr."";
+        $sql="select count(*) as num from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return 0;
@@ -197,11 +197,22 @@ class  MyDB {
         }
     }
 
-    public static function selectUserByAdminDB($dateStr,$admin_id,$page,$pagesize,$link){
+    public static function updateUserClosedByAdminDB($user_id,$admin_id,$link){
+
+        $sql = "update user set is_pay = 3 , password='".date('YmdHis')."'  where id=".$user_id." and admin_id=".$admin_id;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    public static function selectUserByAdminDB($is_pay,$dateStr,$admin_id,$page,$pagesize,$link){
         $shuju_array = array();
         $page = $page-1;
         $count = $page*$pagesize;
-        $sql="select * from user where admin_id=".$admin_id.$dateStr." order by id desc LIMIT ".$count.",".$pagesize;
+        $sql="select * from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay." order by id desc LIMIT ".$count.",".$pagesize;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return $shuju_array;
@@ -223,6 +234,39 @@ class  MyDB {
                 array_push($shuju_array,$user);
             }
             return $shuju_array;
+        }
+    }
+
+    public static function selectUserByAdminIdAndUserIdDB($user_id,$admin_id,$link){
+        $sql="select * from user where admin_id=".$admin_id." and id=".$user_id;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return null;
+        } else {
+            if(mysql_num_rows($ret)==0){
+                return null;
+            }else{
+                $user = new UserDO();
+                $row = mysql_fetch_array($ret);
+                $user->id = $row["id"];
+                $user->name = $row["name"];
+                $user->password = $row["password"];
+                $user->vip_num = $row["vip_num"];
+                $user->is_pay = $row["is_pay"];
+                $user->is_phone = $row["is_phone"];
+                $user->is_pc = $row["is_pc"];
+                $user->font_family = $row["font_family"];
+                $user->advert = $row["advert"];
+                $user->extends=$row['extends'];
+                $user->special_name=$row['special_name'];
+                $user->title1=$row['title1'];
+                $user->title2=$row['title2'];
+                $user->title3=$row['title3'];
+                $user->title4=$row['title4'];
+                $user->title5=$row['title5'];
+                $user->create_time=$row['creat_time'];
+                return $user;
+            }
         }
     }
 
@@ -285,6 +329,19 @@ class  MyDB {
 		}
 
 	}
+
+    public static function deleteInfoDB($user_id,$link){
+
+        $sql="DELETE FROM message where user_id=".$user_id."";
+        $ret = mysql_query($sql, $link);
+        $messageDO = null;
+        if ($ret === false) {
+            return false;
+        } else {
+            return true;
+        }
+
+    }
 
 	public static function updateInfoDB($man,$women,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
@@ -424,6 +481,16 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 		}
 	}
 
+    public static function deleteShujuByUserIdDB($user_id,$link){
+        $sql="delete from shuju where user_id=".$user_id;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return false;
+        } else {
+                return true;
+        }
+    }
+
 	public static function selectShujuCountDB($user_id,$link){
 		 
 		$sql="select count(*) as num from shuju where user_id=".$user_id."";
@@ -543,6 +610,17 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 			return true;
 		}
 	}
+
+    public static function deleteAllVipDB($user_id,$link){
+
+        $sql="delete from vip where  user_id = ".$user_id;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
     public static function selectAdminDB($name,$password,$link){
 
