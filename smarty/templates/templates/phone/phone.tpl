@@ -256,28 +256,13 @@ font-family: "微软雅黑";
     </div>
 </div>
 
-<audio preload="preload" id="audio_play" loop="loop"><source src="mp3folder/{#$music#}" type="audio/mpeg"></audio>
+
 
 <script language="javascript" type="text/javascript">
 
-
-
-    var music = document.getElementById("audio_play");
-music.pause();
 var LoadingDIV = document.getElementById("Loading");
 window.onload = function() {
-    music.play();
     LoadingDIV.style.display = "none";
-    $(document).ready(function(){
-        if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
-            $(document).one('touchstart', function (e) {
-                var music = document.getElementById("audio_play");
-                if (music.paused) {
-                    music.play();
-                }
-            });
-        }
-    });
 }
 
 </script>
@@ -801,8 +786,22 @@ function loadImg(){
     });
 }(window, window.jQuery, window.Code.PhotoSwipe));
 
-</script>
+$(document).ready(function(){
 
+    if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
+        $(document).one('touchstart', function (e) {
+            var music = document.getElementById("audio_play");
+            if (music.paused) {
+                music.play();
+            }
+        });
+    }
+});
+
+</script>
+<audio autoplay="autoplay" id="audio_play" loop="loop">
+    <source src="mp3folder/{#$music#}" type="audio/mpeg" />
+</audio>
 <script language="JavaScript" src="style/weichat.js" type="text/javascript" charset="utf-8"></script>
 
 </body></html>
