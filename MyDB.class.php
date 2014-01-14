@@ -212,7 +212,7 @@ class  MyDB {
         $shuju_array = array();
         $page = $page-1;
         $count = $page*$pagesize;
-        $sql="select * from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay." order by id desc LIMIT ".$count.",".$pagesize;
+        $sql="select * from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay." order by creat_time desc LIMIT ".$count.",".$pagesize;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return $shuju_array;
@@ -231,6 +231,7 @@ class  MyDB {
                 $user->special_name=$row['special_name'];
                 $user->create_time=$row['creat_time'];
                 $user->vip_num = $row["vip_num"];
+                $user->is_confirm = $row["is_confirm"];
                 array_push($shuju_array,$user);
             }
             return $shuju_array;

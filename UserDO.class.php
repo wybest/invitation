@@ -20,6 +20,7 @@ class  UserDO {
 	public $title5;
     public $snum;
     public $create_time;
+    public $is_confirm;
 }
 
 ?>
