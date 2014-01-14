@@ -10,17 +10,12 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css">
+    <link href="datepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script language="JavaScript" src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
-<!--
-    <link rel="stylesheet" href="intro/introjs.min.css"/>
-    <script type="text/javascript" src="intro/intro.min.js"></script>
--->
-    <link rel="stylesheet" href="example_files/jquery-ui-1.8.18.custom.full_leo.css" type="text/css" media="screen" charset="utf-8">
 
-    <script type="text/javascript" src="example_files/jquery-latest.js"></script>
-    <script type="text/javascript" src="example_files/jquery-ui-1.8.18.full.min.js"></script>
 
     <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
     <script language="javascript" type="text/javascript">
@@ -77,7 +72,7 @@
             <ul style="width: 90%">
 
                 <li style="float:left;margin-top:30px">
-                    <span style="font-size: 30px;margin-left: 70px;">绝对正品，假一赔十，放心安全使用，盗版必究</span>
+                    <span style="font-size: 30px;margin-left: 70px;"></span>
                 </li>
 
                 <style>
@@ -88,7 +83,7 @@
                     .J_login a:hover{color:#fff !important;}
                 </style>
                 <li style="float:right;margin-top:30px">
-                    <div class="J_login J_login_after"><i></i><span style="color: white;">{#$name#}</span> </div></li>
+                    <div class="J_login J_login_after"><i></i><span style="color: white;">{#$admin_name#}</span> </div></li>
             </ul>
 
         </div> <!-- end of templatemo_menu -->
@@ -100,32 +95,14 @@
                 <div id="templatemo_sidebar_top"></div>
                 <div id="templatemo_sidebar">
 
-                    <h2>请柬DIY</h2>
+                    <h2>后台管理</h2>
 
                     <ul class="categories_list">
-                        <li><a href="javascript:aa()">请柬内容设置</a></li>
-                        <li><a href="mould_pc.php">电脑请柬风格设置</a></li>
-                        <li><a href="weixin.php">微信名片设置</a></li>
+                        <li><a href="power_select_user.php">开通vip账号</a></li>
+                        <li><a href="super_admin_list.php">查看其他管理员</a></li>
+                        <li><a href="super_power_vip_user.php">查看vip账号</a></li>
+                        <li><a href="super_power_confirm.php">结算</a></li>
                     </ul>
-
-                    <div class="cleaner_h30"></div>
-
-                    <h2>请柬二维码地址</h2>
-
-                    <ul class="categories_list">
-                        <li><a href="invitadress.php">请柬通用地址</a></li>
-                        <li><a href="invitvipadress.php">请柬贵宾地址</a></li>
-                    </ul>
-
-                    <div class="cleaner_h30"></div>
-
-                    <h2>亲友回函</h2>
-
-                    <ul class="categories_list">
-                        <li><a href="receipt.php">查看回函</a></li>
-                    </ul>
-
-                    <div class="cleaner_h10"></div>
 
                 </div>
                 <div id="templatemo_sidebar_bottom"></div>

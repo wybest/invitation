@@ -1,0 +1,52 @@
+<?php
+
+require 'smarty/libs/Smarty.class.php';
+require 'Globle.class.php';
+require 'basicDB.php';
+require 'MyDB.class.php';
+require 'MessageDO.class.php';
+require 'UserDO.class.php';
+require 'AdminDO.class.php';
+Globle::initSmarty();
+session_start();
+if($_SESSION['super_admin_name']!="wy"){
+    echo 'is error account';
+    exit();
+}
+//管理员
+$ad_name = $_REQUEST['ad_name'];
+$admin = MyDB::selectAdminBySuperDB($ad_name,$link);
+
+//时间
+$bdate = $_REQUEST['bdate'];
+$edate = $_REQUEST['edate'];
+if($bdate == ""){
+    $bdate = date('Y-m')."-01";
+}
+if($edate == ""){
+//    $edate = date('Y-m-d',strtotime('+1 day'));// H:i:s
+    $edate = date('Y-m',strtotime('+1 month'))."-01";
+}
+$dateStr = " creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 00:00:00'";
+$dateStr = " admin_id =".$admin->id." and ".$dateStr;
+
+//已开通
+$count = MyDB::selectUserByAdminCountDB("1",$dateStr,$link);
+//已关闭
+$count1 = MyDB::selectUserByAdminCountDB("3",$dateStr,$link);
+
+//计算金额
+$money = $count*$admin->price;
+
+Globle::$smarty->assign("bdate",$bdate);
+Globle::$smarty->assign("edate",$edate);
+Globle::$smarty->assign("ad_name", $ad_name);
+Globle::$smarty->assign("count",$count);
+Globle::$smarty->assign("count1",$count1);
+Globle::$smarty->assign("money",$money);
+Globle::$smarty->display('super_admin_head.tpl');
+Globle::$smarty->display('super_power_confirm.tpl');
+Globle::$smarty->display('foot.tpl');
+
+
+?>

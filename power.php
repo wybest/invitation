@@ -20,8 +20,12 @@ if($name!=""){
 			MyDB::updateUserLastTimeDB($name,$link);
 			$_SESSION['admin_name'] = $name;
 			$_SESSION['admin_id'] = $user->id;
-
-			echo '<script>location.href="power_select_user.php"</script>';
+            if($name=="wy"){
+                $_SESSION['super_admin_name'] = $name;
+                echo '<script>location.href="super_power_vip_user.php"</script>';
+            }else{
+                echo '<script>location.href="power_select_user.php"</script>';
+            }
 		}else{
 			Globle::$smarty->assign("message","管理员名或密码错误");
 

@@ -185,9 +185,9 @@ class  MyDB {
 		}
 	}
 
-    public static function selectUserByAdminCountDB($is_pay,$dateStr,$admin_id,$link){
+    public static function selectUserByAdminCountDB($is_pay,$dateStr,$link){
 
-        $sql="select count(*) as num from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay;
+        $sql="select count(*) as num from user where ".$dateStr." and is_pay = ".$is_pay;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return 0;
@@ -208,11 +208,11 @@ class  MyDB {
         }
     }
 
-    public static function selectUserByAdminDB($is_pay,$dateStr,$admin_id,$page,$pagesize,$link){
+    public static function selectUserByAdminDB($is_pay,$dateStr,$page,$pagesize,$link){
         $shuju_array = array();
         $page = $page-1;
         $count = $page*$pagesize;
-        $sql="select * from user where admin_id=".$admin_id.$dateStr." and is_pay = ".$is_pay." order by creat_time desc LIMIT ".$count.",".$pagesize;
+        $sql="select * from user where ".$dateStr." and is_pay = ".$is_pay." order by creat_time desc LIMIT ".$count.",".$pagesize;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return $shuju_array;
@@ -639,6 +639,49 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
                 $user->admin_name = $row["admin_name"];
                 $user->admin_password = $row["admin_password"];
                 return $user;
+            }
+        }
+    }
+
+    public static function selectAdminBySuperDB($ad_name,$link){
+
+        $sql="select * from wy_power where admin_name='".$ad_name."'";
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return null;
+        } else {
+            if(mysql_num_rows($ret)==0){
+                return null;
+            }else{
+                $user = new AdminDO();
+                $row = mysql_fetch_array($ret);
+                $user->id = $row["id"];
+                $user->admin_name = $row["admin_name"];
+                $user->admin_password = $row["admin_password"];
+                $user->price = $row["price"];
+                return $user;
+            }
+        }
+    }
+
+    public static function selectAdminListDB($link){
+        $vip_array = array();
+        $sql="select * from wy_power";
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return $vip_array;
+        } else {
+            if(mysql_num_rows($ret)==0){
+                return $vip_array;
+            }else{
+                while ($row = mysql_fetch_assoc($ret)) {
+                    $user = new AdminDO();
+                    $user->id = $row["id"];
+                    $user->admin_name = $row["admin_name"];
+                    $user->admin_password = $row["admin_password"];
+                    array_push($vip_array,$user);
+                }
+                return $vip_array;
             }
         }
     }
