@@ -447,7 +447,7 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 		$shuju_array = array();
 		$page = $page-1;
 		$count = $page*$pagesize;
-		$sql="select * from shuju where user_id=".$user_id." order by id LIMIT ".$count.",".$pagesize;
+		$sql="select * from shuju where user_id=".$user_id." order by id desc LIMIT ".$count.",".$pagesize;
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
 			return $shuju_array;
