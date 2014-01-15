@@ -13,7 +13,7 @@ if($name!=""){
 
 	if($code == $_SESSION['sn']){
 		//sql注入检查
-		$name = mysql_escape_string($name);
+		$name = mysql_real_escape_string($name);
 	//	safesql($name);
 		$user = MyDB::selectAdminDB($name,$password,$link);
 		if($user!=null){
