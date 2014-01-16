@@ -11,40 +11,9 @@
     <title>{#$bigtitle#}</title>
     <style>
         #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:999; display:none;}
-  /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
   #heart_{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
         #Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
-        #mainbox{margin:0;}
-    </style><script>(function listenerTest() {
-            window.addEventListener("message", function (event) {
-                if (event.source !=  window) return;
-
-                if (event.data.type && (event.data.type == "GET_VAR")) {
-                    var var_name = event.data.name, name, val = null;
-                    for (var i = 0, l = var_name.length; i < l; i++) {
-                        if (window[var_name[i]] != null) {
-                            val = window[var_name[i]];
-                            name = var_name[i];
-                            break;
-                        }
-                    }
-
-                    if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
-                        name = var_name[0];
-                    }
-                    //val = var_name ? window[var_name] : null;
-                    console.log(var_name, val);
-                    window.postMessage({
-                        type: "SEND_VAR",
-                        name: name,
-                        value: val
-                    }, "*");
-                }
-            });
-        })();</script></head>
-
-
-
+    </style></head>
 
 
 <body>
@@ -132,10 +101,7 @@
 
     <script type="text/javascript">
         var LoadingDIV = document.getElementById("Loading");
-        var music = document.getElementById("audio_play");
-        music.pause();
         window.onload = function() {
-            music.play();
             LoadingDIV.style.display = "none";
             $(document).ready(function(){
                 if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
