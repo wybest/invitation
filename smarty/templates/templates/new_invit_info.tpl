@@ -364,13 +364,13 @@ $(document).ready(function() {
     $("#invite_style").change(function() {
 
         $('#mould').val($("#invite_style option:selected").val());
-        if($("#invite_style option:selected").text() == "红色典雅"){
-            $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
-        }else if($("#invite_style option:selected").val() == "phone3" || $("#invite_style option:selected").val() == "phone4"
+        if($("#invite_style option:selected").val() == "phone2" ||
+                $("#invite_style option:selected").val() == "phone3" || $("#invite_style option:selected").val() == "phone4"
                 ||$("#invite_style option:selected").val() == "phone5"
                 || $("#invite_style option:selected").val() == "phone6"
                 ||$("#invite_style option:selected").val() == "phone7"
-                ||$("#invite_style option:selected").val() == "phone8"){
+                ||$("#invite_style option:selected").val() == "phone8"
+                ||$("#invite_style option:selected").val() == "phone9"){
             $('#iframepage').attr('src','new_temp_phone.php?tpl='+$("#invite_style option:selected").val());
         }
         else{
@@ -550,6 +550,30 @@ $(document).ready(function() {
         }
     }
 
+    function dinwei9(invite_detail_id){
+        var destination = 0;
+        if(invite_detail_id=='7042'){
+            destination = $('#iframepage').contents().find('#weddinginfo').offset().top-200;
+        }
+        if(invite_detail_id=='7041'){
+        }
+        if(invite_detail_id=='7043'){
+        }
+        if(invite_detail_id=='7045'){
+            alert("该模板没有这个主题哦");
+        }
+        if(invite_detail_id=='7046'){
+            alert("该模板没有这个主题哦");
+        }
+        if(invite_detail_id=='7044'){
+        }
+        if($.browser.safari){
+            $('#iframepage').contents().find('body').animate( { scrollTop: destination }, 500, 'easeInQuad' );
+        }else{
+            $('#iframepage').contents().find('html').animate( { scrollTop: destination }, 500, 'easeInQuad' );
+        }
+    }
+
     $('#tabs').bind('tabsselect', function(event, ui) {
 
 
@@ -560,6 +584,13 @@ $(document).ready(function() {
                 $('#iframepage').load(function(){dinwei(invite_detail_id);});
             }else{
                 dinwei(invite_detail_id);
+            }
+        }else if($("#invite_style option:selected").val() == "phone9"){
+            if($('#iframepage').attr('src') == "map.php?user={#$userID#}"){
+                $('#iframepage').attr('src','new_temp_phone.php?tpl=phone2');
+                $('#iframepage').load(function(){dinwei(invite_detail_id);});
+            }else{
+                dinwei9(invite_detail_id);
             }
         }else if($("#invite_style option:selected").val() == "phone3" || $("#invite_style option:selected").val() == "phone4"
                 ||$("#invite_style option:selected").val() == "phone5"
@@ -1250,6 +1281,7 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "phone6"#}selected="selected"{#/if#} value="phone6">浅蓝幽鸟</option>
                             <option {#if $mould eq "phone7"#}selected="selected"{#/if#} value="phone7">蜻蜓点水</option>
                             <option {#if $mould eq "phone8"#}selected="selected"{#/if#} value="phone8">双喜临门</option>
+                            <option {#if $mould eq "phone9"#}selected="selected"{#/if#} value="phone9">真爱永恒</option>
                         </select>
                         <!--
                         <label for="invite_fontface" style="font-family: 甜妞体214;">&nbsp;&nbsp;字　型: </label>
@@ -1341,6 +1373,8 @@ String.prototype.Trim = function()
                         var destination = 0;
                         if($("#invite_style option:selected").text() == "红色典雅"){
                             destination = $('#iframepage').contents().find('#textbox').offset().top;
+                        }else if($("#invite_style option:selected").val() == "phone9"){
+                            destination = $('#iframepage').contents().find('#weddinginfo').offset().top-200;
                         }
                         $('#iframepage').contents().find('html, body').animate({scrollTop: destination});
 

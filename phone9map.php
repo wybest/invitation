@@ -8,11 +8,7 @@ require 'VipDO.class.php';
 require 'UserDO.class.php';
 require 'ShujuDO.class.php';
 Globle::initSmarty();
-$message = $_REQUEST['name'];
-
-$messages = explode("@", $message);
-$user = $messages[0];
-$vip_id = $messages[1];
+$user = $_REQUEST['user'];
 
 $messageDO = MyDB::selectInfoDB($user,$link);
 
@@ -33,16 +29,6 @@ if($messageDO!=null){
     Globle::$smarty->assign("nongli",$messageDO->nongli);
     Globle::$smarty->assign("bigtitle",$messageDO->bigtitle);
     Globle::$smarty->assign("weixin",$messageDO->weixin);
-    if($vip_id != ""){
-        $vip = MyDB::selectVipByIdDB($vip_id, $link);
-        if($vip!=null){
-            Globle::$smarty->assign("vip",$vip->vip_name);
-        }
-//		$name = urldecode($name);
-//		$name=iconv("UTF-8","GBK",$name);
-    }else{
-        Globle::$smarty->assign("vip","none");
-    }
 
 
     Globle::$smarty->assign("name",$user);
@@ -55,6 +41,7 @@ if($messageDO!=null){
         Globle::$smarty->assign("images",$images);
         Globle::$smarty->assign("bigimage",$messageDO->bigimage);
     }
+
 
     $user = MyDB::selectUserByIdDB($user,$link);
     Globle::$smarty->assign("font_family",$user->font_family);
@@ -70,9 +57,6 @@ if($messageDO!=null){
     $shuju_array = MyDB::selectShujuDB($user->id,1,$user->snum,$link);
     Globle::$smarty->assign("shuju_array",$shuju_array);
 
-
-    Globle::$smarty->display('phone/phone9.tpl');
-
 //    $info=isMobile();
 //    if($info){
 //        if($user->is_phone==1||$user->is_pay==0){
@@ -80,7 +64,7 @@ if($messageDO!=null){
 //                header('Content-Type:text/html; charset=UTF-8');
 //                echo "对不起，请在\"手机请柬风格设置\"选择您的手机模板";
 //            }else{
-//                Globle::$smarty->display('phone/phone2.tpl');
+                Globle::$smarty->display('phone/phone9map.tpl');
 //            }
 //        }else{
 //            header('Content-Type:text/html; charset=UTF-8');
