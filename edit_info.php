@@ -55,7 +55,7 @@ Globle::$smarty->assign("title3",$user->title3);
 Globle::$smarty->assign("title4",$user->title4);
 Globle::$smarty->assign("title5",$user->title5);
 
-Globle::$smarty->display('head.tpl');
+Globle::$smarty->display('new_head.tpl');
 Globle::$smarty->display('edit_info.tpl');
 Globle::$smarty->display('foot.tpl');
 ?>
