@@ -741,9 +741,7 @@ var share_link = "";
 //内容模型
 var contentModel = {
     "img_url": share_img_url, 
-    "img_width": "", 
-    "img_height": "", 
-    "link": share_link, 
+    "link": share_link,
     "desc": share_desc, 
     "title": share_title, 
     "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} " 
