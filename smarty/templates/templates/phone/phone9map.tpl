@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
     <title>地图</title>
+    <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
     <script type="text/javascript" src="style/style9/api"></script><script type="text/javascript" src="style/style9/getscript"></script>
     <style>
         body{

@@ -8,6 +8,7 @@
     <meta http-equiv="description" content="免费获得电子请柬,免费获得手机请柬,免费体验手机请柬,免费下载电子请柬,免费制作电子请柬,免费制作Flash电子请柬样板,免费获得二维码请柬">
 
     <link href="style/style16/css.css" rel="stylesheet" type="text/css">
+    <script language="JavaScript" src="js/jQuery1.7.2.js" type="text/javascript"></script>
     <title>{#$bigtitle#}</title>
     <style>
         #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:999; display:none;}
