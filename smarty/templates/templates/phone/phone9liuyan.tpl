@@ -184,6 +184,7 @@
         $(document).ready(function(){
             if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
                 $(document).one('touchstart', function (e) {
+                    var music = document.getElementById("audio_play");
                     if (music.paused) {
                         music.play();
                     }
