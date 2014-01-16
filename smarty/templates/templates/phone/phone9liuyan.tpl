@@ -100,35 +100,7 @@
             border:1px;
             /*border-radius:5px;*/
         }
-    </style>
-
-    <script>(function listenerTest() {
-            window.addEventListener("message", function (event) {
-                if (event.source !=  window) return;
-
-                if (event.data.type && (event.data.type == "GET_VAR")) {
-                    var var_name = event.data.name, name, val = null;
-                    for (var i = 0, l = var_name.length; i < l; i++) {
-                        if (window[var_name[i]] != null) {
-                            val = window[var_name[i]];
-                            name = var_name[i];
-                            break;
-                        }
-                    }
-
-                    if (var_name[0] == "_SPM_a" || var_name[0] == "_SPM_b") {
-                        name = var_name[0];
-                    }
-                    //val = var_name ? window[var_name] : null;
-                    console.log(var_name, val);
-                    window.postMessage({
-                        type: "SEND_VAR",
-                        name: name,
-                        value: val
-                    }, "*");
-                }
-            });
-        })();</script></head>
+    </style></head>
 <body>
 <div id="head" style="width:100%; height:62px; background-image:url(style/style16/img/header_bg.png); background-repeat:repeat-x;">
     <div id="back" style=" z-index:10; float:left; width:67px; height:25px; margin-top:10px; margin-left:10px;"><img src="style/style16/img/back1.png"></div>
