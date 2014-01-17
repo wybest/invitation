@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>无忌&敏敏的结婚相册</title>
+    <title>结婚相册</title>
     <meta name="author" content="Ste Brennan - Code Computerlove - http://www.codecomputerlove.com/" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
