@@ -147,6 +147,9 @@
                 }
             });
         }
+        function setMarkerPos7044(lng,lat) {
+
+        }
     </script>
 
 
