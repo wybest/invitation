@@ -63,6 +63,19 @@
         </div>
     </div>
     <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">开启、关闭 广告</label>
+        <div class="col-sm-10">
+            <label class="radio">
+                <input type="radio" name="is_advert" id="optionsRadios1" value="1" {#if $is_advert == "1" #}checked{#/if#} >
+                开启
+            </label>
+            <label class="radio">
+                <input type="radio" name="is_advert" id="optionsRadios2" value="0" {#if $is_advert == "0" #}checked{#/if#}>
+                关闭
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">字体</label>
         <div class="col-sm-10">
             <input class="form-control" name="font_family" type="text" id="font_family" value="{#$font_family#}"/>

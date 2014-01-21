@@ -54,13 +54,13 @@ class  MyDB {
 		}
 	}
 
-    public static function updateUserByAdmin($vip_num,$advert,$create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
+    public static function updateUserByAdmin($is_advert,$vip_num,$advert,$create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
 
         $registTime = "";
         if($create_time == ""){
             $registTime = " creat_time = now() , ";
         }
-        $sql = "update user set ".$registTime." vip_num=".$vip_num." , advert='".$advert."', admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
+        $sql = "update user set ".$registTime." vip_num=".$vip_num." , is_advert=".$is_advert." , advert='".$advert."', admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
         $ret = mysql_query($sql, $link);
 
         if ($ret === false) {
@@ -137,6 +137,7 @@ class  MyDB {
 				$user->is_pc = $row["is_pc"];
 				$user->font_family = $row["font_family"];
 				$user->advert = $row["advert"];
+                $user->is_advert = $row["is_advert"];
 				$user->extends=$row['extends'];
 				$user->special_name=$row['special_name'];
 				$user->title1=$row['title1'];
