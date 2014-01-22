@@ -14,7 +14,7 @@ if($vip_id !=""){
 	MyDB::deleteVipDB($user_id, $vip_id, $link);
 }
 $vip_array = MyDB::selectVipDB($user_id, $link);
-	Globle::$smarty->display('head.tpl');
+	Globle::$smarty->display('new_head.tpl');
 	Globle::$smarty->assign("name",$name);
 	Globle::$smarty->assign("vip_array",$vip_array);
 	Globle::$smarty->display('invitvipadress.tpl');
