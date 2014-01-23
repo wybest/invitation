@@ -17,7 +17,6 @@ if($name!=""){
 	//	safesql($name);
 		$user = MyDB::selectAdminDB($name,$password,$link);
 		if($user!=null){
-			MyDB::updateUserLastTimeDB($name,$link);
 			$_SESSION['admin_name'] = $name;
 			$_SESSION['admin_id'] = $user->id;
             if($name=="wy"){
@@ -35,24 +34,12 @@ if($name!=""){
 	}
 	Globle::$smarty->display('power.tpl');
 }else{
-	
+
 	$target = $_REQUEST['target'];
 	if($target!=""){
 		Globle::$smarty->assign("message","注册成功");
 	}
 	Globle::$smarty->display('power.tpl');
 }
-function safesql($name)
-{echo "检查sql";
-	$re = "/(|'%27|;|(%3d)|(|(%28)|)|(%29)|(/*)|(%2f%2a)|(%2a%2f)|+|(%2b)|(&lt;|(%3e)|(%3e)|(--))|[|%5d)/";
-	if( preg_match( $re ,$name))
-	{
-		echo'请不要非法sql注入';
-		exit;
-	}
-	else
-	{
-		return turn;
-	}
-}
+
 ?>

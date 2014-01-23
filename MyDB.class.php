@@ -186,6 +186,18 @@ class  MyDB {
 		}
 	}
 
+    public static function selectUserByAdminCountByConfirmDB($is_confirm,$is_pay,$dateStr,$link){
+
+        $sql="select count(*) as num from user where ".$dateStr." and is_pay = ".$is_pay." and is_confirm =".$is_confirm;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return 0;
+        } else {
+            $row = mysql_fetch_array($ret);
+            return $row['num'];
+        }
+    }
+
     public static function selectUserByAdminCountDB($is_pay,$dateStr,$link){
 
         $sql="select count(*) as num from user where ".$dateStr." and is_pay = ".$is_pay;
@@ -201,6 +213,17 @@ class  MyDB {
     public static function updateUserClosedByAdminDB($user_id,$admin_id,$link){
 
         $sql = "update user set is_pay = 3 , password='".date('YmdHis')."'  where id=".$user_id." and admin_id=".$admin_id;
+        $ret = mysql_query($sql, $link);
+        if ($ret === false) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    public static function updateUserConfirmByAdminDB($dateStr,$admin_id,$link){
+
+        $sql = "update user set is_confirm = 1  where ".$dateStr;
         $ret = mysql_query($sql, $link);
         if ($ret === false) {
             return false;

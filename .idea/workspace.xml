@@ -2,55 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="fix&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/marryimg/2014-01/2014-01-13-10-28-29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/marryimg/2014-01/2014-01-16-17-14-58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/arrow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/back1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/bg6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/bgcolor2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/branch_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/branch_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/button_accpet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/button_message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/button_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/header_center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/header_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/header_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/line1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/optic1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/img/subit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/wedlaa_fmb_20130725103753445344.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/2624312c7e162214072549715cafbc2cdb4b75ff.file.phone9.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/4faf446202bdcaf765c7ef0debe9225f4b1e4a7e.file.phone9img.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/88906bb45c06e45f79c9b3e067ab1c44bf5f5a61.file.phone9liuyan.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/9aaa56398712104a70bc5a235e0ba10268aecce4.file.phone9map.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/code.photoswipe-3.0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/klass.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phone9img.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone9img.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phone9liuyan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phone9map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/photoswipe.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/share.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style16/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/marryimg/2013-12-25-14-57-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/marryimg/2014-01-05-21-28-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/marryimg/2014-01-08-18-14-51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/marryimg/2014-01-08-18-14-55.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/39f1981e20198042a7cd69aa688cd079ad1c45fe.file.super_admin_head.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/48e627fadba19b4bf79ddd0c625e2cb335d5e7d8.file.admin_list.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/7836823e6079002856dba3438c74f705199f50dd.file.foot.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/a153682d9fa78ae9dfbbf641d512d07c8c3d0148.file.super_power_confirm.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/bdc08c44369f8851f2dc5cad6e0df99bc0598687.file.power.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/cdb872ada2bfb0d82a99731114e7e80b7754dbf8.file.super_power_vip_user.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/super_power_do_confirm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyDB.class.php" afterPath="$PROJECT_DIR$/MyDB.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basicDB.php" afterPath="$PROJECT_DIR$/basicDB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lingqiphone.php" afterPath="$PROJECT_DIR$/lingqiphone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_temp_phone.php" afterPath="$PROJECT_DIR$/new_temp_phone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone.php" afterPath="$PROJECT_DIR$/phone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone2.php" afterPath="$PROJECT_DIR$/phone2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power.php" afterPath="$PROJECT_DIR$/power.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_power_confirm.php" afterPath="$PROJECT_DIR$/super_power_confirm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invitation.iws" />
@@ -115,101 +81,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new_invit_info.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
+      <file leaf-file-name="super_power_confirm.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1376" column="107" selection-start="43670" selection-end="43670" vertical-scroll-proportion="-3.8390806" vertical-offset="24434" max-vertical-offset="41508">
+            <state line="0" column="75" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="super_admin_head.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="69" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="2242">
               <folding>
-                <marker date="1389874663574" expanded="true" signature="2899:3126" placeholder="{...}" />
-                <marker date="1389874663574" expanded="true" signature="4341:4576" placeholder="{...}" />
-                <marker date="1389874663574" expanded="true" signature="5117:5524" placeholder="{...}" />
-                <marker date="1389874663574" expanded="true" signature="6447:6599" placeholder="{...}" />
-                <marker date="1389874663574" expanded="true" signature="6517:6573" placeholder="{...}" />
-                <marker date="1389874663574" expanded="true" signature="6718:6782" placeholder="{&quot;input&quot;: &quot;address7044&quot;...}" />
-                <marker date="1389874663574" expanded="true" signature="44351:44365" placeholder="..." />
-                <marker date="1389874663574" expanded="true" signature="45565:45579" placeholder="..." />
-                <marker date="1389874663574" expanded="true" signature="59625:59639" placeholder="..." />
+                <marker date="1390463511549" expanded="false" signature="2029:2043" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_big_photo.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl">
+      <file leaf-file-name="super_power_do_confirm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/super_power_do_confirm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="77" selection-start="2523" selection-end="2536" vertical-scroll-proportion="-8.0" vertical-offset="918" max-vertical-offset="1602">
+            <state line="56" column="52" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-3.6744187" vertical-offset="748" max-vertical-offset="1254">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_temp_phone.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
+      <file leaf-file-name="super_power_confirm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/super_power_confirm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="5" selection-start="2527" selection-end="2527" vertical-scroll-proportion="-14.740741" vertical-offset="682" max-vertical-offset="1332">
+            <state line="33" column="49" selection-start="847" selection-end="880" vertical-scroll-proportion="-9.464286" vertical-offset="362" max-vertical-offset="1178">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone.php">
+      <file leaf-file-name="MyDB.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyDB.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="7" selection-start="3664" selection-end="3999" vertical-scroll-proportion="-18.666666" vertical-offset="1278" max-vertical-offset="3204">
+            <state line="191" column="18" selection-start="6132" selection-end="6132" vertical-scroll-proportion="-3.4534883" vertical-offset="3332" max-vertical-offset="13680">
+              <folding>
+                <marker date="1390463524229" expanded="true" signature="8680:9937" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="power.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="13" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="950">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone9.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl">
+      <file leaf-file-name="super_power_vip_user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/super_power_vip_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="54" selection-start="4775" selection-end="4779" vertical-scroll-proportion="-1.4444444" vertical-offset="1851" max-vertical-offset="3132">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone9liuyan.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="26" selection-start="5804" selection-end="5804" vertical-scroll-proportion="0.65625" vertical-offset="2430" max-vertical-offset="4068">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone9map.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="680" selection-end="680" vertical-scroll-proportion="10.0" vertical-offset="432" max-vertical-offset="1764">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp_phone9.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="30" selection-start="3476" selection-end="3487" vertical-scroll-proportion="-7.3333335" vertical-offset="1224" max-vertical-offset="3132">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="508" column="77" selection-start="18098" selection-end="18921" vertical-scroll-proportion="-14.666667" vertical-offset="8748" max-vertical-offset="14634">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp_phone.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1343" column="20" selection-start="48231" selection-end="48274" vertical-scroll-proportion="-11.074074" vertical-offset="23875" max-vertical-offset="26964">
+            <state line="48" column="19" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-6.107143" vertical-offset="741" max-vertical-offset="1558">
               <folding />
             </state>
           </provider>
@@ -223,16 +156,12 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/temp.html" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/temp1.html" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone6.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/temp2.html" />
@@ -247,7 +176,6 @@
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl" />
-        <option value="$PROJECT_DIR$/UserDO.class.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl" />
         <option value="$PROJECT_DIR$/power_vip_user.php" />
         <option value="$PROJECT_DIR$/power_closed_user.php" />
@@ -255,12 +183,7 @@
         <option value="$PROJECT_DIR$/super_power_vip_user.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/super_power_vip_user.tpl" />
         <option value="$PROJECT_DIR$/AdminDO.class.php" />
-        <option value="$PROJECT_DIR$/MyDB.class.php" />
-        <option value="$PROJECT_DIR$/super_power_confirm.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/admin_list.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" />
-        <option value="$PROJECT_DIR$/power.php" />
         <option value="$PROJECT_DIR$/phone2.php" />
         <option value="$PROJECT_DIR$/style/style16/css.css" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl" />
@@ -275,19 +198,30 @@
         <option value="$PROJECT_DIR$/new_temp_phone.php" />
         <option value="$PROJECT_DIR$/lingqiphone.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.html" />
         <option value="$PROJECT_DIR$/phone.php" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl" />
+        <option value="$PROJECT_DIR$/basicDB.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl" />
+        <option value="$PROJECT_DIR$/admin_edit_info.php" />
+        <option value="$PROJECT_DIR$/UserDO.class.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl" />
+        <option value="$PROJECT_DIR$/delete_vip.php" />
+        <option value="$PROJECT_DIR$/power.php" />
+        <option value="$PROJECT_DIR$/super_power_confirm.php" />
+        <option value="$PROJECT_DIR$/super_power_do_confirm.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" />
+        <option value="$PROJECT_DIR$/MyDB.class.php" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="-7" />
-    <option name="width" value="1319" />
-    <option name="height" value="776" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -295,6 +229,12 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -333,8 +273,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -364,38 +304,21 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="75" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="97" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="104" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="998" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="80" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="100" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="107" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="987" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AppServ\www\invitation\mp3folder" />
+      <recent name="E:\AppServ\www\invitation" />
       <recent name="$PROJECT_DIR$/smarty/templates/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/smarty/templates/templates/phone" />
-      <recent name="$PROJECT_DIR$/style/style16/img" />
-      <recent name="$PROJECT_DIR$/style/style16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mp3folder" />
@@ -405,7 +328,7 @@
       <recent name="$PROJECT_DIR$/style/style9/ps" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.lingqiphone.php">
+  <component name="RunManager">
     <configuration default="false" name="lingqiphone.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lingqiphone.php">
       <method />
     </configuration>
@@ -633,11 +556,6 @@
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.lingqiphone.php" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.lingqiphone.php" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -726,6 +644,20 @@
       <workItem from="1389664852377" duration="27243000" />
       <workItem from="1389753184202" duration="7191000" />
       <workItem from="1389842944244" duration="16875000" />
+      <workItem from="1390206617779" duration="63000" />
+      <workItem from="1390206699624" duration="16000" />
+      <workItem from="1390207978529" duration="117000" />
+      <workItem from="1390208109410" duration="2652000" />
+      <workItem from="1390272631011" duration="185000" />
+      <workItem from="1390272833802" duration="179000" />
+      <workItem from="1390273027903" duration="1084000" />
+      <workItem from="1390275960197" duration="588000" />
+      <workItem from="1390276880996" duration="184000" />
+      <workItem from="1390277877873" duration="1691000" />
+      <workItem from="1390287260149" duration="3106000" />
+      <workItem from="1390357309588" duration="5137000" />
+      <workItem from="1390392531374" duration="906000" />
+      <workItem from="1390443643792" duration="8757000" />
     </task>
     <task id="LOCAL-00001" summary="过滤祝福信息">
       <created>1386945066586</created>
@@ -1367,14 +1299,30 @@
       <created>1389873168324</created>
       <updated>1389873168324</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="fix&#10;">
+      <created>1390287546670</created>
+      <updated>1390287546670</updated>
+    </task>
+    <task id="LOCAL-00162" summary="fix&#10;">
+      <created>1390313135326</created>
+      <updated>1390313135326</updated>
+    </task>
+    <task id="LOCAL-00163" summary="fix&#10;">
+      <created>1390373743969</created>
+      <updated>1390373743969</updated>
+    </task>
+    <task id="LOCAL-00164" summary="fix&#10;">
+      <created>1390454373136</created>
+      <updated>1390454373136</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521402000" />
+    <option name="totallyTimeSpent" value="546067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-7" width="1319" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1382,12 +1330,11 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46646795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18926975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1397,12 +1344,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23006834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46646795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1440,70 +1388,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UserDO.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="391" selection-end="391" vertical-scroll-proportion="0.64495116" vertical-offset="0" max-vertical-offset="614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="772" selection-end="813" vertical-scroll-proportion="0.35179153" vertical-offset="216" max-vertical-offset="1728" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="21" selection-start="4341" selection-end="4341" vertical-scroll-proportion="0.33279222" vertical-offset="3773" max-vertical-offset="4590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.paginate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_vip_user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="8" selection-start="2860" selection-end="2860" vertical-scroll-proportion="-38.0" vertical-offset="0" max-vertical-offset="2016" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminDO.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="0.18336163" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="63" selection-start="4525" selection-end="4525" vertical-scroll-proportion="-12.925926" vertical-offset="1505" max-vertical-offset="2124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/admin_list.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="554" selection-end="554" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.3294509" vertical-offset="378" max-vertical-offset="1458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin_edit_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1141" selection-end="1158" vertical-scroll-proportion="0.5391015" vertical-offset="378" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="346" selection-start="1388" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="12528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edit_info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="40" selection-start="814" selection-end="834" vertical-scroll-proportion="-9.592592" vertical-offset="317" max-vertical-offset="1188" />
@@ -1519,19 +1403,9 @@
         <state line="27" column="45" selection-start="591" selection-end="599" vertical-scroll-proportion="-16.0" vertical-offset="54" max-vertical-offset="1170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/power_select_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/power_vip_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="45" selection-start="591" selection-end="599" vertical-scroll-proportion="-13.481482" vertical-offset="122" max-vertical-offset="1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/power.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="351" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_admin_list.php">
@@ -1539,238 +1413,259 @@
         <state line="13" column="11" selection-start="331" selection-end="332" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/super_power_confirm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="791" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="10" selection-start="10927" selection-end="10927" vertical-scroll-proportion="0.34804752" vertical-offset="6365" max-vertical-offset="21942">
-          <folding />
-        </state>
+        <state line="365" column="10" selection-start="10927" selection-end="10927" vertical-scroll-proportion="0.34804752" vertical-offset="6365" max-vertical-offset="21942" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style16/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="88" selection-start="4710" selection-end="4710" vertical-scroll-proportion="1.0607735" vertical-offset="486" max-vertical-offset="1494">
+        <state line="59" column="88" selection-start="4710" selection-end="4710" vertical-scroll-proportion="1.0607735" vertical-offset="486" max-vertical-offset="1494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="64" selection-start="4691" selection-end="4718" vertical-scroll-proportion="0.0" vertical-offset="1944" max-vertical-offset="7830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="31" selection-start="12264" selection-end="12439" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="7470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="42" selection-start="3059" selection-end="3059" vertical-scroll-proportion="-0.9883527" vertical-offset="1908" max-vertical-offset="2970" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_image.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.38935107" vertical-offset="0" max-vertical-offset="1944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style16/code.photoswipe-3.0.5.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9img.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone9img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="260" selection-end="265" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style16/share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="55" selection-start="569" selection-end="577" vertical-scroll-proportion="0.4375" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone9liuyan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="33" selection-start="1332" selection-end="1336" vertical-scroll-proportion="-10.0" vertical-offset="324" max-vertical-offset="2682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/liuyan.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="17" selection-start="3846" selection-end="3866" vertical-scroll-proportion="-12.0" vertical-offset="1656" max-vertical-offset="2718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="16" selection-start="8331" selection-end="8434" vertical-scroll-proportion="0.63394344" vertical-offset="3003" max-vertical-offset="6570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone9map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="54" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.718802" vertical-offset="756" max-vertical-offset="2682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/map.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="690" selection-end="823" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="2016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lingqiphone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="13" selection-start="3648" selection-end="3648" vertical-scroll-proportion="-16.0" vertical-offset="1188" max-vertical-offset="3204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="77" selection-start="2523" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1406" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1343" column="20" selection-start="48231" selection-end="48274" vertical-scroll-proportion="0.0" vertical-offset="25517" max-vertical-offset="28462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="46" selection-start="4775" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2698" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="19" selection-start="6134" selection-end="6134" vertical-scroll-proportion="0.6343402" vertical-offset="2679" max-vertical-offset="3781" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="14" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.32286212" vertical-offset="1202" max-vertical-offset="3382" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="4" selection-start="24910" selection-end="25033" vertical-scroll-proportion="0.0" vertical-offset="7304" max-vertical-offset="8075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="66" selection-start="6358" selection-end="6374" vertical-scroll-proportion="0.7736944" vertical-offset="2792" max-vertical-offset="43814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="23" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="969" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageDO.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="126" selection-end="126" vertical-scroll-proportion="0.29081634" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_select_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_select_user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserDO.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="187" selection-end="197" vertical-scroll-proportion="0.3537415" vertical-offset="20" max-vertical-offset="608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_edit_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="36" selection-start="1617" selection-end="1635" vertical-scroll-proportion="0.49565217" vertical-offset="722" max-vertical-offset="1444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="51" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-8.142858" vertical-offset="1064" max-vertical-offset="2071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="33" selection-start="6985" selection-end="7001" vertical-scroll-proportion="0.7078261" vertical-offset="2424" max-vertical-offset="3363" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="383" column="4" selection-start="13389" selection-end="13389" vertical-scroll-proportion="-1.4285715" vertical-offset="7237" max-vertical-offset="15409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_vip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="2" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7074468" vertical-offset="0" max-vertical-offset="564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/super_power_confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="49" selection-start="847" selection-end="880" vertical-scroll-proportion="-9.464286" vertical-offset="362" max-vertical-offset="1178">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_power_vip_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1476">
+        <state line="48" column="19" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-6.107143" vertical-offset="741" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl">
+    <entry file="file://$PROJECT_DIR$/super_power_do_confirm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="64" selection-start="4691" selection-end="4718" vertical-scroll-proportion="0.0" vertical-offset="1944" max-vertical-offset="7830">
+        <state line="56" column="52" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-3.6744187" vertical-offset="748" max-vertical-offset="1254">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl">
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="31" selection-start="12264" selection-end="12439" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="7470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="3059" selection-end="3059" vertical-scroll-proportion="-0.9883527" vertical-offset="1908" max-vertical-offset="2970">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_image.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.38935107" vertical-offset="0" max-vertical-offset="1944">
+        <state line="3" column="69" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="2242">
           <folding>
-            <marker date="1389846914139" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390463511549" expanded="false" signature="2029:2043" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style16/code.photoswipe-3.0.5.min.js">
+    <entry file="file://$PROJECT_DIR$/MyDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9img.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone9img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="260" selection-end="265" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style16/share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="569" selection-end="577" vertical-scroll-proportion="0.4375" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone9liuyan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1332" selection-end="1336" vertical-scroll-proportion="-10.0" vertical-offset="324" max-vertical-offset="2682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/liuyan.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="17" selection-start="3846" selection-end="3866" vertical-scroll-proportion="-12.0" vertical-offset="1656" max-vertical-offset="2718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="16" selection-start="8331" selection-end="8434" vertical-scroll-proportion="0.63394344" vertical-offset="3003" max-vertical-offset="6570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone9map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="54" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.718802" vertical-offset="756" max-vertical-offset="2682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/map.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="690" selection-end="823" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="2016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lingqiphone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="13" selection-start="3648" selection-end="3648" vertical-scroll-proportion="-16.0" vertical-offset="1188" max-vertical-offset="3204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="77" selection-start="2523" selection-end="2536" vertical-scroll-proportion="-8.0" vertical-offset="918" max-vertical-offset="1602">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="2527" selection-end="2527" vertical-scroll-proportion="-14.740741" vertical-offset="682" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1343" column="20" selection-start="48231" selection-end="48274" vertical-scroll-proportion="-11.074074" vertical-offset="23875" max-vertical-offset="26964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1376" column="107" selection-start="43670" selection-end="43670" vertical-scroll-proportion="-3.8390806" vertical-offset="24434" max-vertical-offset="41508">
+        <state line="191" column="18" selection-start="6132" selection-end="6132" vertical-scroll-proportion="-3.4534883" vertical-offset="3332" max-vertical-offset="13680">
           <folding>
-            <marker date="1389874663574" expanded="true" signature="2899:3126" placeholder="{...}" />
-            <marker date="1389874663574" expanded="true" signature="4341:4576" placeholder="{...}" />
-            <marker date="1389874663574" expanded="true" signature="5117:5524" placeholder="{...}" />
-            <marker date="1389874663574" expanded="true" signature="6447:6599" placeholder="{...}" />
-            <marker date="1389874663574" expanded="true" signature="6517:6573" placeholder="{...}" />
-            <marker date="1389874663574" expanded="true" signature="6718:6782" placeholder="{&quot;input&quot;: &quot;address7044&quot;...}" />
-            <marker date="1389874663574" expanded="true" signature="44351:44365" placeholder="..." />
-            <marker date="1389874663574" expanded="true" signature="45565:45579" placeholder="..." />
-            <marker date="1389874663574" expanded="true" signature="59625:59639" placeholder="..." />
+            <marker date="1390463524229" expanded="true" signature="8680:9937" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phone.php">
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="3664" selection-end="3999" vertical-scroll-proportion="-18.666666" vertical-offset="1278" max-vertical-offset="3204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="30" selection-start="3476" selection-end="3487" vertical-scroll-proportion="-7.3333335" vertical-offset="1224" max-vertical-offset="3132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="680" selection-end="680" vertical-scroll-proportion="10.0" vertical-offset="432" max-vertical-offset="1764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="77" selection-start="18098" selection-end="18921" vertical-scroll-proportion="-14.666667" vertical-offset="8748" max-vertical-offset="14634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="54" selection-start="4775" selection-end="4779" vertical-scroll-proportion="-1.4444444" vertical-offset="1851" max-vertical-offset="3132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="26" selection-start="5804" selection-end="5804" vertical-scroll-proportion="0.65625" vertical-offset="2430" max-vertical-offset="4068">
+        <state line="0" column="75" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>

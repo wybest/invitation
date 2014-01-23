@@ -1,4 +1,4 @@
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form" action="super_power_confirm.php">
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">管理员账号</label>
         <div class="col-sm-10">
@@ -32,21 +32,27 @@
 </br>
 
 
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form" action="super_power_do_confirm.php">
     <div class="form-group">
-        <label class="col-sm-2 control-label">开通vip个数</label>
-        <div class="col-sm-10">
-            <p class="form-control-static">{#$count#}</p>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-2 control-label">关闭vip个数</label>
+        <label class="col-sm-2 control-label">未结算</label>
         <div class="col-sm-10">
             <p class="form-control-static">{#$count1#}</p>
         </div>
     </div>
     <div class="form-group">
-        <label for="inputPassword" class="col-sm-2 control-label">结算金额</label>
+        <label class="col-sm-2 control-label">已结算</label>
+        <div class="col-sm-10">
+            <p class="form-control-static">{#$count2#}</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">关闭vip个数</label>
+        <div class="col-sm-10">
+            <p class="form-control-static">{#$count3#}</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="col-sm-2 control-label">需结算金额</label>
         <div class="col-sm-10">
             <p class="form-control-static">{#$money#}</p>
         </div>
@@ -54,6 +60,9 @@
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="btn btn-default">结算完成</button>
+            <input type="hidden" id="b" name="b" value="{#$bdate#}" />
+            <input type="hidden" id="e" name="e" value="{#$edate#}" />
+            <input type="hidden" id="ad" name="ad" value="{#$ad_name#}">
         </div>
     </div>
 </form>

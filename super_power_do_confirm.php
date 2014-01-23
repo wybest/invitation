@@ -14,12 +14,12 @@ if($_SESSION['super_admin_name']!="wy"){
     exit();
 }
 //管理员
-$ad_name = $_REQUEST['ad_name'];
+$ad_name = $_REQUEST['ad'];
 $admin = MyDB::selectAdminBySuperDB($ad_name,$link);
 
 //时间
-$bdate = $_REQUEST['bdate'];
-$edate = $_REQUEST['edate'];
+$bdate = $_REQUEST['b'];
+$edate = $_REQUEST['e'];
 if($bdate == ""){
     $bdate = date('Y-m')."-01";
 }
@@ -27,8 +27,11 @@ if($edate == ""){
 //    $edate = date('Y-m-d',strtotime('+1 day'));// H:i:s
     $edate = date('Y-m',strtotime('+1 month'))."-01";
 }
-$dateStr = " creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 00:00:00'";
+$dateStr = " creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 00:00:00' ";
 $dateStr = " admin_id =".$admin->id." and ".$dateStr;
+
+//结算更新为已结算
+ MyDB::updateUserConfirmByAdminDB($dateStr."and is_confirm = 0",$admin->id,$link);
 
 //已开通 未结算
 $count1 = MyDB::selectUserByAdminCountByConfirmDB("0","1",$dateStr,$link);
@@ -41,6 +44,7 @@ $count3 = MyDB::selectUserByAdminCountByConfirmDB("3",$dateStr,$link);
 
 //计算金额
 $money = $count1*$admin->price;
+
 
 Globle::$smarty->assign("bdate",$bdate);
 Globle::$smarty->assign("edate",$edate);
