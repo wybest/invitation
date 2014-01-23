@@ -46,9 +46,15 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="col-sm-2 control-label">关闭vip个数</label>
+        <label class="col-sm-2 control-label">关闭,未结算</label>
         <div class="col-sm-10">
             <p class="form-control-static">{#$count3#}</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">关闭,已结算</label>
+        <div class="col-sm-10">
+            <p class="form-control-static">{#$count4#}</p>
         </div>
     </div>
     <div class="form-group">

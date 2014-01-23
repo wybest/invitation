@@ -36,8 +36,10 @@ $count1 = MyDB::selectUserByAdminCountByConfirmDB("0","1",$dateStr,$link);
 //已开通 已结算
 $count2 = MyDB::selectUserByAdminCountByConfirmDB("1","1",$dateStr,$link);
 
-//已关闭
-$count3 = MyDB::selectUserByAdminCountByConfirmDB("3",$dateStr,$link);
+//已关闭 未结算
+$count3 = MyDB::selectUserByAdminCountByConfirmDB("0","3",$dateStr,$link);
+//已关闭 已结算
+$count4 = MyDB::selectUserByAdminCountByConfirmDB("1","3",$dateStr,$link);
 
 //计算金额
 $money = $count1*$admin->price;
@@ -48,6 +50,7 @@ Globle::$smarty->assign("ad_name", $ad_name);
 Globle::$smarty->assign("count1",$count1);
 Globle::$smarty->assign("count2",$count2);
 Globle::$smarty->assign("count3",$count3);
+Globle::$smarty->assign("count4",$count4);
 Globle::$smarty->assign("money",$money);
 Globle::$smarty->display('super_admin_head.tpl');
 Globle::$smarty->display('super_power_confirm.tpl');
