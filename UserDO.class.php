@@ -21,6 +21,7 @@ class  UserDO {
     public $snum;
     public $create_time;
     public $is_confirm;
+    public $admin_id;
 }
 
 ?>
