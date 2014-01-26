@@ -29,8 +29,8 @@ $dateStr =  " admin_id =".$_SESSION['admin_id']." and creat_time >= '".$bdate." 
 
 //uid
 $u_name = $_REQUEST['u_name'];
+$u_name = trim($u_name);
 if($u_name!=""){
-    $u_name = trim($u_name);
     $dateStr = $dateStr." and name='".$u_name."' ";
 }
 
