@@ -27,6 +27,13 @@ if($edate == ""){
 
 $dateStr =  " admin_id =".$_SESSION['admin_id']." and creat_time >= '".$bdate." 00:00:00' and creat_time <= '".$edate." 23:59:59'";
 
+//uid
+$u_name = $_REQUEST['u_name'];
+if($u_name!=""){
+    $u_name = trim($u_name);
+    $dateStr = $dateStr." and name='".$u_name."' ";
+}
+
 $count = MyDB::selectUserByAdminCountDB("1",$dateStr,$link);
 $up = $page_nm-1;
 $next = $page_nm+1;
@@ -42,7 +49,7 @@ if($page_nm>$end){
 }
 
 $shuju_array = MyDB::selectUserByAdminDB("1",$dateStr,$page_nm,$page_size,$link);
-
+Globle::$smarty->assign("u_name", $u_name);
 Globle::$smarty->assign("admin_name", $_SESSION['admin_name']);
 Globle::$smarty->assign("bdate",$bdate);
 Globle::$smarty->assign("edate",$edate);

@@ -2,6 +2,10 @@
 <div class="alert alert-danger">{#$message#}</div>
 {#/if#}
 <form method="post">
+
+    <div class="form-group">
+        <input type="text" id="u_name" name="u_name" value="{#$u_name#}">
+    </div>
 <div class="form-group">
     <div id="date1" class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-MM-dd" data-link-field="bdate" data-link-format="yyyy-mm-dd">
         <input class="form-control" size="16" type="text" value="{#$bdate#}" readonly>
