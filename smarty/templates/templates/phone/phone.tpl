@@ -529,7 +529,7 @@ window.onload = function() {
             {#section name=customer loop=$shuju_array #}
             <div class="huihan_list">
                 <div class="huihan_top">
-                    <div class="huihan_name">{#$shuju_array[customer]->name#}:{#$shuju_array[customer]->pnum#}</div>
+                    <div class="huihan_name">{#$shuju_array[customer]->name#}</div>
                     <div class="huihan_time">{#$shuju_array[customer]->time#}</div>
                 </div>
                 <div class="huihan_text">{#$shuju_array[customer]->bless#}</div>
