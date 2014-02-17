@@ -71,7 +71,7 @@ if($messageDO!=null){
     Globle::$smarty->assign("shuju_array",$shuju_array);
 
 
-    Globle::$smarty->display('phone/phone9.tpl');
+    Globle::$smarty->display('phone/phone.tpl');
 
 //    $info=isMobile();
 //    if($info){
