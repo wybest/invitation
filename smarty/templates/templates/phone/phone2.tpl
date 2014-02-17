@@ -324,7 +324,7 @@
 
     function loadAll(){
 //        loadImg();
-        {*var options = {};*}
+//        var options = {};
 //        $("#Gallery a").photoSwipe(options);
     }
     function loadImg(){
