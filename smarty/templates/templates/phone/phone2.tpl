@@ -72,8 +72,10 @@
 
     <div id="content">
 
-        <ul id="Gallery" class="gallery">
-        </ul>
+        <!-- <ul id="Gallery" class="gallery">
+        </ul>-- >
+        <div id="album">
+        </div>
 
         <div id="saytext">
             <div id="saytitle"><img name="" src="style/style9/title.png" alt=""></div>
@@ -325,7 +327,7 @@
     }
     function loadImg(){
         {#section name=customer loop=$images #}
-        $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
+        $("#album").append('<img name="" src="marryimg/{#$images[customer]#}">');
         {#/section#}
     }
     document.oncontextmenu = function (event){
