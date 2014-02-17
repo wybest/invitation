@@ -257,6 +257,21 @@ background-color:#FFFFCC;
 	border:1px;
 	border-radius:5px;
 }
+#content #saytext #saycontent{
+    background:url(ps/ring.png) no-repeat right bottom;
+    font-family:"微软雅黑",Arial,"宋体";
+    font-size:16px;
+    color:#FFF;
+    text-align:left;
+    padding:0 5px 5px 5px;
+
+
+}
+#copyright-text {
+    text-align: center;
+    color: #FFF;
+    margin: 10px 10px 0px 10px;
+}
 .gallery { list-style: none; padding: 0; margin: 0; }
 .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
 .gallery li { float: left; width: 33%; }
