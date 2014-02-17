@@ -72,9 +72,11 @@
 
     <div id="content">
 
-        <!-- <ul id="Gallery" class="gallery">
-        </ul>-- >
+
         <div id="album">
+            {#section name=customer loop=$images #}
+            <img name="" src="marryimg/{#$images[customer]#}">
+            {#/section#}
         </div>
 
         <div id="saytext">
@@ -321,9 +323,9 @@
 <script language="javascript" type="text/javascript">
 
     function loadAll(){
-        loadImg();
-        var options = {};
-        $("#Gallery a").photoSwipe(options);
+//        loadImg();
+        {*var options = {};*}
+//        $("#Gallery a").photoSwipe(options);
     }
     function loadImg(){
         {#section name=customer loop=$images #}
