@@ -86,7 +86,7 @@
             <!--  <td width="30%" align="left" valign="middle"><a onClick="openShareDiv('share_div')" ><img src="themes/zfm_web/img/button_share.png" /></a></td>-->
             <td align="center" valign="middle">
                 {#if $is_advert eq "1"#}
-                {#if $advert #}<a href="http://{#$advert#}">{#$advert#}</a>{#else#}本服务由QQ:2378822906提供 {#/if#}
+                {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
                 {#/if#}
             </td>
         </tr></tbody></table>

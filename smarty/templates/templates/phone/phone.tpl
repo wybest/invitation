@@ -724,7 +724,7 @@ window.onload = function() {
 
 <div id="footer"><div id="copyright">
 {#if $is_advert eq "1"#}
-<div id="copyright-text">{#if $advert #}<a href="http://{#$advert#}">{#$advert#}</a>{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
+<div id="copyright-text">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
 {#/if#}
 </div>
 </div>

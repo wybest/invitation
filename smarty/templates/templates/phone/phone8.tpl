@@ -276,7 +276,7 @@
                         </a>
                         <p style="margin:5px 0; text-align:center">鸣谢:
                             {#if $is_advert eq "1"#}
-                            {#if $advert #}<a href="http://{#$advert#}">{#$advert#}</a>{#else#}本服务由QQ:2378822906提供 {#/if#}
+                            {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
                             {#/if#}</p>
                     </div>
                 </div>
