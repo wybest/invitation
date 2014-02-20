@@ -11,6 +11,7 @@ $password = $_REQUEST['apassword'];
 $code = $_REQUEST['code'];
 if($name!=""){
 
+
 	if($code == $_SESSION['sn']){
 		//sql注入检查
 		$name = mysql_real_escape_string($name);
