@@ -60,7 +60,7 @@ if($_REQUEST['insert'] == "insert"){
             $women = $messageDO->women;
         }
         $message = mysql_real_escape_string($message);
-		$target = MyDB::updateInfoDB($is_show,$man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
+		$target = MyDB::updateInfoDB($man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
         MyDB::updateInfoPhoneMouldDB($mould,$user_id,$link);
         MyDB::updateInfoMusicDB($music,$user_id,$link);
         MyDB::updateInfoCoordinateDB($coordinate,$user_id,$link);
