@@ -54,10 +54,29 @@ if($messageDO!=null){
 		Globle::$smarty->assign("images",$images);
 		Globle::$smarty->assign("bigimage",$messageDO->bigimage);
 	}
-	
-	$user = MyDB::selectUserByIdDB($user,$link);
-	Globle::$smarty->assign("font_family",$user->font_family);
-	Globle::$smarty->assign("advert",$user->advert);
+
+    $user = MyDB::selectUserByIdDB($user,$link);
+    Globle::$smarty->assign("font_family",$user->font_family);
+    Globle::$smarty->assign("advert",$user->advert);
+    Globle::$smarty->assign("is_advert",$user->is_advert);
+    Globle::$smarty->assign("extends",$user->extends);
+    Globle::$smarty->assign("special_name",$user->special_name);
+    Globle::$smarty->assign("title1",$user->title1);
+    Globle::$smarty->assign("title2",$user->title2);
+    Globle::$smarty->assign("title3",$user->title3);
+    Globle::$smarty->assign("title4",$user->title4);
+    Globle::$smarty->assign("title5",$user->title5);
+
+    //隐藏
+
+    $ts = explode(",", $user->is_show);
+    Globle::$smarty->assign("t1", $ts[0]);
+    Globle::$smarty->assign("t2", $ts[1]);
+    Globle::$smarty->assign("t3", $ts[2]);
+    Globle::$smarty->assign("t4", $ts[3]);
+    Globle::$smarty->assign("t5", $ts[4]);
+    Globle::$smarty->assign("t6", $ts[5]);
+
 	$info=isMobile();
     if($info){
     	if($user->is_phone==1||$user->is_pay==0){

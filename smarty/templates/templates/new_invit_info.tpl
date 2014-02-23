@@ -1554,7 +1554,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7042">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="1">
-       <!-- <input name="hidden1" type="checkbox" id="bshow7042" value="1">隐藏-->
+        <input name="t1" {#if $t1 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7042" value="1">隐藏(只适用于带切换栏的主题)
     </div>
     <script>
         $(document).ready(function() {
@@ -1628,7 +1628,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7041">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="7">
-        <!-- <input name="hidden2" type="checkbox" id="bshow7041" value="1">隐藏 -->
+        <input name="t2" {#if $t2 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7041" value="1">隐藏(只适用于带切换栏的主题)
      </div>
      <script>
          $(document).ready(function() {
@@ -1793,7 +1793,7 @@ String.prototype.Trim = function()
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7043">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="3">
         展现回函数量：<input name="num" id="num" type="text" value="{#$snum#}">
-        <!--  <input name="hidden3" type="checkbox" id="bshow7043" value="1">隐藏 -->
+        <input name="t3" {#if $t3 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7043" value="1">隐藏(只适用于带切换栏的主题)
       </div>
       <script>
           $(document).ready(function() {
@@ -1837,7 +1837,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7044">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="4">
-        <!-- <input name="hidden4" type="checkbox" id="bshow7044" value="1">隐藏 -->
+        <input name="t4" {#if $t4 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7044" value="1">隐藏(只适用于带切换栏的主题)
     </div>
     <script>
         $(document).ready(function() {
@@ -1988,7 +1988,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7046">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="6">
-        <!--  <input name="hidden5" type="checkbox" id="bshow7046" value="1">隐藏 -->
+        <input name="t5" {#if $t5 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7046" value="1">隐藏(只适用于带切换栏的主题)
     </div>
     <script>
         $(document).ready(function() {
@@ -2059,7 +2059,7 @@ String.prototype.Trim = function()
     <div align="right">
         <input name="invite_detail_id" id="invite_detail_id" type="hidden" value="7045">
         <input name="invite_detail_type" id="invite_detail_type" type="hidden" value="5">
-        <!-- <input name="hidden6" type="checkbox" id="bshow7045" value="1">隐藏 -->
+        <input name="t6" {#if $t6 eq "1"#} checked="checked" {#/if#} type="checkbox" id="bshow7045" value="1">隐藏(只适用于带切换栏的主题)
     </div>
     <script>
         $(document).ready(function() {

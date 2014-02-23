@@ -67,6 +67,17 @@ if($messageDO!=null){
 	Globle::$smarty->assign("title3",$user->title3);
 	Globle::$smarty->assign("title4",$user->title4);
 	Globle::$smarty->assign("title5",$user->title5);
+
+    //隐藏
+
+    $ts = explode(",", $user->is_show);
+    Globle::$smarty->assign("t1", $ts[0]);
+    Globle::$smarty->assign("t2", $ts[1]);
+    Globle::$smarty->assign("t3", $ts[2]);
+    Globle::$smarty->assign("t4", $ts[3]);
+    Globle::$smarty->assign("t5", $ts[4]);
+    Globle::$smarty->assign("t6", $ts[5]);
+
     $shuju_array = MyDB::selectShujuDB($user->id,1,$user->snum,$link);
     Globle::$smarty->assign("shuju_array",$shuju_array);
 

@@ -22,6 +22,7 @@ class  UserDO {
     public $create_time;
     public $is_confirm;
     public $admin_id;
+    public $is_show;
 }
 
 ?>

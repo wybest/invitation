@@ -76,9 +76,9 @@ class  MyDB {
         }
     }
 
-    public static function updateUserTitleDB($title1,$title2,$title3,$title4,$title5,$num,$user_id,$link){
+    public static function updateUserTitleDB($is_show,$title1,$title2,$title3,$title4,$title5,$num,$user_id,$link){
 
-        $sql = "update user set snum=".$num." , title1='".$title1."',title2='".$title2."',title3='".$title3."',title4='".$title4."',title5='".$title5."'  where id='".$user_id."'";
+        $sql = "update user set is_show='".$is_show."' , snum=".$num." , title1='".$title1."',title2='".$title2."',title3='".$title3."',title4='".$title4."',title5='".$title5."'  where id='".$user_id."'";
         $ret = mysql_query($sql, $link);
 
         if ($ret === false) {
@@ -181,6 +181,7 @@ class  MyDB {
 				$user->title4=$row['title4'];
 				$user->title5=$row['title5'];
                 $user->snum=$row['snum'];
+                $user->is_show=$row['is_show'];
 				return $user;
 			}
 		}
@@ -371,7 +372,7 @@ class  MyDB {
 
 	public static function updateInfoDB($man,$women,$lasttime,$house,$adress,$message,$show_time,$mini_time,$title,$name,$bigtitle,$link){
 
-		$sql="update message set man='".$man."',women='".$women."' , lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id=".$name;
+		$sql="update message set  man='".$man."',women='".$women."' , lasttime='".$lasttime."',house='".$house."',adress='".$adress."',message='".$message."',show_time='".$show_time."',mini_time='".$mini_time."',title='".$title."',bigtitle='".$bigtitle."' where user_id=".$name;
 		$ret = mysql_query($sql, $link);
 		if ($ret === false) {
             die("Select Database Failed: " . mysql_error($link));

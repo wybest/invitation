@@ -1003,7 +1003,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7042" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t1 eq "1"#} none {#/if#}" id="invite_detail_title7042" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button1" id="button1" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
@@ -1173,7 +1173,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7041" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t2 eq "1"#} none {#/if#}" id="invite_detail_title7041" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button7" id="button2" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
@@ -1221,7 +1221,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7043" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t3 eq "1"#} none {#/if#}" id="invite_detail_title7043" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button3" id="button3" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
@@ -1311,7 +1311,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7044" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t4 eq "1"#} none {#/if#}" id="invite_detail_title7044" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button4" id="button4" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
@@ -1374,7 +1374,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7046" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t5 eq "1"#} none {#/if#}" id="invite_detail_title7046" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button6" id="button5" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
@@ -1415,7 +1415,7 @@ String.prototype.Trim = function() {
 
 
 
-<h3 style="display:" id="invite_detail_title7045" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+<h3 style="display:{#if $t6 eq "1"#} none {#/if#}" id="invite_detail_title7045" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button5" id="button6" class="button">
         <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>

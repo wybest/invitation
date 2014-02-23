@@ -38,6 +38,15 @@ if($_REQUEST['insert'] == "insert"){
     $title4=$_REQUEST['title4'];
     $title5=$_REQUEST['title5'];
 
+    //隐藏
+    $t1=$_REQUEST['t1'];
+    $t2=$_REQUEST['t2'];
+    $t3=$_REQUEST['t3'];
+    $t4=$_REQUEST['t4'];
+    $t5=$_REQUEST['t5'];
+    $t6=$_REQUEST['t6'];
+    $is_show = $t1.",".$t2.",".$t3.",".$t4.",".$t5.",".$t6;
+
 	$target = false;
 	$messageDO = MyDB::selectInfoDB($user_id,$link);
 
@@ -51,11 +60,11 @@ if($_REQUEST['insert'] == "insert"){
             $women = $messageDO->women;
         }
         $message = mysql_real_escape_string($message);
-		$target = MyDB::updateInfoDB($man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
+		$target = MyDB::updateInfoDB($is_show,$man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
         MyDB::updateInfoPhoneMouldDB($mould,$user_id,$link);
         MyDB::updateInfoMusicDB($music,$user_id,$link);
         MyDB::updateInfoCoordinateDB($coordinate,$user_id,$link);
-        MyDB::updateUserTitleDB($title1,$title2,$title3,$title4,$title5,$num,$user_id,$link);
+        MyDB::updateUserTitleDB($is_show,$title1,$title2,$title3,$title4,$title5,$num,$user_id,$link);
 
     }
 	if($target){
@@ -76,6 +85,15 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("title3", $user->title3);
         Globle::$smarty->assign("title4", $user->title4);
         Globle::$smarty->assign("title5", $user->title5);
+        //隐藏
+
+        $ts = explode(",", $user->is_show);
+        Globle::$smarty->assign("t1", $ts[0]);
+        Globle::$smarty->assign("t2", $ts[1]);
+        Globle::$smarty->assign("t3", $ts[2]);
+        Globle::$smarty->assign("t4", $ts[3]);
+        Globle::$smarty->assign("t5", $ts[4]);
+        Globle::$smarty->assign("t6", $ts[5]);
     }
 //Globle::$smarty->display('head.tpl');
     if ($messageDO != null) {
