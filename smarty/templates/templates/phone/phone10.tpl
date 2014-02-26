@@ -79,7 +79,7 @@ document.createElement("menu");
         map.panBy({#$coordinate#})
 
         var pt = new BMap.Point({#$coordinate#});
-        var myIcon = new BMap.Icon("style/{#$mould #}/image_files/markers.gif", new BMap.Size(25,21));
+        var myIcon = new BMap.Icon("style/style9/ps/markers.gif", new BMap.Size(25,21));
         var marker2 = new BMap.Marker(pt,{
             icon:myIcon
         });// 创建标注
