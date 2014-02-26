@@ -36,8 +36,8 @@
     <![endif]-->
     <div id="dd">
     </div>
-    <div id="loding" ><img src="style/style17/T2pJA8XXRbXXXXXXXX_!!581560459.gif" width="169" height="98"><br>幸福正在进行中...</div>
-    <div id="bodyShow">
+
+    <div id="bodyShow" style="visibility: visible;">
         <article class="slidingBox" id="slidingBox">
             <div class="huadong">图片可以左右滑动哦！</div>
             <section class="slidCon" style="width: 640px; left: 0px;">
