@@ -95,7 +95,8 @@ if($messageDO!=null){
                 ||$messageDO->mould == "phone6"
                 ||$messageDO->mould == "phone7"
                 ||$messageDO->mould == "phone8"
-                ||$messageDO->mould == "phone9") {
+                ||$messageDO->mould == "phone9"
+                ||$messageDO->mould == "phone10") {
                 Globle::$smarty->display('phone/'.$messageDO->mould.'.tpl');
             } else {
                 Globle::$smarty->display('phone/phone.tpl');
