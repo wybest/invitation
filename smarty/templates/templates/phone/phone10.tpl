@@ -151,11 +151,6 @@ document.createElement("menu");
         </li>
     </ul>
   </article>
-  <div style=" height:1px; width:1px; overflow:hidden;"><script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5ba05f281affa8e18f0539e1e3516381' type='text/javascript'%3E%3C/script%3E"));
-</script><script src="style/style17/h.js" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=5ba05f281affa8e18f0539e1e3516381" target="_blank"><img border="0" src="style/style17/21.gif" width="20" height="20"></a>
-</div>
 </div>
 
    <!--music-->
