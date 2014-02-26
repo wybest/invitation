@@ -79,7 +79,7 @@ function openChromeslessWindow(openUrl, winName, wWidth, wHeight, wPosx, wPosy, 
               <div class="wrapper">
                 <article class="col7 pad2">
                   <h2>{#$show_time#}</h2>
-                  <p class="fontStyle2" style=" font-weight:bold">Love without end hath no end. </p>
+                  <p class="fontStyle2" style=" font-weight:bold">Love without end have no end. </p>
                   {#if $vip != "none"#}
 		              <p style="margin:8px 0px;padding:0px"><span style="font-size:18px;font-weight:bold">{#$vip#}</span></p>
 		            {#/if#}              
