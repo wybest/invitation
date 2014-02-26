@@ -78,11 +78,14 @@ if($messageDO!=null){
     Globle::$smarty->assign("t5", $ts[4]);
     Globle::$smarty->assign("t6", $ts[5]);
 
+    $count = MyDB::selectShujuCountDB($user->id,$link);
     $shuju_array = MyDB::selectShujuDB($user->id,1,$user->snum,$link);
     Globle::$smarty->assign("shuju_array",$shuju_array);
+    Globle::$smarty->assign("totals",$count);
+    Globle::$smarty->assign("showcount",$user->snum);
 
 
-    Globle::$smarty->display('phone/phone.tpl');
+    Globle::$smarty->display('phone/phone10.tpl');
 
 //    $info=isMobile();
 //    if($info){

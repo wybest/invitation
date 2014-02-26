@@ -686,7 +686,6 @@ window.onload = function() {
                     <div style="font-size:12px; margin-top:5px"></div>
                 </div>
             </div>
-            <input type="hidden" id="time" value="2014/9/9 12:30"/>
             <SCRIPT LANGUAGE="JavaScript">
                 function _fresh()
                 {
