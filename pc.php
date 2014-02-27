@@ -6,6 +6,7 @@ require 'MyDB.class.php';
 require 'MessageDO.class.php';
 require 'VipDO.class.php';
 require 'UserDO.class.php';
+require 'ShujuDO.class.php';
 Globle::initSmarty();
 $message = $_REQUEST['name'];
 
@@ -76,6 +77,12 @@ if($messageDO!=null){
     Globle::$smarty->assign("t4", $ts[3]);
     Globle::$smarty->assign("t5", $ts[4]);
     Globle::$smarty->assign("t6", $ts[5]);
+
+    $count = MyDB::selectShujuCountDB($user->id,$link);
+    $shuju_array = MyDB::selectShujuDB($user->id,1,$user->snum,$link);
+    Globle::$smarty->assign("shuju_array",$shuju_array);
+    Globle::$smarty->assign("totals",$count);
+    Globle::$smarty->assign("showcount",$user->snum);
 
 	$info=isMobile();
     if($info){
