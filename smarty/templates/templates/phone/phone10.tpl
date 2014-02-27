@@ -152,14 +152,15 @@ document.createElement("menu");
 
 
         </li>
+        <li class="bd">
+            <div ></div>
+            <div class="xs bg2 " style="text-align: center;color: #ffffff;padding-top:10px;"><div>{#if $is_advert eq "1"#}
+                    {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
+                    {#/if#}</div></div>
+
+        </li>
     </ul>
   </article>
-    <article class="xinren bg2">
-        <br>
-        {#if $is_advert eq "1"#}
-        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
-        {#/if#}
-    </article>
 </div>
 
 
@@ -194,10 +195,6 @@ document.createElement("menu");
     </div>  
     <!---end 留言窗口--->
 </form>
-
-        {#if $is_advert eq "1"#}
-        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
-        {#/if#}
 
 
 
