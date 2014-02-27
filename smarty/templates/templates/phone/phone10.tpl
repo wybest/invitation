@@ -51,6 +51,9 @@ document.createElement("menu");
     <div class="btnLeft" style="display: block;"></div>
     <div class="btnRight" style="display: block;"></div>
   </article>
+
+
+
     <article class="jiehun">
     <h1>{#$bigtitle#}</h1>
      <span>{#if $vip != "none"#}
@@ -151,7 +154,12 @@ document.createElement("menu");
         </li>
     </ul>
   </article>
-
+    <article class="xinren bg2">
+        <br>
+        {#if $is_advert eq "1"#}
+        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
+        {#/if#}
+    </article>
 </div>
 
 
@@ -191,9 +199,7 @@ document.createElement("menu");
         <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
         {#/if#}
 
-        {#if $is_advert eq "1"#}
-        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
-        {#/if#}
+
 
 
 <script type="text/javascript">
