@@ -152,15 +152,13 @@ document.createElement("menu");
     </ul>
   </article>
     <article class="slidingBox" id="slidingBox">
-        <br>
         {#if $is_advert eq "1"#}
-        <div style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
+        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
         {#/if#}
     </article>
     <article style="visibility:visible;">
-        <br>
         {#if $is_advert eq "1"#}
-        <div style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
+        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
         {#/if#}
     </article>
 </div>
