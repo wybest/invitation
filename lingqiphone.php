@@ -67,8 +67,22 @@ if($messageDO!=null){
 	Globle::$smarty->assign("title3",$user->title3);
 	Globle::$smarty->assign("title4",$user->title4);
 	Globle::$smarty->assign("title5",$user->title5);
+
+    //隐藏
+
+    $ts = explode(",", $user->is_show);
+    Globle::$smarty->assign("t1", $ts[0]);
+    Globle::$smarty->assign("t2", $ts[1]);
+    Globle::$smarty->assign("t3", $ts[2]);
+    Globle::$smarty->assign("t4", $ts[3]);
+    Globle::$smarty->assign("t5", $ts[4]);
+    Globle::$smarty->assign("t6", $ts[5]);
+
+    $count = MyDB::selectShujuCountDB($user->id,$link);
     $shuju_array = MyDB::selectShujuDB($user->id,1,$user->snum,$link);
     Globle::$smarty->assign("shuju_array",$shuju_array);
+    Globle::$smarty->assign("totals",$count);
+    Globle::$smarty->assign("showcount",$user->snum);
 
 	$info=isMobile();
     if($info){
@@ -84,7 +98,8 @@ if($messageDO!=null){
                 ||$messageDO->mould == "phone6"
                 ||$messageDO->mould == "phone7"
                 ||$messageDO->mould == "phone8"
-                ||$messageDO->mould == "phone9") {
+                ||$messageDO->mould == "phone9"
+                ||$messageDO->mould == "phone10") {
                 Globle::$smarty->display('phone/'.$messageDO->mould.'.tpl');
             } else {
                 Globle::$smarty->display('phone/phone.tpl');
