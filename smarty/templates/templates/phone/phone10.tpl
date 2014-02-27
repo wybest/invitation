@@ -151,16 +151,7 @@ document.createElement("menu");
         </li>
     </ul>
   </article>
-    <article class="slidingBox" id="slidingBox">
-        {#if $is_advert eq "1"#}
-        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
-        {#/if#}
-    </article>
-    <article style="visibility:visible;">
-        {#if $is_advert eq "1"#}
-        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
-        {#/if#}
-    </article>
+
 </div>
 
 
@@ -195,7 +186,16 @@ document.createElement("menu");
     </div>  
     <!---end 留言窗口--->
 </form>
-
+    <article class="slidingBox" id="slidingBox">
+        {#if $is_advert eq "1"#}
+        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
+        {#/if#}
+    </article>
+    <article style="visibility:visible;">
+        {#if $is_advert eq "1"#}
+        <span style="text-align: center;color: #ffffff;">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</span>
+        {#/if#}
+    </article>
 
 <script type="text/javascript">
 
