@@ -153,8 +153,7 @@ document.createElement("menu");
 
         </li>
         <li class="bd">
-            <div ></div>
-            <div class="xs bg2 " style="text-align: center;color: #ffffff;padding-top:10px;"><div>{#if $is_advert eq "1"#}
+            <div class="xs bg2 " style="text-align: center;color: #ffffff;height:20px;"><div>{#if $is_advert eq "1"#}
                     {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
                     {#/if#}</div></div>
 
