@@ -58,7 +58,7 @@ document.createElement("menu");
     <h1>{#$bigtitle#}</h1>
      <span>{#if $vip != "none"#}
          <p class="ip4">{#$vip#}</p><br>
-         {#/if#}新郎：{#$man#} &amp; 新娘：{#$women#}<br>{#$show_time#}&nbsp;{#$mini_time#}<br><span>{#$house#}</span></span>
+         {#/if#}新郎：{#$man#} &amp; 新娘：{#$women#}<br>{#$show_time#}&nbsp;{#$mini_time#}</span>
    </article>
    
   <article class="xiangxi">
@@ -68,7 +68,7 @@ document.createElement("menu");
          <div class="xh TxTcolor xh2">             
 
             <!--百度地图容器-->
-             <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:300px;">百度地图加载中。。。</div>
+             <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:90%">百度地图加载中。。。</div>
              <div id="map_desc7169">地址：{#$adress#}<br /> </div>
 <script type="text/javascript">
     function initialize(){
