@@ -1,6 +1,5 @@
 ﻿// JavaScript Document
-// * @author 林诗凤
-// * @Email 245810159@qq.com
+
 document.createElement("header");
 document.createElement("footer");
 document.createElement("section");
@@ -197,16 +196,16 @@ $(function(){
 		$(this).toggleClass("xs_border_top").prev(".xh").stop().slideToggle("slow");
 	})
 	
-	$(window).scroll( function() { 	
-	    var scroll_top=parseInt( $(window).scrollTop());
-	    var msgTop= parseInt($(".bd_msg").offset().top);
-	   
-	    if(scroll_top>msgTop){
-	            $(".xs_msg").removeClass("relative_css").addClass("fiexd_css");
-	        }else{
-
-	            $(".xs_msg").removeClass("fiexd_css").addClass("relative_css");
-    	        
-	    }
-	} );
+//	$(window).scroll( function() {
+//	    var scroll_top=parseInt( $(window).scrollTop());
+//	    var msgTop= parseInt($(".bd_msg").offset().top);
+//
+//	    if(scroll_top>msgTop){
+//	            $(".xs_msg").removeClass("relative_css").addClass("fiexd_css");
+//	        }else{
+//
+//	            $(".xs_msg").removeClass("fiexd_css").addClass("relative_css");
+//
+//	    }
+//	} );
 })
