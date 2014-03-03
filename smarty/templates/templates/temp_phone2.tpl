@@ -108,7 +108,7 @@
                         <td width="2%">&nbsp;</td>
                         <td class="menu" id="menu"><div id="submenu2">查看祝福</div></td>
                         <td width="2%">&nbsp;</td>
-                        <td class="menu" id="menu"><div id="submenu3">婚礼提醒</div></td>
+                        <td class="menu" id="menu"><div id="submenu3">{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</div></td>
                     </tr>
                     </tbody></table>
 
