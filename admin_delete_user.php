@@ -41,13 +41,13 @@ if ($user == null) {
         }
 
         //删除自己
-        MyDB::deleteInfoDB($userId,$link);
+        //MyDB::deleteInfoDB($userId,$link);
 
         //删除vip
         MyDB::deleteAllVipDB($user_id, $link);
 
         //删除回函
-        MyDB::deleteShujuByUserIdDB($user_id,$link);
+        //MyDB::deleteShujuByUserIdDB($user_id,$link);
 
         //删除自己的账户
         MyDB::updateUserClosedByAdminDB($userId, $_SESSION['admin_id'], $link);
