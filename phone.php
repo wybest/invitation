@@ -165,7 +165,6 @@ function isMobile() {
                 					'windows phone',
                                     'trident',
                                     'presto',
-                                    'mac',
                                     'sec',
                                     'samsung'
             );
