@@ -377,10 +377,10 @@ $(document).ready(function() {
         else{
 
             $('#iframepage').load(function(){
-                var a = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/custom.css';
-                var b = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/style.css';
-                var c = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/styles.css';
-                var d = '/invitation/style/'+$("#invite_style option:selected").text()+'/image_files/photoswipe.css';
+                var a = '/invitation/style/'+$("#invite_style option:selected").val()+'/image_files/custom.css';
+                var b = '/invitation/style/'+$("#invite_style option:selected").val()+'/image_files/style.css';
+                var c = '/invitation/style/'+$("#invite_style option:selected").val()+'/image_files/styles.css';
+                var d = '/invitation/style/'+$("#invite_style option:selected").val()+'/image_files/photoswipe.css';
 
 
 
@@ -393,7 +393,7 @@ $(document).ready(function() {
                 $('#iframepage').contents().find(".d").attr("href",d);
                 var i=1;
                 $('#iframepage').contents().find('.iconimage').each(function () {
-                    var imageName = 'style/'+$("#invite_style option:selected").text()+'/image_files/'+i+'.png';
+                    var imageName = 'style/'+$("#invite_style option:selected").val()+'/image_files/'+i+'.png';
                     $(this).attr('src', imageName);
                     i++;
                 });
@@ -1334,6 +1334,7 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "桃色经典"#}selected="selected"{#/if#} value="桃色经典">桃色经典</option>
                             <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
+                            <option {#if $mould eq "style18"#}selected="selected"{#/if#} value="style18">清新小屋</option>
                             <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
                             <option {#if $mould eq "phone3"#}selected="selected"{#/if#} value="phone3">墨绿森林</option>
                             <option {#if $mould eq "phone4"#}selected="selected"{#/if#} value="phone4">深黄爱心</option>
