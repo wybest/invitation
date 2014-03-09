@@ -1,0 +1,109 @@
+
+.content-wrapper {
+	width: 95%;
+	margin: 10px auto;
+	/*background:url(main-bg.jpg) !important;*/
+	border:1px solid #fff;
+	box-shadow:0px 0px 2px #a8a7a8;
+	-webkit-box-shadow:0px 0px 2px #a8a7a8;
+	-moz-box-shadow:0px 0px 2px #a8a7a8;
+	padding: 5px;
+	position: relative;
+	z-index: 88
+}
+.content {
+	background:#fff;
+	padding:20px 20px 40px 20px;
+	box-shadow:0px 0px 2px #cfcecf;
+	-webkit-box-shadow:0px 0px 2px #cfcecf;
+	-moz-box-shadow:0px 0px 2px #cfcecf;
+}
+.inner-header {
+	background:url(images/inner-header-bg.jpg) repeat-x bottom;
+	height:40px;
+	margin-bottom:10px;
+}
+.inner-header h1 {
+	color: #df6296;
+	font-size:22px;
+	text-transform:none;
+	line-height:25px;
+	font-family:"Œ¢»Ì—≈∫⁄"
+}
+
+.content .textbox, .content #message, .sidebar-col .textbox,#renshu {
+	padding:8px;
+	border-radius:4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background:#f7f7f7;
+	border:1px solid #cecece;
+	box-shadow:inset 1px 1px 2px #e2d8d7;
+	-webkit-box-shadow:inset 1px 1px 2px #e2d8d7;
+	-moz-box-shadow:inset 1px 1px 2px #e2d8d7;
+}
+.content .textbox, .sidebar-col .textbox {
+	margin-bottom:20px;
+	width:90%;
+}
+
+#renshu {
+	width:98%;
+	color:#aeaeae
+}
+.sidebar-col .textbox {
+	margin-bottom:0px;
+}
+.content #message {
+	width:90%;
+	height:100px;
+	font-family:Arimo, sans-serif;
+	font-size:14px;
+/*	font-style:italic;*/
+}
+#submit-button {
+	background: none repeat scroll 0 0 #DF6296;
+	padding: 2px;
+	width:185px;
+	margin-top:20px;
+	-webkit-transition:background-color 0.3s ease-in-out;
+	-moz-transition:background-color 0.3s ease-in-out;
+	-o-transition:background-color 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#send_message {
+	background: none repeat scroll 0 0 #DF6296;
+	border: 1px solid #eda5c3;
+	margin:0px;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	color: #FFFFFF;
+	padding: 4px 20px;
+	font-family: Oswald, sans-serif;
+	font-size:20px;
+	text-shadow:1px 1px 1px #4d304e;
+	width:185px;
+	-webkit-transition:background-color 0.3s ease-in-out;
+	-moz-transition:background-color 0.3s ease-in-out;
+	-o-transition:background-color 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+.content #send_message:hover, footer .submit-button:hover {
+	cursor: pointer;
+	background:#c03d74;
+}
+.content .radiobutton {
+	font-size:14px;
+}
+#contact_form {
+	position: relative;
+}
+/* ¡Ù—‘≤ºæ÷ */
+	.blessing_list{width:95%; height:auto; margin: 5px auto; /*border-bottom:1px solid #CCC;*/background:#fff; } 
+		.blessing_list_top{width:100%; height:40px; float:left;}
+		    .blessing_list_head{ width:35px; height:auto; border-radius:5px; float:left; margin:5px 5px 0px 5px;}
+		    .blessing_list_head img{border-radius:5px;}
+			.blessing_list_name{width:auto; height:20px;font-weight:700;  float:left; font-size:16px; margin:12px 0px 15px;}
+			.blessing_list_time{ width:auto; height:20px;float:right; font-size:12px; color:#999; margin:12px 12px 15px;}
+		.blessing_list_text{width:auto; height:auto; padding:10px 0px 30px; font-size:16px; border-radius:5px; margin:41px 12px 0px 40px;}
