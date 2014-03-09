@@ -1335,6 +1335,10 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
                             <option {#if $mould eq "style18"#}selected="selected"{#/if#} value="style18">清新小屋</option>
+                            <option {#if $mould eq "style19"#}selected="selected"{#/if#} value="style19">卡通爱恋</option>
+                            <option {#if $mould eq "style20"#}selected="selected"{#/if#} value="style20">花样年华</option>
+                            <option {#if $mould eq "style21"#}selected="selected"{#/if#} value="style21">靓丽岁月</option>
+                            <option {#if $mould eq "style22"#}selected="selected"{#/if#} value="style22">巴黎铁塔</option>
                             <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
                             <option {#if $mould eq "phone3"#}selected="selected"{#/if#} value="phone3">墨绿森林</option>
                             <option {#if $mould eq "phone4"#}selected="selected"{#/if#} value="phone4">深黄爱心</option>
