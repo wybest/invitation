@@ -215,7 +215,7 @@ function lodingNow(){
 	document.getElementById("loding").style.display="none";
 	//document.getElementById("jsBg").style.background="#fa2d2d";
 	document.getElementById("bodyShow").style.visibility="visible";
-	$(".m1").css("background","#fa2d2d");
+	$(".m1").css("background","#FF504B");//fa2d2d
     $(".m2").css("background","#ea2992");
     $(".m3").css("background","#55eacd");
     $(".m4").css("background","#ffffff");
