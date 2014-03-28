@@ -54,6 +54,7 @@ if($_REQUEST['fileup'] == "true"){
         $im = null;
         $newim = null;
         $count = 1;
+        $size = $file["size"];
         while(true){
 
             if ($match[1] == 'gif')
@@ -108,8 +109,8 @@ if($_REQUEST['fileup'] == "true"){
             }
 
 
-            $size = $file["size"];
-            echo "size=".filesize($uploadfile);
+
+
 
             if(function_exists("imagecopyresampled")) {
                 $newim = imagecreatetruecolor($x, $y);
@@ -125,8 +126,8 @@ if($_REQUEST['fileup'] == "true"){
             else {
                 imagejpeg($newim,$newname);
             }
-
-
+            $size = filesize($newname);
+            echo "size=".$size;
 
             if($size<200*1024){
                 break;
