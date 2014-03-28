@@ -21,7 +21,7 @@
 {#if $target  eq  "false"#}  
       <div class="alert alert-danger">操作失败，重新提交</div>   
 {#/if#} 
-<div class="alert alert-success">（相片要求为横版）相片大小限制在200kb内，手机打开是很清晰的，打开速度会很快,压缩图片去<a target="_blank" href="http://xiuxiu.web.meitu.com/">美图秀秀网页版</a> </div>
+<div class="alert alert-success">（相片要求为横版） </div>
 <div id="showtext" class="editor active" style="margin: auto;width: 100%;">
 <div style="float: left;padding-top: 20px;">
 <form class="form-inline" role="form" action="new_save_photo.php" method="post" enctype="multipart/form-data">
