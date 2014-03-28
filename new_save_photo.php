@@ -127,7 +127,7 @@ if($_REQUEST['fileup'] == "true"){
             }
 
 
-            $size = filesize($newname);
+
             if($size<200*1024){
                 break;
             }else{
@@ -143,10 +143,11 @@ if($_REQUEST['fileup'] == "true"){
             imagedestroy ($newim);
         }
 
+        echo  "newsize=".filesize($newname);
         if ($match[1] == 'gif')
-            $im = imagecreatefromgif($uploadfile);
+            $im = imagecreatefromgif($newname);
         else
-            $im = imagecreatefromjpeg($uploadfile);
+            $im = imagecreatefromjpeg($newname);
         $oldw = imagesx($im);
         $oldh = imagesy($im);
         $x = $oldw;
