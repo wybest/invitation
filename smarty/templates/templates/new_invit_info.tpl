@@ -1401,7 +1401,7 @@ String.prototype.Trim = function()
                     <td align="right" valign="top">自定义音乐:</td>
                     <td colspan="2" valign="top">
 
-                        <a href="http://www.baidu.com/#wd=%E5%A4%96%E9%93%BE%E9%9F%B3%E4%B9%90%E5%9C%B0%E5%9D%80&rsv_spt=1&issp=1&rsv_bp=0&ie=utf-8&tn=baiduhome_pg&rsv_sug3=1&rsv_sug4=128&inputT=896">外连接音乐(点击获取),地址复制到上面替换就可以</a>
+                        <a target="_blank" href="http://www.baidu.com/#wd=%E5%A4%96%E9%93%BE%E9%9F%B3%E4%B9%90%E5%9C%B0%E5%9D%80&rsv_spt=1&issp=1&rsv_bp=0&ie=utf-8&tn=baiduhome_pg&rsv_sug3=1&rsv_sug4=128&inputT=896">外连接音乐(点击获取),地址复制到上面替换就可以</a>
                     </td>
                 </tr>
                 </tbody></table>
