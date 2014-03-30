@@ -32,7 +32,7 @@
       <select class="form-control" name="music" onchange="checkStyle()">
 		{#$mp3list#}
 		{#section name=customer loop=$mp3list #}
-			<option {#if $music eq $mp3list[customer]#}selected="selected"{#/if#} value ="{#$mp3list[customer]#}">{#$mp3list[customer]#}</option>
+			<option {#if $music eq $mp3listId[customer]#}selected="selected"{#/if#} value ="{#$mp3listId[customer]#}">{#$mp3list[customer]#}</option>
 		{#/section#}
           <option {#if $music == ""#}selected="selected"{#/if#} value ="">无音乐</option>
 		</select>
