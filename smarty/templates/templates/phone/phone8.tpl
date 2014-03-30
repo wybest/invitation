@@ -406,7 +406,7 @@
     });
 </script>
 <audio autoplay="autoplay" id="audio_play" loop="loop">
-    <source src="mp3folder/{#$music#}" type="audio/mpeg" />
+    <source src="{#$music#}" type="audio/mpeg" />
 </audio>
 <!-- 微信分享 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

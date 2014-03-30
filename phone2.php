@@ -18,7 +18,13 @@ $messageDO = MyDB::selectInfoDB($user,$link);
 
 if($messageDO!=null){
     Globle::$smarty->assign("mould",$messageDO->mould);
-    Globle::$smarty->assign("music",$messageDO->music);
+    $music = "";
+    if(strstr($messageDO->music,"http")){
+        $music = $messageDO->music;
+    }else{
+        $music = "mp3folder/".$messageDO->music;
+    }
+    Globle::$smarty->assign("music",$music);
     Globle::$smarty->assign("man",$messageDO->man);
     Globle::$smarty->assign("women",$messageDO->women);
     Globle::$smarty->assign("lasttime",$messageDO->lasttime);

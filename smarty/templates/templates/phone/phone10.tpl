@@ -288,7 +288,7 @@ setTimeout(lodingNow,1000)
 })
 </script>
     <audio autoplay="autoplay" id="audio_play" loop="loop">
-        <source src="mp3folder/{#$music#}" type="audio/mpeg" />
+        <source src="{#$music#}" type="audio/mpeg" />
     </audio>
 
     <script src="http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize"></script>
