@@ -151,6 +151,7 @@ if($_REQUEST['fileup'] == "true"){
                 imagejpeg($newim,$newname);
             }
             $size = filesize($newname);
+            clearstatcache();
             echo "size=".$size."  x=".$x."  y=".$y;
 
             if($size<200*1024){
