@@ -69,7 +69,13 @@ if($_REQUEST['fileup'] == "true"){
             if($oldw>$oldh)
             {
 
-                if($x > 800){
+                if($x > 1000){
+                    $x = 1000;
+                    $y = 666;
+                }elseif($x == 1000){
+                    $x = 900;
+                    $y = 599;
+                }elseif($x == 900){
                     $x = 800;
                     $y = 533;
                 }elseif($x == 800){
@@ -90,7 +96,13 @@ if($_REQUEST['fileup'] == "true"){
                 }
             }else{
 
-                if($x > 500){
+                if($x > 700){
+                    $x = 700;
+                    $y = 1050;
+                }elseif($x == 700){
+                    $x = 600;
+                    $y = 900;
+                }elseif($x == 600){
                     $x = 500;
                     $y = 750;
                 }elseif($x == 500){
