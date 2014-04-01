@@ -69,7 +69,10 @@ if($_REQUEST['fileup'] == "true"){
             if($oldw>$oldh)
             {
 
-                if($x > 1400){
+                if($x > 2400){
+                    $x = 2400;
+                    $y = 1599;
+                }elseif($x == 2400){
                     $x = 1400;
                     $y = 932;
                 }elseif($x == 1400){
@@ -99,7 +102,10 @@ if($_REQUEST['fileup'] == "true"){
                 }
             }else{
 
-                if($x > 1066){
+                if($x > 1600){
+                    $x = 1600;
+                    $y = 2401;
+                }elseif($x == 1600){
                     $x = 1066;
                     $y = 1600;
                 }elseif($x == 1066){
@@ -154,7 +160,7 @@ if($_REQUEST['fileup'] == "true"){
                 $oldw = $x;
                 $oldh = $y;
             }
-            if($count>=5)
+            if($count>=7)
                 break;
 
             $count++;
