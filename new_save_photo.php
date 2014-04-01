@@ -154,7 +154,7 @@ if($_REQUEST['fileup'] == "true"){
             clearstatcache();
             echo "size=".$size."  x=".$x."  y=".$y;
 
-            if($size<200*1024){
+            if($size<150*1024){
                 break;
             }else{
                 $uploadfile =  $newname;
@@ -169,41 +169,41 @@ if($_REQUEST['fileup'] == "true"){
             imagedestroy ($newim);
         }
 
-        echo  "newsize=".filesize($newname);
-        if ($match[1] == 'gif')
-            $im = imagecreatefromgif($newname);
-        else
-            $im = imagecreatefromjpeg($newname);
-        $oldw = imagesx($im);
-        $oldh = imagesy($im);
-        $x = $oldw;
-        $y = $oldh;
-
-        if($oldw>$oldh){
-            $x = 800;
-            $y = 533;
-        }else{
-                $x = 500;
-                $y = 750;
-        }
-
-        if(function_exists("imagecopyresampled")) {
-            $newim = imagecreatetruecolor($x, $y);
-            imagecopyresampled($newim, $im, 0, 0, 0, 0, $x, $y, $oldw, $oldh);
-        }
-        else {
-            $newim = imagecreate($x, $y);
-            imagecopyresized($newim, $im, 0, 0, 0, 0, $x, $y, $oldw, $oldh);
-        }
-        if ($match[1] == 'gif') {
-            imagegif($newim,$newname);
-        }
-        else {
-            imagejpeg($newim,$newname);
-        }
-
-        imagedestroy($im);
-        imagedestroy ($newim);
+//        echo  "newsize=".filesize($newname);
+//        if ($match[1] == 'gif')
+//            $im = imagecreatefromgif($newname);
+//        else
+//            $im = imagecreatefromjpeg($newname);
+//        $oldw = imagesx($im);
+//        $oldh = imagesy($im);
+//        $x = $oldw;
+//        $y = $oldh;
+//
+//        if($oldw>$oldh){
+//            $x = 800;
+//            $y = 533;
+//        }else{
+//                $x = 500;
+//                $y = 750;
+//        }
+//
+//        if(function_exists("imagecopyresampled")) {
+//            $newim = imagecreatetruecolor($x, $y);
+//            imagecopyresampled($newim, $im, 0, 0, 0, 0, $x, $y, $oldw, $oldh);
+//        }
+//        else {
+//            $newim = imagecreate($x, $y);
+//            imagecopyresized($newim, $im, 0, 0, 0, 0, $x, $y, $oldw, $oldh);
+//        }
+//        if ($match[1] == 'gif') {
+//            imagegif($newim,$newname);
+//        }
+//        else {
+//            imagejpeg($newim,$newname);
+//        }
+//
+//        imagedestroy($im);
+//        imagedestroy ($newim);
     }
     else {
         echo '当前环境支持GD库，没有生成缩略图！';
