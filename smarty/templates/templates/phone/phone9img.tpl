@@ -14,6 +14,26 @@
     <script type="text/javascript" src="style/style16/code.photoswipe-3.0.5.min.js"></script>
 </head>
 <body>
+<audio autoplay="autoplay" id="audio_play" loop="loop">
+    <!--source src="http://www.vipaa.com/music/1010467805.mp3" type="audio/mpeg" /-->
+    <source src="{#$music#}" type="audio/mpeg">
+</audio>
+<script type="text/javascript">
+
+    window.onload = function() {
+        LoadingDIV.style.display = "none";
+        $(document).ready(function(){
+            if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
+                $(document).one('touchstart', function (e) {
+                    var music = document.getElementById("audio_play");
+                    if (music.paused) {
+                        music.play();
+                    }
+                });
+            }
+        });
+    }
+</script>
 <script type="text/javascript">
 
     (function(window, PhotoSwipe){

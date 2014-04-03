@@ -72,7 +72,7 @@
 
 </script>
 <audio autoplay="autoplay" id="audio_play" loop="loop">
-    <source src="mp3folder/{#$music#}" type="audio/mpeg">
+    <source src="{#$music#}" type="audio/mpeg">
 </audio>
 <script type="text/javascript">
 

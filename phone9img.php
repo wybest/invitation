@@ -24,6 +24,13 @@ if($messageDO!=null){
         Globle::$smarty->assign("images",$images);
         Globle::$smarty->assign("bigimage",$messageDO->bigimage);
     }
+    $music = "";
+    if(strstr($messageDO->music,"http")){
+        $music = $messageDO->music;
+    }else{
+        $music = "mp3folder/".$messageDO->music;
+    }
+    Globle::$smarty->assign("music",$music);
     Globle::$smarty->display('phone/phone9img.tpl');
 }
 
