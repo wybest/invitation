@@ -180,6 +180,9 @@ $filesId[45] = "青春纪念册.mp3";
 $files[45] = "德国童音.mp3";//46
 $filesId[45] = "46.mp3";
 
+$files[45] = "Cuppy Cake Song.mp3";//47
+$filesId[45] = "47.mp3";
+
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
 
