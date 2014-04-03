@@ -37,6 +37,7 @@ if($messageDO!=null){
     Globle::$smarty->assign("weixin",$messageDO->weixin);
 
 
+
     Globle::$smarty->assign("name",$user);
     if($messageDO->bigimage==""&&$messageDO->image==""){
         $images = explode(",", "2013-12-04-17-48-03.jpg,2013-12-04-17-48-08.jpg,2013-12-04-17-49-07.jpg,2013-12-04-17-49-13.jpg,2013-12-04-17-49-36.jpg,2013-12-04-17-49-44.jpg");
