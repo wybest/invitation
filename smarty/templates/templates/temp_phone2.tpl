@@ -194,11 +194,12 @@
                     var nowtime = new Date();
                     var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
                     if(leftsecond<0){leftsecond=0;}
-                        _d=parseInt(leftsecond/3600/24);
-                    _h=parseInt((leftsecond/3600)%24);
-                    _m=parseInt((leftsecond/60)%24);
-                    _s=parseInt(leftsecond%60);
-                    _all = _d+"天"+_h+"小时"+_m+"分"+_s+"秒";
+                        var day1=Math.floor(leftsecond/(60*60*24));
+                    var hour=Math.floor((leftsecond-day1*24*60*60)/3600);
+                    var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
+                    var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
+
+                    __all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
 
                     document.getElementById("_lefttime").innerHTML=_all;
                 }
