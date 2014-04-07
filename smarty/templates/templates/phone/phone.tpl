@@ -570,6 +570,10 @@ window.onload = function() {
        <input type="hidden" name="invite_detail_mapimgurl7095" id="invite_detail_mapimgurl7169" value="" width="100%">
          <img id="invite_detail_mapimg7169" style="width:100%; border:thin; border-style:solid; border-color:#999;" src="" width="100%"/>
 	        <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:300px;">百度地图加载中。。。</div>
+            <style type="text/css">
+                a#guide_bd_btn{display:inline-block;width:150px;height:40px;overflow:hidden;padding-left:50px;background:url('style/style24/guide_bg.gif') no-repeat left #01BD9A;border-radius:2px;-webkit-border-radius:2px;text-align:center;font:bolder 18px/40px '微软雅黑';color:#fff;text-decoration:none;}
+            </style>
+            <p><a href="http://api.map.baidu.com/marker?location={#$coordinate#}&amp;title=宴会位置导航&amp;content={#$adress#}&amp;output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a></p>
 	    <div id="map_desc7169">地址：{#$adress#}<br /> </div>
 		</div>
   	 <script language="javascript">
