@@ -1458,11 +1458,6 @@ String.prototype.Trim = function() {
                             var hour=Math.floor((leftsecond-day1*24*60*60)/3600);
                             var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
                             var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
-
-//                            __d=parseInt(leftsecond/3600/24);
-//                            __h=parseInt((leftsecond/3600)%24);
-//                            __m=parseInt((leftsecond/60)%24);
-//                            __s=parseInt(leftsecond%60);
                             __all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
                             document.getElementById("lefttime").value=__all;
                         }

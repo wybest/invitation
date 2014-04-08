@@ -184,7 +184,7 @@
         <div id="inputlist" style=" padding:10px; text-align:center;OVERFLOW-Y: auto; OVERFLOW-X:hidden;">
             <span style="color:#F00;">倒计时还有：</span>
             <p>
-            </p><div id="_lefttime" style="border:1px solid #777; width:100%; text-align:center; background-color:#FFC; font-size:22px; color:#F00;">265天23小时23分31秒</div>
+            </p><div id="_lefttime" style="border:1px solid #777; width:100%; text-align:center; background-color:#FFC; font-size:22px; color:#F00;"></div>
 
             <input type="hidden" id="time" value="{#if $lasttime #}{#$lasttime#}{#else#}2014/9/9 12:30{#/if#}"/>
             <script language="JavaScript">
@@ -194,12 +194,12 @@
                     var nowtime = new Date();
                     var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
                     if(leftsecond<0){leftsecond=0;}
-                        var day1=Math.floor(leftsecond/(60*60*24));
+                    var day1=Math.floor(leftsecond/(60*60*24));
                     var hour=Math.floor((leftsecond-day1*24*60*60)/3600);
                     var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
                     var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
 
-                    __all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
+                    _all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
 
                     document.getElementById("_lefttime").innerHTML=_all;
                 }

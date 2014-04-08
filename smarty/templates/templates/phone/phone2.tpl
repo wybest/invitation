@@ -215,7 +215,7 @@
                     var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
                     var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
 
-                    __all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
+                    _all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
 
                     document.getElementById("_lefttime").innerHTML=_all;
                 }
