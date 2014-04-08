@@ -122,6 +122,16 @@
                         <li><a href="#share"><img src="style/style13/wednav5.png" alt="{#$title5#}"><br>
                                 {#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</a></li>
                     </ul>
+                    <div class="inner">
+                        <div class="cbox">
+                            <p style="margin:5px 0; text-align:center">
+                                <a href="" target="_blank" style="color:#ba0684; font-weight:bold;">
+                                    {#if $is_advert eq "1"#}
+                                    {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
+                                    {#/if#}
+                                </a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -278,7 +288,8 @@
     <header id="pageheader_first">
         <h1>{#$bigtitle#}</h1>
     </header>
-    <footer id="myfooter"></footer>
+    <footer id="myfooter">
+    </footer>
 </div>
 <script>
     $(function (){
