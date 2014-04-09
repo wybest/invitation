@@ -177,14 +177,17 @@ $filesId[44] = "陶喆-爱很简单.mp3";
 $files[45] = "青春纪念册.mp3";//45
 $filesId[45] = "青春纪念册.mp3";
 
-$files[45] = "德国童音.mp3";//46
-$filesId[45] = "46.mp3";
+$files[46] = "德国童音.mp3";//46
+$filesId[46] = "46.mp3";
 
-$files[45] = "Cuppy Cake Song.mp3";//47
-$filesId[45] = "47.mp3";
+$files[47] = "Cuppy Cake Song.mp3";//47
+$filesId[47] = "47.mp3";
 
-$files[45] = "夫妻相.mp3";//48
-$filesId[45] = "48.mp3";
+$files[48] = "夫妻相.mp3";//48
+$filesId[48] = "48.mp3";
+
+$files[49] = "爸爸去哪儿.mp3";//49
+$filesId[49] = "49.mp3";
 
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
