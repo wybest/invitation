@@ -23,6 +23,7 @@ class  UserDO {
     public $is_confirm;
     public $admin_id;
     public $is_show;
+    public $style;
 }
 
 ?>

@@ -54,13 +54,13 @@ class  MyDB {
 		}
 	}
 
-    public static function updateUserByAdmin($is_advert,$vip_num,$advert,$create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
+    public static function updateUserByAdmin($style,$is_advert,$vip_num,$advert,$create_time,$admin_id,$extends, $special_name, $user_id,$link,$isphone,$ispc,$font_family){
 
         $registTime = "";
         if($create_time == ""){
             $registTime = " creat_time = now() , ";
         }
-        $sql = "update user set ".$registTime." vip_num=".$vip_num." , is_advert=".$is_advert." , advert='".$advert."', admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
+        $sql = "update user set ".$registTime." vip_num=".$vip_num." , style='".$style."', is_advert=".$is_advert." , advert='".$advert."', admin_id = ".$admin_id." , extends='".$extends."',special_name='".$special_name."' , font_family='".$font_family."' , is_pay=1,is_pc=".$ispc.",is_phone=".$isphone."  where id='".$user_id."'";
         $ret = mysql_query($sql, $link);
 
         if ($ret === false) {
@@ -111,6 +111,7 @@ class  MyDB {
 				$user->password = $row["password"];
 				$user->vip_num = $row["vip_num"];
 				$user->is_pay = $row["is_pay"];
+                $user->style = $row["style"];
 				return $user;
 			}
 		}
@@ -146,6 +147,7 @@ class  MyDB {
 				$user->title4=$row['title4'];
 				$user->title5=$row['title5'];
                 $user->create_time=$row['creat_time'];
+                $user->style = $row["style"];
 				return $user;
 			}
 		}

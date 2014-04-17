@@ -51,6 +51,15 @@
     </div>
 
     <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">请柬风格</label>
+        <div class="col-sm-10">
+            <select name="style">
+                <option {#if $style eq "style1" #}selected="selected"{#/if#} value="style1">欧美风</option>
+                <option {#if $style eq "style2" #}selected="selected"{#/if#} value="style2">民族风</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">贵宾数量</label>
         <div class="col-sm-10">
             <input class="form-control" name="vip_num" type="text" id="vip_num" value="{#$vip_num#}"/>

@@ -36,9 +36,9 @@ if($user==null){
         $vip_num = $_REQUEST['vip_num'];
         $is_advert = $_REQUEST['is_advert'];
         $admin_id = $_SESSION['admin_id'];
-        echo $admin_id;
+        $style = $_REQUEST['style'];
         if ($admin_id>0) {
-            $target = MyDB::updateUserByAdmin($is_advert,$vip_num,$advert,$user->create_time,$admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
+            $target = MyDB::updateUserByAdmin($style,$is_advert,$vip_num,$advert,$user->create_time,$admin_id,$extends, $special_name, $user_id, $link, $isphone, $ispc, $font_family);
 
             if ($target) {
                 Globle::$smarty->assign("target", "true");
@@ -62,6 +62,7 @@ if($user==null){
     Globle::$smarty->assign("advert", $user->advert);
     Globle::$smarty->assign("vip_num", $user->vip_num);
     Globle::$smarty->assign("is_advert", $user->is_advert);
+    Globle::$smarty->assign("style", $user->style);
     Globle::$smarty->display('power_edit.tpl');
 
 }

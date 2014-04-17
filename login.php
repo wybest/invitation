@@ -21,6 +21,12 @@ if($name!=""){
             $_SESSION['style'] = $_REQUEST['style'];
 			$_SESSION['name'] = $name;
 			$_SESSION['user_id'] = $user->id;
+            if($user->is_pay==1){
+                if($_REQUEST['style']!=$user->style){
+                    $_SESSION['style'] = $user->style;
+                }
+            }
+
 			echo '<script>location.href="invitadress.php"</script>';
 		}else{
 			Globle::$smarty->assign("message","用户名或密码错误");
