@@ -47,7 +47,9 @@
 <div id="footer" style="clear:both">
 	<table class="login_sta">
 		<tbody><tr>
-			<td></td>
+			<td align="center">{#if $is_advert eq "1"#}
+                <div id="copyright-text">{#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}</div>
+                {#/if#}</td>
 			<td align="right"><span id="to_top" onclick="scoll_bar()">返回顶部</span></td>
 		</tr>
 	</tbody></table>
