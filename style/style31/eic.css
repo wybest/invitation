@@ -1,0 +1,106 @@
+/* CSS Document */
+*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none}
+ul,ol{list-style:none}
+img{border:0}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;line-height:1.5em;color:#252525;height:100%;position:relative;background:url('mask_bg.jpg') no-repeat center 0 fixed;background-size: cover;-webkit-background-size: cover;-o-background-size: cover}
+body#color_b{background-image:url('mask_bg_b.jpg')}
+body#color_c{background-image:url('mask_bg_c.jpg')}
+
+b.tips_12_g,p.tips_12_g{font-size:12px;color:green;text-align:center}
+b.tips_12_r,p.tips_12_r{font-size:12px;color:red;text-align:center}
+/*pages*/
+DIV.pages_m {PADDING:3px;height:26px;overflow:hidden; MARGIN: 3px;TEXT-ALIGN: center}
+DIV.pages_m A,DIV.pages_m span {display:inline-block;BORDER: #c3c3c3 1px solid; PADDING:2px 5px 2px 5px; MARGIN: 2px;COLOR: #626262;TEXT-DECORATION: none;border-radius:4px;-webkit-border-radius:4px;}
+DIV.pages_m a.disabled {background-color:#f3f3f3;color:#b7b5b5}
+DIV.pages_m strong{margin:0 5px;color:#252525;font-weight:100}
+
+/*header*/
+#header{height:50px;overflow:hidden;background-color:#222222}
+#header table{width:100%;height:50px;overflow:hidden;color:#fff}
+#header table tr td p{padding-left:6px;color:#fff;line-height:18px}
+#header table tr td p span{color:#FFD800;font-size:16px}
+#header table tr td #logo{min-height:0;max-height:50px;overflow:hidden;padding-left:5px}
+#header table tr td #logo img{max-height:50px;overflow:hidden;_height:50px;}
+#header table tr th a{margin:0 2px;color:#fff;}
+
+#index{width:100%;max-width:480px;min-height:0;overflow:hidden;margin:0 auto;}
+.cover img{display:block;max-width:100%;overflow:hidden;margin:0 auto;}
+
+.mbtn { display:block;cursor:pointer;text-decoration:none;width:80px;height:120px;margin:20px 0;overflow:hidden;}
+.bqj { background:#2BD2FE url('menu.png') no-repeat -60px -22px;}
+.qj_con { background-color:#2BD2FE}
+.bzp { background:#F24E4D url('menu.png') no-repeat -280px -22px;}
+.zp_con { background-color:#F24E4D}
+.bdt { background:#A49EE6 url('menu.png') no-repeat -60px -196px;}
+.dt_con { background-color:#A49EE6}
+.bzf { background:#98C841 url('menu.png') no-repeat -280px -196px;}
+.zf_con { background-color:#98C841}
+#maparea {padding-right:2px;min-height:0;overflow:hidden;text-align:center;}
+#maparea img{max-width:100%;overflow:hidden;margin:0 auto;border:1px solid #ccc}
+#fmenu { display:block;cursor:pointer;width:67px;height:67px;overflow:hidden;position:fixed;left:0;bottom:0;background-image:url('fmenu.png');background-repeat:no-repeat;}
+.fmenu_on { background-position:left center;}
+.fmenu_off { background-position:right center;}
+#photo{}
+#photo img{max-width:100%;overflow:hidden;}
+#words,#map{padding:10px}
+
+.head h3 { font-size:22px;color:#F93B3D;padding-bottom:5px;}
+.line { border-top:1px solid #E5BD82;margin:20px 0;}
+.info { font-size:16px;font-weight:bold;margin-top:20px;}
+.side { position:fixed;top:0px;right:0;width:40px;height:100%;overflow:hidden;z-index:99999;}
+.side a { display:block;width:100%;border-bottom:1px solid #fff;height:20%;overflow:hidden;float:left;background-color:#222;}
+.side a.cur { background-color:#F24E4D;}
+.sy {background:url('rmenu.png') no-repeat -412px center}
+.qj { background:url('rmenu.png') no-repeat 7px center}
+.zp { background:url('rmenu.png') no-repeat -100px center}
+.dt { background:url('rmenu.png') no-repeat -216px center}
+.zf { background:url('rmenu.png') no-repeat -324px center}
+
+.zftit { border-bottom:1px solid #E5BD82; padding:10px 0;font-size:16px;font-weight:bolder;margin:10px 0;}
+.szf { font-size:16px;}
+.szf .name { width:99%; border:1px solid #ddd;background-color:#f7f7f7;padding:4px 0}
+.szf textarea { width:99%;height:80px; border:1px solid #ddd;background-color:#f7f7f7;}
+.submit { border:none;font-size:16px;cursor:pointer;background-color:#F24E4D;color:#fff;font-weight:bolder;padding:5px 30px;}
+.msg { border:1px solid #ccc;border-radius:5px;padding:2px 0;margin-bottom:5px;}
+body#color_b .msg{background-color:#fff;}
+body#color_c .msg{background-color:#eee}
+.msg h5 { color:#BF9A63;padding:2px 10px;position:relative}
+.msg h5 cite{font-style:normal;color:#369;}
+.msg h5 span{position:absolute;right:10px;top:2px;color:#369;cursor:pointer;}
+.msg p{padding:2px 10px;color:#666;font-size:12px}
+.msg p.rep{border-top:1px solid #ccc}
+.msg p.rep b{color:#BF9A63;}
+
+.etime {color:#F93B3D;font-size:18px;padding:10px;}
+
+#invite{padding:10px;}
+body#color_b #invite{margin:10px;background-color:#fff;border-radius:5px;-webkit-border-radius:5px;-webkit-box-shadow:0px 0px 6px #ccc;-moz-box-shadow:0px 0px 6px #ccc;}
+body#color_c #invite{margin:10px;background-color:#fff;border-radius:5px;-webkit-border-radius:5px;-webkit-box-shadow:0px 0px 6px #ccc;-moz-box-shadow:0px 0px 6px #ccc;}
+#invite .infos{text-align:center;font-weight:bolder;font-size:16px;padding:5px 0 15px 0}
+#invite .infos table{margin:0 auto;}
+#invite .infos h1 {min-height:0;overflow:hidden}
+#invite .infos h1 img{max-width:100%;overflow:hidden;}
+#invite .infos .text { font-size:18px;}
+
+#footer{padding-bottom:4px;}
+#footer .login_sta{width:100%;height:34px;background-color:#fff}
+body#color_b .login_sta{background:none;}
+body#color_c .login_sta{background:none}
+#footer .login_sta tr td{font-size:12px;color:#0066BB}
+#footer .login_sta tr td a{color:#0066BB;margin:0 3px}
+#footer .login_sta tr td span#to_top{margin-right:4px;cursor:pointer}
+#footer p{text-align:center;font-size:12px;line-height:24px;color:#030303;padding:4px 0}
+#footer p a{color:#030303;}
+#footer a{text-decoration:none;}
+
+
+@media (max-height:360px){
+.side a { display:block;width:100%;border-bottom:1px solid #fff;height:20%;overflow:hidden;float:left;background-color:#222;}
+.side a.cur { background-color:#F24E4D;}
+.sy {background:url('rmenuz.png') no-repeat -412px center}
+.qj { background:url('rmenuz.png') no-repeat 7px center}
+.zp { background:url('rmenuz.png') no-repeat -100px center}
+.dt { background:url('rmenuz.png') no-repeat -216px center}
+.zf { background:url('rmenuz.png') no-repeat -324px center}
+}

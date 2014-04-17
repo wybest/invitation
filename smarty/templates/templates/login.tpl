@@ -287,6 +287,13 @@ var _hmt = _hmt || [];
 
         </div>
 
+          <div >
+
+              <input  type="radio" name="style" checked value="style1" />&nbsp;欧美风
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input  type="radio" name="style"  value="style2" />&nbsp;民族风
+
+          </div>
         
 
         <div class="cooke">

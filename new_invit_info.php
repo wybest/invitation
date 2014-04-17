@@ -60,6 +60,11 @@ if ($messageDO != null) {
 //初始化音乐列表
 //require 'init_mp3list.php';
 
-Globle::$smarty->display('new_invit_info.tpl');
+if($style=='style1'){
+    Globle::$smarty->display('new_invit_info.tpl');
+}else if($style=='style2'){
+    Globle::$smarty->display('new_invit_info2.tpl');
+}
+
 //Globle::$smarty->display('foot.tpl');
 ?>

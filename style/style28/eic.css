@@ -1,0 +1,103 @@
+/* CSS Document */
+*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none}
+ul,ol{list-style:none}
+img{border:0}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;color:#fff;margin:0 auto;height:100%;position:relative;background:url('main_bg_a.jpg') no-repeat 50% -70px #B80000}
+body#color_b{background-image:url('main_bg_b.jpg');background-color:#113186}
+body#color_c{background-image:url('main_bg_c.jpg');background-color:#042603}
+
+
+
+b.tips_12_g,p.tips_12_g{font-size:12px;color:green;text-align:center}
+b.tips_12_r,p.tips_12_r{font-size:12px;color:red;text-align:center}
+/*pages*/
+DIV.pages_m {PADDING:3px;height:26px;overflow:hidden; MARGIN: 3px;TEXT-ALIGN: center}
+DIV.pages_m A,DIV.pages_m span {display:inline-block;BORDER:#EDEADB 1px solid;background-color:#fff; PADDING:2px 5px 2px 5px; MARGIN: 2px;COLOR: #BF9A63;TEXT-DECORATION: none;border-radius:4px;-webkit-border-radius:4px;}
+DIV.pages_m a.disabled {color:#666}
+DIV.pages_m strong{margin:0 5px;color:#666;font-weight:100}
+
+#rl_container{background-color:#1B1B1B;color:#858585;}
+/*header*/
+#header{height:50px;overflow:hidden;position:absolute;top:0;width:100%}
+#header table{width:100%;height:50px;overflow:hidden;color:#fff}
+#header table tr td p{padding-left:6px;color:#fff;line-height:18px}
+#header table tr td p span{color:#FFD800;font-size:16px}
+#header table tr td #logo{min-height:0;max-height:50px;overflow:hidden;padding-left:5px}
+#header table tr td #logo img{max-height:50px;overflow:hidden;_height:50px;}
+#header table tr th a{margin:0 2px;color:#fff;}
+
+#some_cover{width:100%;padding-bottom:40px;min-height:300px;overflow:hidden;}
+.cover {width:180px;height:180px;margin:220px auto 0 auto;overflow:hidden;border:10px solid #fff;border-radius:100px;-webkit-border-radius:100px;z-index:98;}
+.cover table {width: 100%;height: 100%;overflow: hidden;}
+.cover img {max-width:180px;max-height:180px;overflow:hidden;border-radius:90px;-webkit-border-radius:90px;line-height:180px;vertical-align:middle;}
+.cover {  animation-timing-function: ease-in; webkit-animation-direction:alternate; animation-direction:alternate; -webkit-animation-iteration-count:1;-webkit-animation-fill-mode: backwards; }
+.cover { -webkit-animation: cover 1.2s;animation-delay:0.3s; -webkit-animation-delay:0.3s;}
+@-webkit-keyframes cover { 0% { opacity: 0; -webkit-transform: rotateY(0deg);} 100% { opacity: 1; -webkit-transform: rotateY(360deg);} }
+
+.bbox { border-radius:10px;background:#FEF1E0;padding:10px;
+	-webkit-animation: abbox 0.8s;animation-timing-function: ease-out;webkit-animation-direction:alternate;animation-direction:alternate;
+    -webkit-animation-iteration-count:1;animation-delay:0.5s;-webkit-animation-delay:0.5s;-webkit-animation-fill-mode:backwards;}
+
+#index{padding:10px 0}
+#index table.index_item{width:100%;height:110px;overflow:hidden}
+#index table.index_item tr td{color:#fff;font-size:16px;line-height:26px}
+#index table.index_item tr td table{width:100%;}
+#index table.index_item tr td input{width:99%;height:28px;overflow:hidden;background:#949494;border:1px solid #949494;border-radius:2px;-webkit-border-radius:2px;}
+#index table.index_item tr td button{width:70px;height:70px;overflow:hidden;font-weight:bold;font-size:26px;background:#F24E4D;color:#fff;border:1px solid #F24E4D;border-radius:2px;-webkit-border-radius:2px}
+#index table.index_item tr td p{padding:0 5px;}
+#index table.index_item tr td p span{color:#fff;}
+#index table.index_item tr td a img{max-width:96%;overflow:hidden;border:2px solid #fff}
+
+#maparea {padding-right:2px;min-height:0;overflow:hidden;text-align:center;}
+#maparea img{max-width:100%;overflow:hidden;margin:0 auto;border:1px solid #ccc}
+#photo{}
+#Gallery{width:100%;min-height:0;overflow:hidden;}
+#Gallery li{padding:4px 0}
+#Gallery img{max-width:100%;overflow:hidden}
+#map,#words,#photo{padding:200px 8px 8px 8px;color:#333;}
+#map p{padding:5px 0}
+
+#x_menus{width:100%;min-height:0;overflow:hidden;position:fixed;bottom:0;left:0;z-index:2000}
+#menu_bg{width:100%;min-height:0;overflow:hidden;max-width:480px;margin:0 auto;}
+#menu_bg img{width:100%;overflow:hidden;}
+#menu_text{height:100%;width:100%;overflow:hidden;height:120px;position:absolute;top:0}
+#x_menus table{width:100%;height:100%;overflow:hidden;margin:0 auto;max-width:480px;margin:0 auto;}
+#x_menus table tr th a{text-decoration:none;display:inline-block;width:100%;height:120px;}
+
+.head h3 { font-size:22px;color:#F93B3D;padding-bottom:5px;}
+.line { border-top:1px solid #E5BD82;margin:20px 0;}
+.info { font-size:16px;font-weight:bold;margin-top:20px;}
+
+.zftit { border-bottom:1px solid #E5BD82; padding:10px 0;font-size:16px;font-weight:bolder;margin:10px 0;}
+.szf { font-size:16px;color:#905E17;}
+.szf .name { width:99%; border:1px solid #ddd;background-color:#f7f7f7;padding:4px 0}
+.szf textarea { width:99%;height:80px; border:1px solid #ddd;background-color:#f7f7f7;}
+.submit { border:none;font-size:16px;cursor:pointer;background-color:#F24E4D;color:#fff;font-weight:bolder;padding:5px 30px;}
+.msg {background-color:#FFFCED;border-radius:5px;padding:2px 0;margin-bottom:5px;}
+
+.msg h5 { color:#BF9A63;padding:2px 10px;position:relative}
+.msg h5 cite{font-style:normal;color:#999;}
+.msg h5 span{position:absolute;right:10px;top:2px;color:#999;cursor:pointer;}
+.msg p{padding:2px 10px;color:#666;font-size:12px}
+.msg p.rep{border-top:1px solid #444}
+.msg p.rep b{color:#BF9A63;}
+
+
+#invite{padding:220px 10px 10px 10px;}
+#invite .infos{text-align:center;font-weight:bolder;font-size:16px;padding:5px 0 15px 0}
+.etime {color:#fff;font-size:30px;line-height:40px;padding-top:10px;}
+#invite .infos table{margin:0 auto;}
+#invite .infos h1 {min-height:0;overflow:hidden;color:#F8D904;padding:10px 0;font-size:36px;}
+#invite .infos h2{color:#F8D904;}
+#invite .infos .text { font-size:18px;}
+p.some_notes{padding:10px 0}
+
+#footer{padding-bottom:80px;}
+#footer .login_sta{width:100%;height:34px}
+#footer .login_sta tr td{font-size:12px;color:#858585}
+#footer .login_sta tr td a{color:#858585;margin:0 3px}
+#footer .login_sta tr td span#to_top{margin-right:4px;cursor:pointer}
+#footer p{text-align:center;font-size:12px;line-height:24px;color:#FFF;padding:4px 0}
+#footer p a{color:#FFF;}
+#footer a{text-decoration:none;}

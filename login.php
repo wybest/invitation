@@ -18,6 +18,7 @@ if($name!=""){
 		$user = MyDB::selectUserDB($name,$password,$link);
 		if($user!=null){
 			MyDB::updateUserLastTimeDB($name,$link);
+            $_SESSION['style'] = $_REQUEST['style'];
 			$_SESSION['name'] = $name;
 			$_SESSION['user_id'] = $user->id;
 			echo '<script>location.href="invitadress.php"</script>';

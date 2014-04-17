@@ -120,7 +120,11 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("bigimage", $messageDO->bigimage);
         Globle::$smarty->assign("bigtitle", $messageDO->bigtitle);
     }
-    Globle::$smarty->display('new_invit_info.tpl');
+    if($style=='style1'){
+        Globle::$smarty->display('new_invit_info.tpl');
+    }else if($style=='style2'){
+        Globle::$smarty->display('new_invit_info2.tpl');
+    }
 }else{
 	echo '<script>location.href="new_invit_info.php"</script>';
 }

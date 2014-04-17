@@ -90,6 +90,14 @@ if($messageDO!=null){
     Globle::$smarty->assign("totals",$count);
     Globle::$smarty->assign("showcount",$user->snum);
 
+    if ($messageDO->mould == "style24"||$messageDO->mould == "style25"
+        ||$messageDO->mould == "style26"||$messageDO->mould == "style27"
+        ||$messageDO->mould == "style28"||$messageDO->mould == "style29"
+        ||$messageDO->mould == "style30"||$messageDO->mould == "style31") {
+        header('Content-Type:text/html; charset=UTF-8');
+        echo "对不起，请使用“欧美风”的模板";
+        exit();
+    }
 	$info=isMobile();
     if($info){
     	if($user->is_phone==1||$user->is_pay==0){
