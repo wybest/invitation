@@ -51,46 +51,71 @@
 <script type="text/javascript" src="style/style30/lhgdialog.min.js"></script>
 <script type="text/javascript" src="style/style30/mobile_eic_01.js"></script>
 <style type="text/css">
-#musicControl { position:fixed;right:10px;top:50%;margin-top:-27px;display:inline-block;z-index:99999999}
-#musicControl a { display:inline-block;width:52px;height:52px;overflow:hidden;background:url('style/style29/mcbg.png') no-repeat;}
-#musicControl a audio{width:100%;height:52px;}
-#musicControl a.stop { background-position:left bottom;}
-#musicControl a.on { background-position:left top;}
-#music_play_filter{width:0;height:0;overflow:hidden;position:fixed;top:0;left:0}
+    #musicControl { position:fixed;right:10px;top:50%;margin-top:-27px;display:inline-block;z-index:99999999}
+    #musicControl a { display:inline-block;width:52px;height:52px;overflow:hidden;background:url('style/style24/mcbg.png') no-repeat;}
+    #musicControl a audio{width:100%;height:52px;}
+    #musicControl a.stop { background-position:left bottom;}
+    #musicControl a.on { background-position:left top;}
+    #music_play_filter{width:100%;height:100%;overflow:hidden;position:fixed;top:0;left:0}
 </style>
 <span id="musicControl">
     <a id="mc_play" class="stop" onclick="play_music();">
-		<audio id="musicfx" loop="loop">
-			<source src="{#$music#}" type="audio/mpeg">
-		</audio>
-	</a>
+        <audio id="musicfx" loop="loop" autoplay="autoplay">
+            <source src="{#$music#}" type="audio/mpeg" />
+        </audio>
+    </a>
 </span>
+
 <div id="music_play_filter" onclick="just_play()"></div>
 <script type="text/javascript">
-	function play_music(){
-		if ($('#mc_play').hasClass('on')){
-			$('#mc_play audio').get(0).pause();
-			$('#mc_play').attr('class','stop');
-		}else{
-			$('#mc_play audio').get(0).play();
-			$('#mc_play').attr('class','on');
-		}
-		$('#music_play_filter').hide();
-	}
-	function just_play(){
-		$('#mc_play audio').get(0).play();
-		$('#mc_play').attr('class','on');
-		$('#music_play_filter').hide();
-	}
-	
-	function is_weixn(){
-		var ua = navigator.userAgent.toLowerCase();
-		if(ua.match(/MicroMessenger/i)=="micromessenger") {
-			return true;
-		} else {
-			return false;
-		}
-	}
+    function play_music(){
+        if ($('#mc_play').hasClass('on')){
+            $('#mc_play audio').get(0).pause();
+            $('#mc_play').attr('class','stop');
+        }else{
+            $('#mc_play audio').get(0).play();
+            $('#mc_play').attr('class','on');
+        }
+        $('#music_play_filter').hide();
+    }
+    function just_play(){
+        $('#mc_play audio').get(0).play();
+        $('#mc_play').attr('class','on');
+        $('#music_play_filter').hide();
+    }
+
+    function is_weixn(){
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    var play_filter=document.getElementById('music_play_filter');
+    play_filter.addEventListener('touchstart', function(){
+        just_play();
+    });
+    play_filter.addEventListener('touchend', function(){
+        just_play();
+    });
+    play_filter.addEventListener('touchmove', function(){
+        just_play();
+    });
+    play_filter.addEventListener('mousedown', function(){
+        just_play();
+    });
+    play_filter.addEventListener('mouseup', function(){
+        just_play();
+    });
+    play_filter.addEventListener('mousemove',function(){
+        just_play();
+    });
+    window.onload=function(){
+        if (!is_weixn()){
+            just_play();
+        }
+    }
 </script>
 <div id="menus_area_this">
 <div id="x_menus">
