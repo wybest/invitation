@@ -54,8 +54,8 @@
         <label for="inputPassword3" class="col-sm-2 control-label">请柬风格</label>
         <div class="col-sm-10">
             <select name="style">
-                <option {#if $style eq "style1" #}selected="selected"{#/if#} value="style1">欧美风</option>
-                <option {#if $style eq "style2" #}selected="selected"{#/if#} value="style2">民族风</option>
+                <option {#if $style eq "style1" #}selected="selected"{#/if#} value="style1">高端版</option>
+                <option {#if $style eq "style2" #}selected="selected"{#/if#} value="style2">时尚版</option>
             </select>
         </div>
     </div>
