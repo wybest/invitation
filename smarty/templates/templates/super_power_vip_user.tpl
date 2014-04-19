@@ -40,6 +40,7 @@
         <td align="center">开通时间</td>
         <td align="center">贵宾数量</td>
         <td align="center">账户密码</td>
+        <td align="center">模板</td>
         <td align="center">操作</td>
         <td align="center">结算</td>
         <td align="center">管理员</td>
@@ -52,9 +53,10 @@
         <td align="center" >{#$shuju_array[customer]->create_time#}</td>
         <td align="center" >{#$shuju_array[customer]->vip_num#}</td>
         <td align="center" >{#$shuju_array[customer]->password#}</td>
+        <td align="center" >{#if $shuju_array[customer]->style eq "style1" #}高端版{#else#}时尚版{#/if#}</td>
         <td><a onclick="return confirm('确认要删除?');" href="admin_delete_user.php?userId={#$shuju_array[customer]->id#}">关闭</a></td>
         <td align="center" >{#if $shuju_array[customer]->is_confirm == 0 #}未结算{#else#}已结算{#/if#} </td>
-        <td align="center" >{#if $shuju_array[customer]->admin_id == 1 #}wy{#else if $shuju_array[customer]->admin_id == 2 #}tb007{#else if $shuju_array[customer]->admin_id == 3 #}vampirelxl{#else if $shuju_array[customer]->admin_id == 4 #}bulage{#else#}wangjian{#/if#} </td>
+        <td align="center" >{#if $shuju_array[customer]->admin_id == 1 #}wy{#else if $shuju_array[customer]->admin_id == 2 #}tb007{#else if $shuju_array[customer]->admin_id == 3 #}vampirelxl{#else if $shuju_array[customer]->admin_id == 4 #}bulage{#else if $shuju_array[customer]->admin_id == 5 #}wangjian{#else if $shuju_array[customer]->admin_id == 6 #}布拉格之恋{#else if $shuju_array[customer]->admin_id == 7 #}美天视觉{#else if $shuju_array[customer]->admin_id == 8 #}t8star{#else#}wangjian{#/if#} </td>
     </tr>
     {#/section#}
 </table>
