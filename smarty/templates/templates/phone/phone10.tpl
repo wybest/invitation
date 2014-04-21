@@ -69,7 +69,11 @@ document.createElement("menu");
 
             <!--百度地图容器-->
              <div id="map_canvas7169" style="border:thin; text-align:center; border-style:solid; border-color:#999; margin-bottom:5px; width:100%; height:90%">百度地图加载中。。。</div>
-             <div id="map_desc7169">地址：{#$adress#}<br /> </div>
+             <div id="map_desc7169">地址：{#$adress#}<br />
+                 <p><style type="text/css">
+                         a#guide_bd_btn{display:inline-block;width:150px;height:40px;overflow:hidden;padding-left:50px;background:url('style/style24/guide_bg.gif') no-repeat left #01BD9A;border-radius:2px;-webkit-border-radius:2px;text-align:center;font:bolder 18px/40px '微软雅黑';color:#fff;text-decoration:none;}
+                     </style>
+                 <p id="maper"></p></p></div>
 <script type="text/javascript">
     function initialize(){
         var map = new BMap.Map("map_canvas7169");//在指定的容器内创建地图实例
@@ -87,6 +91,26 @@ document.createElement("menu");
             icon:myIcon
         });// 创建标注
         map.addOverlay(marker2);// 将标注添加到地图中
+    }
+    function loadBaiduMap() {
+        var script1 = document.createElement('script');
+        script1.type = 'text/javascript';
+        script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
+        document.body.appendChild(script1);
+    }
+
+    function renderOption(response) {
+        var html = '';
+
+        if (response.status ) {
+            var text = "无正确的返回结果:\n";
+            document.getElementById('maper').innerHTML = text;
+            return;
+        }
+        var location = response.result.location;
+        html = '<a target="_blank" href="http://api.map.baidu.com/marker?location='+ location.lat +','+location.lng +'&title=宴会位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+        document.getElementById('maper').innerHTML = html;
+        return;
     }
 </script>
 

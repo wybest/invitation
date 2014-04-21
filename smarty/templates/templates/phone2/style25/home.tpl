@@ -220,6 +220,27 @@ document.body.addEventListener('click', function(e){
             infoWindow.redraw();
         }
     });
+        loadBaiduMap();
+    }
+    function loadBaiduMap() {
+        var script1 = document.createElement('script');
+        script1.type = 'text/javascript';
+        script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
+        document.body.appendChild(script1);
+    }
+
+    function renderOption(response) {
+        var html = '';
+
+        if (response.status ) {
+            var text = "无正确的返回结果:\n";
+            document.getElementById('maper').innerHTML = text;
+            return;
+        }
+        var location = response.result.location;
+        html = '<a target="_blank" href="http://api.map.baidu.com/marker?location='+ location.lat +','+location.lng +'&title=宴会位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+        document.getElementById('maper').innerHTML = html;
+        return;
     }
     function bd_share_func(){
         window._bd_share_config={

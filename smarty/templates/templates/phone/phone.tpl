@@ -573,7 +573,7 @@ window.onload = function() {
             <style type="text/css">
                 a#guide_bd_btn{display:inline-block;width:150px;height:40px;overflow:hidden;padding-left:50px;background:url('style/style24/guide_bg.gif') no-repeat left #01BD9A;border-radius:2px;-webkit-border-radius:2px;text-align:center;font:bolder 18px/40px '微软雅黑';color:#fff;text-decoration:none;}
             </style>
-            <p><a href="http://api.map.baidu.com/marker?location={#$coordinate#}&amp;title=宴会位置导航&amp;content={#$adress#}&amp;output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a></p>
+            <p id="maper"></p>
 	    <div id="map_desc7169">地址：{#$adress#}<br /> </div>
 		</div>
   	 <script language="javascript">
@@ -775,7 +775,28 @@ function loadBaiduMap() {
     script.type = 'text/javascript';
     script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
     document.body.appendChild(script);
+
+    var script1 = document.createElement('script');
+    script1.type = 'text/javascript';
+    script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
+    document.body.appendChild(script1);
+
 }
+
+function renderOption(response) {
+    var html = '';
+
+    if (response.status ) {
+        var text = "无正确的返回结果:\n";
+        document.getElementById('maper').innerHTML = text;
+        return;
+    }
+    var location = response.result.location;
+    html = '<a href="http://api.map.baidu.com/marker?location='+ location.lat +','+location.lng +'&title=宴会位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+    document.getElementById('maper').innerHTML = html;
+    return;
+}
+
 function loadImg(){
     {#section name=customer loop=$images #}
     $("#Gallery").append('<li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>');
