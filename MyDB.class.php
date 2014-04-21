@@ -260,6 +260,7 @@ class  MyDB {
                 $user->vip_num = $row["vip_num"];
                 $user->is_confirm = $row["is_confirm"];
                 $user->admin_id = $row["admin_id"];
+                $user->style = $row["style"];
                 array_push($shuju_array,$user);
             }
             return $shuju_array;
