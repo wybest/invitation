@@ -553,6 +553,14 @@ public static function updateInfoPcMouldDB($pcmould,$user_id,$link){
 		}
 	}
 
+    public static function deleteShujuByIdDB($id,$link){
+
+        $sql="delete  from shuju where id=".$id;
+        mysql_query($sql, $link);
+
+       return true;
+    }
+
 	public static function selectVipDB($user_id,$link){
 		$vip_array = array();
 		$sql="select * from vip where user_id=".$user_id."";
