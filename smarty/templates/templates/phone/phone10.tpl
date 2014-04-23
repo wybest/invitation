@@ -145,38 +145,7 @@ document.createElement("menu");
         <div class="xs bg2 xs_msg relative_css" data-map="msg"><span>{#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</span></div>
         
       </li>
-        <li class="bd">
 
-            <div class="xh TxTcolor xh_wuyu"><div style="margin-top:5px; margin-bottom:15px">
-                    <div style="font-size:14px; margin-bottom:5px">倒计时还有:</div>
-                    <div style="width:100%" align="center">
-                        <input style="border:1px solid #777; background-color:#FFC; font-size:22px; color:#777;" type="text" id="lefttime"  size="20">
-                        <div style="font-size:12px; margin-top:5px"></div>
-                    </div>
-                </div>
-                <SCRIPT LANGUAGE="JavaScript">
-                    function _fresh()
-                    {
-                        var endtime=new Date("{#$lasttime#}");
-                        var nowtime = new Date();
-                        var leftsecond=parseInt((endtime.getTime()-nowtime.getTime())/1000);
-                        if(leftsecond<0){leftsecond=0;}
-                            var day1=Math.floor(leftsecond/(60*60*24));
-                        var hour=Math.floor((leftsecond-day1*24*60*60)/3600);
-                        var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60);
-                        var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60);
-
-                        __all = day1+"天 "+hour+"小时"+minute+"分"+second+"秒";
-                        document.getElementById("lefttime").value=__all;
-                    }
-                    _fresh()
-                    setInterval(_fresh,1000);
-                </SCRIPT>
-            </div>
-            <div class="xs bg2 "><span>{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></div>
-
-
-        </li>
         <li class="bd">
             <div class="xs bg2 " style="text-align: center;color: #ffffff;height:20px;"><div>{#if $is_advert eq "1"#}
                     {#if $advert #}{#$advert#}{#else#}本服务由QQ:2378822906提供 {#/if#}
