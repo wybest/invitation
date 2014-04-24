@@ -8,11 +8,11 @@ Globle::initSmarty();
 session_start();
 $name = $_REQUEST['aname'];
 $password = $_REQUEST['apassword'];
-$code = $_REQUEST['code'];
+//$code = $_REQUEST['code'];
 if($name!=""){
 
 
-	if($code == $_SESSION['sn']){
+//	if($code == $_SESSION['sn']){
 		//sql注入检查
 		$name = mysql_real_escape_string($name);
 	//	safesql($name);
@@ -30,9 +30,9 @@ if($name!=""){
 			Globle::$smarty->assign("message","管理员名或密码错误");
 
 		}
-	}else{
-		Globle::$smarty->assign("message","验证码填写错误，请重新填写");
-	}
+//	}else{
+//		Globle::$smarty->assign("message","验证码填写错误，请重新填写");
+//	}
 	Globle::$smarty->display('power.tpl');
 }else{
 
