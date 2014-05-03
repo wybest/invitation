@@ -1566,7 +1566,7 @@ String.prototype.Trim = function()
         });
     </script>
 
-
+<!--
     <li style="width: 15.5%;" id="7047" class="ui-state-default ui-corner-top"><a id="invite_detail_title7047" href="#invite_detail_content7047">
 
             <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7047" name="title7" value="{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}" size="6">
@@ -1578,7 +1578,7 @@ String.prototype.Trim = function()
             // alert('Handler for .change() called.');
         });
     </script>
-
+-->
 
     <li style="width: 15.5%;" id="7043" class="ui-state-default ui-corner-top"><a id="invite_detail_title7043" href="#invite_detail_content7043">
 
