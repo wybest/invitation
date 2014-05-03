@@ -19,7 +19,7 @@
             <tbody><tr>
                <td align="right"><h3>{#$man#}</h3><p>新郎</p></td>
                <td width="100" align="center"><img src="style/style28/rose.png" alt="rose"></td>
-               <td align="left"><h3>{#$man#}</h3><p>新娘</p></td>
+               <td align="left"><h3>{#$women#}</h3><p>新娘</p></td>
             </tr>
         </tbody></table>
    <div class="line"></div>
