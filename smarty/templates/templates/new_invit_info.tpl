@@ -1340,6 +1340,10 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "style21"#}selected="selected"{#/if#} value="style21">靓丽岁月</option>
                             <option {#if $mould eq "style22"#}selected="selected"{#/if#} value="style22">巴黎铁塔</option>
                             <option {#if $mould eq "style23"#}selected="selected"{#/if#} value="style23">商务经典</option>
+                            <option {#if $mould eq "style32"#}selected="selected"{#/if#} value="style32">因为爱情</option>
+                            <option {#if $mould eq "style33"#}selected="selected"{#/if#} value="style33">飞屋环游记</option>
+                            <option {#if $mould eq "style34"#}selected="selected"{#/if#} value="style34">甜玫宝贝</option>
+                            <option {#if $mould eq "style35"#}selected="selected"{#/if#} value="style35">蒙蒙小兔</option>
                             <option {#if $mould eq "phone2"#}selected="selected"{#/if#} value="phone2">红色典雅</option>
                             <option {#if $mould eq "phone3"#}selected="selected"{#/if#} value="phone3">墨绿森林</option>
                             <option {#if $mould eq "phone4"#}selected="selected"{#/if#} value="phone4">深黄爱心</option>
@@ -1557,6 +1561,19 @@ String.prototype.Trim = function()
     <script>
         $("#invite_detail_name7041").bind('change keydown keyup paste input propertychange',function () {
             $('#iframepage').contents().find("#invite_detail_name7041").text($(this).val());
+
+            // alert('Handler for .change() called.');
+        });
+    </script>
+
+
+    <li style="width: 15.5%;" id="7047" class="ui-state-default ui-corner-top"><a id="invite_detail_title7047" href="#invite_detail_content7047">
+
+            <input class="tab_name tab_name_idle" type="text" id="invite_detail_name7047" name="title7" value="{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}" size="6">
+        </a></li>
+    <script>
+        $("#invite_detail_name7047").bind('change keydown keyup paste input propertychange',function () {
+            $('#iframepage').contents().find("#invite_detail_name7047").text($(this).val());
 
             // alert('Handler for .change() called.');
         });
