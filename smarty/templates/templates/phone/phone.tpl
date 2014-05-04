@@ -776,11 +776,11 @@ function loadBaiduMap() {
     script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
     document.body.appendChild(script);
 
-    var script1 = document.createElement('script');
-    script1.type = 'text/javascript';
-    script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
-    document.body.appendChild(script1);
-
+    //var script1 = document.createElement('script');
+    //script1.type = 'text/javascript';
+    //script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
+    //document.body.appendChild(script1);
+    renderOption(null);
 }
 
 function renderOption(response) {
