@@ -1220,7 +1220,6 @@ String.prototype.Trim = function() {
 
 
 
-
 <h3 style="display:{#if $t3 eq "1"#} none {#/if#}" id="invite_detail_title7043" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button3" id="button3" class="button">
@@ -1475,8 +1474,41 @@ String.prototype.Trim = function() {
     </div>
     <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
 </div>
+<!--
+<h3 style="display:{#if $t7 eq "1"#} none {#/if#}" id="invite_detail_title7047" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+
+    <div name="button7" id="button2" class="button">
+        <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#"><img class="iconimage" alt="7.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/7.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+    </div>
+</h3>
+
+<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7041" role="tabpanel" style="display: none;">
+    <div id="detail7041" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+            <div class="detail-ml">
+                <div class="detail-mm">
 
 
+                    <iframe height="100%" width="100%" src="http://player.youku.com/embed/XNjUzNzgyMzYw" frameborder=0 allowfullscreen></iframe>
+
+                    <span style="font-size:10px">(手机建议使用WiFi无线上网，双击全屏)</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+</div>
+-->
 
 
 
