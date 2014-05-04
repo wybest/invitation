@@ -785,15 +785,15 @@ function loadBaiduMap() {
 
 function renderOption(response) {
     var html = '';
+//
+//    if (response.status ) {
+//        var text = "无正确的返回结果:\n";
+//        document.getElementById('maper').innerHTML = text;
+//        return;
+//    }
+//    var location = response.result.location;
 
-    if (response.status ) {
-        var text = "无正确的返回结果:\n";
-        document.getElementById('maper').innerHTML = text;
-        return;
-    }
-    var location = response.result.location;
-
-    location = '{#$coordinate#}';
+    var location = '{#$coordinate#}';
     //location.lat +','+location.lng
     location.split(",");
 
