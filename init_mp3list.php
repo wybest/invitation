@@ -198,8 +198,11 @@ $filesId[51] = "51.mp3";
 $files[52] = "来自星星的你.mp3";//52
 $filesId[52] = "52.mp3";
 
-$files[52] = "Chris Medina - What Are Words .mp3";//53
-$filesId[52] = "53.mp3";
+$files[53] = "Chris Medina - What Are Words .mp3";//53
+$filesId[53] = "53.mp3";
+
+$files[54] = "i'm yours.mp3";//54
+$filesId[54] = "54.mp3";
 
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
