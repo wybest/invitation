@@ -365,7 +365,7 @@ window.onload = function() {
         <div class="detail-mm">
 <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
  <div class="invitext">
-              <p class="ip2"><img src="style/rose.png" width="80%" height="30" alt=""> </p>
+              <p class="ip2"><img src="style/rose.png"  height="30" alt=""> </p>
               {#if $vip != "none"#}
               <p class="ip4">{#$vip#}</p>
               {#/if#}
