@@ -413,7 +413,7 @@ window.onload = function() {
                 </table>
                 <div class="text">您的光临会是我们最大的荣幸</div>
             </div>
-
+        </div>
 
 
             <!--<div id="slideshow" style="width:300px; height:300px;"></div>
