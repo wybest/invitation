@@ -58,7 +58,7 @@ document.createElement("menu");
     <h1>{#$bigtitle#}</h1>
      <span>{#if $vip != "none"#}
          <p class="ip4">{#$vip#}</p><br>
-         {#/if#}{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span class="">{#$man#}</span> &nbsp; 新娘：<span>{#$women#}</span> {#/if#}<br>{#$show_time#}&nbsp;{#$mini_time#}<br><span id="house">{#$house#}</span></span>
+         {#/if#}{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span class="">{#$man#}</span> &nbsp; 新娘：<span>{#$women#}</span> {#/if#}<br>{#$show_time#}&nbsp;{#$mini_time#}<br><span>{#$house#}</span></span>
    </article>
    
   <article class="xiangxi">
