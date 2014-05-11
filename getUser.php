@@ -11,5 +11,4 @@ Globle::initSmarty();
 
 echo $_SERVER['HTTP_USER_AGENT'];
 
-
 ?>
