@@ -137,7 +137,7 @@
                     <div id="step5" class="xs bg2 xs_msg relative_css" data-map="msg"><span>{#if $title3#}{#$title3#}{#else#}婚宴签到{#/if#}</span></div>
 
                 </li>
-                <li class="bd">
+               <!-- <li class="bd">
 
                     <div class="xh TxTcolor xh_wuyu"><div style="margin-top:5px; margin-bottom:15px">
                             <div style="font-size:14px; margin-bottom:5px">倒计时还有:</div>
@@ -169,7 +169,7 @@
                     <div id="step7" class="xs bg2 "><span>{#if $title5#}{#$title5#}{#else#}婚礼提醒{#/if#}</span></div>
 
 
-                </li>
+                </li>-->
             </ul>
         </article>
         <div style=" height:1px; width:1px; overflow:hidden;"><script type="text/javascript">
