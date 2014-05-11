@@ -10,5 +10,4 @@ require 'ShujuDO.class.php';
 Globle::initSmarty();
 
 echo $_SERVER['HTTP_USER_AGENT'];
-
 ?>
