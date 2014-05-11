@@ -1072,6 +1072,7 @@ String.prototype.Trim = function() {
                             </table>
 
                         </div>
+                    </div>
 
                     </div>
                     <script type="text/javascript">
