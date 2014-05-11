@@ -385,11 +385,11 @@ window.onload = function() {
             <div id="mask_bg"></div><div class="body" id="invite">
                 <table width="100%" class="head">
                     <tr>
-                        {#if $special_name #}<td align="center"><span>{#$special_name#}</span></td>
+                        {#if $special_name #}<td align="center"><span style="color: #BF4376;">{#$special_name#}</span></td>
                         {#else#}
-                        <td align="right"><h3>{#$man#}</h3><p>新郎</p></td>
+                        <td align="right"><h3><span style="color: #BF4376;">{#$man#}</span></h3><p>新郎</p></td>
                         <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
-                        <td align="left"><h3>{#$women#}</h3><p>新娘</p></td>
+                        <td align="left"><h3><span style="color: #BF4376;">{#$women#}</span></h3><p>新娘</p></td>
                         {#/if#}
 
                     </tr>
@@ -398,25 +398,25 @@ window.onload = function() {
             <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
             <div class="infos">
                 {#if $vip != "none"#}
-                <p class="ip4">{#$vip#}</p>
+                <p class="ip4"><span style="color: #BF4376;">{#$vip#}</span></p>
                 {#/if#}
                 <p>带着满心欢喜邀请您共享这份喜悦</p>
-                <p class="ip6">{#$show_time#}</p>
-                <p class="ip5">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
+                <p class="ip6"><span style="color: #BF4376;">{#$show_time#}</span></p>
+                <p class="ip5"><span style="color: #BF4376;">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
                     <tr>
-                        <td class="ip6">时间：{#$mini_time#}</td>
+                        <td class="ip6">时间：<span style="color: #BF4376;">{#$mini_time#}</span></td>
                     </tr>
                     <tr>
-                        <td class="ip6">地点：{#$house#}</td>
+                        <td class="ip6">地点：<span style="color: #BF4376;">{#$house#}</span></td>
                     </tr>
                 </table>
-                <div class="text">您的光临会是我们最大的荣幸</div>
+
             </div>
         </div>
 
 
-            <!--<div id="slideshow" style="width:300px; height:300px;"></div>
+            <!--<div id="slideshow" style="width:300px; height:300px;"></div> <div class="text">您的光临会是我们最大的荣幸</div>
  <div class="invitext">
               <p class="ip2"><img src="style/rose.png"  height="30" alt=""> </p>
               {#if $vip != "none"#}
@@ -428,8 +428,8 @@ window.onload = function() {
               <p class="ip3">时间：<span>{#$mini_time#}</span></p>
               <p class="ip3">地点：<span>{#$house#}</span></p><br />
   </div>
--->
 
+-->
 
 
 

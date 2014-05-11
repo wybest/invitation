@@ -1028,14 +1028,49 @@ String.prototype.Trim = function() {
 
                     <div class="invite_detail_editor" id="invite_detail_editor7042">
 
-                        <div class="invitext">
-                            <p class="ip2"><img src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/16052978.png" width="80%" height="30" alt=""> </p>
-                            <p class="ip3"><span id="show_time2">{#if $show_time #}{#$show_time#}{#else#}2014年9月9日{#/if#}</span></p>
-                            <p class="ip4">贵宾名字</p>
-                            <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span id="man">{#$man#}</span> 新娘：<span id="women">{#$women#}</span> {#/if#}</p>
-                            <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
-                            <p class="ip6">时间：<span id="mini_time">{#if $mini_time #}{#$mini_time#}{#else#}5:30入席{#/if#}</span></p>
-                            <p class="ip6">地点：<span id="house">{#$house#}</span></p><br />
+                        <style>
+
+                            .head h3 { font-size:22px;color:#000;padding-bottom:5px;}
+                            .line { border-top:1px solid #E5BD82;margin:5px 0;}
+                            .info { font-size:16px;font-weight:bold;margin-top:20px;}
+                            #invite .infos{text-align:center;font-weight:bolder;font-size:16px;padding:5px 0 15px 0}
+                            #invite .infos table{margin:0 auto;}
+                            #invite .infos h1 {min-height:0;overflow:hidden}
+                            #invite .infos h1 img{max-width:100%;overflow:hidden;}
+                            #invite .infos .text { font-size:18px;}
+                            .ip4{color:#000;font-size:25px; margin:5px 0px;}
+                            .ip5{color:#000;font-size:24px; margin:5px 0px;}
+                            .ip6{color:#000;font-size:18px;padding:5px;}
+                        </style>
+
+
+                        <div id="mask_bg"></div><div class="body" id="invite">
+                            <table width="100%" class="head">
+                                <tr>
+                                    {#if $special_name #}<td align="center"><span style="color: #BF4376;">{#$special_name#}</span></td>
+                                    {#else#}
+                                    <td align="right"><h3><span id="man" style="color: #BF4376;">{#$man#}</span></h3><p>新郎</p></td>
+                                    <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
+                                    <td align="left"><h3><span id="women" style="color: #BF4376;">{#$women#}</span></h3><p>新娘</p></td>
+                                    {#/if#}
+
+                                </tr>
+                            </table>
+                            <div class="line" /></div>
+                        <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
+                        <div class="infos">
+                            <p>带着满心欢喜邀请您共享这份喜悦</p>
+                            <p class="ip6"><span id="show_time2" style="color: #BF4376;">{#$show_time#}</span></p>
+                            <p class="ip5"><span style="color: #BF4376;">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
+                            <table class="td" cellspacing="10">
+                                <tr>
+                                    <td class="ip6">时间：<span id="mini_time" style="color: #BF4376;">{#$mini_time#}</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="ip6">地点：<span id="house" style="color: #BF4376;">{#$house#}</span></td>
+                                </tr>
+                            </table>
+
                         </div>
 
                     </div>
