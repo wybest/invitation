@@ -362,8 +362,61 @@ window.onload = function() {
         <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
         <div class="detail-mr">
         <div class="detail-ml">
-        <div class="detail-mm">
-<!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
+        <div class="detail-mm"  style="padding-bottom:20px;">
+
+            <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
+            <!--SPLIT-->
+            <style>
+
+                .head h3 { font-size:22px;color:#000;padding-bottom:5px;}
+                .line { border-top:1px solid #E5BD82;margin:5px 0;}
+                .info { font-size:16px;font-weight:bold;margin-top:20px;}
+                #invite .infos{text-align:center;font-weight:bolder;font-size:16px;padding:5px 0 15px 0}
+                #invite .infos table{margin:0 auto;}
+                #invite .infos h1 {min-height:0;overflow:hidden}
+                #invite .infos h1 img{max-width:100%;overflow:hidden;}
+                #invite .infos .text { font-size:18px;}
+                .ip4{color:#000;font-size:25px; margin:5px 0px;}
+                .ip5{color:#000;font-size:24px; margin:5px 0px;}
+                .ip6{color:#000;font-size:18px;padding:5px;}
+            </style>
+
+
+            <div id="mask_bg"></div><div class="body" id="invite">
+                <table width="100%" class="head">
+                    <tr>
+                        {#if $special_name #}<td align="center"><span>{#$special_name#}</span></td>
+                        {#else#}
+                        <td align="right"><h3>{#$man#}</h3><p>新郎</p></td>
+                        <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
+                        <td align="left"><h3>{#$women#}</h3><p>新娘</p></td>
+                        {#/if#}
+
+                    </tr>
+                </table>
+                <div class="line" /></div>
+            <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
+            <div class="infos">
+                {#if $vip != "none"#}
+                <p class="ip4">{#$vip#}</p>
+                {#/if#}
+                <p>带着满心欢喜邀请您共享这份喜悦</p>
+                <p class="ip6">{#$show_time#}</p>
+                <p class="ip5">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
+                <table class="td" cellspacing="10">
+                    <tr>
+                        <td class="ip6">时间：{#$mini_time#}</td>
+                    </tr>
+                    <tr>
+                        <td class="ip6">地点：{#$house#}</td>
+                    </tr>
+                </table>
+                <div class="text">您的光临会是我们最大的荣幸</div>
+            </div>
+
+
+
+            <!--<div id="slideshow" style="width:300px; height:300px;"></div>
  <div class="invitext">
               <p class="ip2"><img src="style/rose.png"  height="30" alt=""> </p>
               {#if $vip != "none"#}
@@ -374,7 +427,12 @@ window.onload = function() {
               <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
               <p class="ip3">时间：<span>{#$mini_time#}</span></p>
               <p class="ip3">地点：<span>{#$house#}</span></p><br />
-  </div>                             
+  </div>
+-->
+
+
+
+
 	</div>
         </div>
         </div>
