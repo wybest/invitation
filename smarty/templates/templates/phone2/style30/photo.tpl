@@ -149,7 +149,7 @@
 		<div class="hr_line_c"></div>
 		<table class="head" width="100%">
 		<tbody><tr>
-		<td align="center"><h3>纪宁&amp;李薇</h3></td>
+		<td align="center"><h3>{#$man#}&amp;{#$women#}</h3></td>
 		</tr>
 		<tr>
 		<td><img src="style/style30/word_img.png" alt="娆㈣繋鎮�"></td>
