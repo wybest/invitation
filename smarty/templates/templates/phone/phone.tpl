@@ -400,7 +400,6 @@ window.onload = function() {
                 {#if $vip != "none"#}
                 <p class="ip4"><span style="color: #BF4376;">{#$vip#}</span></p>
                 {#/if#}
-                <p>带着满心欢喜邀请您共享这份喜悦</p>
                 <p class="ip6"><span style="color: #BF4376;">{#$show_time#}</span></p>
                 <p class="ip5"><span style="color: #BF4376;">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
