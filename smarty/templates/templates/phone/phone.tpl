@@ -385,7 +385,7 @@ window.onload = function() {
             <div id="mask_bg"></div><div class="body" id="invite">
                 <table width="100%" class="head">
                     <tr>
-                        {#if $special_name #}<td align="center"><span style="color: #BF4376;">{#$special_name#}</span></td>
+                        {#if $special_name #}<td align="center"><h3><span style="color: #BF4376;">{#$special_name#}</span></h3></td>
                         {#else#}
                         <td align="right"><h3><span style="color: #BF4376;">{#$man#}</span></h3><p>新郎</p></td>
                         <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
