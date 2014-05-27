@@ -3,7 +3,7 @@
 body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none}
 ul,ol{list-style:none}
 img{border:0}
-body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;line-height:1.5em;color:#252525;height:100%;position:relative;background:url('mask_bg.jpg') no-repeat center 0 fixed;background-size: cover;-webkit-background-size: cover;-o-background-size: cover}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;color:#252525;height:100%;position:relative;background:url('mask_bg.jpg') no-repeat center 0 fixed;background-size: cover;-webkit-background-size: cover;-o-background-size: cover}
 body#color_b{background-image:url('mask_bg_b.jpg')}
 body#color_c{background-image:url('mask_bg_c.jpg')}
 

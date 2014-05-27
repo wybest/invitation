@@ -4,7 +4,7 @@ body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none;}
 ul,ol{list-style:none}
 img{border:0}
 a {cursor:pointer;text-decoration:none;}
-body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background:url('main_bg.jpg') repeat-x top #F2A91C;background-size:100% auto;line-height:1.5em;color:#252525;position:relative;}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background:url('main_bg.jpg') repeat-x top #F2A91C;background-size:100% auto;color:#252525;position:relative;}
 
 body#color_b{background-image:url('mask_bg_b.jpg');background-color:#FFC000}
 body#color_c{background-image:url('mask_bg_c.jpg');background-color:#fff;}

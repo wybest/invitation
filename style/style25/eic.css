@@ -4,7 +4,7 @@ body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none;}
 ul,ol{list-style:none}
 img{border:0}
 a {cursor:pointer;text-decoration:none;}
-body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background-color:#F9CD2E;line-height:1.5em;color:#252525;position:relative;}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background-color:#F9CD2E;color:#252525;position:relative;}
 
 body#color_b{background-color:#6EBDDE}
 body#color_c{background-color:#F5669E;}
@@ -29,7 +29,7 @@ DIV.pages_m strong{margin:0 5px;color:#252525;font-weight:100}
 
 #index{
 margin:0;padding:0;
-text-align:center;font:bolder 28px/250px 'Î¢ÈíÑÅºÚ';
+text-align:center;font:bolder 28px/250px 'Î¢ï¿½ï¿½ï¿½Åºï¿½';
 color:#F9DFA2;
 width:100%;height:500px;
 background:url('mask_bg.jpg') no-repeat top;
@@ -131,24 +131,24 @@ body#color_c #footer .login_sta{background-color:#D72269;}
 
 @keyframes myfirst
 {
-from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ÈíÑÅºÚ'}
-to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ÈíÑÅºÚ'}
+from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
+to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
 }
 
 @-moz-keyframes myfirst /* Firefox */
 {
-from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ÈíÑÅºÚ'}
-to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ÈíÑÅºÚ'}
+from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
+to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
 }
 
-@-webkit-keyframes myfirst /* Safari ºÍ Chrome */
+@-webkit-keyframes myfirst /* Safari ï¿½ï¿½ Chrome */
 {
-from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ÈíÑÅºÚ'}
-to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ÈíÑÅºÚ'}
+from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
+to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
 }
 
 @-o-keyframes myfirst /* Opera */
 {
-from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ÈíÑÅºÚ'}
-to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ÈíÑÅºÚ'}
+from {background-size:600px 480px;font:bolder 28px/250px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
+to {background-size:400px 320px;font:bolder 19px/180px 'Î¢ï¿½ï¿½ï¿½Åºï¿½'}
 }

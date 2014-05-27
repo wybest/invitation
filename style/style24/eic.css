@@ -3,7 +3,7 @@ body,ul,ol,li,form{margin:0;padding:0;-webkit-text-size-adjust:none;}
 ul,ol{list-style:none}
 img{border:0}
 a {cursor:pointer;text-decoration:none;}
-body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background:#6E0001 url('bg.jpg') no-repeat center top;line-height:1.5em;color:#252525;position:relative;}
+body{font-family:'Microsoft Yahei','Simsun',Arial;font-size:14px;background:#6E0001 url('bg.jpg') no-repeat center top;color:#252525;position:relative;}
 
 body#color_b{background-image:url('bg_b.jpg');background-color:#AF0102}
 body#color_c{background-image:url('bg_c.jpg');background-color:#fff;}
