@@ -144,7 +144,7 @@ function MM_swapImage() { //v3.0
         map.addEventListener("click", function(e){//地图单击事件
             $('#invite_detail_latmarker7044').val(e.point.lat);
             $('#invite_detail_lngmarker7044').val(e.point.lng);
-            $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
+            //$('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
             marker2.setPosition(new BMap.Point(e.point.lng,e.point.lat)) ;
             document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
         });
@@ -154,19 +154,19 @@ function MM_swapImage() { //v3.0
             //alert("地?中心??更?：" + center.lng + ", " + center.lat);
             $('#invite_detail_latcenter7044').val(center.lat);
             $('#invite_detail_lngcenter7044').val(center.lng);
-            $('#iframepage').get(0).contentWindow.setMapCenter7044(center.lng,center.lat);
+            //$('#iframepage').get(0).contentWindow.setMapCenter7044(center.lng,center.lat);
         });
 
         map.addEventListener("zoomend", function(){
             $('#invite_detail_zoom7044').val(map.getZoom());
-            $('#iframepage').get(0).contentWindow.setMapZoom7044(map.getZoom());
+            //$('#iframepage').get(0).contentWindow.setMapZoom7044(map.getZoom());
         });
 
         map.addEventListener("dragging", function(e){
 
             $('#invite_detail_latmarker7044').val(e.point.lat);
             $('#invite_detail_lngmarker7044').val(e.point.lng);
-            $('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
+            //$('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
 
 
         });
