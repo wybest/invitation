@@ -38,7 +38,7 @@
 			<div class="hr_line_c"></div>
 		   <div class="infos">
 			   <p class="etime">{#$show_time#}</p>
-			   <div><img src="style/style26/word_img_1.jpg" alt="举行结婚典礼"></div>
+			   <div><h1>{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼{#/if#}</h1></div>
 			   <table class="td" cellspacing="10">
 				   <tbody><tr>
 					   <td>席设：{#$house#}</td>

@@ -25,7 +25,7 @@
    <div class="infos">
 		<p>带着满心欢喜邀请您共享这份喜悦</p>
 		<p class="etime">{#$show_time#}</p>
-		<h1><img src="style/style31/big_font.png" alt="举行结婚典礼"></h1>
+		<h1>{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼{#/if#}</h1>
 		<table class="td" cellspacing="10">
 			<tbody><tr>
 				<td>席设：{#$house#}</td>

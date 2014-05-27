@@ -16,7 +16,7 @@
 <div id="myHtmlArea"><!--SPLIT--><div id="mask_bg"></div><div class="body" id="invite">
         <div class="infos">
             <p class="etime">{#$show_time#}</p>
-            <h1>举行结婚典礼</h1>
+            <h1>{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼{#/if#}</h1>
             <p class="some_notes">带着满心欢喜邀请您共享这份喜悦</p>
             <h2>{#$man#} &amp; {#$women#}</h2>
             <p class="some_notes">您的光临和祝福是我们最大的荣耀</p>
