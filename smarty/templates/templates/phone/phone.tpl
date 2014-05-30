@@ -792,15 +792,9 @@ window.onload = function() {
 
  <script type="text/javascript" src="" templates="" mobi_templ="" vip="" video.js"=""></script>
 
-<!-- 微信分享 -->
-<script language="JavaScript" src="style/style14/weixin_share.js" type="text/javascript" charset="utf-8"></script>
+
 <script type="text/javascript">
 
-var contentModel = {
-    "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
-    "title": "{#$bigtitle#}",
-    "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
-};
 
 document.oncontextmenu = function (event){
     if(window.event){
@@ -883,5 +877,15 @@ $(document).ready(function(){
     <source src="{#$music#}" type="audio/mpeg" />
 </audio>
 
+<!-- 微信分享 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="style/style14/weixin_share.js"></script>
+<script>
+    var contentModel = {
+        "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
+        "title": "{#$bigtitle#}",
+        "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
+    };
+</script>
 
 </body></html>
