@@ -792,21 +792,16 @@ window.onload = function() {
 
  <script type="text/javascript" src="" templates="" mobi_templ="" vip="" video.js"=""></script>
 
-
+<!-- 微信分享 -->
+<script language="JavaScript" src="style/style14/weixin_share.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
-    var share_img_url = "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}";
-var share_title = "{#$bigtitle#}";
-var share_desc = "{#$bigtitle#}";
-var share_link = "";
 
-//内容模型
 var contentModel = {
-    "img_url": share_img_url, 
-    "link": share_link,
-    "desc": share_desc, 
-    "title": share_title, 
-    "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#} " 
+    "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
+    "title": "{#$bigtitle#}",
+    "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
 };
+
 document.oncontextmenu = function (event){
     if(window.event){
         event = window.event;
@@ -887,6 +882,6 @@ $(document).ready(function(){
 <audio autoplay="autoplay" id="audio_play" loop="loop">
     <source src="{#$music#}" type="audio/mpeg" />
 </audio>
-<script language="JavaScript" src="style/weichat.js" type="text/javascript" charset="utf-8"></script>
+
 
 </body></html>
