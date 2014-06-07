@@ -56,7 +56,7 @@
         <td align="center" >{#if $shuju_array[customer]->style eq "style1" #}高端版{#else#}时尚版{#/if#}</td>
         <td><a onclick="return confirm('确认要删除?');" href="admin_delete_user.php?userId={#$shuju_array[customer]->id#}">关闭</a></td>
         <td align="center" >{#if $shuju_array[customer]->is_confirm == 0 #}未结算{#else#}已结算{#/if#} </td>
-        <td align="center" >{#if $shuju_array[customer]->admin_id == 1 #}wy{#else if $shuju_array[customer]->admin_id == 2 #}tb007{#else if $shuju_array[customer]->admin_id == 3 #}vampirelxl{#else if $shuju_array[customer]->admin_id == 4 #}bulage{#else if $shuju_array[customer]->admin_id == 5 #}wangjian{#else if $shuju_array[customer]->admin_id == 6 #}布拉格之恋{#else if $shuju_array[customer]->admin_id == 7 #}美天视觉{#else if $shuju_array[customer]->admin_id == 8 #}t8star{#else#}wangjian{#/if#} </td>
+        <td align="center" >{#if $shuju_array[customer]->admin_id == 1 #}wy{#else if $shuju_array[customer]->admin_id == 2 #}tb007{#else if $shuju_array[customer]->admin_id == 3 #}vampirelxl{#else if $shuju_array[customer]->admin_id == 4 #}bulage{#else if $shuju_array[customer]->admin_id == 5 #}wangjian{#else if $shuju_array[customer]->admin_id == 6 #}布拉格之恋{#else if $shuju_array[customer]->admin_id == 7 #}美天视觉{#else if $shuju_array[customer]->admin_id == 8 #}t8star{#else if $shuju_array[customer]->admin_id == 9 #}汤丹蝶{#else if $shuju_array[customer]->admin_id == 10 #}gn视觉{#else#}wangjian{#/if#} </td>
     </tr>
     {#/section#}
 </table>
