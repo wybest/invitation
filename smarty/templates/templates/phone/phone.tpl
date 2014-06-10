@@ -291,7 +291,10 @@ window.onload = function() {
                     </div>
                 </div></div></div>
                 <div class="inner-main-mr">
-                	<div id="img_decoration1"></div>
+                    <div id="frame1_1" style="cursor: pointer;"><div id="frame1_2" style="cursor: pointer;"><div id="frame1_3" style="cursor: pointer;"></div></div></div>
+                    <div id="frame2_1" style="cursor: pointer;"><div id="frame2_2" style="cursor: pointer;"><div id="frame2_3" style="cursor: pointer;"></div></div></div>
+                    <div id="frame3_1" style="cursor: pointer;"><div id="frame3_2" style="cursor: pointer;"><div id="frame3_3" style="cursor: pointer;"></div></div></div>
+                    <div id="img_decoration1"></div>
                     <div id="img_decoration2"></div>
                     <div class="inner-main-ml">
                         <div class="inner-main-mm">
