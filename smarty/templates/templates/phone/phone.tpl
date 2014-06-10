@@ -385,11 +385,11 @@ window.onload = function() {
             <div id="mask_bg"></div><div class="body" id="invite">
                 <table width="100%" class="head">
                     <tr>
-                        {#if $special_name #}<td align="center"><h3><span style="color: #BF4376;">{#$special_name#}</span></h3></td>
+                        {#if $special_name #}<td align="center"><h3><span >{#$special_name#}</span></h3></td>
                         {#else#}
-                        <td align="right"><h3><span style="color: #BF4376;">{#$man#}</span></h3><p>新郎</p></td>
+                        <td align="right"><h3><span >{#$man#}</span></h3><p>新郎</p></td>
                         <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
-                        <td align="left"><h3><span style="color: #BF4376;">{#$women#}</span></h3><p>新娘</p></td>
+                        <td align="left"><h3><span >{#$women#}</span></h3><p>新娘</p></td>
                         {#/if#}
 
                     </tr>
@@ -398,16 +398,16 @@ window.onload = function() {
             <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
             <div class="infos">
                 {#if $vip != "none"#}
-                <p class="ip4"><span style="color: #BF4376;">{#$vip#}</span></p>
+                <p class="ip4"><span >{#$vip#}</span></p>
                 {#/if#}
-                <p class="ip6"><span style="color: #BF4376;">{#$show_time#}</span></p>
-                <p class="ip5"><span style="color: #BF4376;">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
+                <p class="ip6"><span >{#$show_time#}</span></p>
+                <p class="ip5"><span >{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
                     <tr>
-                        <td class="ip6">时间：<span style="color: #BF4376;">{#$mini_time#}</span></td>
+                        <td class="ip6">时间：<span >{#$mini_time#}</span></td>
                     </tr>
                     <tr>
-                        <td class="ip6">地点：<span style="color: #BF4376;">{#$house#}</span></td>
+                        <td class="ip6">地点：<span >{#$house#}</span></td>
                     </tr>
                 </table>
 

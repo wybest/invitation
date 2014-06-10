@@ -1334,6 +1334,13 @@ String.prototype.Trim = function()
                             <option {#if $mould eq "桃色经典"#}selected="selected"{#/if#} value="桃色经典">桃色经典</option>
                             <option {#if $mould eq "正港台味"#}selected="selected"{#/if#} value="正港台味">正港台味</option>
                             <option {#if $mould eq "蓝色梦幻"#}selected="selected"{#/if#} value="蓝色梦幻">蓝色梦幻</option>
+                            <option {#if $mould eq "style36"#}selected="selected"{#/if#} value="style36">梦幻点点</option>
+                            <option {#if $mould eq "style37"#}selected="selected"{#/if#} value="style37">素雅紫</option>
+                            <option {#if $mould eq "style38"#}selected="selected"{#/if#} value="style38">清新绿</option>
+                            <option {#if $mould eq "style39"#}selected="selected"{#/if#} value="style39">浪漫蓝</option>
+                            <option {#if $mould eq "style40"#}selected="selected"{#/if#} value="style40">高贵金</option>
+                            <option {#if $mould eq "style41"#}selected="selected"{#/if#} value="style41">璀璨铂金</option>
+                            <option {#if $mould eq "style42"#}selected="selected"{#/if#} value="style42">依旧美丽</option>
                             <option {#if $mould eq "style18"#}selected="selected"{#/if#} value="style18">清新小屋</option>
                             <option {#if $mould eq "style19"#}selected="selected"{#/if#} value="style19">卡通爱恋</option>
                             <option {#if $mould eq "style20"#}selected="selected"{#/if#} value="style20">花样年华</option>

@@ -1,0 +1,5 @@
+@font-face {
+font-family:黑体2;
+Src:
+url(http://42.121.32.43:8080/Fonts/getfont/6dbd748f-ab65-4298-a817-14cd14b756d9ittf)  format("truetype");
+}

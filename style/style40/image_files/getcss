@@ -1,0 +1,5 @@
+@font-face {
+font-family:古印体2;
+Src:
+url(http://42.121.32.43:8080/Fonts/getfont/30c06240-1c3a-4ab9-b23e-28a5f1c1fd59ittf)  format("truetype");
+}

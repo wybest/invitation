@@ -1,0 +1,5 @@
+@font-face {
+font-family:粗钢笔1;
+Src:
+url(http://42.121.32.43:8080/Fonts/getfont/ac85615f-5e65-4ee7-8b04-f07221740765ittf)  format("truetype");
+}

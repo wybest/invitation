@@ -1518,7 +1518,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="7.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/7.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="7-.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/7-.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}</span></a>
                 </div>
             </div>
         </div>
