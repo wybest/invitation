@@ -471,16 +471,7 @@ window.onload = function() {
 
 
 <ul id="Gallery" class="gallery" >
-		
 
-
- <!-- <li><a href="uploads/image/f0904273C82W2683.jpg" rel="external"><img src="uploads/image/f0904273C82W2683.jpg" alt="" /></a></li>
-    {#section name=customer loop=$images #}
-
-    <li><a href="marryimg/{#$images[customer]#}" rel="external"><img src="marryimg/{#$images[customer]#}" alt=" "/></a></li>
-
-    {#/section#}
--->
  </ul>
                              
 	</div>
