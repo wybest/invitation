@@ -9,7 +9,7 @@
 <title>{#$bigtitle#}</title>
 <link href="style/{#$mould #}/image_files/custom.css" type="text/css" rel="stylesheet">
 <link href="style/{#$mould #}/image_files/style.css" type="text/css" rel="stylesheet">
-<link href="style/{#$mould #}/image_files/styles.css" type="text/css" rel="stylesheet">
+<link href="style/style35/image_files/styles.css" type="text/css" rel="stylesheet">
 <link href="style/{#$mould #}/image_files/photoswipe.css" type="text/css" rel="stylesheet">
 <link class="fontcss" href="style/桃色经典/image_files/getcss" type="text/css" rel="stylesheet">
 
