@@ -234,7 +234,7 @@ a.map img {
 
     width: 90%;
 
-    top: 45%;
+    top: 35%;
 
     position: absolute;
 
@@ -836,20 +836,6 @@ a,div,img,li,ul {
 @media only screen and (min-width: 800px) {
 
     /* Style adjustments for viewports that meet the condition */
-
-    body {
-
-        background: url('background-grey.jpg') repeat scroll 0 0 transparent;
-
-        width:640px;
-
-        margin: 10px auto;
-
-        font-size: 14px;
-
-        line-height: 22px;
-
-    }
 
 
 
