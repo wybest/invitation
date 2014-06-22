@@ -1418,7 +1418,7 @@ String.prototype.Trim = function()
                 <tr>
                     <td align="right" valign="top">自定义视频:</td>
                     <td colspan="2" valign="top">
-                        <input  type="text" id="vedio" name="vedio" value="{#$vedio#}" size="25"><br>只有切换栏格式的请柬才可以用视频，已经有视频，请上传视频到优酷网，并复制视频链接到输入框<br>格式例如：http://player.youku.com/embed/XNjUzNzgyMzYw
+                        <input  type="text" id="vedio" name="vedio" value="{#$vedio#}" size="25"><br>只有切换栏格式的请柬才可以用视频，已经有视频，请上传视频到优酷网，获取视频连接http://v.youku.com/v_show/id_<span style="color: red;">XNzUwMzY0</span>.html，取得红色部分并复制到输入框<br>格式例如：XNzUwMzY0
                     </td>
                 </tr>
                 </tbody></table>
