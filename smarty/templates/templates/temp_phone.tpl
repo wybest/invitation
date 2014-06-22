@@ -1540,7 +1540,8 @@ String.prototype.Trim = function() {
 
                     <iframe height="100%" width="100%" src="{#$vedio#}" frameborder=0 allowfullscreen></iframe>
 
-                    <span style="font-size:10px">(手机建议使用WiFi无线上网，双击全屏)</span>
+                    <span style="font-size:10px">(手机建议使用WiFi无线上网，双击全屏)</span><br>
+                    <input type="checkbox"/>&nbsp;关闭音乐
                 </div>
 
             </div>
