@@ -830,7 +830,7 @@ window.onload = function() {
                 $('#audio_play').attr('class','stop');
             }else{
                 $('#audio_play').play();
-                $('#mc_play').attr('class','on');
+                $('#audio_play').attr('class','on');
             }
         }
 
