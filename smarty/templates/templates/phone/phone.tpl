@@ -825,11 +825,12 @@ window.onload = function() {
 <script type="text/javascript">
 
         function play_music(){
+            var music = document.getElementById("audio_play");
             if ($('#audio_play').hasClass('on')){
-                $('#audio_play').pause();
+                music.pause();
                 $('#audio_play').attr('class','stop');
             }else{
-                $('#audio_play').play();
+                music.play();
                 $('#audio_play').attr('class','on');
             }
         }
