@@ -20,6 +20,7 @@ class  MessageDO {
 	public $bigimage;
 	public $bigtitle;
 	public $weixin;
+    public $vedio;
 }
 
 ?>

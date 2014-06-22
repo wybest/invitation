@@ -1513,7 +1513,8 @@ String.prototype.Trim = function() {
     </div>
     <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
 </div>
-<!--
+
+{#if $vedio #}
 <h3 style="display:{#if $t7 eq "1"#} none {#/if#}" id="invite_detail_title7047" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
 
     <div name="button7" id="button2" class="button">
@@ -1521,7 +1522,7 @@ String.prototype.Trim = function() {
         <div class="button-mr">
             <div class="button-ml">
                 <div class="button-mm">
-                    <a href="#"><img class="iconimage" alt="7-.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/7-.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}</span></a>
+                    <a href="#"><img class="iconimage" alt="7.png" src="style/{#if $mould #}{#$mould#}{#else#}桃色经典{#/if#}/image_files/7.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7041">{#if $title7#}{#$title7#}{#else#}mv视频{#/if#}</span></a>
                 </div>
             </div>
         </div>
@@ -1537,7 +1538,7 @@ String.prototype.Trim = function() {
                 <div class="detail-mm">
 
 
-                    <iframe height="100%" width="100%" src="http://player.youku.com/embed/XNjUzNzgyMzYw" frameborder=0 allowfullscreen></iframe>
+                    <iframe height="100%" width="100%" src="{#$vedio#}" frameborder=0 allowfullscreen></iframe>
 
                     <span style="font-size:10px">(手机建议使用WiFi无线上网，双击全屏)</span>
                 </div>
@@ -1547,7 +1548,7 @@ String.prototype.Trim = function() {
     </div>
     <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
 </div>
--->
+{#/if#}
 
 
 

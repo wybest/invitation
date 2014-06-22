@@ -10,6 +10,7 @@ require 'is_login.php';
 
 if($_REQUEST['insert'] == "insert"){
 
+    $vedio=$_REQUEST['vedio'];
     $music=$_REQUEST['music'];
     $mould=$_REQUEST['mould'];
     $bigtitle=$_REQUEST['bigtitle'];
@@ -60,7 +61,7 @@ if($_REQUEST['insert'] == "insert"){
             $women = $messageDO->women;
         }
         $message = mysql_real_escape_string($message);
-		$target = MyDB::updateInfoDB($man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
+		$target = MyDB::updateInfoDB($vedio,$man,$women,$lasttime, $house, $address, $message, $show_time, $mini_time, $title, $user_id,$bigtitle,$link);
         MyDB::updateInfoPhoneMouldDB($mould,$user_id,$link);
         MyDB::updateInfoMusicDB($music,$user_id,$link);
         MyDB::updateInfoCoordinateDB($coordinate,$user_id,$link);
@@ -111,6 +112,8 @@ if($_REQUEST['insert'] == "insert"){
         Globle::$smarty->assign("title", $messageDO->title);
         Globle::$smarty->assign("message", $messageDO->message);
         Globle::$smarty->assign("image", $messageDO->image);
+        Globle::$smarty->assign("vedio", $messageDO->vedio);
+
         if($messageDO->image==""){
             Globle::$smarty->assign("images","none");
         }else{

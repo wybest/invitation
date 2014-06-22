@@ -48,6 +48,7 @@ if ($messageDO != null) {
     Globle::$smarty->assign("title", $messageDO->title);
     Globle::$smarty->assign("message", htmlspecialchars($messageDO->message));
     Globle::$smarty->assign("image", $messageDO->image);
+    Globle::$smarty->assign("vedio", $messageDO->vedio);
     if($messageDO->image==""){
         Globle::$smarty->assign("images","none");
     }else{
