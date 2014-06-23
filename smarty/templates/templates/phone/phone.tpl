@@ -793,7 +793,7 @@ window.onload = function() {
                 <div class="detail-mm">
 
 
-                    <iframe height="100%" width="100%" src="http://player.youku.com/embed/{#$vedio#}" frameborder=0 allowfullscreen></iframe>
+                    <iframe height="110px" width="100%" src="http://player.youku.com/embed/{#$vedio#}" frameborder=0 allowfullscreen></iframe>
 
                     <span style="font-size:10px">(手机建议使用WiFi无线上网，双击全屏)</span><br>
                     <input id="musicbutton" type="checkbox" onclick="play_music()"/>&nbsp;关闭音乐
