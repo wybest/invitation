@@ -141,8 +141,8 @@ $filesId[32] = "我们结婚吧.mp3";
 $files[33] = "方大同 - Nothing’s Gonna Change My Love For You.mp3";//33
 $filesId[33] = "方大同 - Nothing’s Gonna Change My Love For You.mp3";
 
-$files[34] = "34.mp3";//34
-$filesId[34] = "最重要的决定.mp3";
+$files[34] = "最重要的决定.mp3";//34
+$filesId[34] = "34.mp3";
 
 $files[35] = "爱很美.mp3";//35
 $filesId[35] = "爱很美.mp3";
