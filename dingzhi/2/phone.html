@@ -1,0 +1,1050 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html namelns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
+
+<title>疗养中心</title>
+<link href="style38/image_files/custom.css" type="text/css" rel="stylesheet">
+<link href="style38/image_files/style.css" type="text/css" rel="stylesheet">
+<link href="style38/image_files/styles.css" type="text/css" rel="stylesheet">
+<link href="style38/image_files/photoswipe.css" type="text/css" rel="stylesheet">
+<link class="fontcss" href="style38/image_files/getcss" type="text/css" rel="stylesheet">
+
+<style> 
+#mydiv{ 
+position:absolute; 
+left:40%; 
+top:40%; 
+border:1px solid #000000; 
+width:200px; 
+background-color:#FFFFFF; 
+color:#00FF00; 
+font-size:20px; 
+font-style:bold; 
+font-family:微软雅黑; 
+   } 
+</style>
+
+<script src="style38/image_files/jquery-latest.js"></script>
+<script type="text/javascript" src="style38/image_files/getscript"></script>
+<script type="text/javascript" src="style38/image_files/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="style38/image_files/jquery-ui-1.8.18.full.min.js"></script>
+<script type="text/javascript" src="style38/image_files/klass.min.js"></script>
+<script type="text/javascript" src="style38/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
+
+<script type="text/javascript">
+var bReloadWebFontOnce = 1;
+$(document).ready(function() {
+	$("#accordion").accordion({ autoHeight: false },{ collapsible: true,active: false } );
+	//$("#accordion").accordion("activate",0);
+	//$("#accordion").accordion("activate","#accordion10");
+	  
+	$("#accordion").bind('accordionchange', function(event, ui) {
+         //   ui.newHeader // jQuery object, activated header
+         //   ui.oldHeader // jQuery object, previous header
+         //   ui.newContent // jQuery object, activated content
+         //   ui.oldContent // jQuery object, previous content
+	    //console.log(ui);		
+       // console.log($("#accordion").accordion( "option", "active" ));    
+			if ($(ui.newHeader).offset() != null){
+            	$('html, body').animate({scrollTop: $(ui.newHeader).offset().top} );
+			}
+		
+	});
+
+			$("#accordion").bind('accordionchangestart', function(event, ui) {
+				if (ui.newContent.attr('id') == 'invite_detail_content7166' && bReloadWebFontOnce==1  )
+				{
+					//alert("reloadwebfont");
+					//$("#invite_detail_editor7166").hide();	
+					reloadWebFont();
+					bReloadWebFontOnce = 0;
+					//$("#invite_detail_editor7166").show();	
+				}
+			});
+			
+
+			$("#accordion").bind('accordionchange', function(event, ui) {
+			 // ui.newHeader // jQuery object, activated header
+			 // ui.oldHeader // jQuery object, previous header
+			 // ui.newContent // jQuery object, activated content
+			 // ui.oldContent // jQuery object, previous content
+			 //  alert($(ui.newContent).attr("id") + " was opened, " + $(ui.oldContent).attr("id") + " was closed");
+			 //   console.log(ui.newHeader.attr('id'));
+				if (ui.newContent.attr('id') == 'invite_detail_content7169' && !map7169 && $("#invite_detail_mapimgurl7169").val() == '' )
+				{
+					//alert("initialize7169");
+					initialize7169();
+				}
+				
+				
+			});
+				
+			
+
+
+
+});
+
+</script>
+<style type="text/css">
+.content-wrapper {
+width: 95%;
+margin: 10px auto;
+background: url(main-bg.jpg) !important;
+border: 1px solid #fff;
+box-shadow: 0px 0px 2px #a8a7a8;
+-webkit-box-shadow: 0px 0px 2px #a8a7a8;
+-moz-box-shadow: 0px 0px 2px #a8a7a8;
+padding: 5px;
+position: relative;
+z-index: 88;
+}
+.content {
+background: #fff;
+padding: 20px 20px 40px 20px;
+box-shadow: 0px 0px 2px #cfcecf;
+-webkit-box-shadow: 0px 0px 2px #cfcecf;
+-moz-box-shadow: 0px 0px 2px #cfcecf;
+}
+element.style {
+}
+Matched CSS Rules
+.inner-header {
+background: url(images/inner-header-bg.jpg) repeat-x bottom;
+height: 40px;
+margin-bottom: 10px;
+}
+.content .textbox, .content #message, .sidebar-col .textbox, #renshu {
+padding: 8px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background: #f7f7f7;
+border: 1px solid #cecece;
+box-shadow: inset 1px 1px 2px #e2d8d7;
+-webkit-box-shadow: inset 1px 1px 2px #e2d8d7;
+-moz-box-shadow: inset 1px 1px 2px #e2d8d7;
+}
+.content #message {
+width: 90%;
+height: 100px;
+font-family: Arimo, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+#submit-button {
+background: none repeat scroll 0 0 #DF6296;
+padding: 2px;
+width: 185px;
+margin-top: 20px;
+-webkit-transition: background-color 0.3s ease-in-out;
+-moz-transition: background-color 0.3s ease-in-out;
+-o-transition: background-color 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
+}
+#send_message {
+background: none repeat scroll 0 0 #DF6296;
+border: 1px solid #eda5c3;
+margin: 0px;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+color: #FFFFFF;
+padding: 4px 20px;
+font-family: Oswald, sans-serif;
+font-size: 20px;
+text-shadow: 1px 1px 1px #4d304e;
+width: 185px;
+-webkit-transition: background-color 0.3s ease-in-out;
+-moz-transition: background-color 0.3s ease-in-out;
+-o-transition: background-color 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
+}
+.inner-header h1 {
+color: #df6296;
+font-size: 22px;
+text-transform: none;
+line-height: 25px;
+font-family: "微软雅黑";
+}
+
+
+.huihan_list {
+    width: 95%;
+    height: auto;
+    margin: 5px auto;
+    border-bottom: 1px solid #CCC;
+    background: #fff;
+}
+
+.huihan_top {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-color: lightpink;
+}
+
+
+.huihan_name {
+    width: auto;
+    height: 20px;
+    font-weight: 700;
+    float: left;
+    font-size: 16px;
+    margin: 12px 10px 15px;
+}
+
+.huihan_time {
+    width: auto;
+    height: 20px;
+    float: right;
+    font-size: 12px;
+    color: #999;
+    margin: 12px 12px 15px;
+}
+
+.huihan_text {
+    width: auto;
+    height: auto;
+    padding: 10px 0px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px 12px 0px 40px;
+}
+</style>
+<style>
+  #Loading{position:absolute;top:0;left:0;width:100%;height:400%;background:#ffffff;margin:0px 0 0 0px; z-index:200}
+  /* #Loading2{position:absolute;top:0;left:0;width:100%;height:100%;background:#F00;margin:0px 0 0 0px; z-index:199}*/
+  #heart{position:absolute;left:50%;top:13%;margin:-50px 0 0 -30px;}
+  #Waiting{position:absolute; width:100px; text-align:center;left:50%;top:13%;margin:10px 0 0 -45px;}
+  #mainbox{margin:0;}
+</style>
+
+
+
+</head>
+
+<body class="">
+
+<div id="Loading">
+    <div id="heart">
+        <img src="img/12.gif" />
+    </div>
+    <div id="Waiting">
+        <span style="text-align:center; color:#F00">
+            幸福加载中...
+        </span>
+    </div>
+</div>
+
+
+
+<script language="javascript" type="text/javascript">
+
+var LoadingDIV = document.getElementById("Loading");
+window.onload = function() {
+    LoadingDIV.style.display = "none";
+}
+
+</script>
+
+
+<div id="outter">
+	<div class="outter-main-tr"><div class="outter-main-tl"><div class="outter-main-tm"></div></div></div>
+    <div class="outter-main-mr"><div class="outter-main-ml">
+
+        <div class="ui-widget-header ui-corner-all">
+            <div id="inner">
+                <div class="inner-main-tr"><div class="inner-main-tl"><div class="inner-main-tm">
+                    <div id="main-title">
+                        <div class="main-title-tr"><div class="main-title-tl"><div class="main-title-tm">
+                        </div></div></div>
+                        <div class="main-title-mr"><div class="main-title-ml">
+                    
+                            <div class="main-title-mm">
+                                <div id="maintitlehtml"><span style="text-decoration: none; font-style: normal; font-size: 20px; font-weight: normal; ">“年轻泰”皇室荷尔蒙私人定制之旅<br>Young Thai Royal hormone private customized tour</span></div>
+                            </div>
+                    
+                        </div>
+                        </div>
+                        <div class="main-title-br"><div class="main-title-bl"><div class="main-title-bm">
+                        </div></div></div>
+                    </div>
+                </div></div></div>
+                <div class="inner-main-mr">
+                    <div id="frame1_1" style="cursor: pointer;"><div id="frame1_2" style="cursor: pointer;"><div id="frame1_3" style="cursor: pointer;"></div></div></div>
+                    <div id="frame2_1" style="cursor: pointer;"><div id="frame2_2" style="cursor: pointer;"><div id="frame2_3" style="cursor: pointer;"></div></div></div>
+                    <div id="frame3_1" style="cursor: pointer;"><div id="frame3_2" style="cursor: pointer;"><div id="frame3_3" style="cursor: pointer;"></div></div></div>
+                    <div id="img_decoration1"></div>
+                    <div id="img_decoration2"></div>
+                    <div class="inner-main-ml">
+                        <div class="inner-main-mm">
+<!-- 大圖 -->  
+                            <img id="invite_webimg" src="mian.jpg" width="100%" alt="Mobile Wedding Invitations">
+                       	  <div id="img_videobutton_placeholder" style="position:relative;"> 
+                        	<div id="img_videobutton" style=""></div>
+                       		</div>
+                        </div>
+               	  </div>
+                </div>
+              <div class="inner-main-br">
+                <div id="img_decoration3"></div>
+                <div class="inner-main-bl"><div class="inner-main-bm">
+
+                    <div id="sub-title">
+                        <div class="sub-title-tr"><div class="sub-title-tl"><div class="sub-title-tm">
+                        </div></div></div>
+                        <div class="sub-title-mr"><div class="sub-title-ml">
+                    
+                            <div class="sub-title-mm">
+			                    <div id="subtitlehtml" style="text-align:center; margin-top:3px; margin-bottom:3px; "><span style="font-weight: normal; font-size: 18px; ">2014年8月16日</span>
+                            </div></div>
+                    
+                        </div>
+                        </div>
+                        <div class="sub-title-br"><div class="sub-title-bl"><div class="sub-title-bm">
+                        </div></div></div>
+                    </div>
+
+
+                </div></div></div>
+            </div>
+        
+        </div>
+
+    </div></div>
+	<div class="outter-main-br"><div class="outter-main-bl"><div class="outter-main-bm"></div></div></div>
+</div>
+
+
+
+
+  
+
+<div id="accordion" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist"> 
+
+
+
+
+<!--<h3 style="display:" id="invite_detail_title7143" >-->
+<h3 style="" id="invite_detail_title7092" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+    
+ 		<div name="button1" id="button1" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href=""><img class="iconimage" alt="css/5/images/1.png" src="style38/image_files/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">爱的邀约</span></a>
+            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+		</div>
+	</h3>
+	<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7167" role="tabpanel" style="display: none;">
+    <div id="detail7167" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm"  style="padding-bottom:20px;">
+
+            <!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
+            <!--SPLIT-->
+            <style>
+
+                .head h3 { font-size:22px;color:#000;padding-bottom:5px;}
+                .line { border-top:1px solid #E5BD82;margin:5px 0;}
+                .info { font-size:16px;font-weight:bold;margin-top:20px;}
+                #invite .infos{text-align:center;font-weight:bolder;font-size:16px;padding:5px 0 15px 0}
+                #invite .infos table{margin:0 auto;}
+                #invite .infos h1 {min-height:0;overflow:hidden}
+                #invite .infos h1 img{max-width:100%;overflow:hidden;}
+                #invite .infos .text { font-size:18px;}
+                .ip4{color:#000;font-size:25px; margin:5px 0px;}
+                .ip5{color:#000;font-size:24px; margin:5px 0px;}
+                .ip6{color:#000;font-size:18px;padding:5px;}
+            </style>
+
+
+            <div id="mask_bg"></div><div class="body" id="invite">
+                <table width="100%" class="head">
+                    <tr>
+                        <td align="center"><h3><span >“年轻泰“皇室荷尔蒙私人定制之旅</span></h3></td>
+
+                    </tr>
+                </table>
+                <div class="line" /></div>
+            <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
+            <div class="infos">
+                <p class="ip6"><span >2014年8月16日</span></p>
+                <p class="ip5"><span >留住青春 逆转年龄</span></p>
+                <table class="td" cellspacing="10">
+                    <tr>
+                        <td class="ip6">地点：<span >泰国曼谷/芭提雅</span></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+
+            <!--<div id="slideshow" style="width:300px; height:300px;"></div> <div class="text">您的光临会是我们最大的荣幸</div>
+ <div class="invitext">
+              <p class="ip2"><img src="rose.png"  height="30" alt=""> </p>
+              {#if $vip != "none"#}
+              <p class="ip4">{#$vip#}</p>
+              {#/if#}
+              <p class="ip3"><span>{#$show_time#}</span></p>
+              <p class="ip3">{#if $special_name #}<span>{#$special_name#}</span>{#else#}新郎：<span class="">{#$man#}</span> 新娘：<span>{#$women#}</span> {#/if#}</p>
+              <p class="ip4">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</p>
+              <p class="ip3">时间：<span>{#$mini_time#}</span></p>
+              <p class="ip3">地点：<span>{#$house#}</span></p><br />
+  </div>
+
+-->
+
+
+
+	</div>
+        </div>
+        </div>
+        </div>
+        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+    
+
+
+
+<h3 style="" id="invite_detail_title7093" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+    
+ 		<div name="button2" id="button2" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href="#"><img class="iconimage" alt="css/5/images/2.png" src="style38/image_files/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">精彩回顾</span></a>            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+		</div>
+	</h3>
+	<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7168" role="tabpanel" style="display: none;">
+    <div id="detail7168" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm">
+        
+        
+<!--<div id="slideshow" style="width:300px; height:300px;"></div>-->
+
+
+
+<ul id="Gallery" class="gallery" >
+    <li><a href="1/1_meitu_1.jpg" rel="external"><img src="1/1_meitu_1.jpg" alt=" "/></a></li>
+    <li><a href="1/2_meitu_2.jpg" rel="external"><img src="1/2_meitu_2.jpg" alt=" "/></a></li>
+    <li><a href="1/3_meitu_3.jpg" rel="external"><img src="1/3_meitu_3.jpg" alt=" "/></a></li>
+    <li><a href="1/4_meitu_4.jpg" rel="external"><img src="1/4_meitu_4.jpg" alt=" "/></a></li>
+    <li><a href="1/5_meitu_5.jpg" rel="external"><img src="1/5_meitu_5.jpg" alt=" "/></a></li>
+    <li><a href="1/6_meitu_6.jpg" rel="external"><img src="1/6_meitu_6.jpg" alt=" "/></a></li>
+    <li><a href="1/7_meitu_7.jpg" rel="external"><img src="1/7_meitu_7.jpg" alt=" "/></a></li>
+    <li><a href="1/8_meitu_8.jpg" rel="external"><img src="1/8_meitu_8.jpg" alt=" "/></a></li>
+    <li><a href="1/9_meitu_9.jpg" rel="external"><img src="1/9_meitu_9.jpg" alt=" "/></a></li>
+    <li><a href="1/10_meitu_10.jpg" rel="external"><img src="1/10meitu_10.jpg" alt=" "/></a></li>
+ </ul>
+
+	</div>
+        </div>
+        </div>
+        </div>
+        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+<h3 style="" id="invite_detail_title7094" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+
+ 		<div name="button3" id="button3" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href="#"><img class="iconimage" alt="css/5/images/3.png" src="style38/image_files/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">青春密码</span></a>            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+
+		</div>
+	</h3>
+	<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7168" role="tabpanel" style="display: none;">
+    <div id="detail7168" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm">
+
+            <ul id="Gallery2" class="gallery" >
+                <li><a href="2/1.jpg" rel="external"><img src="2/1.jpg" alt=" "/></a></li>
+                <li><a href="2/2.jpg" rel="external"><img src="2/2.jpg" alt=" "/></a></li>
+                <li><a href="2/3.jpg" rel="external"><img src="2/3.jpg" alt=" "/></a></li>
+                <li><a href="2/4.jpg" rel="external"><img src="2/4.jpg" alt=" "/></a></li>
+                <li><a href="2/5.jpg" rel="external"><img src="2/5.jpg" alt=" "/></a></li>
+                <li><a href="2/6.jpg" rel="external"><img src="2/6.jpg" alt=" "/></a></li>
+                <li><a href="2/7.jpg" rel="external"><img src="2/7.jpg" alt=" "/></a></li>
+                <li><a href="2/8.jpg" rel="external"><img src="2/8.jpg" alt=" "/></a></li>
+                <li><a href="2/9.jpg" rel="external"><img src="2/9.jpg" alt=" "/></a></li>
+                <li><a href="2/10.jpg" rel="external"><img src="2/10.jpg" alt=" "/></a></li>
+            </ul>
+
+	</div>
+        </div>
+
+        </div>
+        </div>
+        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+
+
+
+<h3 style="" id="invite_detail_title7095" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+
+ 		<div name="button4" id="button4" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href="#"><img class="iconimage" alt="css/5/images/4.png" src="style38/image_files/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">疗养中心</span></a>            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+		</div>
+	</h3>
+
+<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7095" role="tabpanel" style="display: none;">
+    <div id="detail7095" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm">
+
+            <ul id="Gallery3" class="gallery" >
+                <li><a href="3/1.jpg" rel="external"><img src="3/1.jpg" alt=" "/></a></li>
+                <li><a href="3/2.jpg" rel="external"><img src="3/2.jpg" alt=" "/></a></li>
+                <li><a href="3/3.jpg" rel="external"><img src="3/3.jpg" alt=" "/></a></li>
+                <li><a href="3/4.jpg" rel="external"><img src="3/4.jpg" alt=" "/></a></li>
+                <li><a href="3/5.jpg" rel="external"><img src="3/5.jpg" alt=" "/></a></li>
+                <li><a href="3/6.jpg" rel="external"><img src="3/6.jpg" alt=" "/></a></li>
+                <li><a href="3/7.jpg" rel="external"><img src="3/7.jpg" alt=" "/></a></li>
+                <li><a href="3/8.jpg" rel="external"><img src="3/8.jpg" alt=" "/></a></li>
+                <li><a href="3/9.jpg" rel="external"><img src="3/9.jpg" alt=" "/></a></li>
+                <li><a href="3/10.jpg" rel="external"><img src="3/10.jpg" alt=" "/></a></li>
+            </ul>
+            <div id="remindtitle"><span style="font-size: large; "><h1><strong><span lang="EN-US" style="mso-bidi-font-size:11.5pt;line-height:240%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Dermaster</span></strong><strong><span style="mso-bidi-font-size:13.5pt;line-height:240%;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri">医疗中心</span></strong></h1><h1><span lang="EN-US" style="line-height: 24pt; font-size: 13.5pt; color: rgb(255, 255, 255);">DERMASTER</span><span style="line-height: 24pt; font-size: 13.5pt; color: rgb(255, 255, 255);">是泰国首屈一指的医疗抗衰机构，拥有卓越的个性化服务，它坐落于曼谷市中心。<span lang="EN-US">DERMASTER</span>为您提供全方位改善面部及肢体的各项治疗，包括荷尔蒙平衡疗养、外科整形、纤体美容、植发生发以及运用到最先进医疗技术的端粒抗衰老疗法。同时机构中还拥有经验丰富的国际医师及医务团队。</span></h1><h1><span lang="EN-US" style="font-size: 13.5pt; font-family: Calibri, sans-serif; color: rgb(255, 255, 255);">DERMASTER</span><span style="font-size: 13.5pt; font-family: 宋体; color: rgb(255, 255, 255);">的医疗宗旨是“以客为本”，并且凭借其为世界各地的上流人士，贵族名媛带来的顶级美容理念与有效的抗衰老治疗，从而在抗衰老领域享有盛誉。</span></h1></span></div>
+
+	        </div>
+        </div>
+	        </div>
+	        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+</div>
+
+
+  
+  
+  
+    
+      
+<h3 style="" id="invite_detail_title8096" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+    
+ 		<div name="button5" id="button5" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href="#"><img class="iconimage" alt="css/5/images/5.png" src="style38/image_files/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">盛宴地图</span></a>            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+		</div>
+	</h3>
+	<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content8096" role="tabpanel" style="display: none;">
+    <div id="detail8096" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm">
+            <ul  class="gallery" style="width: 90%;height: auto;">
+                <li><a href="ditu.jpg" rel="external"><img src="ditu.jpg" alt=" "/></a></li>
+            </ul>
+       
+	</div>
+        </div>
+        </div>
+        </div>
+        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+     
+ <h3 style="" id="invite_detail_title9097" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>
+    
+ 		<div name="button6" id="button6" class="button">
+            <div class="button-tr"><div class="button-tl"><div class="button-tm"></div></div></div>
+            <div class="button-mr">
+            <div class="button-ml">
+			<div class="button-mm">
+    			<a href="#"><img class="iconimage" alt="css/5/images/6.png" src="style38/image_files/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">温馨提示</span></a>            </div>
+            </div>
+            </div>
+            <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
+		</div>
+	</h3>
+    
+    
+    
+    
+    
+	<div class="accordion ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7171" role="tabpanel" style="display: none;">
+    <div id="detail7171" class="detail">
+        <div class="detail-tr"><div class="detail-tl"><div class="detail-tm"></div></div></div>
+        <div class="detail-mr">
+        <div class="detail-ml">
+        <div class="detail-mm">
+		
+            <style type="text/css">
+
+</style>
+            <div style="margin-top:5px; margin-bottom:15px">
+            <div id="remindtitle"><span style="font-size: large; "><p class="MsoNormal"><b><span style="font-size:14.0pt;font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:red">必带品</span></b><b><span lang="EN-US" style="font-size:14.0pt;color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><span style="font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri">披肩或外套、泳衣、墨镜、防晒霜、帽子、防蚊水、防水袋、个人</span><span style="font-family: 宋体;">护理用品、雨伞、平跟鞋、两寸白底或蓝底照片两张。</span></p><p class="MsoNormal"><span style="font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri">风俗禁忌</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">1</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">进入寺庙要脱鞋，服装应整齐端正，做好不要穿短裤。</span></p><p class="MsoNormal"><span lang="EN-US">2</span><span style="font-family: 宋体;">、</span><span lang="EN-US">&nbsp; </span><span style="font-family: 宋体;">遇见僧侶要礼让；女性应避免接触僧侣，如奉献财物，可请男</span><span style="font-family: 宋体;">士代劳或者直接放在桌子上。俗人不得与僧侣握手，只能合十</span><span style="font-family: 宋体;">致意，女子不得碰触僧侣（这是一佛寺一戒，遇见托钵化缘的</span><span style="font-family: 宋体;">僧侣，千万不能送现金，因为这是破坏僧侣戒律的行为）。</span></p><p class="MsoNormal"><span lang="EN-US">3</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">泰国人对皇室成员怀有深厚的敬仰之情，到访贵宾应对泰皇、</span><span style="font-family: 宋体;">泰后及其子女表示尊重。</span></p><p class="MsoNormal"><span lang="EN-US">4</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">打招呼时要双手合掌，不可用脚指人或指物。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">5</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">头部为身体较神圣部分，不得抚摸泰国人的头，特别是小孩的，</span><span style="font-family: 宋体;">传递物品时也切忌不要越过他人的头顶。</span></p><p class="MsoNormal"><span lang="EN-US">6</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">忌用左手接物和递物。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">7</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">付小费时不能给硬币，因为在泰国硬币是给乞丐的。（当然正</span><span style="font-family: 宋体;">常买东西是可以用的）</span></p><p class="MsoNormal"><span lang="EN-US">8</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">交谈时忌用手指指点对方。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">9</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">不要把脚放在桌子或椅子上休息，坐时不得翘二郎腿，不能把脚</span><span style="font-family: 宋体;">底翘起对着别人，妇女落座，更为要求严格，双腿必须并拢。</span></p><p class="MsoNormal"><span lang="EN-US">10</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、购买佛饰时不能说“买”，而只能说“求租”，否则就是亵渎</span><span style="font-family: 宋体;">神明，会招来灾祸，外国游客也必须遵守这一禁忌。</span></p><p class="MsoNormal"><span lang="EN-US">11</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、经过别人面前时需腰躬行，以示对别人的尊重。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">12</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、不用红笔签名，因为泰国人死后要在棺材口写上其姓氏，写时</span><span style="font-family: 宋体;">用的就是红笔。披肩或外套、泳衣、墨镜、防晒霜、帽子、防</span><span style="font-family: 宋体;">蚊水、防水袋、个人护理用品、雨伞、平跟鞋、两寸白底或蓝</span><span style="font-family: 宋体;">底照片两张。</span></p><p class="MsoNormal"><span lang="EN-US">13</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、在人经常走过的地方、如门口、房顶等禁止悬挂衣物，特别是</span><span style="font-family: 宋体;">袜子和裤衩之类的。</span></p><p class="MsoNormal"><span lang="EN-US">14</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">泰国禁止赌博，即使酒店房间也不能玩牌或麻将。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span style="font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri">饮食禁忌</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">一、</span><span lang="EN-US" style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">榴莲的禁忌和注意的地方：</span></b><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">1</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">榴莲切忌与酒一起食用</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">2</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">患糖尿病、热气体质、患感冒、阴虚体质、气管敏感或者吃榴</span><span style="font-family: 宋体;">莲会另病情恶化不宜食用。</span></p><p class="MsoNormal"><span lang="EN-US">3</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">肾病及心脏病人、肥胖人士宜少食。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">4</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">榴莲口感较稠结，易积余肠内，应多喝清水助消化。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US" style="color:red">&nbsp;</span></p><p class="MsoNormal"><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">二、</span><span lang="EN-US" style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">山竹的禁忌和注意的地方</span><span lang="EN-US" style="color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><span lang="EN-US">1</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">切勿与西瓜、豆浆、啤酒、白菜、芥菜、苦瓜、汤等寒冷食物</span><span style="font-family: 宋体;">同吃。</span></p><p class="MsoNormal"><span lang="EN-US">2</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">糖尿病人不宜食用。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">3</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">肥胖者、肾病及心脏病、体质虚寒者宜少吃。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">三、</span><span lang="EN-US" style="color:red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">海鲜的禁忌和注意的事项</span></b><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">1</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">关节炎患者忌多吃海鲜。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">2</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">海鲜不宜与啤酒同吃，会引起肾结石和尿毒症。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-US">3</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">海鲜忌与柿子、葡萄、海鲜、石榴、山楂、青果等水果同食，</span><span style="font-family: 宋体;">如有食用至少应间隔</span><span lang="EN-US">2</span><span style="font-family: 宋体;">小时。</span></p><p class="MsoNormal"><span lang="EN-US">4</span><span style="font-family:宋体;
+mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">、</span><span lang="EN-US">&nbsp; </span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">虾类忌与维生素</span><span lang="EN-US">C</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri">同食。</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal"><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">四、胃炎者尽量少食咖喱</span><span lang="EN-US" style="color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><b><span lang="EN-US" style="color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><b><span style="font-size:14.0pt;font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;color:red">温馨提示</span></b><b><span lang="EN-US" style="font-size:14.0pt;color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">入境泰国的外籍人士随身须携带现金不少于</span><span lang="EN-US" style="color:red">2</span></b><b><span style="font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;color:red">万泰铢（约</span><span lang="EN-US" style="color:red">3800</span></b><b><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+color:red">元人民币），现金不足者将被拒入境。</span></b><b><span lang="EN-US" style="font-size:14.0pt;color:red"><o:p></o:p></span></b></p><p class="MsoNormal"><b><span lang="EN-US" style="color:red">&nbsp;</span></b></p><p class="MsoNormal"><span lang="EN-US">1.</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">因所有治疗必须做抽血检测，为了您的治疗有更好的疗效，建议</span><span style="font-family: 宋体;">您</span><span lang="EN-US">22:00</span><span style="font-family: 宋体;">后禁食禁水以便检测结果更准确。</span></p><p class="MsoNormal"><span lang="EN-US">2.</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">饮食：泰国菜在辣、咸、甜和酸之间形成微妙的平衡，味道较浓</span><span style="font-family: 宋体;">烈，您可以依据个人口味自行选择尝试。</span></p><p class="MsoNormal"><span lang="EN-US">3.</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri">衣着：以短袖短裤为主，您的衣着能多鲜艳就多鲜艳，把平时不</span><span style="font-family: 宋体;">敢穿的吊带，短裤统统带去。但还是建议您出行前带一件外套或者</span><span style="font-size: 10.5pt; font-family: 宋体;">披肩。（强烈建议您作</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 10.5pt; font-family: 宋体;">为我们尊贵的客人带上您最美的晚礼服参</span><span style="font-family: 宋体; font-size: 10.5pt;">加盛大而隆重的晚宴）</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">泳衣：女生比基尼那是必不可少的，男生最好不要买很宽松样式的</span><span style="font-family: 宋体; font-size: 10.5pt;">泳裤，一是因为浸水后容易掉下来，二是因为海里面会有鱼，相信</span><span style="font-family: 宋体; font-size: 10.5pt;">您懂得。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">鞋子：建议您还是准备一双舒服的低跟或平跟鞋子。</span>
+
+            </p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">墨镜：墨镜那是必须的，最好能把一半脸遮住的那种更好，超有范。</span><span style="font-family: 宋体; font-size: 10.5pt;">无论拍照还是防晒、我们一直用它。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">帽子：最好选大帽檐的，建议您材质最好不要草编的，草编的遇到</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">水就软掉了。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">防晒露：最好是防水的</span><span lang="EN-US" style="font-size:
+10.5pt;mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">SPF40</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">以上，如果您的航班是白天抵达，</span><span style="font-family: 宋体; font-size: 10.5pt;">建议您留一支在航空公司许可范围内随身携带。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">防蚊水：在户外吃饭时候非常用得着。</span>
+
+            </p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">10.</span><span style="font-size:10.5pt;mso-bidi-font-size:
+11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">防水袋：大小适合的那种，用来在船上沙滩上的时候装小钱钱，</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">护照等，短时间装相机，手机。防止海水打湿。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">11.</span><span style="font-size:10.5pt;mso-bidi-font-size:
+11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">季节：夏季的芭提雅会如火似天，建议贵宾带多一些凉爽的衣物，</span><span style="font-family: 宋体; font-size: 10.5pt;">把自己打扮的漂亮又清爽吧。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">12.</span><span style="font-size:10.5pt;mso-bidi-font-size:
+11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">语言：泰语为国语，但大部分地区的所有路牌及标志都以泰文和</span><span style="font-family: 宋体; font-size: 10.5pt;">英文共同标识。建议你在国内给您的手机或者平板电脑下载一款</span><span style="font-family: 宋体; font-size: 10.5pt;">离线最好能发声的英汉词典，对你出行会有很大的帮助。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">13.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">交通：普吉岛靠左行驶，与国内相反。建议您在必要时请先看</span><span style="font-family: 宋体; font-size: 10.5pt;">右再看左，遵守交通规则</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">14.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">时差：</span><span lang="EN-US" style="font-size:10.5pt;
+mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">:</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">普吉岛时间比北京时间晚</span><span lang="EN-US" style="font-size:
+10.5pt;mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">1</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">小时，建议您下飞机后将手</span><span style="font-family: 宋体; font-size: 10.5pt;">表拨慢一小时。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">15.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">货币：在普吉岛的机场、银行、酒店以及旅游点的外币兑换处</span><span style="font-size: 10.5pt; font-family: 宋体;">都可兑换泰铢，人民币对泰铢的汇率大约为</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">1:4.9</span><span style="font-size: 10.5pt; font-family: 宋体;">左右。建议</span><span style="font-family: 宋体; font-size: 10.5pt;">您能在国内换好一些泰铢。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">16.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">小费：在当地是惯例，餐厅酒吧的服务员、客房服务员、酒店</span><span style="font-size: 10.5pt; font-family: 宋体;">的行李员等都需要付小费，建议您一般给</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">20</span><span style="font-size: 10.5pt; font-family: 宋体;">泰铢。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">17.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">安全：钱财护照及昂贵物品，请放在房间提供的保险箱里，因</span><span style="font-family: 宋体; font-size: 10.5pt;">为一旦发生财物的丢失，很难找回。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">18.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">通讯：您可在您当地移动电话运营商营业厅开通漫游服务。到</span><span style="font-size: 10.5pt; font-family: 宋体;">芭提后约为</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">6.99</span><span style="font-size: 10.5pt; font-family: 宋体;">元</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">/</span><span style="font-size: 10.5pt; font-family: 宋体;">分钟人民币，可在当地</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">7-11Eleven</span><span style="font-size: 10.5pt; font-family: 宋体;">便</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">利店购买预付费的芭提</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">SIM</span><span style="font-size: 10.5pt; font-family: 宋体;">卡，卖</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">SIM</span><span style="font-size: 10.5pt; font-family: 宋体;">卡的商店也出售充值卡。</span><span style="font-size: 10.5pt; font-family: 宋体;">如果您正在使用的是</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;"> iphone5</span><span style="font-size: 10.5pt; font-family: 宋体;">，那就不需要了。芭提雅目前</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">销售</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">Iphone5 SIM</span><span style="font-size: 10.5pt; font-family: 宋体;">卡的商店少到几乎找不到。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">19.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">芭提雅拨国内座机：</span><span lang="EN-US" style="font-size:
+10.5pt;mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">086+</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">区号</span><span lang="EN-US" style="font-size:10.5pt;
+mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">+</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">电话号码</span>
+
+            </p><p class="MsoNormal"><span style="font-size: 10.5pt; font-family: 宋体;">芭提雅拨国内手机：</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">0086+</span><span style="font-size: 10.5pt; font-family: 宋体;">手机号码</span></p><p class="MsoNormal"><span style="font-size: 10.5pt; font-family: 宋体;">国内拨芭提雅座机：</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">0066+76+</span><span style="font-size: 10.5pt; font-family: 宋体;">电话号码</span></p><p class="MsoNormal"><span style="font-size: 10.5pt; font-family: 宋体;">国内拨芭提雅手机：</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">066+</span><span style="font-size: 10.5pt; font-family: 宋体;">手机号码</span><br></p><p class="MsoNormal"><span style="font-family: 宋体; font-size: 10.5pt;">但也要视您的手机卡套餐而定。</span><br></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">&nbsp;&nbsp;&nbsp;&nbsp; 20. WLAN</span><span style="font-size:10.5pt;
+mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;
+mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">网络：酒店里一般都会有，上网资费需视酒店而定，使</span><span style="font-family: 宋体; font-size: 10.5pt;">用前请咨询费用。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">21.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">用水：酒店内自来水不可直接饮用，建议饮用瓶装水。</span>
+
+            </p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">22.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">用电：芭提雅的电源接口属欧式标准，建议您携带两眼圆柱的</span><span style="font-family: 宋体; font-size: 10.5pt;">插头，或者转换器。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">23.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">吸烟：泰国是严格控制吸烟的国家，很多酒店房间是禁止吸烟</span><span style="font-size: 10.5pt; font-family: 宋体;">的，如有违反可能会被罚款</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">250</span><span style="font-size: 10.5pt; font-family: 宋体;">美</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">/</span><span style="font-size: 10.5pt; font-family: 宋体;">次。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">24.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">离开酒店时请仔细检查个人物品，不要遗漏。</span>
+
+            </p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">25.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">刷卡：银联很少有地方可以刷，但可以在有银联标示的</span><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA">ATM</span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;
+font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA">机</span><span style="font-size: 10.5pt; font-family: 宋体;">上取出泰铢。</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">visa</span><span style="font-size: 10.5pt; font-family: 宋体;">、信用卡比较好用，如果您实在不适应卡的</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">繁琐，美元也是可以的。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">26.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">为避免您此次“皇室荷尔蒙之旅”减少不必要的遗憾，我们强</span><span style="font-family: 宋体; font-size: 10.5pt;">烈建议您出行前将您常用的银行卡借记卡到所属银行办理网银</span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-size: 10.5pt; font-family: 宋体;">业务并且有足够的额度。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">27.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">请携带适量的个人洗漱及护理用品，特别是梳子（因为我们没</span><span style="font-size: 10.5pt; font-family: 宋体;">有发现他们藏在哪里了）</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">28.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">我们强烈建议依据您身体的实际情况准备一个必要医药救急箱，</span><span style="font-family: 宋体; font-size: 10.5pt;">以便应对可能出现的意外情况。</span></p><p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p><p>
+
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:宋体;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">29.&nbsp;&nbsp; </span><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:
+Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+mso-bidi-language:AR-SA">女同胞们的个人护理用品。</span></p></span></div>
+            </div>
+
+	</div>
+    
+        </div>
+        </div>
+        </div>
+        <div class="detail-br"><div class="detail-bl"><div class="detail-bm"></div></div></div>
+    </div>
+
+
+  
+  
+  
+  
+    
+</div>
+
+<div id="footer"><div id="copyright">
+
+</div>
+</div>
+
+ <script type="text/javascript" src="" templates="" mobi_templ="" vip="" video.js"=""></script>
+
+
+<script type="text/javascript">
+
+        function play_music(){
+            var music = document.getElementById("audio_play");
+            if ($('#audio_play').hasClass('on')){
+                music.pause();
+                $('#audio_play').attr('class','stop');
+            }else{
+                music.play();
+                $('#audio_play').attr('class','on');
+            }
+        }
+
+document.oncontextmenu = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false;
+    }
+}
+function loadAll(){
+//    loadImg();
+//    loadBaiduMap();
+    var options = {};
+    $(".gallery a").photoSwipe(options);
+}
+
+function loadBaiduMap() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
+    document.body.appendChild(script);
+
+    //var script1 = document.createElement('script');
+    //script1.type = 'text/javascript';
+    //script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
+    //document.body.appendChild(script1);
+    renderOption(null);
+}
+
+function renderOption(response) {
+    var html = '';
+//
+//    if (response.status ) {
+//        var text = "无正确的返回结果:\n";
+//        document.getElementById('maper').innerHTML = text;
+//        return;
+//    }
+//    var location = response.result.location;
+
+    var location = '{#$coordinate#}';
+    //location.lat +','+location.lng
+    location.split(",");
+
+    html = '<a href="http://api.map.baidu.com/marker?location='+ location.split(",")[1] +','+location.split(",")[0] +'&title=位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+    document.getElementById('maper').innerHTML = html;
+    return;
+}
+
+function loadImg(){
+}
+
+(function(window, $, PhotoSwipe){
+    $(document).ready(function(){
+        setTimeout(function(){loadAll()},500);
+    });
+}(window, window.jQuery, window.Code.PhotoSwipe));
+
+$(document).ready(function(){
+
+    if(/i(Phone|P(o|a)d)/.test(navigator.userAgent)){
+        $(document).one('touchstart', function (e) {
+            var music = document.getElementById("audio_play");
+            if (music.paused) {
+                music.play();
+            }
+        });
+    }
+});
+
+</script>
+<audio class="on" autoplay="autoplay" id="audio_play" loop="loop">
+    <source src="{#$music#}" type="audio/mpeg" />
+</audio>
+
+<!-- 微信分享 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="style14/weixin_share.js"></script>
+<script>
+    var contentModel = {
+        "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
+        "title": "{#$bigtitle#}",
+        "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
+    };
+</script>
+
+</body></html>
