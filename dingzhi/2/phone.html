@@ -630,37 +630,6 @@ function loadAll(){
     $("#Gallery4 a").photoSwipe(options);
 }
 
-function loadBaiduMap() {
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'http://api.map.baidu.com/api?v=1.5&ak=309d55cca0d6814ffb4668758d817124&callback=initialize';
-    document.body.appendChild(script);
-
-    //var script1 = document.createElement('script');
-    //script1.type = 'text/javascript';
-    //script1.src = 'http://api.map.baidu.com/geocoder/v2/?ak=309d55cca0d6814ffb4668758d817124&callback=renderOption&output=json&address={#$adress#}&city=';
-    //document.body.appendChild(script1);
-    renderOption(null);
-}
-
-function renderOption(response) {
-    var html = '';
-//
-//    if (response.status ) {
-//        var text = "无正确的返回结果:\n";
-//        document.getElementById('maper').innerHTML = text;
-//        return;
-//    }
-//    var location = response.result.location;
-
-    var location = '{#$coordinate#}';
-    //location.lat +','+location.lng
-    location.split(",");
-
-    html = '<a href="http://api.map.baidu.com/marker?location='+ location.split(",")[1] +','+location.split(",")[0] +'&title=位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
-    document.getElementById('maper').innerHTML = html;
-    return;
-}
 
 function loadImg(){
 }
@@ -690,12 +659,12 @@ $(document).ready(function(){
 
 <!-- 微信分享 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script src="style14/weixin_share.js"></script>
+<script src="weixin_share.js"></script>
 <script>
     var contentModel = {
-        "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
-        "title": "{#$bigtitle#}",
-        "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
+        "img_url": "http://www.wndxf.com/invitation/dingzhi/2/mian.jpg",
+        "title": "“年轻泰”皇室荷尔蒙私人定制之旅",
+        "src": "“年轻泰”皇室荷尔蒙私人定制之旅"
     };
 </script>
 
