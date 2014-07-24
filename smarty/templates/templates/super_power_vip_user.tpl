@@ -97,7 +97,7 @@
     });
 
     $('.form_date').datetimepicker({
-        anguage:  'fr',
+        language:  'fr',
         weekStart: 1,
         todayBtn:  1,
         autoclose: 1,
