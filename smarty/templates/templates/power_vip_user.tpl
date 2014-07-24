@@ -51,7 +51,7 @@
 </table>
   <br>
 
-<div class="demo">
+<div class="demo">总共 {#$count#},共{#$end#}页
     <div id="demo1">
     </div>
 </div>
