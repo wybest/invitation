@@ -1,7 +1,7 @@
 {#if $message #}
 <div class="alert alert-danger">{#$message#}</div>
 {#/if#}
-<form method="post">
+<form id="serviceForm" method="post">
 
     <div class="form-group">
         <input type="text" id="u_name" name="u_name" value="{#$u_name#}">
@@ -19,6 +19,7 @@
     </div>
     <input type="hidden" id="bdate" name="bdate" value="{#$bdate#}" />
     <input type="hidden" id="edate" name="edate" value="{#$edate#}" />
+    <input type="hidden" id="page_nm" name="page_nm" value="{#$page_nm#}" />
     <button type="submit" class="btn btn-primary">查询</button>
 </div>
 </form>
@@ -50,19 +51,40 @@
 </table>
   <br>
 
-<ul class="pager">
-    <li class="previous"><a href="power_vip_user.php?page_nm=1">第一页</a></li>
-    <li class="previous"><a href="power_vip_user.php?page_nm={#$up#}">&larr;前一页</a></li>
-    <li class="next"><a href="power_vip_user.php?page_nm={#$end#}">最后一页</a></li>
-    <li class="next"><a href="power_vip_user.php?page_nm={#$next#}">下一页&rarr;</a></li>
-    <td>第{#$page#}页    (总共 {#$count#}人,共{#$end#}页)</td>
-</ul>
+<div class="demo">
+    <div id="demo1">
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="css/page.css" media="screen"/>
+<script src="js/jquery.paginate.js" type="text/javascript"></script>
 <script type="text/javascript" src="datepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
 <script type="text/javascript" src="datepicker/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
 <script type="text/javascript">
 
+    $(document).ready(function(){
+        $("#demo1").paginate({
+            count 		: {#$end#},
+            start 		: {#$page_nm#},
+            display     : 16,
+            border					: true,
+            border_color			: '#fff',
+            text_color  			: '#fff',
+            background_color    	: 'black',
+            border_hover_color		: '#ccc',
+            text_hover_color  		: '#000',
+            background_hover_color	: '#fff',
+            images					: false,
+            mouse					: 'press',
+            onChange                : function(page){
+                $("#page_nm").val(page);
+                $("#serviceForm").submit();
+            }
+        });
+    });
+
     $('.form_date').datetimepicker({
-        language:  'fr',
+        anguage:  'fr',
         weekStart: 1,
         todayBtn:  1,
         autoclose: 1,
@@ -71,4 +93,6 @@
         minView: 2,
         forceParse: 0
     });
+
+
 </script>

@@ -14,6 +14,7 @@ if($page_nm==0){
     $page_nm=1;
 }
 
+
 //时间
 $bdate = $_REQUEST['bdate'];
 $edate = $_REQUEST['edate'];
@@ -44,7 +45,8 @@ if($count % $page_size ==0){
     $end = (int)($count/$page_size)+1;
 }
 
-if($page_nm>$end){
+if($page_nm>$end&&$end!=0){
+
     $page_nm = $end;
 }
 
@@ -57,7 +59,7 @@ Globle::$smarty->assign("up",$up);
 Globle::$smarty->assign("next",$next);
 Globle::$smarty->assign("end",$end);
 Globle::$smarty->assign("count",$count);
-Globle::$smarty->assign("page",$page_nm);
+Globle::$smarty->assign("page_nm",$page_nm);
 Globle::$smarty->assign("shuju_array",$shuju_array);
 Globle::$smarty->display('admin_head.tpl');
 Globle::$smarty->display('power_vip_user.tpl');
