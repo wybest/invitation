@@ -401,16 +401,16 @@ window.onload = function() {
             <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
             <div class="infos">
                 {#if $vip != "none"#}
-                <p class="ip4"><span >{#$vip#}</span></p>
+                <p class="ip4" style="color: indianred;"><span >{#$vip#}</span></p>
                 {#/if#}
-                <p class="ip6"><span >{#$show_time#}</span></p>
+                <p class="ip6"><span style="color: indianred;">{#$show_time#}</span></p>
                 <p class="ip5"><span >{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
                     <tr>
-                        <td class="ip6">时间：<span >{#$mini_time#}</span></td>
+                        <td class="ip6" style="color: indianred;">时间：<span >{#$mini_time#}</span></td>
                     </tr>
                     <tr>
-                        <td class="ip6">地点：<span >{#$house#}</span></td>
+                        <td class="ip6" style="color: indianred;">地点：<span >{#$house#}</span></td>
                     </tr>
                 </table>
 
