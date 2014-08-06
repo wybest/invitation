@@ -390,9 +390,9 @@ window.onload = function() {
                     <tr>
                         {#if $special_name #}<td align="center"><h3><span >{#$special_name#}</span></h3></td>
                         {#else#}
-                        <td align="right"><h3><span >{#$man#}</span></h3><p>新郎</p></td>
+                        <td align="right"><h3><span class="self-color">{#$man#}</span></h3><p>新郎</p></td>
                         <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
-                        <td align="left"><h3><span >{#$women#}</span></h3><p>新娘</p></td>
+                        <td align="left"><h3><span class="self-color">{#$women#}</span></h3><p>新娘</p></td>
                         {#/if#}
 
                     </tr>
@@ -401,16 +401,16 @@ window.onload = function() {
             <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
             <div class="infos">
                 {#if $vip != "none"#}
-                <p class="ip4" style="color: indianred;"><span >{#$vip#}</span></p>
+                <p class="ip4" class="self-color"><span >{#$vip#}</span></p>
                 {#/if#}
-                <p class="ip6"><span style="color: indianred;">{#$show_time#}</span></p>
+                <p class="ip6"><span class="self-color">{#$show_time#}</span></p>
                 <p class="ip5"><span >{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
                     <tr>
-                        <td class="ip6" style="color: indianred;">时间：<span >{#$mini_time#}</span></td>
+                        <td class="ip6" class="self-color">时间：<span >{#$mini_time#}</span></td>
                     </tr>
                     <tr>
-                        <td class="ip6" style="color: indianred;">地点：<span >{#$house#}</span></td>
+                        <td class="ip6" class="self-color">地点：<span >{#$house#}</span></td>
                     </tr>
                 </table>
 

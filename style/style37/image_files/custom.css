@@ -60,6 +60,10 @@ body {
 /*====主頁外框 Start====*/
 /*框內的高度及寬度都會變化*/
 
+.self-color{
+    color: gold;
+}
+
 #outter{
 /*外框*/
 	

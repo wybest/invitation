@@ -56,19 +56,7 @@ function initProcessButtonBackground(){
 }
 
 
-document.oncontextmenu = function (event){
-    if(window.event){
-        event = window.event;
-    }try{
-        var the = event.srcElement;
-        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
-            return false;
-        }
-        return true;
-    }catch (e){
-        return false;
-    }
-}
+
 
 
 
@@ -1050,11 +1038,11 @@ String.prototype.Trim = function() {
                         <div id="mask_bg"></div><div class="body" id="invite">
                             <table width="100%" class="head">
                                 <tr>
-                                    {#if $special_name #}<td align="center"><span style="color: #BF4376;">{#$special_name#}</span></td>
+                                    {#if $special_name #}<td align="center"><span class="">{#$special_name#}</span></td>
                                     {#else#}
-                                    <td align="right"><h3><span id="man" style="color: #BF4376;">{#$man#}</span></h3><p>新郎</p></td>
+                                    <td align="right"><h3><span id="man" class="self-color">{#$man#}</span></h3><p>新郎</p></td>
                                     <td width="100" align="center"><img src="style/rose.png" alt="rose" /></td>
-                                    <td align="left"><h3><span id="women" style="color: #BF4376;">{#$women#}</span></h3><p>新娘</p></td>
+                                    <td align="left"><h3><span id="women" class="self-color">{#$women#}</span></h3><p>新娘</p></td>
                                     {#/if#}
 
                                 </tr>
@@ -1063,14 +1051,14 @@ String.prototype.Trim = function() {
                         <!--<div style=" padding:2px 20px;"><img src="images/line.png" width="100%" height="auto" /></div>-->
                         <div class="infos">
                             <p>带着满心欢喜邀请您共享这份喜悦</p>
-                            <p class="ip6"><span id="show_time2" style="color: #BF4376;">{#$show_time#}</span></p>
-                            <p class="ip5"><span style="color: #BF4376;">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
+                            <p class="ip6"><span id="show_time2" class="self-color">{#$show_time#}</span></p>
+                            <p class="ip5"><span class="self-color">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                             <table class="td" cellspacing="10">
                                 <tr>
-                                    <td class="ip6">时间：<span id="mini_time" style="color: #BF4376;">{#$mini_time#}</span></td>
+                                    <td class="ip6">时间：<span id="mini_time" class="self-color">{#$mini_time#}</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="ip6">地点：<span id="house" style="color: #BF4376;">{#$house#}</span></td>
+                                    <td class="ip6">地点：<span id="house" class="self-color">{#$house#}</span></td>
                                 </tr>
                             </table>
 
