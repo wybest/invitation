@@ -4,6 +4,10 @@
 
 /*Leo add 子項目內容背景圖設定*/
 
+.self-color{
+    color: indianred;
+}
+
 
 /* reset */
 body, div, ul, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td {
