@@ -379,9 +379,9 @@ window.onload = function() {
                 #invite .infos h1 {min-height:0;overflow:hidden}
                 #invite .infos h1 img{max-width:100%;overflow:hidden;}
                 #invite .infos .text { font-size:18px;}
-                .ip4{color:#000;font-size:25px; margin:5px 0px;}
-                .ip5{color:#000;font-size:24px; margin:5px 0px;}
-                .ip6{color:#000;font-size:18px;padding:5px;}
+                .ip4{font-size:25px; margin:5px 0px;}
+                .ip5{font-size:24px; margin:5px 0px;}
+                .ip6{font-size:18px;padding:5px;}
             </style>
 
 
@@ -404,13 +404,13 @@ window.onload = function() {
                 <p class="ip4" class="self-color"><span >{#$vip#}</span></p>
                 {#/if#}
                 <p class="ip6"><span class="self-color">{#$show_time#}</span></p>
-                <p class="ip5"><span >{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
+                <p class="ip5"><span class="self-color">{#if $extends eq "none" #} {#elseif $extends #}{#$extends#}{#else#}举行结婚典礼 敬备喜宴 {#/if#}</span></p>
                 <table class="td" cellspacing="10">
                     <tr>
-                        <td class="ip6" class="self-color">时间：<span >{#$mini_time#}</span></td>
+                        <td class="ip6" >时间：<span class="self-color">{#$mini_time#}</span></td>
                     </tr>
                     <tr>
-                        <td class="ip6" class="self-color">地点：<span >{#$house#}</span></td>
+                        <td class="ip6" >地点：<span class="self-color">{#$house#}</span></td>
                     </tr>
                 </table>
 
