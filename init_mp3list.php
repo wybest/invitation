@@ -44,7 +44,7 @@ $files[1] = "23(feat. miley cyrus, wiz khalifa & juicy j).mp3";//1
 $filesId[1] = "23(feat. miley cyrus, wiz khalifa & juicy j).mp3";
 
 $files[2] = "17171771  紫雨林.mp3";//2
-$filesId[2] = "17171771  紫雨林.mp3";
+$filesId[2] = "2.mp3";
 
 $files[3] = "A-Little-Love.mp3";//3
 $filesId[3] = "A-Little-Love.mp3";
@@ -98,84 +98,84 @@ $files[19] = "we can work it out.mp3";//19
 $filesId[19] = "we can work it out.mp3";
 
 $files[20] = "今天你要嫁给我.mp3";//20
-$filesId[20] = "今天你要嫁给我.mp3";
+$filesId[20] = "20.mp3";
 
 $files[21] = "可爱的韩国儿歌-三只小熊.mp3";//21
-$filesId[21] = "可爱的韩国儿歌-三只小熊.mp3";
+$filesId[21] = "21.mp3";
 
 $files[22] = "同桌的你.mp3";//22
-$filesId[22] = "同桌的你.mp3";
+$filesId[22] = "22.mp3";
 
 $files[23] = "吴建豪-小婚礼.mp3";//23
-$filesId[23] = "吴建豪-小婚礼.mp3";
+$filesId[23] = "23.mp3";
 
 $files[24] = "咕叽之歌.mp3";//24
-$filesId[24] = "咕叽之歌.mp3";
+$filesId[24] = "24.mp3";
 
 $files[25] = "坐在巷口的那对男女.mp3";//25
-$filesId[25] = "坐在巷口的那对男女.mp3";
+$filesId[25] = "25.mp3";
 
 $files[26] = "夜的钢琴曲.mp3";//26
-$filesId[26] = "夜的钢琴曲.mp3";
+$filesId[26] = "26.mp3";
 
 $files[27] = "小夫妻.mp3";//27
-$filesId[27] = "小夫妻.mp3";
+$filesId[27] = "27.mp3";
 
 $files[28] = "小野丽莎-可爱的你.mp3";//28
-$filesId[28] = "小野丽莎-可爱的你.mp3";
+$filesId[28] = "28.mp3";
 
 $files[29] = "幸福恋人 .mp3";//29
-$filesId[29] = "幸福恋人 .mp3";
+$filesId[29] = "29.mp3";
 
 
 $files[30] = "心肝宝贝.mp3";//30
-$filesId[30] = "心肝宝贝.mp3";
+$filesId[30] = "30.mp3";
 
 $files[31] = "恩典的记号.mp3";//31
-$filesId[31] = "恩典的记号.mp3";
+$filesId[31] = "31.mp3";
 
 $files[32] = "我们结婚吧.mp3";//32
-$filesId[32] = "我们结婚吧.mp3";
+$filesId[32] = "32.mp3";
 
 
 $files[33] = "方大同 - Nothing’s Gonna Change My Love For You.mp3";//33
-$filesId[33] = "方大同 - Nothing’s Gonna Change My Love For You.mp3";
+$filesId[33] = "33.mp3";
 
 $files[34] = "最重要的决定.mp3";//34
 $filesId[34] = "34.mp3";
 
 $files[35] = "爱很美.mp3";//35
-$filesId[35] = "爱很美.mp3";
+$filesId[35] = "35.mp3";
 
 $files[36] = "纯音乐-梦中的婚礼.mp3";//36
-$filesId[36] = "纯音乐-梦中的婚礼.mp3";
+$filesId[36] = "36.mp3";
 
 $files[37] = "终于等到你.mp3";//37
 $filesId[37] = "37.mp3";
 
 $files[38] = "给你们.mp3";//38
-$filesId[38] = "给你们.mp3";
+$filesId[38] = "38.mp3";
 
 $files[39] = "胡俊逸-我的笑脸.mp3";//39
-$filesId[39] = "胡俊逸-我的笑脸.mp3";
+$filesId[39] = "39.mp3";
 
 $files[40] = "苏打绿-无与伦比的美丽.mp3";//40
-$filesId[40] = "苏打绿-无与伦比的美丽.mp3";
+$filesId[40] = "40.mp3";
 
 $files[41] = "谢谢爱.mp3";//41
-$filesId[41] = "谢谢爱.mp3";
+$filesId[41] = "41.mp3";
 
 $files[42] = "钢琴曲 - 清新的婚礼轻音乐.mp3";//42
-$filesId[42] = "钢琴曲 - 清新的婚礼轻音乐.mp3";
+$filesId[42] = "42.mp3";
 
 $files[43] = "陈慧琳 - Love Paradise.mp3";//43
-$filesId[43] = "陈慧琳 - Love Paradise.mp3";
+$filesId[43] = "43.mp3";
 
 $files[44] = "陶喆-爱很简单.mp3";//44
-$filesId[44] = "陶喆-爱很简单.mp3";
+$filesId[44] = "44.mp3";
 
 $files[45] = "青春纪念册.mp3";//45
-$filesId[45] = "青春纪念册.mp3";
+$filesId[45] = "45.mp3";
 
 $files[46] = "德国童音.mp3";//46
 $filesId[46] = "46.mp3";
