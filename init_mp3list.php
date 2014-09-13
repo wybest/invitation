@@ -208,6 +208,9 @@ $filesId[54] = "54.mp3";
 $files[55] = "就是爱你.mp3";//55
 $filesId[55] = "55.mp3";
 
+$files[56] = "王力宏&章子怡-爱一点.mp3";//56
+$filesId[56] = "56.mp3";
+
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
 
