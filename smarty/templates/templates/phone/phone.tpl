@@ -565,7 +565,7 @@ window.onload = function() {
                                     <div class="clear">
                                     </div>
                                     <p id="submit-button">
-                                        <input type="button" id="send_message" value="发送祝福" onClick="javascript:return Check();">
+                                        <input type="button" id="send_message" value="发送回函" onClick="javascript:return Check();">
                                     </p>
                                     <p id="submit-button" style="padding: 0px;">
                                         <span id="bi_msg"></span>
