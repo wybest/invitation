@@ -211,8 +211,11 @@ $filesId[55] = "55.mp3";
 $files[56] = "王力宏&章子怡-爱一点.mp3";//56
 $filesId[56] = "56.mp3";
 
-$files[57] = "光阴的故事.mp3";//56
+$files[57] = "光阴的故事.mp3";//57
 $filesId[57] = "57.mp3";
+
+$files[58] = "Chieli Minucci-Big Sky Country.mp3";//58
+$filesId[58] = "58.mp3";
 
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
