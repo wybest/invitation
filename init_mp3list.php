@@ -217,6 +217,9 @@ $filesId[57] = "57.mp3";
 $files[58] = "Chieli Minucci-Big Sky Country.mp3";//58
 $filesId[58] = "58.mp3";
 
+$files[59] = "孝琳 - 我决定爱你.mp3";//59
+$filesId[59] = "59.mp3";
+
 Globle::$smarty->assign("mp3list",$files);
 Globle::$smarty->assign("mp3listId",$filesId);
 
