@@ -882,7 +882,9 @@ function renderOption(response) {
     //location.lat +','+location.lng
     location.split(",");
 
-    html = '<a href="http://api.map.baidu.com/marker?location='+ location.split(",")[1] +','+location.split(",")[0] +'&title=位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+    html = '<a href="http://map.baidu.com/mobile/webapp/search/search/qt=s&wd={#$adress#}/vt=map" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
+
+//    html = '<a href="http://api.map.baidu.com/marker?location='+ location.split(",")[1] +','+location.split(",")[0] +'&title=位置导航&content={#$adress#}&output=html" title="点击一键导航" id="guide_bd_btn">点击一键导航</a>';
     document.getElementById('maper').innerHTML = html;
     return;
 }
