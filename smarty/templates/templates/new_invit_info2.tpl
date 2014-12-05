@@ -146,7 +146,7 @@ function MM_swapImage() { //v3.0
             $('#invite_detail_lngmarker7044').val(e.point.lng);
             //$('#iframepage').get(0).contentWindow.setMarkerPos7044(e.point.lng,e.point.lat);
             marker2.setPosition(new BMap.Point(e.point.lng,e.point.lat)) ;
-            document.getElementById("coordinate").value = e.point.lng + ", " + e.point.lat;
+            document.getElementById("coordinate").value = e.point.lng + "," + e.point.lat;
         });
 
         map.addEventListener("moving", function(){
