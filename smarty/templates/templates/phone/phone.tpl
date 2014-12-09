@@ -583,7 +583,7 @@ window.onload = function() {
                     <div class="huihan_name">{#$shuju_array[customer]->name#}</div>
                     <div class="huihan_time">{#$shuju_array[customer]->time#}</div>
                 </div>
-                <div class="huihan_text">{#$shuju_array[customer]->bless#}</div>
+                <div class="huihan_text" style="color: #000000;">{#$shuju_array[customer]->bless#}</div>
             </div>
             {#/section#}
 
