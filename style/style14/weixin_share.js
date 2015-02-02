@@ -77,7 +77,7 @@ var weChatBridgeReady={
 		var a=document.location.href;
 		WeixinJSBridge.on("menu:share:timeline",function(b){
 			WeixinJSBridge.invoke("shareTimeline",{
-				img_url:contentModel.img_url,img_width:"65",img_height:"65",link:a,desc:"view.inews.qq.com",title:contentModel.title
+				img_url:contentModel.img_url,img_width:"65",img_height:"65",link:a,desc:contentModel.src,title:contentModel.title
 			}
 			,function(d){
 				WeixinJSBridge.log(d.err_msg)

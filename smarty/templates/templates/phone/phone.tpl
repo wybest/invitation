@@ -35,6 +35,8 @@ font-family:微软雅黑;
 <script type="text/javascript" src="style/桃色经典/image_files/klass.min.js"></script>
 <script type="text/javascript" src="style/桃色经典/image_files/code.photoswipe.jquery-3.0.5.min.js"></script>
 
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
 <script type="text/javascript">
 var bReloadWebFontOnce = 1;
 $(document).ready(function() {
@@ -920,13 +922,42 @@ $(document).ready(function(){
 
 <!-- 微信分享 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script src="style/style14/weixin_share.js"></script>
 <script>
-    var contentModel = {
-        "img_url": "http://www.wndxf.com/invitation/marryimg/{#$bigimage#}",
-        "title": "{#$bigtitle#}",
-        "src": "{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}"
-    };
+
+wx.config({
+	//debug: true,
+    appId: 'wx8fef9176c6fcac4b',
+    timestamp:1422696601,
+    nonceStr: 'bEIS9hrhn4M98Fiq',
+    signature: '19cfda5cfa880c8df0ebbf9c49bf95fa00c4c3bd',
+    jsApiList: [
+	'onMenuShareTimeline',
+	'onMenuShareAppMessage',
+	'onMenuShareQQ',
+	'onMenuShareWeibo'
+
+    ]
+  });
+  wx.ready(function () {
+	var shareData = {
+			title: window.title,
+		    desc: '{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}',
+		    link: window.location.href,
+		    imgUrl: 'http://www.wndxf.com/invitation/marryimg/{#$bigimage#}'
+	}
+
+	  wx.onMenuShareAppMessage(shareData);
+	  wx.onMenuShareTimeline(shareData);
+	  wx.onMenuShareQQ(shareData);
+	  wx.onMenuShareWeibo(shareData);
+  });
+
+wx.error(function (res) {
+  alert(res.errMsg);
+});
+
+
+
 </script>
 
 </body></html>

@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="fix&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/39f1981e20198042a7cd69aa688cd079ad1c45fe.file.super_admin_head.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/48e627fadba19b4bf79ddd0c625e2cb335d5e7d8.file.admin_list.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/7836823e6079002856dba3438c74f705199f50dd.file.foot.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/a153682d9fa78ae9dfbbf641d512d07c8c3d0148.file.super_power_confirm.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/bdc08c44369f8851f2dc5cad6e0df99bc0598687.file.power.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarty/templates/templates_c/cdb872ada2bfb0d82a99731114e7e80b7754dbf8.file.super_power_vip_user.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/super_power_do_confirm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyDB.class.php" afterPath="$PROJECT_DIR$/MyDB.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basicDB.php" afterPath="$PROJECT_DIR$/basicDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power.php" afterPath="$PROJECT_DIR$/power.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/super_power_confirm.php" afterPath="$PROJECT_DIR$/super_power_confirm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl" afterPath="$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.html" afterPath="$PROJECT_DIR$/temp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style14/weixin_share.js" afterPath="$PROJECT_DIR$/style/style14/weixin_share.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invitation.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <ui_properties converted="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -71,9 +67,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -81,68 +75,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="super_power_confirm.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl">
+      <file leaf-file-name="new_invit_info.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="75" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+            <state vertical-scroll-proportion="0.0" vertical-offset="25441" max-vertical-offset="45790">
+              <caret line="1339" column="108" selection-start-line="1339" selection-start-column="0" selection-end-line="1340" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="super_admin_head.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl">
+      <file leaf-file-name="new_invit_info2.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info2.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="69" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="2242">
-              <folding>
-                <marker date="1390463511549" expanded="false" signature="2029:2043" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="super_power_do_confirm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/super_power_do_confirm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="52" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-3.6744187" vertical-offset="748" max-vertical-offset="1254">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2812" max-vertical-offset="42845">
+              <caret line="148" column="74" selection-start-line="148" selection-start-column="74" selection-end-line="148" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="super_power_confirm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/super_power_confirm.php">
+      <file leaf-file-name="phone.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="49" selection-start="847" selection-end="880" vertical-scroll-proportion="-9.464286" vertical-offset="362" max-vertical-offset="1178">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyDB.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyDB.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="18" selection-start="6132" selection-end="6132" vertical-scroll-proportion="-3.4534883" vertical-offset="3332" max-vertical-offset="13680">
-              <folding>
-                <marker date="1390463524229" expanded="true" signature="8680:9937" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="power.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="950">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="super_power_vip_user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/super_power_vip_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="19" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-6.107143" vertical-offset="741" max-vertical-offset="1558">
+            <state vertical-scroll-proportion="0.3153153" vertical-offset="17362" max-vertical-offset="18411">
+              <caret line="923" column="67" selection-start-line="923" selection-start-column="67" selection-end-line="923" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -156,65 +113,20 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone5.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone4.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/temp2.html" />
-        <option value="$PROJECT_DIR$/save_vip.php" />
-        <option value="$PROJECT_DIR$/save_weixin.php" />
-        <option value="$PROJECT_DIR$/save_pc_mould.php" />
-        <option value="$PROJECT_DIR$/save_phone_mould.php" />
-        <option value="$PROJECT_DIR$/save_photo.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/power_closed_user.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/admin_head.tpl" />
-        <option value="$PROJECT_DIR$/admin_delete_user.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone7.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl" />
-        <option value="$PROJECT_DIR$/power_vip_user.php" />
-        <option value="$PROJECT_DIR$/power_closed_user.php" />
-        <option value="$PROJECT_DIR$/super_admin_list.php" />
-        <option value="$PROJECT_DIR$/super_power_vip_user.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/super_power_vip_user.tpl" />
-        <option value="$PROJECT_DIR$/AdminDO.class.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/admin_list.tpl" />
-        <option value="$PROJECT_DIR$/phone2.php" />
-        <option value="$PROJECT_DIR$/style/style16/css.css" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_image.tpl" />
-        <option value="$PROJECT_DIR$/phone9img.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone9img.tpl" />
-        <option value="$PROJECT_DIR$/phone9liuyan.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl" />
-        <option value="$PROJECT_DIR$/phone9map.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl" />
         <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl" />
-        <option value="$PROJECT_DIR$/new_temp_phone.php" />
-        <option value="$PROJECT_DIR$/lingqiphone.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info.html" />
-        <option value="$PROJECT_DIR$/phone.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl" />
-        <option value="$PROJECT_DIR$/basicDB.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl" />
-        <option value="$PROJECT_DIR$/admin_edit_info.php" />
-        <option value="$PROJECT_DIR$/UserDO.class.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl" />
-        <option value="$PROJECT_DIR$/delete_vip.php" />
-        <option value="$PROJECT_DIR$/power.php" />
-        <option value="$PROJECT_DIR$/super_power_confirm.php" />
-        <option value="$PROJECT_DIR$/super_power_do_confirm.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl" />
-        <option value="$PROJECT_DIR$/MyDB.class.php" />
-        <option value="$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/new_invit_info2.tpl" />
+        <option value="$PROJECT_DIR$/style/style14/weixin_share.js" />
+        <option value="$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -261,7 +173,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -293,6 +205,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -311,14 +317,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\invitation\mp3folder" />
       <recent name="E:\AppServ\www\invitation\mp3folder" />
       <recent name="E:\AppServ\www\invitation" />
       <recent name="$PROJECT_DIR$/smarty/templates/templates" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/smarty/templates/templates/phone" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mp3folder" />
@@ -332,13 +339,62 @@
     <configuration default="false" name="lingqiphone.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lingqiphone.php">
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -348,31 +404,9 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -403,28 +437,41 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="" />
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -443,7 +490,7 @@
       <option name="launchUrl" value="false" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
@@ -460,10 +507,6 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -484,20 +527,39 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -519,70 +581,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.lingqiphone.php" />
-    </list>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="08eba7b5-40e3-4f27-af1f-6fdb7b9c0c72" name="Default" comment="" />
       <created>1386922453867</created>
+      <option name="number" value="Default" />
       <updated>1386922453867</updated>
       <workItem from="1386922456155" duration="520000" />
       <workItem from="1386923002022" duration="79000" />
@@ -658,703 +671,1095 @@
       <workItem from="1390357309588" duration="5137000" />
       <workItem from="1390392531374" duration="906000" />
       <workItem from="1390443643792" duration="8757000" />
+      <workItem from="1415105916779" duration="1486000" />
+      <workItem from="1415629229816" duration="834000" />
+      <workItem from="1415890293867" duration="442000" />
+      <workItem from="1415945421783" duration="2989000" />
+      <workItem from="1417787665899" duration="4780000" />
+      <workItem from="1418104994569" duration="1065000" />
+      <workItem from="1420447459350" duration="622000" />
+      <workItem from="1422693601962" duration="4097000" />
+      <workItem from="1422878318775" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="过滤祝福信息">
       <created>1386945066586</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1386945066586</updated>
     </task>
     <task id="LOCAL-00002" summary="过滤祝福信息&#10;">
       <created>1386945168819</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1386945168819</updated>
     </task>
     <task id="LOCAL-00003" summary="修改">
       <created>1387097027260</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1387097027260</updated>
     </task>
     <task id="LOCAL-00004" summary="修改&#10;">
       <created>1387097092640</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1387097092640</updated>
     </task>
     <task id="LOCAL-00005" summary="下载云存储&#10;">
       <created>1387110617505</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1387110617505</updated>
     </task>
     <task id="LOCAL-00006" summary="添加目录&#10;">
       <created>1387110891711</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1387110891711</updated>
     </task>
     <task id="LOCAL-00007" summary="添加目录&#10;">
       <created>1387111105555</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1387111105555</updated>
     </task>
     <task id="LOCAL-00008" summary="添加目录&#10;">
       <created>1387111491451</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1387111491451</updated>
     </task>
     <task id="LOCAL-00009" summary="添加目录&#10;">
       <created>1387111901454</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1387111901454</updated>
     </task>
     <task id="LOCAL-00010" summary="添加目录&#10;">
       <created>1387112084944</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1387112084944</updated>
     </task>
     <task id="LOCAL-00011" summary="添加目录&#10;">
       <created>1387112827192</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1387112827192</updated>
     </task>
     <task id="LOCAL-00012" summary="添加目录&#10;">
       <created>1387112981801</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1387112981801</updated>
     </task>
     <task id="LOCAL-00013" summary="添加目录&#10;">
       <created>1387113096502</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1387113096502</updated>
     </task>
     <task id="LOCAL-00014" summary="添加目录&#10;">
       <created>1387114128445</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1387114128445</updated>
     </task>
     <task id="LOCAL-00015" summary="添加目录&#10;">
       <created>1387114463665</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1387114463665</updated>
     </task>
     <task id="LOCAL-00016" summary="添加目录&#10;">
       <created>1387114983226</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1387114983226</updated>
     </task>
     <task id="LOCAL-00017" summary="添加目录&#10;">
       <created>1387115138368</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1387115138368</updated>
     </task>
     <task id="LOCAL-00018" summary="添加目录&#10;">
       <created>1387115165488</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1387115165488</updated>
     </task>
     <task id="LOCAL-00019" summary="取出百度依赖&#10;">
       <created>1387121496389</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1387121496389</updated>
     </task>
     <task id="LOCAL-00020" summary="取出百度依赖&#10;">
       <created>1387122117819</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1387122117819</updated>
     </task>
     <task id="LOCAL-00021" summary="取出百度依赖&#10;">
       <created>1387123040414</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1387123040414</updated>
     </task>
     <task id="LOCAL-00022" summary="取出百度依赖&#10;">
       <created>1387123986069</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1387123986069</updated>
     </task>
     <task id="LOCAL-00023" summary="取出百度依赖&#10;">
       <created>1387124357765</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1387124357765</updated>
     </task>
     <task id="LOCAL-00024" summary="取出百度依赖&#10;">
       <created>1387124472697</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1387124472697</updated>
     </task>
     <task id="LOCAL-00025" summary="取出百度依赖&#10;">
       <created>1387124563050</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1387124563050</updated>
     </task>
     <task id="LOCAL-00026" summary="取出百度依赖&#10;">
       <created>1387127089590</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1387127089590</updated>
     </task>
     <task id="LOCAL-00027" summary="取出百度依赖&#10;">
       <created>1387127996599</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1387127996599</updated>
     </task>
     <task id="LOCAL-00028" summary="fix&#10;">
       <created>1387210298312</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1387210298312</updated>
     </task>
     <task id="LOCAL-00029" summary="fix&#10;">
       <created>1387210501314</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1387210501314</updated>
     </task>
     <task id="LOCAL-00030" summary="fix&#10;">
       <created>1387275020281</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1387275020281</updated>
     </task>
     <task id="LOCAL-00031" summary="fix&#10;">
       <created>1387276372354</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1387276372354</updated>
     </task>
     <task id="LOCAL-00032" summary="添加回函list&#10;">
       <created>1387288725807</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1387288725807</updated>
     </task>
     <task id="LOCAL-00033" summary="fix&#10;">
       <created>1387288894111</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1387288894111</updated>
     </task>
     <task id="LOCAL-00034" summary="fix&#10;">
       <created>1387294376449</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
       <updated>1387294376449</updated>
     </task>
     <task id="LOCAL-00035" summary="fix&#10;">
       <created>1387294535821</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
       <updated>1387294535821</updated>
     </task>
     <task id="LOCAL-00036" summary="fix&#10;">
       <created>1387294847408</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
       <updated>1387294847408</updated>
     </task>
     <task id="LOCAL-00037" summary="fix&#10;">
       <created>1387297409111</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
       <updated>1387297409111</updated>
     </task>
     <task id="LOCAL-00038" summary="fix&#10;">
       <created>1387334501750</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
       <updated>1387334501750</updated>
     </task>
     <task id="LOCAL-00039" summary="fix&#10;">
       <created>1387420645090</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
       <updated>1387420645090</updated>
     </task>
     <task id="LOCAL-00040" summary="add&#10;">
       <created>1387537689412</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
       <updated>1387537689412</updated>
     </task>
     <task id="LOCAL-00041" summary="add&#10;">
       <created>1387537804435</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
       <updated>1387537804435</updated>
     </task>
     <task id="LOCAL-00042" summary="fix&#10;">
       <created>1387552279457</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
       <updated>1387552279457</updated>
     </task>
     <task id="LOCAL-00043" summary="fix&#10;">
       <created>1387553110059</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
       <updated>1387553110059</updated>
     </task>
     <task id="LOCAL-00044" summary="fix&#10;">
       <created>1387591112171</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
       <updated>1387591112171</updated>
     </task>
     <task id="LOCAL-00045" summary="fix&#10;">
       <created>1387690864273</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
       <updated>1387690864273</updated>
     </task>
     <task id="LOCAL-00046" summary="新版本&#10;">
       <created>1387718250099</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
       <updated>1387718250099</updated>
     </task>
     <task id="LOCAL-00047" summary="fix&#10;">
       <created>1387718316477</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
       <updated>1387718316477</updated>
     </task>
     <task id="LOCAL-00048" summary="fix&#10;">
       <created>1387981527483</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
       <updated>1387981527483</updated>
     </task>
     <task id="LOCAL-00049" summary="fix&#10;">
       <created>1388039194756</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
       <updated>1388039194756</updated>
     </task>
     <task id="LOCAL-00050" summary="fix&#10;">
       <created>1388125707603</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
       <updated>1388125707604</updated>
     </task>
     <task id="LOCAL-00051" summary="fix&#10;">
       <created>1388125760961</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
       <updated>1388125760962</updated>
     </task>
     <task id="LOCAL-00052" summary="fix&#10;">
       <created>1388128612333</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
       <updated>1388128612333</updated>
     </task>
     <task id="LOCAL-00053" summary="fix&#10;">
       <created>1388158427513</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
       <updated>1388158427513</updated>
     </task>
     <task id="LOCAL-00054" summary="fix&#10;">
       <created>1388373964833</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
       <updated>1388373964833</updated>
     </task>
     <task id="LOCAL-00055" summary="fix&#10;">
       <created>1388663819840</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
       <updated>1388663819841</updated>
     </task>
     <task id="LOCAL-00056" summary="fix&#10;">
       <created>1388666538953</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
       <updated>1388666538953</updated>
     </task>
     <task id="LOCAL-00057" summary="fix&#10;">
       <created>1388674480085</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
       <updated>1388674480085</updated>
     </task>
     <task id="LOCAL-00058" summary="fix&#10;">
       <created>1388730505548</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1388730505549</updated>
     </task>
     <task id="LOCAL-00059" summary="fix&#10;">
       <created>1388731820066</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1388731820067</updated>
     </task>
     <task id="LOCAL-00060" summary="fix&#10;">
       <created>1388734612834</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1388734612834</updated>
     </task>
     <task id="LOCAL-00061" summary="fix&#10;">
       <created>1388813202961</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1388813202961</updated>
     </task>
     <task id="LOCAL-00062" summary="fix&#10;">
       <created>1388822814218</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1388822814218</updated>
     </task>
     <task id="LOCAL-00063" summary="fix&#10;">
       <created>1388830041452</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1388830041452</updated>
     </task>
     <task id="LOCAL-00064" summary="fix&#10;">
       <created>1388833492548</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1388833492548</updated>
     </task>
     <task id="LOCAL-00065" summary="fix&#10;">
       <created>1388833506268</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
       <updated>1388833506268</updated>
     </task>
     <task id="LOCAL-00066" summary="fix&#10;">
       <created>1388833625626</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
       <updated>1388833625626</updated>
     </task>
     <task id="LOCAL-00067" summary="fix&#10;">
       <created>1388834891391</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
       <updated>1388834891391</updated>
     </task>
     <task id="LOCAL-00068" summary="fix&#10;">
       <created>1388834920560</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
       <updated>1388834920560</updated>
     </task>
     <task id="LOCAL-00069" summary="fix&#10;">
       <created>1388835478929</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
       <updated>1388835478929</updated>
     </task>
     <task id="LOCAL-00070" summary="fix&#10;">
       <created>1388901520696</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
       <updated>1388901520696</updated>
     </task>
     <task id="LOCAL-00071" summary="fix&#10;">
       <created>1388901557789</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
       <updated>1388901557790</updated>
     </task>
     <task id="LOCAL-00072" summary="fix&#10;">
       <created>1388902739910</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
       <updated>1388902739910</updated>
     </task>
     <task id="LOCAL-00073" summary="fix&#10;">
       <created>1388903270080</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
       <updated>1388903270080</updated>
     </task>
     <task id="LOCAL-00074" summary="fix&#10;">
       <created>1388903861404</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
       <updated>1388903861404</updated>
     </task>
     <task id="LOCAL-00075" summary="fix&#10;">
       <created>1388905563164</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
       <updated>1388905563164</updated>
     </task>
     <task id="LOCAL-00076" summary="fix&#10;">
       <created>1388906045015</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
       <updated>1388906045015</updated>
     </task>
     <task id="LOCAL-00077" summary="fix&#10;">
       <created>1388906273487</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
       <updated>1388906273488</updated>
     </task>
     <task id="LOCAL-00078" summary="fix&#10;">
       <created>1388908063535</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
       <updated>1388908063535</updated>
     </task>
     <task id="LOCAL-00079" summary="fix&#10;">
       <created>1388908093698</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
       <updated>1388908093698</updated>
     </task>
     <task id="LOCAL-00080" summary="fix&#10;">
       <created>1388910171381</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
       <updated>1388910171381</updated>
     </task>
     <task id="LOCAL-00081" summary="fix&#10;">
       <created>1388910683825</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
       <updated>1388910683825</updated>
     </task>
     <task id="LOCAL-00082" summary="fix&#10;">
       <created>1388927592324</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
       <updated>1388927592324</updated>
     </task>
     <task id="LOCAL-00083" summary="fix&#10;">
       <created>1388928533361</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
       <updated>1388928533361</updated>
     </task>
     <task id="LOCAL-00084" summary="fix&#10;">
       <created>1388928722002</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
       <updated>1388928722002</updated>
     </task>
     <task id="LOCAL-00085" summary="fix&#10;">
       <created>1388929526652</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
       <updated>1388929526652</updated>
     </task>
     <task id="LOCAL-00086" summary="fix&#10;">
       <created>1388931016696</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
       <updated>1388931016697</updated>
     </task>
     <task id="LOCAL-00087" summary="fix&#10;">
       <created>1388931206142</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
       <updated>1388931206143</updated>
     </task>
     <task id="LOCAL-00088" summary="fix&#10;">
       <created>1388933348673</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
       <updated>1388933348673</updated>
     </task>
     <task id="LOCAL-00089" summary="fix&#10;">
       <created>1388933485660</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
       <updated>1388933485660</updated>
     </task>
     <task id="LOCAL-00090" summary="fix&#10;">
       <created>1388933543697</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
       <updated>1388933543697</updated>
     </task>
     <task id="LOCAL-00091" summary="fix&#10;">
       <created>1388934951026</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
       <updated>1388934951027</updated>
     </task>
     <task id="LOCAL-00092" summary="fix&#10;">
       <created>1388987184537</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
       <updated>1388987184537</updated>
     </task>
     <task id="LOCAL-00093" summary="fix&#10;">
       <created>1388991964227</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
       <updated>1388991964227</updated>
     </task>
     <task id="LOCAL-00094" summary="fix&#10;">
       <created>1388992171075</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
       <updated>1388992171075</updated>
     </task>
     <task id="LOCAL-00095" summary="fix&#10;">
       <created>1389079994595</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
       <updated>1389079994595</updated>
     </task>
     <task id="LOCAL-00096" summary="fix&#10;">
       <created>1389081593217</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
       <updated>1389081593217</updated>
     </task>
     <task id="LOCAL-00097" summary="fix&#10;">
       <created>1389082230925</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
       <updated>1389082230925</updated>
     </task>
     <task id="LOCAL-00098" summary="fix&#10;">
       <created>1389082501965</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
       <updated>1389082501965</updated>
     </task>
     <task id="LOCAL-00099" summary="fix&#10;">
       <created>1389082839179</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
       <updated>1389082839179</updated>
     </task>
     <task id="LOCAL-00100" summary="fix&#10;">
       <created>1389086901413</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
       <updated>1389086901413</updated>
     </task>
     <task id="LOCAL-00101" summary="fix&#10;">
       <created>1389087193220</created>
+      <option name="number" value="00101" />
+      <option name="project" value="LOCAL" />
       <updated>1389087193220</updated>
     </task>
     <task id="LOCAL-00102" summary="fix&#10;">
       <created>1389088409473</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
       <updated>1389088409473</updated>
     </task>
     <task id="LOCAL-00103" summary="fix&#10;">
       <created>1389089584265</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
       <updated>1389089584266</updated>
     </task>
     <task id="LOCAL-00104" summary="fix&#10;">
       <created>1389089644226</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
       <updated>1389089644226</updated>
     </task>
     <task id="LOCAL-00105" summary="fix&#10;">
       <created>1389182339553</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
       <updated>1389182339554</updated>
     </task>
     <task id="LOCAL-00106" summary="fix&#10;">
       <created>1389182409210</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
       <updated>1389182409210</updated>
     </task>
     <task id="LOCAL-00107" summary="fix&#10;">
       <created>1389184776813</created>
+      <option name="number" value="00107" />
+      <option name="project" value="LOCAL" />
       <updated>1389184776813</updated>
     </task>
     <task id="LOCAL-00108" summary="fix&#10;">
       <created>1389196185208</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
       <updated>1389196185208</updated>
     </task>
     <task id="LOCAL-00109" summary="fix&#10;">
       <created>1389196480096</created>
+      <option name="number" value="00109" />
+      <option name="project" value="LOCAL" />
       <updated>1389196480096</updated>
     </task>
     <task id="LOCAL-00110" summary="fix&#10;">
       <created>1389197194209</created>
+      <option name="number" value="00110" />
+      <option name="project" value="LOCAL" />
       <updated>1389197194209</updated>
     </task>
     <task id="LOCAL-00111" summary="fix&#10;">
       <created>1389200989503</created>
+      <option name="number" value="00111" />
+      <option name="project" value="LOCAL" />
       <updated>1389200989504</updated>
     </task>
     <task id="LOCAL-00112" summary="fix&#10;">
       <created>1389235637304</created>
+      <option name="number" value="00112" />
+      <option name="project" value="LOCAL" />
       <updated>1389235637304</updated>
     </task>
     <task id="LOCAL-00113" summary="fix&#10;">
       <created>1389236182183</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
       <updated>1389236182183</updated>
     </task>
     <task id="LOCAL-00114" summary="fix&#10;">
       <created>1389259690378</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
       <updated>1389259690378</updated>
     </task>
     <task id="LOCAL-00115" summary="fix&#10;">
       <created>1389323990821</created>
+      <option name="number" value="00115" />
+      <option name="project" value="LOCAL" />
       <updated>1389323990821</updated>
     </task>
     <task id="LOCAL-00116" summary="fix&#10;">
       <created>1389324008012</created>
+      <option name="number" value="00116" />
+      <option name="project" value="LOCAL" />
       <updated>1389324008012</updated>
     </task>
     <task id="LOCAL-00117" summary="fix&#10;">
       <created>1389324271485</created>
+      <option name="number" value="00117" />
+      <option name="project" value="LOCAL" />
       <updated>1389324271485</updated>
     </task>
     <task id="LOCAL-00118" summary="fix&#10;">
       <created>1389325728531</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
       <updated>1389325728532</updated>
     </task>
     <task id="LOCAL-00119" summary="fix&#10;">
       <created>1389363190294</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
       <updated>1389363190294</updated>
     </task>
     <task id="LOCAL-00120" summary="fix&#10;">
       <created>1389363219337</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
       <updated>1389363219338</updated>
     </task>
     <task id="LOCAL-00121" summary="fix&#10;">
       <created>1389414320374</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
       <updated>1389414320374</updated>
     </task>
     <task id="LOCAL-00122" summary="fix&#10;">
       <created>1389414929602</created>
+      <option name="number" value="00122" />
+      <option name="project" value="LOCAL" />
       <updated>1389414929602</updated>
     </task>
     <task id="LOCAL-00123" summary="fix&#10;">
       <created>1389419576801</created>
+      <option name="number" value="00123" />
+      <option name="project" value="LOCAL" />
       <updated>1389419576802</updated>
     </task>
     <task id="LOCAL-00124" summary="fix&#10;">
       <created>1389421082810</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
       <updated>1389421082810</updated>
     </task>
     <task id="LOCAL-00125" summary="fix&#10;">
       <created>1389443825530</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
       <updated>1389443825531</updated>
     </task>
     <task id="LOCAL-00126" summary="fix&#10;">
       <created>1389444858466</created>
+      <option name="number" value="00126" />
+      <option name="project" value="LOCAL" />
       <updated>1389444858466</updated>
     </task>
     <task id="LOCAL-00127" summary="fix&#10;">
       <created>1389497489877</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
       <updated>1389497489878</updated>
     </task>
     <task id="LOCAL-00128" summary="fix&#10;">
       <created>1389498249917</created>
+      <option name="number" value="00128" />
+      <option name="project" value="LOCAL" />
       <updated>1389498249918</updated>
     </task>
     <task id="LOCAL-00129" summary="fix&#10;">
       <created>1389498576941</created>
+      <option name="number" value="00129" />
+      <option name="project" value="LOCAL" />
       <updated>1389498576941</updated>
     </task>
     <task id="LOCAL-00130" summary="fix&#10;">
       <created>1389499002005</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
       <updated>1389499002005</updated>
     </task>
     <task id="LOCAL-00131" summary="fix&#10;">
       <created>1389505619741</created>
+      <option name="number" value="00131" />
+      <option name="project" value="LOCAL" />
       <updated>1389505619741</updated>
     </task>
     <task id="LOCAL-00132" summary="fix&#10;">
       <created>1389506052642</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
       <updated>1389506052642</updated>
     </task>
     <task id="LOCAL-00133" summary="fix&#10;">
       <created>1389506149827</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
       <updated>1389506149828</updated>
     </task>
     <task id="LOCAL-00134" summary="fix&#10;">
       <created>1389506236982</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
       <updated>1389506236982</updated>
     </task>
     <task id="LOCAL-00135" summary="fix&#10;">
       <created>1389506313041</created>
+      <option name="number" value="00135" />
+      <option name="project" value="LOCAL" />
       <updated>1389506313041</updated>
     </task>
     <task id="LOCAL-00136" summary="fix&#10;">
       <created>1389506396499</created>
+      <option name="number" value="00136" />
+      <option name="project" value="LOCAL" />
       <updated>1389506396500</updated>
     </task>
     <task id="LOCAL-00137" summary="fix&#10;">
       <created>1389506552810</created>
+      <option name="number" value="00137" />
+      <option name="project" value="LOCAL" />
       <updated>1389506552810</updated>
     </task>
     <task id="LOCAL-00138" summary="fix&#10;">
       <created>1389506653138</created>
+      <option name="number" value="00138" />
+      <option name="project" value="LOCAL" />
       <updated>1389506653138</updated>
     </task>
     <task id="LOCAL-00139" summary="fix&#10;">
       <created>1389507671793</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
       <updated>1389507671793</updated>
     </task>
     <task id="LOCAL-00140" summary="fix&#10;">
       <created>1389526736320</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
       <updated>1389526736320</updated>
     </task>
     <task id="LOCAL-00141" summary="fix&#10;">
       <created>1389528043253</created>
+      <option name="number" value="00141" />
+      <option name="project" value="LOCAL" />
       <updated>1389528043253</updated>
     </task>
     <task id="LOCAL-00142" summary="fix&#10;">
       <created>1389528067066</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
       <updated>1389528067066</updated>
     </task>
     <task id="LOCAL-00143" summary="fix&#10;">
       <created>1389528087648</created>
+      <option name="number" value="00143" />
+      <option name="project" value="LOCAL" />
       <updated>1389528087648</updated>
     </task>
     <task id="LOCAL-00144" summary="fix&#10;">
       <created>1389529973363</created>
+      <option name="number" value="00144" />
+      <option name="project" value="LOCAL" />
       <updated>1389529973363</updated>
     </task>
     <task id="LOCAL-00145" summary="fix&#10;">
       <created>1389530007424</created>
+      <option name="number" value="00145" />
+      <option name="project" value="LOCAL" />
       <updated>1389530007424</updated>
     </task>
     <task id="LOCAL-00146" summary="fix&#10;">
       <created>1389537943995</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
       <updated>1389537943995</updated>
     </task>
     <task id="LOCAL-00147" summary="fix&#10;">
       <created>1389537984575</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
       <updated>1389537984575</updated>
     </task>
     <task id="LOCAL-00148" summary="fix&#10;">
       <created>1389586736663</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
       <updated>1389586736663</updated>
     </task>
     <task id="LOCAL-00149" summary="fix&#10;">
       <created>1389602993665</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
       <updated>1389602993665</updated>
     </task>
     <task id="LOCAL-00150" summary="fix&#10;">
       <created>1389606368391</created>
+      <option name="number" value="00150" />
+      <option name="project" value="LOCAL" />
       <updated>1389606368391</updated>
     </task>
     <task id="LOCAL-00151" summary="fix&#10;">
       <created>1389612578260</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
       <updated>1389612578260</updated>
     </task>
     <task id="LOCAL-00152" summary="fix&#10;">
       <created>1389621608674</created>
+      <option name="number" value="00152" />
+      <option name="project" value="LOCAL" />
       <updated>1389621608674</updated>
     </task>
     <task id="LOCAL-00153" summary="fix&#10;">
       <created>1389622305423</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
       <updated>1389622305423</updated>
     </task>
     <task id="LOCAL-00154" summary="fix&#10;">
       <created>1389667630928</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
       <updated>1389667630928</updated>
     </task>
     <task id="LOCAL-00155" summary="fix&#10;">
       <created>1389681766485</created>
+      <option name="number" value="00155" />
+      <option name="project" value="LOCAL" />
       <updated>1389681766485</updated>
     </task>
     <task id="LOCAL-00156" summary="fix&#10;">
       <created>1389701779537</created>
+      <option name="number" value="00156" />
+      <option name="project" value="LOCAL" />
       <updated>1389701779537</updated>
     </task>
     <task id="LOCAL-00157" summary="fix&#10;">
       <created>1389753324829</created>
+      <option name="number" value="00157" />
+      <option name="project" value="LOCAL" />
       <updated>1389753324830</updated>
     </task>
     <task id="LOCAL-00158" summary="fix&#10;">
       <created>1389796240509</created>
+      <option name="number" value="00158" />
+      <option name="project" value="LOCAL" />
       <updated>1389796240509</updated>
     </task>
     <task id="LOCAL-00159" summary="fix&#10;">
       <created>1389846919827</created>
+      <option name="number" value="00159" />
+      <option name="project" value="LOCAL" />
       <updated>1389846919827</updated>
     </task>
     <task id="LOCAL-00160" summary="fix&#10;">
       <created>1389873168324</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
       <updated>1389873168324</updated>
     </task>
     <task id="LOCAL-00161" summary="fix&#10;">
       <created>1390287546670</created>
+      <option name="number" value="00161" />
+      <option name="project" value="LOCAL" />
       <updated>1390287546670</updated>
     </task>
     <task id="LOCAL-00162" summary="fix&#10;">
       <created>1390313135326</created>
+      <option name="number" value="00162" />
+      <option name="project" value="LOCAL" />
       <updated>1390313135326</updated>
     </task>
     <task id="LOCAL-00163" summary="fix&#10;">
       <created>1390373743969</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
       <updated>1390373743969</updated>
     </task>
     <task id="LOCAL-00164" summary="fix&#10;">
       <created>1390454373136</created>
+      <option name="number" value="00164" />
+      <option name="project" value="LOCAL" />
       <updated>1390454373136</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="fix&#10;">
+      <created>1415106122721</created>
+      <option name="number" value="00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1415106122721</updated>
+    </task>
+    <task id="LOCAL-00166" summary="fix&#10;">
+      <created>1415111074832</created>
+      <option name="number" value="00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1415111074832</updated>
+    </task>
+    <task id="LOCAL-00167" summary="fix&#10;">
+      <created>1415629408111</created>
+      <option name="number" value="00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1415629408111</updated>
+    </task>
+    <task id="LOCAL-00168" summary="fix&#10;">
+      <created>1415890562285</created>
+      <option name="number" value="00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1415890562285</updated>
+    </task>
+    <task id="LOCAL-00169" summary="fix&#10;">
+      <created>1417794694867</created>
+      <option name="number" value="00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1417794694867</updated>
+    </task>
+    <task id="LOCAL-00170" summary="fix&#10;">
+      <created>1417794726287</created>
+      <option name="number" value="00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1417794726287</updated>
+    </task>
+    <task id="LOCAL-00171" summary="fix&#10;">
+      <created>1417795832536</created>
+      <option name="number" value="00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1417795832536</updated>
+    </task>
+    <task id="LOCAL-00172" summary="fix&#10;">
+      <created>1418105337668</created>
+      <option name="number" value="00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1418105337668</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546067000" />
+    <option name="totallyTimeSpent" value="563279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18926975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.068554394" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18926975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46646795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.068554394" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46646795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -1382,294 +1787,372 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/edit_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="814" selection-end="834" vertical-scroll-proportion="-9.592592" vertical-offset="317" max-vertical-offset="1188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="348" selection-end="373" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1044" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/power_closed_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="591" selection-end="599" vertical-scroll-proportion="-16.0" vertical-offset="54" max-vertical-offset="1170" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/power_vip_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="591" selection-end="599" vertical-scroll-proportion="-13.481482" vertical-offset="122" max-vertical-offset="1170" />
+        <state vertical-scroll-proportion="-13.481482" vertical-offset="122" max-vertical-offset="1170">
+          <caret line="27" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_admin_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="331" selection-end="332" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="540" />
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="540">
+          <caret line="13" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="10" selection-start="10927" selection-end="10927" vertical-scroll-proportion="0.34804752" vertical-offset="6365" max-vertical-offset="21942" />
+        <state vertical-scroll-proportion="0.34804752" vertical-offset="6365" max-vertical-offset="21942">
+          <caret line="365" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style16/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="88" selection-start="4710" selection-end="4710" vertical-scroll-proportion="1.0607735" vertical-offset="486" max-vertical-offset="1494" />
+        <state vertical-scroll-proportion="1.0607735" vertical-offset="486" max-vertical-offset="1494">
+          <caret line="59" column="88" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone8.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="64" selection-start="4691" selection-end="4718" vertical-scroll-proportion="0.0" vertical-offset="1944" max-vertical-offset="7830" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1944" max-vertical-offset="7830">
+          <caret line="124" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/showimgs.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone3.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="31" selection-start="12264" selection-end="12439" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="7470" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="7470">
+          <caret line="261" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phone2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="3059" selection-end="3059" vertical-scroll-proportion="-0.9883527" vertical-offset="1908" max-vertical-offset="2970" />
+        <state vertical-scroll-proportion="-0.9883527" vertical-offset="1908" max-vertical-offset="2970">
+          <caret line="73" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_vip_user.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1314" />
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1314">
+          <caret line="17" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_image.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.38935107" vertical-offset="0" max-vertical-offset="1944" />
+        <state vertical-scroll-proportion="0.38935107" vertical-offset="0" max-vertical-offset="1944">
+          <caret line="13" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style16/code.photoswipe-3.0.5.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9img.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1134" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1134">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phone9img.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="260" selection-end="265" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="630" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="630">
+          <caret line="10" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style16/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="569" selection-end="577" vertical-scroll-proportion="0.4375" vertical-offset="0" max-vertical-offset="720" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upfile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phone9liuyan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1332" selection-end="1336" vertical-scroll-proportion="-10.0" vertical-offset="324" max-vertical-offset="2682" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="324" max-vertical-offset="2682">
+          <caret line="33" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/liuyan.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="17" selection-start="3846" selection-end="3866" vertical-scroll-proportion="-12.0" vertical-offset="1656" max-vertical-offset="2718" />
+        <state vertical-scroll-proportion="-12.0" vertical-offset="1656" max-vertical-offset="2718">
+          <caret line="110" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone2.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="16" selection-start="8331" selection-end="8434" vertical-scroll-proportion="0.63394344" vertical-offset="3003" max-vertical-offset="6570" />
+        <state vertical-scroll-proportion="0.63394344" vertical-offset="3003" max-vertical-offset="6570">
+          <caret line="188" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phone9map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="54" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.718802" vertical-offset="756" max-vertical-offset="2682" />
+        <state vertical-scroll-proportion="0.718802" vertical-offset="756" max-vertical-offset="2682">
+          <caret line="66" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/map.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="690" selection-end="823" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="2016" />
+        <state vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="2016">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lingqiphone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="13" selection-start="3648" selection-end="3648" vertical-scroll-proportion="-16.0" vertical-offset="1188" max-vertical-offset="3204" />
+        <state vertical-scroll-proportion="-16.0" vertical-offset="1188" max-vertical-offset="3204">
+          <caret line="90" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_big_photo.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="77" selection-start="2523" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1691" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1691">
+          <caret line="63" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_temp_phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1406" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1406">
+          <caret line="60" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1343" column="20" selection-start="48231" selection-end="48274" vertical-scroll-proportion="0.0" vertical-offset="25517" max-vertical-offset="28462" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="25517" max-vertical-offset="28462">
+          <caret line="1343" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9map.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1900" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1900">
+          <caret line="9" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="46" selection-start="4775" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2698" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2698">
+          <caret line="105" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone9liuyan.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="19" selection-start="6134" selection-end="6134" vertical-scroll-proportion="0.6343402" vertical-offset="2679" max-vertical-offset="3781" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="14" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.32286212" vertical-offset="1202" max-vertical-offset="3382" />
+        <state vertical-scroll-proportion="0.6343402" vertical-offset="2679" max-vertical-offset="3781">
+          <caret line="162" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone8.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="4" selection-start="24910" selection-end="25033" vertical-scroll-proportion="0.0" vertical-offset="7304" max-vertical-offset="8075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="66" selection-start="6358" selection-end="6374" vertical-scroll-proportion="0.7736944" vertical-offset="2792" max-vertical-offset="43814" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7304" max-vertical-offset="8075">
+          <caret line="394" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basicDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="969" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="969">
+          <caret line="26" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageDO.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="126" selection-end="126" vertical-scroll-proportion="0.29081634" vertical-offset="0" max-vertical-offset="589" />
+        <state vertical-scroll-proportion="0.29081634" vertical-offset="0" max-vertical-offset="589">
+          <caret line="9" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/power_select_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="304" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="304">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_select_user.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UserDO.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="187" selection-end="197" vertical-scroll-proportion="0.3537415" vertical-offset="20" max-vertical-offset="608" />
+        <state vertical-scroll-proportion="0.3537415" vertical-offset="20" max-vertical-offset="608">
+          <caret line="12" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin_edit_info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="36" selection-start="1617" selection-end="1635" vertical-scroll-proportion="0.49565217" vertical-offset="722" max-vertical-offset="1444" />
+        <state vertical-scroll-proportion="0.49565217" vertical-offset="722" max-vertical-offset="1444">
+          <caret line="53" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/power_edit.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="51" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-8.142858" vertical-offset="1064" max-vertical-offset="2071" />
+        <state vertical-scroll-proportion="-8.142858" vertical-offset="1064" max-vertical-offset="2071">
+          <caret line="68" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/temp_phone9.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="33" selection-start="6985" selection-end="7001" vertical-scroll-proportion="0.7078261" vertical-offset="2424" max-vertical-offset="3363" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="4" selection-start="13389" selection-end="13389" vertical-scroll-proportion="-1.4285715" vertical-offset="7237" max-vertical-offset="15409" />
+        <state vertical-scroll-proportion="0.7078261" vertical-offset="2424" max-vertical-offset="3363">
+          <caret line="149" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delete_vip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7074468" vertical-offset="0" max-vertical-offset="564" />
+        <state vertical-scroll-proportion="0.7074468" vertical-offset="0" max-vertical-offset="564">
+          <caret line="21" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/power.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="950">
-          <folding />
+        <state vertical-scroll-proportion="0.18941979" vertical-offset="383" max-vertical-offset="969">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_power_confirm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="847" selection-end="880" vertical-scroll-proportion="-9.464286" vertical-offset="362" max-vertical-offset="1178">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1235">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_power_vip_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="19" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-6.107143" vertical-offset="741" max-vertical-offset="1558">
-          <folding />
+        <state vertical-scroll-proportion="0.27850163" vertical-offset="741" max-vertical-offset="1558">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/super_power_do_confirm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="52" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-3.6744187" vertical-offset="748" max-vertical-offset="1254">
-          <folding />
+        <state vertical-scroll-proportion="0.6757679" vertical-offset="668" max-vertical-offset="1254">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_admin_head.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="69" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="2242">
-          <folding>
-            <marker date="1390463511549" expanded="false" signature="2029:2043" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2242">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="18" selection-start="6132" selection-end="6132" vertical-scroll-proportion="-3.4534883" vertical-offset="3332" max-vertical-offset="13680">
-          <folding>
-            <marker date="1390463524229" expanded="true" signature="8680:9937" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="3629" max-vertical-offset="13946">
+          <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty/templates/templates/super_power_confirm.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="75" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1824">
+          <caret line="0" column="75" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init_mp3list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83788395" vertical-offset="3746" max-vertical-offset="4446">
+          <caret line="223" column="10" selection-start-line="223" selection-start-column="10" selection-end-line="223" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10307414" vertical-offset="2679" max-vertical-offset="3477">
+          <caret line="144" column="35" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3460" max-vertical-offset="42845">
+          <caret line="148" column="74" selection-start-line="148" selection-start-column="74" selection-end-line="148" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1889" max-vertical-offset="3933">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/new_invit_info.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25441" max-vertical-offset="45790">
+          <caret line="1339" column="108" selection-start-line="1339" selection-start-column="0" selection-end-line="1340" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style14/weixin_share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36660618" vertical-offset="843" max-vertical-offset="1938">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty/templates/templates/phone/phone.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3153153" vertical-offset="17362" max-vertical-offset="18411">
+          <caret line="923" column="67" selection-start-line="923" selection-start-column="67" selection-end-line="923" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
