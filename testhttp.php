@@ -31,9 +31,17 @@ $ticket = $jsonData['ticket'];
 $noncestr='Wm3WZYTPz0wzccnW';
 $timestamp='1414587457';
 $str = 'jsapi_ticket='.$ticket.'&noncestr='.$noncestr.'&timestamp='.$timestamp.'&url=http://www.wndxf.com/invitation/testhttp.php';
-var_dump(sha1($str));
+//var_dump(sha1($str));
 //
+
+echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 ?>
+
+
+
+
+
+
 
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 test
