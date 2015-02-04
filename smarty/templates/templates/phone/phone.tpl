@@ -922,22 +922,23 @@ $(document).ready(function(){
 
 <!-- 微信分享 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
 
-wx.config({
-	//debug: true,
-    appId: 'wx8fef9176c6fcac4b',
-    timestamp:1422696601,
-    nonceStr: 'bEIS9hrhn4M98Fiq',
-    signature: '19cfda5cfa880c8df0ebbf9c49bf95fa00c4c3bd',
-    jsApiList: [
-	'onMenuShareTimeline',
-	'onMenuShareAppMessage',
-	'onMenuShareQQ',
-	'onMenuShareWeibo'
+    wx.config({
+//        debug: true,
+        appId: 'wx8fef9176c6fcac4b',
+        timestamp:1414587457,
+        nonceStr: 'Wm3WZYTPz0wzccnW',
+        signature: '{#$signature#}',
+        jsApiList: [
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo'
 
-    ]
-  });
+        ]
+    });
   wx.ready(function () {
 	var shareData = {
 			title: window.title,
