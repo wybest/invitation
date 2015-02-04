@@ -129,7 +129,7 @@ if($messageDO!=null){
     $signature = sha1($str);
     Globle::$smarty->assign("signature",$signature);
 	$info=isMobile();
-    if($info){
+    if(true){
     	if($user->is_phone==1||$user->is_pay==0){
     	if($messageDO->mould == ""){
     			header('Content-Type:text/html; charset=UTF-8');
