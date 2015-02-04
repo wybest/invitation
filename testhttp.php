@@ -55,10 +55,10 @@ test
     });
     wx.ready(function () {
         var shareData = {
-            title: window.title,
-            desc: '{#if $vip != "none"#}{#$vip#},{#/if#} {#if $weixin #}{#$weixin#} {#else#} 诚挚邀请您来参加，点击查看详情。 {#/if#}',
+            title: 'titlecscscscs',
+            desc: '测试测试测试',
             link: window.location.href,
-            imgUrl: 'http://www.wndxf.com/invitation/marryimg/{#$bigimage#}'
+            imgUrl: 'http://www.wndxf.com/invitation/marryimg/2015-01-27-17-33-15.jpg'
         }
 
         wx.onMenuShareAppMessage(shareData);
