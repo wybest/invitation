@@ -61,10 +61,25 @@ test
             imgUrl: 'http://www.wndxf.com/invitation/marryimg/2015-01-27-17-33-15.jpg'
         }
 
-        wx.onMenuShareAppMessage(shareData);
-        wx.onMenuShareTimeline(shareData);
-        wx.onMenuShareQQ(shareData);
-        wx.onMenuShareWeibo(shareData);
+        wx.onMenuShareAppMessage({
+            title: 'titlecscscscs', // 分享标题
+            desc: '测试测试测试', // 分享描述
+            link: 'www.wndxf.com/invitation', // 分享链接
+            imgUrl: 'http://www.wndxf.com/invitation/marryimg/2015-01-27-17-33-15.jpg', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                alert(1);
+            },
+            cancel: function () {
+                alert(2);
+            }
+        });
+
+//        wx.onMenuShareAppMessage(shareData);
+//        wx.onMenuShareTimeline(shareData);
+//        wx.onMenuShareQQ(shareData);
+//        wx.onMenuShareWeibo(shareData);
     });
 
     wx.error(function (res) {
