@@ -61,6 +61,18 @@ test
             imgUrl: 'http://www.wndxf.com/invitation/marryimg/2015-01-27-17-33-15.jpg'
         }
 
+        wx.checkJsApi({
+            jsApiList: ['onMenuShareTimeline',
+                'onMenuShareAppMessage',
+                'onMenuShareQQ',
+                'onMenuShareWeibo'], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+            success: function(res) {
+                alert(res);
+            }
+                // 以键值对的形式返回，可用的api值true，不可用为false
+                // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+            });
+
         wx.onMenuShareAppMessage({
             title: 'titlecscscscs', // 分享标题
             desc: '测试测试测试', // 分享描述
