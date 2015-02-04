@@ -40,7 +40,7 @@ test
 <script>
 
     wx.config({
-        //debug: true,
+        debug: true,
         appId: 'wx8fef9176c6fcac4b',
         timestamp:1414587457,
         nonceStr: 'Wm3WZYTPz0wzccnW',
