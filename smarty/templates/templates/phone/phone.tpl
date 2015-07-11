@@ -953,7 +953,7 @@ wx.config({
   });
 
 wx.error(function (res) {
-  alert(res.errMsg);
+//  alert(res.errMsg);
 });
 
 
