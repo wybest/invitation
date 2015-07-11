@@ -954,6 +954,7 @@ wx.config({
 
 wx.error(function (res) {
 //  alert(res.errMsg);
+
 });
 
 
