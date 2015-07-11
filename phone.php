@@ -99,8 +99,37 @@ if($messageDO!=null){
         echo "对不起，请使用“欧美风”的模板";
         exit();
     }
+
+
+    //微信验证
+    $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx8fef9176c6fcac4b&secret=cefd3868f868d46bc17b0c337f927e8c';
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);//这个是重点。
+    curl_setopt($curl, CURLOPT_NOBODY, FALSE); //表示需要response body
+    $data = curl_exec($curl);
+    curl_close($curl);
+    $jsonData = json_decode($data,true);
+    $access_token = $jsonData['access_token'];
+
+    $url2 = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token='.$access_token.'&type=jsapi';
+    $curl2 = curl_init();
+    curl_setopt($curl2, CURLOPT_URL, $url2);
+    curl_setopt($curl2, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($curl2, CURLOPT_SSL_VERIFYPEER, false);//这个是重点。
+    curl_setopt($curl2, CURLOPT_NOBODY, FALSE); //表示需要response body
+    $data = curl_exec($curl2);
+    curl_close($curl2);
+    $jsonData = json_decode($data,true);
+    $ticket = $jsonData['ticket'];
+    $noncestr='Wm3WZYTPz0wzccnW';
+    $timestamp='1414587457';
+    $str = 'jsapi_ticket='.$ticket.'&noncestr='.$noncestr.'&timestamp='.$timestamp.'&url='.'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $signature = sha1($str);
+    Globle::$smarty->assign("signature",$signature);
 	$info=isMobile();
-    if($info){
+    if(true){
     	if($user->is_phone==1||$user->is_pay==0){
     	if($messageDO->mould == ""){
     			header('Content-Type:text/html; charset=UTF-8');
